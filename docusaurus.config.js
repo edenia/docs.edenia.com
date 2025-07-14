@@ -9,13 +9,13 @@
 // site configuration options.
 
 const siteConfig = {
-  title: "EOSIO + Antelope Documentation",
-  tagline: "Developer Documentation for EOSIO + Antelope Blockchain Networks",
-  url: "https://guide.edenia.com",
+  title: "Edenia Web3 Development",
+  tagline: "Developer Documentation for Edenia Web3 Development",
+  url: "https://docs.edenia.com",
   baseUrl: "/", // Base URL for your project */
-  //cname: "guide.eoscostarica.io",
+  cname: "docs.edenia.com",
   // Used for publishing and more
-  projectName: "guide.edenia.com",
+  projectName: "docs.edenia.com",
   organizationName: "edenia",
   favicon: "img/favicon/favicon.ico",
   //scripts: ['https://buttons.github.io/buttons.js','../../scripts/languageSelector.js'],
@@ -73,7 +73,7 @@ const siteConfig = {
       logo: {
         alt: "EOS Costa Rica Logo",
         src: "/img/byw-horizontal-transparent.png",
-        href: "https://guide.eoscostarica.io/",
+        href: "https://docs.edenia.com/",
       },
       links: [
         {
@@ -149,7 +149,7 @@ const siteConfig = {
           path: "./docs",
           // Sidebars file relative to website dir.
           editUrl:
-            "https://github.com/eoscostarica/guide.eoscostarica.io/tree/master/",
+            "https://github.com/edenia/docs.edenia.com/tree/master/",
           sidebarPath: require.resolve("./sidebars.js"),
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
