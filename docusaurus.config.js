@@ -13,7 +13,6 @@ const siteConfig = {
   tagline: "Developer Documentation for Edenia Web3 Development",
   url: "https://docs.edenia.com",
   baseUrl: "/", // Base URL for your project */
-  cname: "docs.edenia.com",
   // Used for publishing and more
   projectName: "docs.edenia.com",
   organizationName: "edenia",
