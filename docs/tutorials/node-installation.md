@@ -209,7 +209,7 @@ So, for this execute the following command:
 $ wget https://backup.cryptolions.io/Jungle/snapshots/latest-snapshot.bin -P ~./local/share/eosio/nodeos/data/snapshots/
 ```
 
-Now that the snapshot is downloaded, you can use the same [`start.sh`](###startsh) script to start the node, just delete `--genesis-json` flag in the script, so the function `start_fresh_nodes` in the file will look like:
+Now that the snapshot is downloaded, you can use the same [`start.sh`](#startsh) script to start the node, just delete `--genesis-json` flag in the script, so the function `start_fresh_nodes` in the file will look like:
 
 ```bash
 start_fresh_nodeos() {
