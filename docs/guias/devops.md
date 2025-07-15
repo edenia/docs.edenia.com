@@ -120,7 +120,7 @@ Terraform es un software de infraestructura como código, desarrollado por Hashi
 
 Docker es un proyecto de código abierto que automatiza la implementación de aplicaciones dentro de contenedores de software, proporcionando una capa adicional de abstracción y automatización de virtualización de aplicaciones en múltiples sistemas operativos.
 
-[Más Información sobre Docker](/docs/tutoriales/docker)
+[Más Información sobre Docker](/guias/tutoriales/docker)
 
 <figure 
 className="video_container">
@@ -137,7 +137,7 @@ Kubernetes es un sistema de código libre para la automatización del despliegue
 
 A continuación, puede encontrar un conjunto de tutoriales muy convenientes para aprender kubernetes desde cero:
 
-Para más información visite nuestro tutorial [Kubernetes](/docs/tutoriales/kubernetes)
+Para más información visite nuestro tutorial [Kubernetes](/guias/tutoriales/kubernetes)
 
 ### Kubernetes en 5 Minutos
 
