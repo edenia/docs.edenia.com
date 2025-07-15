@@ -78,21 +78,23 @@ const siteConfig = {
         },
         
         {
-          to: "docs/eos-learn/eosio-protocol",
+          to: "/guide/eos-learn/eosio-protocol",
           label: "Learn EOSIO + Antelope",
           position: "left",
           docsPluginId: 'guide',  // pluginId inglés
         },
         {
-          to: "docs/tutorials/markdown-guide",
+          to: "/guide/tutorials/markdown-guide",
           label: "Tutorials",
           position: "left",
+          docsPluginId: 'guide',
         },
-        { to: "docs/tools/glossary", label: "Tools", position: "left" },
+        { to: "/guide/tools/glossary", label: "Tools", position: "left", docsPluginId: 'guide' },
         {
-          to: "docs/community-resources/eosio-networks",
+          to: "/guide/community-resources/eosio-networks",
           label: "Community",
           position: "left",
+          docsPluginId: 'guide',
         },
 
  //enlace docs español
@@ -131,15 +133,15 @@ const siteConfig = {
           items: [
             {
               label: "Engineering Culture",
-              to: "/docs/engineering-culture",
+              to: "/guide/engineering-culture",
             },
             {
               label: "Open Source Projects",
-              to: "/docs/open-source-projects",
+              to: "/guide/open-source-projects",
             },
             {
               label: "Open Source Guidelines",
-              to: "/docs/open-source-guidelines",
+              to: "/guide/open-source-guidelines",
             },
           ],
         },
