@@ -8,6 +8,7 @@
 // See https://docusaurus.io/docs/site-config for all the possible
 // site configuration options.
 
+
 const siteConfig = {
   title: "EOSIO + Antelope Documentation",
   tagline: "Developer Documentation for EOSIO + Antelope Blockchain Networks",
@@ -18,6 +19,42 @@ const siteConfig = {
   projectName: "guide.edenia.com",
   organizationName: "edenia",
   favicon: "img/favicon/favicon.ico",
+  trailingSlash: false,
+
+  // configuración de plugins de docs para dos idiomas
+  plugins: [
+    // Inglés bajo /guides
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'guide',  // id del plugin inglés
+        path: 'docs/guide',  //ruta a docs/guides
+        routeBasePath: 'guide',  // basePath /guides
+        sidebarPath: require.resolve('./sidebarsGuide.js'),  //sidebar guía inglés
+
+        editUrl: 'https://github.com/eoscostarica/guide.eoscostarica.io/edit/master/',
+        showLastUpdateAuthor: true,
+        showLastUpdateTime: true,
+      },
+    ],
+    // Español bajo /guias
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'guias',  //  id del plugin español
+        path: 'docs/guias',  // ruta a docs/guias
+        routeBasePath: 'guias',  // basePath /guias
+        sidebarPath: require.resolve('./sidebarsGuias.js'),  // sidebar guía español
+        editUrl: 'https://github.com/eoscostarica/guide.eoscostarica.io/edit/master/',
+        showLastUpdateAuthor: true,
+        showLastUpdateTime: true,
+      },
+    ],
+  ],
+
+  
+
+  
   //scripts: ['https://buttons.github.io/buttons.js','../../scripts/languageSelector.js'],
   themeConfig: {
     image: "img/metaImg.jpg",
@@ -35,14 +72,17 @@ const siteConfig = {
           position: 'left',
         },*/
         {
-          to: "docs/open-source-guidelines",
-          label: "Developer Guidelines",
-          position: "left",
+          to: '/guide/open-source-guidelines',  // ruta inglés
+          label: 'Developer Guidelines',
+          position: 'left',
+          docsPluginId: 'guide',  // pluginId inglés
         },
+        
         {
           to: "docs/eos-learn/eosio-protocol",
           label: "Learn EOSIO + Antelope",
           position: "left",
+          docsPluginId: 'guide',  // pluginId inglés
         },
         {
           to: "docs/tutorials/markdown-guide",
@@ -55,6 +95,17 @@ const siteConfig = {
           label: "Community",
           position: "left",
         },
+
+ //enlace docs español
+ {
+  to: '/guias/pautas-para-codigo-abierto',  // ruta español
+  label: 'Guías',
+  position: 'left',
+  docsPluginId: 'guias',  // pluginId español
+},
+
+
+
         { to: "https://eoscostarica.io/", label: "Website", position: "left" },
         {
           href: "https://guias.eoscostarica.io/",
@@ -142,29 +193,24 @@ const siteConfig = {
   trailingSlash: false,
   presets: [
     [
-      "@docusaurus/preset-classic",
-      {
-        docs: {
-          // Docs folder path relative to website dir.
-          path: "./docs",
-          // Sidebars file relative to website dir.
-          editUrl:
-            "https://github.com/eoscostarica/guide.eoscostarica.io/tree/master/",
-          sidebarPath: require.resolve("./sidebars.js"),
-          showLastUpdateAuthor: true,
-          showLastUpdateTime: true,
-        },
-        theme: {
-          customCss: require.resolve("./src/css/custom.css"),
-        },
-        googleAnalytics: {
-          trackingID: "UA-173987-66",
-        },
-        sitemap: {
-          changefreq: 'weekly',
-          priority: 0.5,
-          ignorePatterns: [],
-          filename: 'sitemap.xml',
+     '@docusaurus/preset-classic',
+    {
+      docs: false, // desactiva el docs “por defecto”
+      blog: {
+        showReadingTime: true,
+        editUrl: 'https://github.com/eoscostarica/guide.eoscostarica.io/edit/master/blog/',
+      },
+      theme: {
+        customCss: require.resolve('./src/css/custom.css'),
+      },
+      googleAnalytics: {
+        trackingID: 'UA-173987-66',
+      },
+      sitemap: {
+        changefreq: 'weekly',
+        priority: 0.5,
+        ignorePatterns: [],
+        filename: 'sitemap.xml',
         },
       },
     ],
