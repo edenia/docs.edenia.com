@@ -10,13 +10,12 @@
 
 
 const siteConfig = {
-  title: "EOSIO + Antelope Documentation",
-  tagline: "Developer Documentation for EOSIO + Antelope Blockchain Networks",
-  url: "https://guide.edenia.com",
+  title: "Edenia Web3 Development",
+  tagline: "Developer Documentation for Edenia Web3 Development",
+  url: "https://docs.edenia.com",
   baseUrl: "/", // Base URL for your project */
-  //cname: "guide.eoscostarica.io",
   // Used for publishing and more
-  projectName: "guide.edenia.com",
+  projectName: "docs.edenia.com",
   organizationName: "edenia",
   favicon: "img/favicon/favicon.ico",
   trailingSlash: false,
@@ -124,7 +123,7 @@ const siteConfig = {
       logo: {
         alt: "EOS Costa Rica Logo",
         src: "/img/byw-horizontal-transparent.png",
-        href: "https://guide.eoscostarica.io/",
+        href: "https://docs.edenia.com/",
       },
       links: [
         {
@@ -198,7 +197,7 @@ const siteConfig = {
       docs: false, // desactiva el docs “por defecto”
       blog: {
         showReadingTime: true,
-        editUrl: 'https://github.com/eoscostarica/guide.eoscostarica.io/edit/master/blog/',
+        editUrl: 'https://github.com/edenia/docs.edenia.com/edit/master/blog/',
       },
       theme: {
         customCss: require.resolve('./src/css/custom.css'),
