@@ -20,31 +20,25 @@ const siteConfig = {
   favicon: "img/favicon/favicon.ico",
   trailingSlash: false,
 
-  // configuración de plugins de docs para dos idiomas
-  plugins: [
-    // Inglés bajo /guides
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'guide',  // id del plugin inglés
-        path: 'docs/guide',  //ruta a docs/guides
-        routeBasePath: 'guide',  // basePath /guides
-        sidebarPath: require.resolve('./sidebarsGuide.js'),  //sidebar guía inglés
-
-        editUrl: 'https://github.com/eoscostarica/guide.eoscostarica.io/edit/master/',
-        showLastUpdateAuthor: true,
-        showLastUpdateTime: true,
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en', 'es'],
+    localeConfigs: {
+      es: {
+        label: 'Español',
       },
-    ],
-    // Español bajo /guias
+    },
+  },
+
+  plugins: [
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'guias',  //  id del plugin español
-        path: 'docs/guias',  // ruta a docs/guias
-        routeBasePath: 'guias',  // basePath /guias
-        sidebarPath: require.resolve('./sidebarsGuias.js'),  // sidebar guía español
-        editUrl: 'https://github.com/eoscostarica/guide.eoscostarica.io/edit/master/',
+        id: 'default',
+        path: 'docs/guide',
+        routeBasePath: 'guide',
+        sidebarPath: require.resolve('./sidebarsGuide.js'),
+        editUrl: 'https://github.com/edenia/docs.edenia.com/edit/master/',
         showLastUpdateAuthor: true,
         showLastUpdateTime: true,
       },
@@ -65,55 +59,30 @@ const siteConfig = {
           "/img/byw-horizontal-transparent-white.png",
       },
       items: [
-        /*{
-          href: 'https://guias.eoscostarica.io/',
-          label: 'Inicio',
-          position: 'left',
-        },*/
         {
-          to: '/guide/open-source-guidelines',  // ruta inglés
+          to: '/guide/open-source-guidelines',
           label: 'Developer Guidelines',
           position: 'left',
-          docsPluginId: 'guide',  // pluginId inglés
-        },
-        
-        {
-          to: "/guide/eos-learn/eosio-protocol",
-          label: "Learn EOSIO + Antelope",
-          position: "left",
-          docsPluginId: 'guide',  // pluginId inglés
         },
         {
-          to: "/guide/tutorials/markdown-guide",
-          label: "Tutorials",
-          position: "left",
-          docsPluginId: 'guide',
+          to: '/guide/eos-learn/eosio-protocol',
+          label: 'Learn EOSIO + Antelope',
+          position: 'left',
         },
-        { to: "/guide/tools/glossary", label: "Tools", position: "left", docsPluginId: 'guide' },
         {
-          to: "/guide/community-resources/eosio-networks",
-          label: "Community",
-          position: "left",
-          docsPluginId: 'guide',
+          to: '/guide/tutorials/markdown-guide',
+          label: 'Tutorials',
+          position: 'left',
         },
-
- //enlace docs español
- {
-  to: '/guias/pautas-para-codigo-abierto',  // ruta español
-  label: 'Guías',
-  position: 'left',
-  docsPluginId: 'guias',  // pluginId español
-},
-
-
-
-        { to: "https://eoscostarica.io/", label: "Website", position: "left" },
+        { to: '/guide/tools/glossary', label: 'Tools', position: 'left' },
         {
-          href: "https://guias.eoscostarica.io/",
-          label: "Español",
-          position: "right",
+          to: '/guide/community-resources/eosio-networks',
+          label: 'Community',
+          position: 'left',
         },
-        { to: "search" },
+        { to: 'https://eoscostarica.io/', label: 'Website', position: 'left' },
+        { type: 'localeDropdown', position: 'right' },
+        { to: 'search' },
       ],
     },
     colorMode: {

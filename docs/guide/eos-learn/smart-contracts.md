@@ -50,6 +50,6 @@ https://github.com/kesar/eos-awesome-contracts
 
 To learn more about EOSIO smart contract development we recommend you check out the following links:
 
-* [Hello World Smart Contract Tutorial](https://guias.eoscostarica.io/docs/tutoriales/contrato-hola-mundo)
+* [Hello World Smart Contract Tutorial](../tutorials/hello-world-contract)
 * [EOSIO Smart Contract Guides](https://developers.eos.io/welcome/v2.1/smart-contract-guides/index)
 * [EOSIO Smart Contract Developers Handbook](https://cc32d9.gitbook.io/eosio-smart-contract-developers-handbook)
