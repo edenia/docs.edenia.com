@@ -55,11 +55,15 @@ const siteConfig = {
           position: "left",
         },
         { to: "https://eoscostarica.io/", label: "Website", position: "left" },
-        {
-          href: "https://guias.eoscostarica.io/",
-          label: "Español",
-          position: "right",
+        { 
+          type: 'localeDropdown', 
+          position: 'right' 
         },
+        //{
+          //href: "https://guias.eoscostarica.io/",
+          //label: "Español",
+          //position: "right",
+        //},
         { to: "search" },
       ],
     },
@@ -139,13 +143,21 @@ const siteConfig = {
     },
   },
   trailingSlash: false,
+    i18n: {
+        defaultLocale: 'en',
+        locales: ['en', 'es'],
+        localeConfigs: {
+          en: { label: 'English',  direction: 'ltr' },
+          es: { label: 'Español', direction: 'ltr' }
+        }
+      },
   presets: [
     [
       "@docusaurus/preset-classic",
       {
         docs: {
           // Docs folder path relative to website dir.
-          path: "./docs",
+          routeBasePath: 'docs',
           // Sidebars file relative to website dir.
           editUrl:
             "https://github.com/edenia/docs.edenia.com/tree/master/",
@@ -153,6 +165,11 @@ const siteConfig = {
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
         },
+        pages: {
+        path: 'src/pages',
+        routeBasePath: '/',      
+        },
+        blog: false,
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
