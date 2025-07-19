@@ -17,6 +17,19 @@ const siteConfig = {
   projectName: "docs.edenia.com",
   organizationName: "edenia",
   favicon: "img/favicon/favicon.ico",
+  
+    i18n: {
+    defaultLocale: 'en',           // Idioma por defecto
+    locales: ['en', 'es'],     
+    localeConfigs: {
+        en: {
+        label: 'English',    
+      },
+      es: {
+        label: 'Español',
+      },
+    },
+  },
   //scripts: ['https://buttons.github.io/buttons.js','../../scripts/languageSelector.js'],
   themeConfig: {
     image: "img/metaImg.jpg",
@@ -54,17 +67,22 @@ const siteConfig = {
           label: "Community",
           position: "left",
         },
-        { to: "https://eoscostarica.io/", label: "Website", position: "left" },
+        { to: "https://eoscostarica.io/", 
+          label: "Website", 
+          position: "left" 
+        },
         { 
           type: 'localeDropdown', 
           position: 'right' 
         },
-        //{
-          //href: "https://guias.eoscostarica.io/",
-          //label: "Español",
-          //position: "right",
-        //},
-        { to: "search" },
+        // {
+        //   href: "https://guias.eoscostarica.io/",
+        //   label: "Español",
+        //   position: "right",
+        // },
+        { 
+          to: "search" 
+        },
       ],
     },
     colorMode: {
@@ -143,20 +161,13 @@ const siteConfig = {
     },
   },
   trailingSlash: false,
-    i18n: {
-        defaultLocale: 'en',
-        locales: ['en', 'es'],
-        localeConfigs: {
-          en: { label: 'English',  direction: 'ltr' },
-          es: { label: 'Español', direction: 'ltr' }
-        }
-      },
   presets: [
     [
       "@docusaurus/preset-classic",
       {
         docs: {
           // Docs folder path relative to website dir.
+          path: "./docs",
           routeBasePath: 'docs',
           // Sidebars file relative to website dir.
           editUrl:
@@ -166,10 +177,10 @@ const siteConfig = {
           showLastUpdateTime: true,
         },
         pages: {
-        path: 'src/pages',
-        routeBasePath: '/',      
+          path: 'src/pages',       // donde viven tus páginas React/MDX
+          routeBasePath: '/',      // las páginas se servirán en /
+          include: ['**/*.{js,jsx,ts,tsx,md,mdx}'],
         },
-        blog: false,
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
