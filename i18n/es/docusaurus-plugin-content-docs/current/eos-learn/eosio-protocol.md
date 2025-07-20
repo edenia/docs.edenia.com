@@ -1,59 +1,58 @@
 ---
 id: eosio-protocol
-title: EOSIO + Antelope Protocol
-sidebar_label: EOSIO + Antelope Protocol
-description: Explanation of the EOSIO + Antelope protocol, how it works and how to use it.
-keywords: [EOSIO Protocol, EOSIO, EOS, Antelope, Blockchain Protocol, What is the EOSIO protocol]
+title: Protocolo Blockchain EOSIO y Antelope
+sidebar_label: Protocolo EOSIO y Antelope
+description: Qué es EOSIO y Antelope como funciona el protocolo blockchain y como usarlo.
+keywords: [eosio, antelope, eos, blockchain, protocolo, Qué es un protocolo blockchain, Para qué sirve EOSIO]
 ---
 
-## What is EOSIO? 
+## ¿Qué es EOSIO? 
 
-EOSIO is open-source software that enables the launching of highly configurable blockchain networks on which developers and entrepreneurs can run highly performant blockchain applications. [EOSIO](https://eos.io/) was created in 2018 by [Block One](https://block.one/) (B1). 
+EOSIO es software de código abierto que permite lanzar redes blockchain altamente configurables sobre las cuales desarrolladores y emprendedores pueden correr aplicaciones blockchain de alto rendimiento. [EOSIO](https://eos.io/) fue creado en el 2018 por la empresa [Block One](https://block.one/) (B1). 
 
-EOSIO is software that allows developers to create and run decentralized applications by simulating a computer with resources such as network bandwidth, CPU bandwidth, and RAM. In the same way, EOSIO gives a wide set of tools and protocols for security and permissions for the blockchain networks.
+EOSIO permite a desarrolladores crear y ejecutar aplicaciones descentralizadas, esto se realiza mediante la emulación de la funcionalidad de una computadora contando con recursos como ancho de banda de red, ancho de banda de CPU y RAM. Del mismo modo, EOSIO proporciona un amplio conjunto de herramientas y protocolos que garantizan la seguridad, la custodia y los permisos para las redes de blockchain. 
 
-## What is Antelope? 
+## ¿Qué es Antelope?
 
-Antelope is a community-run blockchain protocol based on a fork from EOSIO released in August 2022 with a public release of the [Antelope Github repository](https://github.com/antelopeIO) along with a new [project website](http://www.antelope.io/).
+Antelope es un protocolo blockchain administrado por la comunidad basado en una bifurcación de EOSIO lanzado en agosto de 2022 con un lanzamiento público del [repositorio Antelope en Github](https://github.com/antelopeIO) junto con un nuevo [sitio web del proyecto](http://www.antelope.io/).
 
-Antelope is led by a Coalition of community members accross different blockchain networks including  [EOS Network](https://eosnetwork.com/), [Telos](https://telos.net/), [Wax](https://wax.io/), and [UX Network](https://uxnetwork.io/). Coalition members will share the responsability of maintaining Antelope’s codebase as well as continuously developing the core protocol that is being run by each of the public blockchain networks.
+Antelope está dirigido por una coalición de miembros de la comunidad en diferentes redes de cadenas de bloques, incluidas [EOS](https://eosnetwork.com/), [Telos](https://telos.net/), [Wax](https://wax.io/), y [UX](https://uxnetwork.io/). Los miembros de la coalición comparten la responsabilidad de mantener el código fuente de Antelope, así como de desarrollar continuamente el protocolo central que ejecuta cada una de estas redes públicas blockchain.
 
-## Differences between EOSIO / Antelope and EOS
+## Diferencias entre EOSIO / Antelope y EOS
 
-It's important to know the difference between EOSIO / Antelope and EOS to as not to confuse the two concepts, as mentioned before EOSIO and Antelope are the software that enables deploying customized blockchains, in contrast, EOS, also referred to as `mainnet`, corresponds to the first public network launched on EOSIO.
+Es importante saber la diferencia entre EOSIO / Antelope y EOS para no confundir los dos conceptos, como se mencionó anteriormente, EOSIO y Antelope son el software que permite implementar cadenas de bloques personalizadas, en contraste, EOS, también conocido como "mainnet", corresponde a la primera red pública lanzada en EOSIO.
+`EOS` , además de ser una de las blockchains desplegadas sobre EOSIO también es el símbolo del token que se utiliza como "token del sistema" de la mainnet y que sirve para controlar aspectos importantes de la red, como la votación de los productores de bloques y la gestión de recursos.
 
-EOS, in addition to being one of the blockchains deployed on EOSIO also `EOS` is the token symbol used as the mainnet's "system token" that is used to control import aspects of the network such as block producer voting and resource management.
+Las características de EOS fueron altamente personalizadas por la comunidad mediante los **contratos de sistema**, así que, EOS es un ejemplo de cómo utilizar EOSIO, pero, no su definición, es por esta razón que EOS no pertenece ni es controlada por B1 sino por su comunidad. 
 
-The characteristics of EOS were highly customized by the community through **system contracts**, so EOS is an example of how to use EOSIO, but, is not its definition, for this reason, EOS is not owned by B1 otherwise its owned and controlled by the EOS community. 
+Además, existen otras redes blockchain basadas en EOSIO como las son LACChain, Proton, Telos, WAX, entre otras.  Puede ver la siguiente [lista de redes EOSIO](https://guias.eoscostarica.io/docs/comunidad/redes-eosio). También existen múltiples redes privadas que actualmente utilizan EOSIO.
 
-As well as there are other blockchains developed with EOSIO such as LACChain, Proton, Telos, and WAX, among others. Take a look at the following [EOSIO network list](https://guide.eoscostarica.io/docs/community-resources/eosio-networks). There are also multiple private networks currently using EOSIO.
+## Protocolo EOSIO / Antelope
 
-## EOSIO / Antelope Protocol
+Algunas de las características innovadoras de EOSIO y Antelope incluyen:
+- **Transacciones gratuitas** con límites de consumo
+- **Baja latencia** en confirmación de bloques nuevos (0.5 segundos)
+- **Tolerante a fallas bizantinas BFT**
+- **Nombres de cuentas legibles por humanos** (`cuentaeosio1`)
+- **Permisos ACL** basados en roles jerárquicos
+- Contratos actualizables **escritos en C++** facilitan el uso a programadores
+- Soporte para llaves protegidas por **hardware biométrico** (`Apple Secure Enclave`)
+- Diseñado para la **comunicación Inter-Blockchain**
+- Diseñado para la validación del cliente de encabezado escaso
+- Transacciones periódicas programadas
+- Seguridad con retraso de tiempo
+- Diseñado para la ejecución paralela de la lógica de validación sin contexto
 
-Some innovative features of EOSIO and Antelope include:
+Otra característica importante de una red blockchain basada en el protocolo EOSIO y Antelope es que tiene una arquitectura flexible, debido a que el protocolo permite un ecosistema multicadena altamente intercompatible y personalizable al no fijar las reglas en el protocolo, sino que gran parte de las reglas de operación se definen a través de los **contratos del sistema**. 
 
-- **Free transactions** with consumption limits
-- **Low latency** confirming new blocks (0.5 seconds)
-- **Byzantine Fault Tolerance**
-- Human Readable Account Names (`eosioaccount`)
-- **ACL Permissions** based on hierarchical roles
-- Updatable contracts **written in C++**
-- Support for keys protected by **biometric hardware** (`Apple Secure Enclave`)
-- Designed for **Inter-Blockchain communication**
-- Designed for Sparse Header Light Client Validation
-- Scheduled Recurring Transactions
-- Time Delay Security
-- Designed for Parallel Execution of Context Free Validation Logic
+Esta flexibilidad se debe a que los **contratos de sistema** constituyen un módulo separado del protocolo base. De esta forma, las funciones centrales de los nodos y el mecanismo de producción de bloques se mantienen separados de los **contratos de sistema**.
 
-Another important feature of EOSIO / Antelope based blockchain networks is its flexible architecture, because the protocol allows a multi-chain ecosystem that is highly customizable and inter-compatible by not setting the rules in the protocol, but rather many of the network's "rules of engagement" are defined through the **system contracts**.
+## Contratos del Sistema
 
-This flexibility is achieved thanks to a set of smart contracts separated from the core protocol. Because of this, the core functionality that validates blocks and transactions is separated from the **system contracts**.
+Los contratos de sistema permiten a las redes EOSIO y Antelope:
 
-## System Contracts
+- Configurar fácilmente la gobernanza de la red mediante contratos inteligentes.
+- Tener reglas transparentes de operación del sistema.
+- Sincronizar los cambios en las reglas de operación de forma instantánea en toda la red, lo que reduce la administración y los costos de las actualizaciones de gobernanza.
+- Mantener la compatibilidad total con otras cadenas de bloques EOSIO y Antelope.
 
-System contracts allow EOSIO and Antelope networks to :
-
-- Easily configure the network governance through smart contracts
-- To have transparent rules for the operation of the system
-- Synchronize the changes in system contracts in an instantaneous way with the whole network, which reduces the administration costs and delays of any governance updates
-- Maintain total compatibility with other EOSIO and Antelope blockchains

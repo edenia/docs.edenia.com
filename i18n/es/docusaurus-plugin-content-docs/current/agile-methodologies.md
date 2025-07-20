@@ -1,9 +1,9 @@
 ---
 id: agile-methodologies
-title: Agile Methodologies
-sidebar_label: Agile Methodologies
-description: Agile Methodologies for handling the development of new open source applications
-keywords: [ What are Agile Methodologies, Scrum, Canvan, Daily Stand up]
+title: Metodologías Ágiles
+sidebar_label: Metodologías Ágiles
+description: Metodologías Ágiles para desarrollar proyectos de software de una forma eficiente y eficaz.
+keywords: [Metodologías, Ágiles, Scrum, Kanban, XP, Lean, Agile, EOS, EOS Costa Rica, Qué es Agile, Qué es Scrum, Qué es Kanban, Qué es XP, Qué es Lean]
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl';
 

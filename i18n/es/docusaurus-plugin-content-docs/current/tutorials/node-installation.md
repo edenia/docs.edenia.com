@@ -1,31 +1,34 @@
 ---
 id: node-installation
-title: EOSIO Node Installation
-sidebar_label: Node Installation
-description: EOSIO Node Installation
-keywords: [ Node Installation, EOSIO Nodes, How to create a node, How to Install a Node, Install Nodes]
+title: Instalación de Nodos
+sidebar_label: Instalación de Nodos
+description: Instalación de Nodos para EOSIO
+keywords: [Instalación de Nodos, EOSIO, Cómo se crea un nodo, Cómo se instala un nodo, Instalar nodos]
 ---
 
-## A Producer Node Setup
-On EOSIO, a producing node and other types of nodes are defined and differentiated by enabling specific [Nodeos Plugins](https://developers.eos.io/manuals/eos/latest/nodeos/plugins/index). For example, to define a non-producing node, you need to except `producer_plugin`. This posibility of customization allows to expose one or more services publicly or privately by enabling one or more of those plugins.
+# Configuración de un Nodo Productor
+En EOSIO, un nodo productor y otros tipos de nodos se definen y diferencian habilitando los [Plugins de Nodeos](https://developers.eos.io/manuals/eos/latest/nodeos/plugins/index) específicos. Por ejemplo, para definir un nodo no productor, es necesario exceptuar `producer_plugin`. Esta posibilidad de personalización permite exponer uno o varios servicios de forma pública o privada habilitando uno o varios de esos plugins.
 
-If you are trying to set up a "Full Node", you may find [Setting Up a Full EOS Node](https://eoscommunity.org/t/where-is-the-best-guide-on-setting-up-a-full-eos-node/621) helpful.
+Si estas tratando de configurar un "Full Node", puede que te resulte útil la guía [Configuración de un Nodo EOS Completo](https://eoscommunity.org/t/where-is-the-best-guide-on-setting-up-a-full-eos-node/621).
 
-Let's proceed to setup a Producing Node using EOSIO Technology. You can also find more useful information about this topic in [Producing Node Setup](https://developers.eos.io/manuals/eos/v2.0/nodeos/usage/node-setups/producing-node).
-## Install EOSIO from Precompiled Binaries
-Download the latest version of EOSIO for your OS from: [Github](https://github.com/EOSIO/eos/releases/tag/v2.0.6).
+Procedamos a configurar un Nodo Productor utilizando la tecnología EOSIO. También puede encontrar más información útil sobre este tema en [Configuración del Nodo de Producción](https://developers.eos.io/manuals/eos/v2.0/nodeos/usage/node-setups/producing-node).
 
-You can use [wget](https://www.gnu.org/software/wget/) to download [dpkg](https://wiki.debian.org/es/dpkg) and install `eosio`:
+## Instale EOSIO desde Binarios Precompilados
+Descarga la última versión de EOSIO para tu sistema operativo desde: [Github](https://github.com/EOSIO/eos/releases/tag/v2.0.6).
+
+Por ejemplo, para ubuntu 18.04 necesitas descargar `eosio_2.0.6-1-ubuntu-18.04_amd64.deb`.
+
+Puedes usar apt para instalarlo:
 
 ```bash
 $ wget https://github.com/EOSIO/eos/releases/download/v2.1.0-rc2/eosio_2.1.0-rc2-ubuntu-18.04_amd64.deb
 $ sudo dpkg -i ./eosio_2.1.0-rc2-ubuntu-18.04_amd64.deb
 ```
 
-It will download all dependencies and install EOSIO to `/usr/opt/eosio`.
+El comando anterior descarga todas las dependencias e instala EOSIO en `/usr/opt/eosio`.
 
-## Node Setup
-Once you installed the precompiled binaries following the above commands, let's create a directory called `testproducer` and then `config.ini`, `genesis.json` and `start.sh` files:
+## Configuración del Nodo
+Una vez instalados los binarios pre-compilados siguiendo los comandos anteriores, vamos a crear un directorio llamado `testproducer` y los archivos `config.ini`, `genesis.json` y `start.sh` en el:
 ```bash
 $ mkdir testproducer
 
@@ -34,22 +37,22 @@ $ touch ~/testproducer/genesis.json
 $ touch ~/testproducer/start.sh
 ```
 
-Now, let's write down some code into that files:
+Ahora, escribamos algo de código en esos archivos:
 
 ### `config.ini`
 ```ini
 agent-name = testproducer
 
 # PLUGINS
-# Required to process and aggregate chain data on an EOSIO node.
+# Necesario para procesar y agregar datos de la cadena en un nodo EOSIO.
 plugin = eosio::chain_plugin
-# Exposes functionality to the RPC API interface
+# Expone la funcionalidad a la interfaz RPC API
 plugin = eosio::chain_api_plugin
-# Required to enable any RPC API functionality provided by a nodeos or keosd instance.
+# Necesario para habilitar cualquier funcionalidad de la API RPC proporcionada por una instancia de nodeos o keosd.
 plugin = eosio::http_plugin
-# Loads functionality required for a node to produce blocks.
+# Carga la funcionalidad necesaria para que un nodo produzca bloques.
 plugin = eosio::producer_plugin
-# Exposes a number of endpoints for the producer_plugin to the RPC API interface
+# Expone una serie de endpoints para el producer_plugin a la interfaz RPC API.
 plugin = eosio::producer_api_plugin
 
 # CHAIN 
@@ -67,7 +70,7 @@ txn-reference-block-lag = 0
 producer-name = testproducer
 
 # PEERING NETWORK
-p2p-server-address =  TESTPRODUCER_IP:9876     # CHANGE THIS ACCORDING TO THE NODE IP
+p2p-server-address =  TESTPRODUCER_IP:9876     # CAMBIAR ESTO SEGUN IP DEL NODO
 p2p-listen-endpoint = 0.0.0.0:9876
 p2p-max-nodes-per-host = 150
 max-clients = 150
@@ -79,10 +82,10 @@ p2p-peer-address = SEED_NODE_IP:SEED_NODE_PORT
 p2p-peer-address = PEER1_NODE_IP:PEER1_NODE_PORT
 p2p-peer-address = PEER2_NODE_IP:PEER2_NODE_PORT
 p2p-peer-address = API_NODE_IP:API_NODE_PORT
-# You can continue adding peer nodes here
+# Puedes continuar añadiendo nods peer aquí
 ```
 
-> Note that above there are items that need to be replaced with their corresponding values.
+> Ten en cuenta que arriba hay elementos que deben ser reemplazados con sus valores correspondientes.
 
 ### `genesis.json`
 ```json
@@ -112,15 +115,15 @@ p2p-peer-address = API_NODE_IP:API_NODE_PORT
 }
 ```
 
-> Replace `EOS_PUB_DEV_KEY` with its corresponding value. To see how to generate a key pair, check out our guide [Private Keys](https://guide.eoscostarica.io/docs/eos-learn/private-keys/) about this topic.
+> Sustituye `EOS_PUB_DEV_KEY` por su valor correspondiente. Para ver cómo generar un par de claves, consulta nuestra guía [Llaves Privadas](https://guias.eoscostarica.io/docs/aprender-eosio/llaves-privadas) sobre este tema.
 
 ### `start.sh`
 ```bash
 #!/usr/bin/env bash
 DATA_DIR="blockchain"
 CONFIG_DIR="./blockchain/config"
-EOS_PUB_KEY=EOS_PUB_KEY  #REPLACE THIS WITH ITS CORRESPONDING VALUE
-EOS_PRIV_KEY=EOS_PRIV_KEY #REPLACE THIS WITH ITS CORRESPONDING VALUE
+EOS_PUB_KEY=EOS_PUB_KEY  #REEMPLAZA ESTO CON SU VALOR CORRESPONDIENTE
+EOS_PRIV_KEY=EOS_PRIV_KEY #REEMPLAZA ESTO CON SU VALOR CORRESPONDIENTE
 echo "Starting Producer Node...";
 set -e;
 ulimit -n 65535
@@ -163,53 +166,50 @@ do
  tail -f /dev/null & wait ${!}
 done
 ```
-> Maybe you need to assign permission executions to `start.sh`, for this execute: `$ chmod 755 start.sh`
 
-**Execute `start.sh` script**:
+> Tal vez necesites asignar permisos de ejecución a `start.sh`, para ello ejecuta `$ chmod 755 start.sh`.
+
+**Ejecute el script `start.sh`**
 ```bash
 $ ./start.sh
 ```
-For a more detailed information about the above command, please visit [System Regproducer](https://developers.eos.io/manuals/eos/v2.0/cleos/command-reference/system/system-regproducer).
+Para una información más detallada sobre el comando anterior, por favor visite [System Regproducer](https://developers.eos.io/manuals/eos/v2.0/cleos/command-reference/system/system-regproducer).
 
-### Create `testproducer` account
-On an EOSIO based blockchain, account creation carries [RAM](https://developers.eos.io/manuals/eosio.contracts/latest/key-concepts/ram) consumption, so it is necessary to pay for new accounts. In the following command replace `CREATOR` placeholder with an existing account with enough resources to execute the operation.
+### Crear la cuenta `testproducer`
+En una red blockchain basada en EOSIO, la creación de cuentas conlleva el consumo de [RAM](https://developers.eos.io/manuals/eosio.contracts/latest/key-concepts/ram), por lo que es necesario pagar por las nuevas cuentas. En el siguiente comando sustituye `CREATOR` por una cuenta existente y con recursos suficientes para ejecutar la operación.
 ```bash
-$ cleos -u http://DESTINATION_NODE_ADDRESS create account CREATOR testproducer EOS_PUB_KEY
+$ cleos -u http://URL_NODO_DESTINO create account CREATOR testproducer EOS_PUB_KEY
 ```
-Depending on which network you are configure the node for, you can create account with the following links:
-- [Jungle Testnet Account Creation](http://monitor3.jungletestnet.io/#account)
-- [Kylin Testnet EOSx Account Creation](https://kylin.eosx.io/tools/account/create)
-- [Create new account on EOS Mainnet](https://www.eosx.io/tools/account/create)
+Dependiendo de la red para la que estés configurando el nodo, puedes crear una cuenta con los siguientes enlaces:
+- [Creación de cuentas en Jungle Testnet](http://monitor3.jungletestnet.io/#account)
+- [Creación de cuentas en Kylin Testnet](https://kylin.eosx.io/tools/account/create)
+- [Creación de cuentas en la red EOS](https://www.eosx.io/tools/account/create)
 
-### Register `testproducer` as a Producer Node
+### Registrar `testproducer` como un Nodo Productor
 ```bash
-$ cleos -u http://DESTINATION_NODE_ADDRESS system regproducer testproducer EOS_PUB_KEY "www.testproducer.testlink" 0
+$ cleos -u http://URL_NODO_DESTINO system regproducer testproducer EOS_PUB_KEY "www.testproducer.testlink" 0
 ```
-For a more detailed information about the above command, please visit [System Regproducer](https://developers.eos.io/manuals/eos/v2.0/cleos/command-reference/system/system-regproducer).
+Para una información más detallada sobre el comando anterior, por favor visite [System Regproducer](https://developers.eos.io/manuals/eos/v2.0/cleos/command-reference/system/system-regproducer).
 
-Now, your node is set up. If you configured this node to operate in a Private Network, you need to make sure your node is included in the producers schedule. Check our guide [Set Block Producer Schedule](https://guide.eoscostarica.io/docs/tutorials/private-network-installation/#set-block-producers-schedule) to see more information about this.
+Ahora, el nodo está configurado. Si configuraste este nodo para operar en una Red Privada, necesitas asegurarte de que tu nodo está incluido en la de productores. Consulta nuestra guía [Instalación de Red Privada](https://guias.eoscostarica.io/docs/tutoriales/instalacion-de-red-privada) para ver más información sobre esto.
 
-On the other hand, if you are looking to produce blocks in a testnet, token holders need to vote for you in order to be in the 21 top block producers.
+Por otro lado, si quieres producir bloques en una red de prueba, los poseedores de tokens tienen que votar por ti para estar entre los 21 principales productores de bloques.
 
-### Uninstall `eosio`
-
-To uninstall the EOSIO built/installed binaries and dependencies, run:
-
+### Desinstalar `eosio`
+Para desinstalar los binarios construidos/instalados de EOSIO y sus dependencias, ejecuta:
 ```bash
 sudo dpkg -r eosio
 ```
 
-## Start a Node Using a Snapshot
+## Iniciar un Nodo Usando un Snapshot
+En algunas situaciones, es conveniente iniciar un nodo utilizando un **snapshot**, si se desea crear un estado de la red válido desde el que iniciar. Se recomienda borrar todos los datos existentes en el directorio: `~./local/share/eosio/nodeos/data/*`.
 
-In some situations, it is convenient to start a node using a snapshot if you wish to create a valid chain state to start from. Make sure you have deleted all existing data in the directory: `~./local/share/eosio/nodeos/data/*`, since it is recommended.
-
-So, let's say we are using a snapshot from Jungle Testnet. 
-So, for this execute the following command:
+Supongamos que vamos a utilizar un **snapshot** de Jungle Testnet. Procede a ejecutar el siguiente comando:
 ```bash
 $ wget https://backup.cryptolions.io/Jungle/snapshots/latest-snapshot.bin -P ~./local/share/eosio/nodeos/data/snapshots/
 ```
 
-Now that the snapshot is downloaded, you can use the same [`start.sh`](#startsh) script to start the node, just delete `--genesis-json` flag in the script, so the function `start_fresh_nodes` in the file will look like:
+Ahora que el **snapshot** se ha descargado, puedes utilizar el mismo script [`start.sh`](#startsh) para iniciar el nodo, sólo tienes que eliminar la bandera `--genesis-json` en el script, por lo que la función `start_fresh_nodes` en el archivo se verá así:
 
 ```bash
 start_fresh_nodeos() {
@@ -217,15 +217,17 @@ start_fresh_nodeos() {
  $nodeos --delete-all-blocks &
 }
 ```
-For more information, please visit [How to replay from a snapshot](https://developers.eos.io/manuals/eos/v2.1/nodeos/replays/how-to-replay-from-a-snapshot). Also, visit [EOS Snapshot](https://developers.eos.io/search?query=snapshot) to see all available doc entries for "Snapshot" on the [developer.eos.io](https://developers.eos.io/) portal.
-## Testnet Nodes
-### Configure Jungle Testnet Node
-If you are seeking to setup a node on Jungle Testnet, you can go to [EOS Jungle Testnet - Node Manual Installation](https://github.com/EOS-Jungle-Testnet/Node-Manual-Installation) on Github. Also, you can use [Testnet Auto-Installer script](http://monitor.jungletestnet.io/#register). These tools were created by [cryptolions.io](https://cryptolions.io/home)
 
-### Configure Kylin Testnet Node
-To configure a node in the Kylin Testnet, please go to [CryptoKylin-Testnet](https://github.com/cryptokylin/CryptoKylin-Testnet) repo and follow instructions there.
+Para obtener más información, visite [Cómo reproducir una instantánea](https://developers.eos.io/manuals/eos/v2.1/nodeos/replays/how-to-replay-from-a-snapshot). Además, visite [EOS Snapshot](https://developers.eos.io/search?query=snapshot) para ver todas las entradas de documentos disponibles para "Snapshot" en el portal [developer.eos.io](https://developers.eos.io/).
 
-# References
-- [Snapshot Related Info](https://developers.eos.io/search?query=snapshot).
+## Nodos de Redes de Prueba
+### Configurar un Nodo en Jungle Testnet
+Si quieres configurar un nodo en Jungle Testnet, puedes ir a [EOS Jungle Testnet - Node Manual Installation](https://github.com/EOS-Jungle-Testnet/Node-Manual-Installation) en Github. También puedes usar [Testnet Auto-Installer script](http://monitor.jungletestnet.io/#register). Estas herramientas fueron creadas por [cryptolions.io](https://cryptolions.io/home)
+
+### Configurar un Nodo en Kylin Testnet
+Para configurar un nodo en el Kylin Testnet, por favor ve al repositorio [CryptoKylin-Testnet](https://github.com/cryptokylin/CryptoKylin-Testnet) y sigue las instrucciones allí.
+
+# Referencias
+- [Información sobre Snapshots](https://developers.eos.io/search?query=snapshot).
 - [Cryptolions Testnet Auto-Installer script](http://monitor.jungletestnet.io/#register).
 - [CryptoKylin-Testnet Github repo](https://github.com/cryptokylin/CryptoKylin-Testnet)

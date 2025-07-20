@@ -120,7 +120,7 @@ Terraform is an infrastructure software as code, developed by HashiCorp. It enab
 
 Docker is an open source project that automates the deployment of applications within software containers, providing an additional layer of abstraction and application virtualization automation across multiple operating systems.
 
-[Learn more about Docker](/guide/tutorials/docker)
+[Learn more about Docker](/docs/tutorials/docker)
 
 <figure 
   className="video_container">

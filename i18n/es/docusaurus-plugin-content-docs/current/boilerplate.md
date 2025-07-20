@@ -1,33 +1,32 @@
 ---
 id: boilerplate
-title: What is a Boilerplate ?
-sidebar_label: Project Boilerplate
-description: What is a Boilerplate?, definition of Boilerplate
-keywords: [Boilerplate, Project Boilerplate, EOSIO, EOS, EOS Costa Rica, eosio.io, What is a Boilerplate, What is the EOS Costa Rica Project Boilerplate, What is a Boilerplate for]
+title: ¿ Qué es un Boilerplate ?
+sidebar_label: Boilerplates
+description: Boilerplates son plantillas de software que se pueden utilizar para crear un proyecto de software para iniciar desde una base.
+keywords: [boilerplate, boilerplates, Qué es un Boilerplate, Para qué sirve un Boilerplate, EOS, EOS Costa Rica]
 ---
-
 ## ¿Qué es un Boilerplate?
 
-Un boilerplate es un marco o plantilla para el desarrollo de un proyecto. Es una estructura de proyecto ya definida de antemano que sirve para agilizar la organización y el desarrollo del software. Acelera la integración de soluciones y formatos que impulsan el proyecto hacia producción.
+Un boilerplate es un marco o plantilla para el desarrollo de un proyecto. Es una estructura de proyecto ya definida de antemano que sirve para agilizar la organización y el desarrollo del software. Acelera la integración de soluciones y formatos que sirven para conducir el desarrollo de un nuevo proyecto a la producción.
 
 En EOS Costa Rica hemos creado tres repositorios boilerplate: **Front-End Boilerplate**, **Back-End Boilerplate** y **Full-Stack Boilerplate**.
 
-## EOS Boilerplates
+## EOS Boilerplates 
 
 - [Full Stack Boilerplate](https://github.com/eoscostarica/full-stack-boilerplate)
 - [Front End](https://github.com/eoscostarica/backend-boilerplate)
 - [Back End](https://github.com/eoscostarica/backend-boilerplate)
 
-## WAX Boilerplates
+## WAX Boilerplates 
 
 - [WAX WebApp](https://github.com/edenia/wax-webapp-boilerplate)
 - [Wax Full Stack Boilerplate](https://github.com/edenia/wax-full-stack-boilerplate)
 
-## Proton Boilerplate
+## Proton Boilerplate 
 
 - [Proton Full Stack Boilerplate](https://github.com/edenia/proton-full-stack-boilerplate)
 
-## Boilerplates Generales
+## General Boilerplates 
 
 - [WebApp Boilerplate](https://github.com/eoscostarica/webapp-boilerplate)
 - [Hapi Boilerplate](https://github.com/eoscostarica/hapi-boilerplate)
@@ -37,29 +36,29 @@ En EOS Costa Rica hemos creado tres repositorios boilerplate: **Front-End Boiler
 
 [**EOS Costa Rica Front-End Boilerplate**](https://github.com/eoscostarica/webapp-boilerplate)
 
-“Front-end” se refiere a la interfaz de usuario y, en el contexto de una aplicación web, es la parte que se ejecuta en el navegador del usuario.
+"Front-end" se refiere a la interfaz de usuario y en el contexto de una aplicación web es la aplicación que se ejecuta en el navegador web de los usuarios.
 
-Usamos [React JS](https://guide.eoscostarica.io/docs/tutorials/react-tutorial), una biblioteca de JavaScript para crear interfaces de usuario basadas en componentes de alto rendimiento, que facilita el desarrollo de interfaces complejas con código predecible y fácil de depurar.
+Utilizamos [React JS](https://guias.eoscostarica.io/docs/tutoriales/tutorial-react), una biblioteca de JavaScript para la construcción de interfaces de usuario de alto rendimiento y basada en componentes que facilita el desarrollo de interfaces de usuario complejas con código predecible y fácil de depurar.
 
-### Stack tecnológico de Front-End
+### Front-End Tech Stack
 
 - [React](https://reactjs.org/)
 - [Apollo Client](https://www.apollographql.com/docs/react/v3.0-beta/)
 - [Material UI](https://material-ui.com/)
-- [i18next](https://react.i18next.com/)
+- [i18 next](https://react.i18next.com/)
 
-### Colección de Componentes React
+### Colecciones de Componentes React
 
-Hemos desarrollado una colección de componentes en React para EOSIO. Puedes ver los componentes que hemos construido en nuestro [Storybook de Componentes React de EOS Costa Rica](https://guide.eoscostarica.io/docs/tutorials/react-tutorial#components-in-eos-costa-rica).  
-Para más información sobre los componentes visita el [repositorio de componentes](https://github.com/eoscostarica/eoscr-components).
+Hemos desarrollado una colección de componentes en React para EOSIO. Puede ver los componentes que hemos construido en nuestro [EOS Costa Rica React Components Storybook](https://guias.eoscostarica.io/docs/tutoriales/tutorial-react#componentes-en-eos-costa-rica)
+Para más información sobre los componentes puede visitar [Repositorio de Componentes](https://github.com/eoscostarica/eoscr-components)
 
 ## Back-End Boilerplate
 
 [**EOS Costa Rica Back-End Boilerplate**](https://github.com/eoscostarica/backend-boilerplate)
 
-“Back-end” se refiere a la aplicación del servidor; puede describirse como la capa de acceso a datos de una aplicación que contiene la lógica de negocio para gestionar la información.
+"Back-end" se refiere a la aplicación del servidor, se puede describir es la capa de acceso a los datos de una aplicación que contiene la lógica de negocio para la gestión de datos dentro de la aplicación.
 
-### Stack tecnológico de Back-End
+### Back-End Tech Stack
 
 - [Hasura](https://hasura.io/)
 - [Hapi](https://hapi.dev/)
@@ -74,38 +73,38 @@ Para más información sobre los componentes visita el [repositorio de component
 
 ### GraphQL / Hasura
 
-El motor GraphQL de Hasura genera automáticamente tu esquema GraphQL y los resolvers basados en tus tablas/vistas en Postgres. No necesitas escribir un esquema GraphQL ni resolvers.
+El motor Hasura GraphQL genera automáticamente su esquema GraphQL y resolutores basados ​​en sus tablas/vistas en Postgres. No es necesario que escriba un esquema GraphQL o solucionadores.
 
-La consola de Hasura te ofrece herramientas de interfaz de usuario que agilizan el modelado de datos o el trabajo con tu base de datos existente. La consola también genera automáticamente migraciones o archivos de metadatos que puedes editar directamente y versionar.
+La consola de Hasura le brinda herramientas de interfaz de usuario que aceleran su proceso de modelado de datos o el trabajo con su base de datos existente. La consola también genera automáticamente migraciones o archivos de metadatos que puede editar directamente y verificar en su control de versiones.
 
-El motor GraphQL de Hasura te permite hacer todo lo que normalmente harías con Postgres, proporcionando GraphQL sobre constructos nativos de Postgres.
+El motor Hasura GraphQL le permite hacer cualquier cosa que normalmente haría con Postgres al proporcionar GraphQL sobre construcciones nativas de Postgres.
 
-Obtén más información en [Hasura](https://guide.eoscostarica.io/docs/developer-tools/#hasura).
+Obtenga más información en [Hasura](https://guias.eoscostarica.io/docs/herramientas-para-desarrolladores#hasura)
 
-### API HTTP (HAPI)
+### HTTP API (HAPI)
 
-hapi.js (comúnmente conocido como hapi) es la abreviatura de HTTP API. Es un framework completo para crear aplicaciones y servicios. Fue diseñado originalmente para el desarrollo rápido de servicios API RESTful en JavaScript, pero se ha convertido en un framework web con funcionalidades integradas, validación de entradas, autenticación, caché y soporte para aplicaciones en tiempo real con websockets.
+hapi.js (comúnmente conocido como hapi) son las siglas de HTTP API. Es un marco rico para crear aplicaciones y servicios. Fue diseñado originalmente para el rápido desarrollo de servicios de API RESTful usando JavaScript, pero desde entonces ha crecido hasta convertirse en un marco de aplicación web completo con características listas para usar plantillas, validación de entrada, autenticación, almacenamiento en caché y, más recientemente, soporte. para aplicaciones en tiempo real con soporte web socket.
 
-Obtén más información en [hapi](https://guide.eoscostarica.io/docs/developer-tools/#hapi).
+Obtenga más información en [hapi](https://guias.eoscostarica.io/docs/herramientas-para-desarrolladores#hapi)
 
 ### EOSIO
 
-EOSIO es una blockchain de tercera generación que busca proporcionar un registro inmutable, permanente, rastreable y verificable de toda la actividad en almacenes de contenedores. Estos datos serán públicos y podrán ser consumidos por cualquier tercero externo.
+EOSIO es un blockchain de tercera generación que permitirá alcanzar el objetivo de proporcionar un registro immutable, permanente, trazable y verificable de toda la actividad en los depósitos de contenedores. Estos datos serán públicos y podrán ser consumidos por cualquier tercero externo.
 
-Obtén más información en [componentes de EOSIO](https://guide.eoscostarica.io/docs/eos-learn/eosio-components).
+Obtenga más información en [Componentes EOSIO](https://guias.eoscostarica.io/docs/aprender-eosio/componentes-eosio)
 
 ### PostgresDB
 
-*"PostgreSQL es un potente sistema de base de datos relacional de objetos de código abierto con más de 30 años de desarrollo activo, lo que le ha otorgado una sólida reputación de fiabilidad, robustez y rendimiento".*
+*"PostgreSQL es un potente sistema de base de datos relacional de objetos de código abierto con más de 30 años de desarrollo activo que le ha ganado una sólida reputación por su fiabilidad, solidez y rendimiento".*
 
-PostgreSQL incluye muchas características pensadas para ayudar a los desarrolladores a construir aplicaciones, a los administradores a proteger la integridad de los datos y crear entornos tolerantes a fallos, y a gestionar los datos sin importar el tamaño del conjunto.  
-Obtén más información en [PostgresDB](https://guide.eoscostarica.io/docs/developer-tools#postgresdb).
+PostgreSQL viene con muchas características destinadas a ayudar a los desarrolladores a crear aplicaciones, a los administradores a proteger la integridad de los datos y a crear entornos tolerantes a fallas, y a administrar sus datos sin importar cuán grande o pequeño sea el conjunto de datos.
+Obtenga más información en [PostgresDB](https://guias.eoscostarica.io/docs/herramientas-para-desarrolladores#postgresdb)
 
 ## Full-Stack Boilerplate
 
 [**EOS Costa Rica Full-Stack Boilerplate**](https://github.com/eoscostarica/full-stack-boilerplate)
 
-El Full-Stack Boilerplate contiene tanto el software cliente como el servidor. Hemos creado un esqueleto altamente escalable con mejores prácticas, un monorepo fullstack que incluye nuestros boilerplates de front-end y back-end.
+El Full-Stack Boilerplate contiene tanto el software del cliente como el del servidor. Hemos creado un esqueleto altamente escalable con las mejores prácticas, fullstack monorepo que contiene nuestras boilerplates de front-end y back-end.
 
 ### Diagrama Full-Stack
 

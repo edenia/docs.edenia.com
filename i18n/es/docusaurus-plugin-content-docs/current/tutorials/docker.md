@@ -2,54 +2,53 @@
 id: docker
 title: Docker
 sidebar_label: Docker
-description: Concepts, definitions, funtionalities from Docker
-keywords: [ Docker, Learn Docker, What is Docker, How Docker Works, How to use Docker, What is Docker for?]
+description: Conceptos, definición y funcionalidades de Docker
+keywords: [Docker, Docker, Aprender Docker, Qué es Docker, Para qué sirve Docker, Cómo funciona Docker, Cómo usar docker]
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-Docker is a tool that allows you to quickly create, test, and deploy applications. The idea behind Docker is to create “containers” that are lightweight and portable so that applications can run on any machine with Docker installed, regardless of the operating system.
+Docker es una herramienta que permite crear, probar y desplegar aplicaciones rápidamente. La idea detrás de Docker es crear "contenedores" que sean ligeros y portátiles para que las aplicaciones puedan ejecutarse en cualquier máquina con Docker instalado, independientemente del sistema operativo.
 
-For example, each node of the blockchain network or service / application developed will be compiled into a docker image that contains all of its dependencies and is deployed to one of several infrastructure providers with docker available.
+Por ejemplo, cada nodo de la red blockchain o servicio/aplicación desarrollada se compilará en una imagen Docker que contiene todas sus dependencias y se despliega en uno de los varios proveedores de infraestructura con Docker disponible.
 
 <div style={{  textAlign: "center" }}>
-  <img alt="Docker vs. Traditional VMs"   src={ useBaseUrl( '/img/documentation-images/Docker-containerized-and-vm-transparent-bg.webp' )} />
+<img alt="Docker vs. Traditional VMs"   src={ useBaseUrl( '/img/documentation-images/Docker-containerized-and-vm-transparent-bg.webp' )} />
 </div>
 
-In addition to Docker we use a container “orchestrator” tool called Kubernetes (K8s).
+Además de Docker, utilizamos una herramienta de "orquestación" de contenedores llamada Kubernetes (K8s).
 
-Kubernetes helps you manage the containers in which your applications are hosted in an easy, fast, and scalable way. In addition, it also has load monitoring and balancing. About virtual servers. For more information, visit our guide [Introduction to Kubernetes and Docker](https://guide.eoscostarica.io/docs/devops#introduction-to-kubernetes-and-docker).
-
+Kubernetes te ayuda a gestionar los contenedores en los que se alojan tus aplicaciones de forma fácil, rápida y escalable. Además, también dispone de monitorización y balanceo de carga. Sobre los servidores virtuales. Para más información visite [Kubernetes y Docker](https://guias.eoscostarica.io/docs/devops#introducci%C3%B3n-a-kubernetes-y-docker).
 
 ## Docker Engine
 
-Docker Engine is an open source containerization technology for building and containerizing your applications. Docker Engine acts as a client-server application with:
+Docker Engine es una tecnología de contenedores de código abierto para construir y "containerizar" sus aplicaciones. Docker Engine actúa como una aplicación cliente-servidor con:
 
-- A server with a long-running daemon process [dockerd](https://docs.docker.com/engine/reference/commandline/dockerd).
-- APIs which specify interfaces that programs can use to talk to and instruct the Docker daemon.
-- A command line interface (CLI) client [docker](https://docs.docker.com/engine/reference/commandline/cli/).
+- Un servidor con un proceso daemon de larga duración [dockerd](https://docs.docker.com/engine/reference/commandline/dockerd).
+- APIs que especifican interfaces que los programas pueden utilizar para hablar con el daemon Docker y darle instrucciones.
+- Una interfaz de línea de comandos (CLI) [docker](https://docs.docker.com/engine/reference/commandline/cli/).
 
-The CLI uses [Docker APIs](https://docs.docker.com/engine/api/) to control or interact with the Docker daemon through scripting or direct CLI commands. Many other Docker applications use the underlying API and CLI. The daemon creates and manage Docker objects, such as images, containers, networks, and volumes.
+La CLI utiliza [Docker APIs](https://docs.docker.com/engine/api/) para controlar o interactuar con el daemon Docker a través de scripts o comandos directos de la CLI. Muchas otras aplicaciones de Docker utilizan la API y la CLI subyacentes. El demonio crea y gestiona objetos Docker, como imágenes, contenedores, redes y volúmenes.
 
-For more details, see [Docker Architecture](https://docs.docker.com/get-started/overview/#docker-architecture).
+Para más detalles, véase [Arquitectura Docker](https://docs.docker.com/get-started/overview/#docker-architecture).
 
-To have an initial docker configuration, we need to set up three main thing:
+Para tener una configuración inicial de Docker, necesitamos establecer tres cosas principales:
 
-1. **Dockerfile**: Define the steps needed to create the image and run it. Each instruction in a Dockerfile creates a layer in the image.
-1. **Image**: An image is a read-only template with instructions for creating a Docker container.
-1. **Container**: A container is a runnable instance of an image. You can create, start, stop, move, or delete a container using the Docker API or CLI.
+1. **Dockerfile**: Define los pasos necesarios para crear la imagen y ejecutarla. Cada instrucción en un Dockerfile crea una capa en la imagen.
+1. **Imagen**: Una imagen es una plantilla de sólo lectura con instrucciones para crear un contenedor Docker.
+1. **Contenedor**: Un contenedor es una instancia ejecutable de una imagen. Puedes crear, iniciar, detener, mover o eliminar un contenedor utilizando la API de Docker o la CLI.
 
 ## Docker Compose
 
-Compose is a tool for defining and running multi-container Docker applications. With Compose, you use a YAML file to configure your application’s services. Then, with a single command, you create and start all the services from your configuration.
+Compose es una herramienta para definir y ejecutar aplicaciones Docker multi-contenedor. Con Compose, usted utiliza un archivo YAML para configurar los servicios de su aplicación. Luego, con un solo comando, creas e inicias todos los servicios desde tu configuración.
 
-Using Compose is basically a three-step process:
+El uso de Compose es básicamente un proceso de tres pasos:
 
-1. Define your app’s environment with a Dockerfile so it can be reproduced anywhere.
-1. Define the services that make up your app in docker-compose.yml so they can be run together in an isolated environment.
-1. Run docker-compose up and Compose starts and runs your entire app.
+1. Define el entorno de tu aplicación con un Dockerfile para que pueda ser reproducido en cualquier lugar.
+1. Define los servicios que componen tu app en docker-compose.yml para que puedan ejecutarse juntos en un entorno aislado.
+1. Ejecuta docker-compose y Compose inicia y ejecuta toda tu app.
 
-A docker-compose.yml looks like this:
+Un docker-compose.yml tiene el siguiente aspecto:
 ```yml
 version: "3.9"  # optional since v1.27.0
 services:
@@ -68,11 +67,12 @@ volumes:
   logvolume01: {}
 ```
 
-## Getting Started
+### Cómo Iniciar
 
-To start our first Docker project, we are going to create the needed configuration to make it start and says `Hello world, we are EOS Costa Rica 🦋`. First of all, we need the main configuration, so follow next steps to get it.
+Para iniciar nuestro primer proyecto Docker, vamos a crear la configuración necesaria para que arranque y diga `Hola mundo, somos EOS Costa Rica 🦋`. En primer lugar, necesitamos la configuración principal, así que sigue los siguientes pasos para obtenerla.
 
-### Project Structure
+### Estructura del proyecto
+
 ```
 /
 ├──  node_modules
@@ -85,25 +85,18 @@ To start our first Docker project, we are going to create the needed configurati
 └── yarn.lock
 ```
 
-### Code Breakdown
+### Desglose del código
 
 #### Dockerfile
 
 ```Dockerfile
 FROM node:12
-
 WORKDIR /app
-
 COPY package*.json ./
-
 RUN yarn
-
 COPY . .
-
 ENV PORT=8080
-
 EXPOSE 8080
-
 CMD [ "yarn", "start" ]
 ```
 
@@ -149,13 +142,13 @@ app.listen(port, () => console.log(`app listening on http://localhost:${port}`) 
 }
 ```
 
-### Commands
+### Comandos
 
-#### Build the Image
+#### Construir Imagen
 
 `docker build -t eoscostarica/helloworld:1.0 .`
 
-#### Run the Container
+#### Correr contenedor
 
 `docker run -p 5000:8080 <image-id>`
 
@@ -176,13 +169,12 @@ services:
       MYSQL_ROOT_PASSWORD: password
     volumes:
       - db-data:/foo
-
 volumes:
   db-data:
 ```
 
-### Run multiple Containers
+### Ejecutar Multiples Contenedores
 
-#### command line
+#### Comando
 
 `docker-compose up`

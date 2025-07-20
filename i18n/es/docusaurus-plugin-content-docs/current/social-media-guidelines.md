@@ -1,56 +1,57 @@
 ---
 id: social-media-guidelines
-title: Social Media Guidelines
-sidebar_label: Social Media Guidelines
-description: Social Media Guidelines for software developers EOS Costa Rica
-keywords: [ Social Media Guidelines, guidelines for developer, Social networks guidelines, Social networks EOS]
+title: Guías para Redes Sociales
+sidebar_label: Guías Para Redes Sociales
+description: Guías de redes sociales para los desarrolladores de software EOS Costa Rica.
+keywords: [redes sociales EOS, guías, desarrollo, software, EOS, EOS Costa Rica]
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-This site shows the different social networks in which you can follow the company as well as some recommendations on how to interact with us through them.
+Este sitio muestra las diferentes redes sociales con las que cuenta EOS Costa Rica, así como algunas recomendaciones sobre cómo interactuar con nosotros a través de ellas.
 
-Be respectful, mind your language, and keep it professional when representing the company or talking about related topics to blockchain/crypto.
+Sea respetuoso, cuide su lenguaje y mantenga lo profesional al representar a la empresa o al hablar sobre temas relacionados a blockchain/crypto.
 
-## **Objective:**
->Our potential clients or new talents could be found on LinkedIn, Twitter, Telegram, and other social media.Therefore, it is highly important for EOS Costa Rica that all the representatives will be recognized as part of the company in social media.
+## **Objetivo:**
+>Nuestros potenciales clientes o nuevos talentos se podrían encontrar en LinkedIn, Twitter, Telegram y otras redes sociales. Por eso, es muy importante que todos, como representantes de EOS Costa Rica, nos identifiquemos como parte de la compañía en redes sociales.
+
 
 ## [LinkedIn](https://www.linkedin.com/company/eoscostarica/)
 
-### **Instructions**
+### **Instrucciones**
 
-- Create an account and follow [EOS Costa Rica](https://www.linkedin.com/company/eoscostarica/).
+- Crear una cuenta y seguir a [EOS Costa Rica](https://www.linkedin.com/company/eoscostarica/).
 
-- Reshare posts with community.
+- Compartir las publicaciones de EOS Costa Rica con la comunidad.
 
-- Include the following description in your LinkedIn profile as a current job title, filling in the fields according to your responsibilities and experience.  
-The purpose of this process is to document in a homogeneous way the work of the EOS Costa Rica collaborators in this social network.  
-
-
-Please follow these directions to align our LinkedIn profiles. We prepare this base text to help update the description.  
-
-** *Follow the steps:* **
+- Incluir en su perfil de LinkedIn la siguiente descripción como actual puesto de trabajo, llenando los campos de acuerdo a sus responsabilidades y experiencia.  
+La finalidad de este proceso es documentar de manera homogénea el trabajo de los colaboradores de EOS Costa Rica en esta red social.
 
 
-1. Include your **job title**, **company** name, **location**, and your **date of entry**.
-Be sure to check the box to **update your headline**.
+
+Por favor seguir estas indicaciones para alinear nuestros perfiles de LinkedIn. Preparamos este texto base para ayudarles a actualizar la descripción. 
+
+
+***Siga los siguientes pasos:***
+
+
+1. Incluya su **puesto**, el nombre de la **compañía**, la **ubicación**, y su **fecha de ingreso**. Asegúrese de marcar la casilla para  **actualizar su headline**.
 
 <div style={{  textAlign: "center" }}>
-    <img alt="Form to edit the experience in LinkedIn" style={{ width:"70%" }} src={ useBaseUrl("/img/social-media/LinkedExperiencia.webp") } />
+    <img alt="Formulario para agregar la experiencia en LinkedIn" style={{ width:"70%" }} src={ useBaseUrl("/img/redes-sociales/LinkedExperiencia.webp") } />
 </div>
 
 
-2. In the description, adapt the following text according to your experience, position and
-specialization.
+2. En la descripción, adapte el siguiente texto de acuerdo a su experiencia, puesto y especialización.
 
 <div style={{  textAlign: "center" }}>
-    <img alt="Form to add the experience description in LinkedIn" src={ useBaseUrl("/img/social-media/LinkedDescripcion.webp") } />
+    <img alt="Formulario para agregar la descripción en LinkedIn" src={ useBaseUrl("/img/redes-sociales/LinkedDescripcion.webp") } />
 </div>
 
 
 
 
-** *Text Structure:* **
+***Estructura de la descripción:***
 
 I am a [**specialization developer**] with industry experience building decentralized apps and blockchain-based enterprise solutions on the EOSIO platform. I specialize in [**main languages and frameworks**]. Also, I have experience working with [**secondary languages and frameworks**].  
 
@@ -61,73 +62,75 @@ More on:
 - Web: https://eoscostarica.io/
 - Telegram: https://t.me/eoscr
 
-** *Examples of text:* **
+***Ejemplos de descripciones:***
 
-- **Example 1:**  
+- **Ejemplo 1:**  
 >I am a **Front End developer** with industry experience building decentralized applications and blockchain-based enterprise solutions on the EOSIO platform. I specialize in **JavaScript and C++**. Also, I have experience working with **Angular, Vue, and React**.  
 
-- **Example 2:**  
+- **Ejemplo 2:**  
 >I am a **UX designer** with industry experience building decentralized applications and blockchain-based enterprise solutions on the EOSIO platform. I specialize in **user centered design and planning customer journeys**. Also, I have experience working **as a UX researcher and UI designer**.
 
-- **Example 3:**  
+- **Ejemplo 3:**  
 >I am a **software intern** learning to develop decentralized applications on the EOSIO platform. I specialize in **JavaScript and C++**. Also, I know **Angular, Vue, and React**.  
 
-### **This is how it would look**
+### **Así es como se Vería**
 
 <div style={{  textAlign: "center" }}>
-    <img alt="How the final result is shown on LinkedIn" src={  useBaseUrl("/img/social-media/LinkedResultado.webp") } />
+    <img alt="Como se despliega el resultado final en LinkedIn" src={ useBaseUrl("/img/redes-sociales/LinkedResultado.webp") } loading="lazy"/>
 </div>
 
 
 ## [Twitter](https://twitter.com/EOSCostaRica)
 
-### **Instructions**  
-- Follow [EOS Costa Rica](https://twitter.com/EOSCostaRica) if you have one.
-- Reshare posts with community.
+### **Instrucciones**  
+- Seguir a [EOS Costa Rica](https://twitter.com/EOSCostaRica) si tiene una cuenta.
+- Compartir las publicaciones de EOS Costa Rica con la comunidad.
 
-## [Github](https://github.com/eoscostarica)
+## [GitHub](https://github.com/eoscostarica)
 
-### **Instructions** 
-- Create an account and follow [EOS Costa Rica](https://github.com/eoscostarica).
-- Review repositories and ask for permissions.
-- Edit profile to appear as collab for EOSCR.
+### **Instrucciones** 
+- Crear una cuenta y seguir a [EOS Costa Rica](https://github.com/eoscostarica).
+- Revise los repositorios y solicite permisos.
+- Edite el perfil para que aparezca como colaborador de EOS Costa Rica.
 
-** *Follow the steps:* **
-1. Include your **job title**, **company** name, **location**, and your **linkedin**.
+** *Siga los siguientes pasos:* **
+1. Incluya su **puesto**, el nombre de la **companía**, su **locación**, y su **linkedin**.
 
 <div style={{  textAlign: "center" }}>
-    <img alt="Form to add the personal information on GitHub" src={ useBaseUrl("/img/social-media/GithubEstado.webp") } />
+    <img alt="Formulario para agregar la información personal en GitHub" src={ useBaseUrl("/img/redes-sociales/GithubEstado.webp") } loading="lazy"/>
 </div>
 
-** *Examples of description:* **
 
-- **Example 1:**  
+** *Ejemplos de descripciones:* **
+
+- **Ejemplo 1:**  
 >Software Intern  @eoscostarica - a blockchain development company.
 
-- **Example 2:**  
+- **Ejemplo 2:**  
 >Communications Strategist @eoscostarica - a blockchain development company.
 
-### **This is how it would look**
+### **Así es como se Vería**
 <div style={{  textAlign: "center" }}>
-    <img alt="How the final result is shown on GitHub" src={  useBaseUrl("/img/social-media/GitHubResultado.webp") } />
+    <img alt="Como se muestra el resultado final en GitHub" src={ useBaseUrl("/img/redes-sociales/GitHubResultado.webp") } loading="lazy"/>
 </div>
 
 
 ## [Telegram](https://t.me/eoscr)
 
-### **Instructions**  
-- Create account and follow [EOS Costa Rica](https://t.me/eoscr).
-- Search for channels:
+### **Instrucciones**  
+- Crear una cuenta y seguir a [EOS Costa Rica](https://t.me/eoscr).
+- Buscar los canales:
     - https://t.me/blockchaincostarica
     - https://t.me/eosEs 
     - https://t.me/evodex_io 
     - https://t.me/lacchaineosio
 
-## Other Channels to Follow EOS Costa Rica:
+## Otros Canales para Seguir a EOS Costa Rica:
 - ### [Facebook](https://www.facebook.com/costaricaeos)
 - ### [Instagram](https://www.instagram.com/eoscostarica/)
 - ### [Youtube](https://www.youtube.com/channel/UCvYinCH3O1iKpi-_dNfQAGQ)
 - ### [Medium](https://eoscostarica.medium.com)
 - ### [Steemit](https://steemit.com/@eos-costarica)
+
 
 

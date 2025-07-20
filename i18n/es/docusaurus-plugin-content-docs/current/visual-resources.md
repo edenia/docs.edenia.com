@@ -1,9 +1,9 @@
 ---
 id: visual-resources
-title: Visual Resources
-sidebar_label: Visual Resources
-description: Visual Materials for software developers EOS Costa Rica
-keywords: [ Visual Resources, Components, Material to develop] 
+title: Recursos Visuales 
+sidebar_label: Recursos Visuales 
+description: Guías de redes sociales para los desarrolladores de software EOS Costa Rica.
+keywords: [redes sociales EOS, guías, desarrollo, software, EOS, EOS Costa Rica]
 ---
 
 ## EOS Costa Rica
@@ -21,32 +21,30 @@ keywords: [ Visual Resources, Components, Material to develop]
       }}
     >
       <img
-        alt="EOS Costa Rica logo horizontal white color with transparent background"
-        style={{}}
+        alt="Logo horizontal de EOS Costa Rica en color blanco con fondo transparente"
         src="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/byw-horizontal-transparent-white.png"
       />
     </div>
   </div>
   <div style={{ float: "left", width: "50%"}}>
     <div style={{ margin: "auto", padding: 50, width: "80%" }}>
-      <img 
-      alt="EOS Costa Rica logo horizontal black color with transparent background"
-      src="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/byw-horizontal-transparent.png" />
+      <img alt="Logo horizontal de EOS Costa Rica en color negro con fondo transparente" src="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/byw-horizontal-transparent.png" />
     </div>
   </div>
 </div>
+
 <div>
     <div style={{ float: "left", width: "50%", paddingTop: 5 }}>
-      <p>
-          <a href="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/byw-horizontal-transparent-white.png">
-              Get resource
-          </a>
-      </p>
+        <p>
+            <a href="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/byw-horizontal-transparent-white.png">
+                Obtener recurso
+            </a>
+        </p>
     </div>
     <div style={{ float: "left", width: "50%", paddingTop: 5 }}>
       <p>
         <a href="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/byw-horizontal-transparent.png">
-          Get resource
+          Obtener recurso
         </a>
       </p>
   </div>
@@ -57,43 +55,40 @@ keywords: [ Visual Resources, Components, Material to develop]
 <div>
   <div style={{ float: "left", width: "50%", backgroundColor: "black" }}>
     <div style={{ margin: "auto", padding: 50, width: "50%" }}>
-      <img 
-      alt="EOS Costa Rica logo vertical white color with transparent background"
-      src="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/byw-vertical-transparent-white.png" />
+      <img alt="Logo vertical de EOS Costa Rica en color blanco con fondo transparente" src="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/byw-vertical-transparent-white.png" />
     </div>
   </div>
   <div style={{ float: "left", width: "50%" }}>
     <div style={{ margin: "auto", padding: 50, width: "50%" }}>
-      <img 
-      alt="EOS Costa Rica logo vertical black color with transparent background"
-      src="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/byw-vertical-transparent-black.png" />
+      <img alt="Logo vertical de EOS Costa Rica en color negro con fondo transparente" src="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/byw-vertical-transparent-black.png" />
     </div>
   </div>
 </div>
+
 <div>
     <div style={{ float: "left", width: "50%", paddingTop: 5 }}>
-      <p>
-          <a href="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/byw-vertical-transparent-white.png">
-              Get resource
-          </a>
-      </p>
+        <p>
+            <a href="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/byw-vertical-transparent-white.png">
+                Obtener recurso
+            </a>
+        </p>
     </div>
     <div style={{ float: "left", width: "50%", paddingTop: 5 }}>
       <p>
         <a href="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/byw-vertical-transparent-black.png">
-          Get resource
+          Obtener recurso
         </a>
       </p>
   </div>
 </div>
 
-### Full Color
+### Multicolor
 
 <div>
   <div style={{ float: "left", width: "50%", padding: 50 }}>
     <img
-      alt="EOS Costa Rica logo horizontal full color with transparent background"
       style={{ align: "center" }}
+      alt="Logo multicolor horizontal de EOS Costa Rica con fondo transparente"
       src="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/fullColor-horizontal-transparent-white.png"
       loading="lazy"
     />
@@ -101,8 +96,8 @@ keywords: [ Visual Resources, Components, Material to develop]
   <div style={{ float: "left", width: "50%", padding: 50 }}>
     <div style={{ margin: "auto", width: "40%" }}>
       <img
-        alt="EOS Costa Rica logo vertical full color with transparent background"
         style={{ maxHeight: 350 }}
+        alt="Logo multicolor vertical de EOS Costa Rica con fondo transparente"
         src="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/fullColor-vertiall-transparent-white.png"
         loading="lazy"
       />
@@ -111,16 +106,16 @@ keywords: [ Visual Resources, Components, Material to develop]
 </div>
 <div>
     <div style={{ float: "left", width: "50%", paddingTop: 5 }}>
-      <p>
-          <a href="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/fullColor-horizontal-transparent-white.png">
-              Get resource
-          </a>
-      </p>
+        <p>
+            <a href="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/fullColor-horizontal-transparent-white.png">
+                Obtener recurso
+            </a>
+        </p>
     </div>
     <div style={{ float: "left", width: "50%", paddingTop: 5 }}>
       <p>
         <a href="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/fullColor-vertiall-transparent-white.png">
-          Get resource
+          Obtener recurso
         </a>
       </p>
   </div>
@@ -132,30 +127,26 @@ keywords: [ Visual Resources, Components, Material to develop]
 
 <div>
   <div style={{ float: "left", width: "50%", padding: 50 }}>
-    <img 
-    alt="EOS Rate logo horizontal with transparent background"
-    src="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosrate/eosrate--horizontal-solid-transparent-overlight.png" loading="lazy"/>
+    <img alt="Logo horizontal de EOS Rate con fondo transparente" src="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosrate/eosrate--horizontal-solid-transparent-overlight.png" loading="lazy"/>
   </div>
   <div style={{ float: "left", width: "50%", padding: 50 }}>
     <div style={{ margin: "auto", width: "80%" }}>
-      <img 
-      alt="EOS Rate logo vertical with transparent background"
-      src="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosrate/eosrate--vertical-solid-transparent-overlight.png" loading="lazy"/>
+      <img alt="Logo vertical de EOS Rate con fondo transparente" src="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosrate/eosrate--vertical-solid-transparent-overlight.png" loading="lazy"/>
     </div>
   </div>
 </div>
 <div>
     <div style={{ float: "left", width: "50%", paddingTop: 5 }}>
-      <p>
-          <a href="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosrate/eosrate--horizontal-solid-transparent-overlight.png">
-              Get resource
-          </a>
-      </p>
+        <p>
+            <a href="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosrate/eosrate--horizontal-solid-transparent-overlight.png">
+                Obtener recurso
+            </a>
+        </p>
     </div>
     <div style={{ float: "left", width: "50%", paddingTop: 5 }}>
       <p>
         <a href="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosrate/eosrate--vertical-solid-transparent-overlight.png">
-          Get resource
+          Obtener recurso
         </a>
       </p>
   </div>
@@ -164,6 +155,7 @@ keywords: [ Visual Resources, Components, Material to develop]
 * * * 
 
 ## Logos de EOS Local
+
 <div>
   <div
     style={{
@@ -174,30 +166,28 @@ keywords: [ Visual Resources, Components, Material to develop]
     }}
   >
     <img
-      alt="EOS Local logo white color with transparent background"
       style={{ backgroundColor: "black" }}
+      alt="Logo de EOS Local de color blanco con fondo transparente" 
       src="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eoslocal/eos-Local-forDarkBg.png"
       loading="lazy"
     />
   </div>
   <div style={{ float: "left", width: "50%", padding: 50 }}>
-    <img
-     alt="EOS Local logo full color with transparent background"
-     src="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eoslocal/eos-Local-forlightBg.png" loading="lazy"/>
+    <img alt="Logo multicolor de EOS Local con fondo transparente" src="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eoslocal/eos-Local-forlightBg.png" loading="lazy"/>
   </div>
 </div>
 <div>
     <div style={{ float: "left", width: "50%", paddingTop: 5 }}>
-      <p>
-          <a href="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eoslocal/eos-Local-forDarkBg.png">
-              Get resource
-          </a>
-      </p>
+        <p>
+            <a href="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eoslocal/eos-Local-forDarkBg.png">
+                Obtener recurso
+            </a>
+        </p>
     </div>
     <div style={{ float: "left", width: "50%", paddingTop: 5 }}>
       <p>
         <a href="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eoslocal/eos-Local-forlightBg.png">
-          Get resource
+          Obtener recurso
         </a>
       </p>
   </div>
@@ -207,7 +197,7 @@ keywords: [ Visual Resources, Components, Material to develop]
 
 ## Logos de Lifebank
 
-### Full Color
+### Multicolor
 
 <div>
   <div
@@ -219,61 +209,55 @@ keywords: [ Visual Resources, Components, Material to develop]
     }}
   >
     <img
-      alt="Lifebank logo white color with transparent background"
       style={{ backgroundColor: "black" }}
+      alt="Logo de Lifebank de color blanco con fondo transparente"
       src="https://raw.githubusercontent.com/eoscostarica/lifebank/master/docs/logos/1-Overblack-lifebank-logo-v1-may25-2020-01.svg"
       loading="lazy"
     />
   </div>
   <div style={{ float: "left", width: "50%", padding: 50 }}>
-    <img 
-    alt="Lifebank logo full color with transparent background"
-    src="https://raw.githubusercontent.com/eoscostarica/lifebank/master/docs/logos/2-OverWhite-lifebank-logo-v1-may25-2020-01.svg" loading="lazy"/>
+    <img alt="Logo multicolor de Lifebank con fondo transparente" src="https://raw.githubusercontent.com/eoscostarica/lifebank/master/docs/logos/2-OverWhite-lifebank-logo-v1-may25-2020-01.svg" loading="lazy"/>
   </div>
 </div>
 <div>
     <div style={{ float: "left", width: "50%", paddingTop: 5 }}>
-      <p>
-          <a href="https://raw.githubusercontent.com/eoscostarica/lifebank/master/docs/logos/1-Overblack-lifebank-logo-v1-may25-2020-01.svg">
-              Get resource
-          </a>
-      </p>
+        <p>
+            <a href="https://raw.githubusercontent.com/eoscostarica/lifebank/master/docs/logos/1-Overblack-lifebank-logo-v1-may25-2020-01.svg">
+                Obtener recurso
+            </a>
+        </p>
     </div>
     <div style={{ float: "left", width: "50%", paddingTop: 5 }}>
       <p>
         <a href="https://raw.githubusercontent.com/eoscostarica/lifebank/master/docs/logos/2-OverWhite-lifebank-logo-v1-may25-2020-01.svg">
-          Get resource
+          Obtener recurso
         </a>
       </p>
   </div>
 </div>
 
-### One Color
+### De un Color
 
 <div>
   <div style={{ float: "left", width: "50%", padding: 50 }}>
-    <img 
-    alt="Lifebank logo black color with transparent background"
-    src="https://raw.githubusercontent.com/eoscostarica/lifebank/master/docs/logos/3-byw-OverWhite--lifebank-logo-v1-may25-2020-01.svg" loading="lazy"/>
+    <img alt="Logo de Lifebank de color negro con fondo transparente" src="https://raw.githubusercontent.com/eoscostarica/lifebank/master/docs/logos/3-byw-OverWhite--lifebank-logo-v1-may25-2020-01.svg" loading="lazy"/>
   </div>
   <div style={{ float: "left", width: "50%", padding: 50 }}>
-    <img 
-    alt="Lifebank logo red color with transparent background"
-    src="https://raw.githubusercontent.com/eoscostarica/lifebank/master/docs/logos/4-singleColor-OverWhite--lifebank-logo-v1-may25-2020-01.svg" loading="lazy"/>
+    <img alt="Logo de Lifebank de color rojo con fondo transparente" src="https://raw.githubusercontent.com/eoscostarica/lifebank/master/docs/logos/4-singleColor-OverWhite--lifebank-logo-v1-may25-2020-01.svg" loading="lazy"/>
   </div>
 </div>
 <div>
     <div style={{ float: "left", width: "50%", paddingTop: 5 }}>
-      <p>
-          <a href="https://raw.githubusercontent.com/eoscostarica/lifebank/master/docs/logos/3-byw-OverWhite--lifebank-logo-v1-may25-2020-01.svg">
-              Get resource
-          </a>
-      </p>
+        <p>
+            <a href="https://raw.githubusercontent.com/eoscostarica/lifebank/master/docs/logos/3-byw-OverWhite--lifebank-logo-v1-may25-2020-01.svg">
+                Obtener recurso
+            </a>
+        </p>
     </div>
     <div style={{ float: "left", width: "50%", paddingTop: 5 }}>
       <p>
         <a href="https://raw.githubusercontent.com/eoscostarica/lifebank/master/docs/logos/1-Overblack-lifebank-logo-v1-may25-2020-01.svg">
-          Get resource
+          Obtener recurso
         </a>
       </p>
   </div>

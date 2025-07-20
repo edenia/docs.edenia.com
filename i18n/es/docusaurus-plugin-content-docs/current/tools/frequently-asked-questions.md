@@ -1,86 +1,85 @@
 ---
 id: frequently-asked-questions
-title: Frequently Asked Questions 
-sidebar_label: FAQs
-description: Frequently asked questions EOS Costa Rica
-keywords: [ EOS Costa Rica, EOS, FAQ, Frequently Asked Questions, EOSIO questions ]
+title: Preguntas Frecuentes de Desarrolladores
+sidebar_label: Preguntas Frecuentes
+description: Preguntas frecuentes de desarrolladores blockchain EOSIO
+keywords: [FAQ, Preguntas Frecuentes, Blockchain, Dessarrolladores, EOS, EOSIO]
 ---
 
 
-At EOS Costa Rica we are interested in the doubts of our engineers.
+En EOS Costa Rica nos interesan las dudas de nuestros ingenieros.
 
-Good development is key to the success of each of our products, so we seek to provide the best answers to each of your questions.
+El buen desarrollo es clave para el éxito de cada uno de nuestros productos, por eso buscamos brindar las mejores respuestas a cada una de sus preguntas.
 
-Below is a list of the questions most frequently asked during the development process documented by our workers.
-
-
-## What is a SSH (Secure Shell) ?
-
-The `SSH` is also known as Secure Shell or Secure Socket Shell, it is a protocol that you can use to connect and aunthenticate to remote servers and services. [More About SSH in GitHub](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/about-ssh)
+A continuación, se muestra una lista de las preguntas más frecuentes durante el proceso de desarrollo documentado por nuestros trabajadores.
 
 
-## What is the difference between a Regular Account and a Blockcahin Account?
+## ¿Qué es SSH (Secure Shell)?
 
-| Regular Account | Blockchain Account |  
+El `SSH` también se conoce como Secure Shell o Secure Socket Shell, es un protocolo que puede utilizar para conectarse y autenticarse en servidores y servicios remotos. [Más sobre SSH en GitHub](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/about-ssh).
+
+
+## ¿Cuál es la diferencia entre una cuenta regular y una cuenta Blockchain?
+
+| Cuenta regular | Cuenta Blockchain |  
 |------|------|
-|-Password is stored on company servers <br/> -Prone to be hack <br/> -No transparency   | -Should be kept secret <br/> -Assymmetric crytography <br/> -Public key and private key <br/> -Different key pairs have different permissions asociated   |
+|-La contraseña se almacena en los servidores de la empresa <br/> -Propenso a ser pirateado <br/> -Sin transparencia   | -Debe mantenerse en secreto <br/> -Criptografía asimétrica <br/> -Clave pública y clave privada <br/> -Diferentes pares de claves tienen diferentes permisos asociados   |
 
 
-## What is EOSIO ?
+## ¿Qué es EOSIO?
 
-It is a blockchain platform. Built for both public and private use cases. It is customizable to suit a wide range of business needs across industries with rich role-based security.
-
-
-## What is the difference between a public and private key?
+Es una plataforma blockchain. Construido para casos de uso públicos y privados. Se puede personalizar para adaptarse a una amplia gama de necesidades comerciales en todas las industrias con una gran seguridad basada en roles.
 
 
-They are part of the `Asymmetric Cipher`. Imagine a lock where the public key is used for closing the lock (encrypt the message) and the private key is used for opening the lock (decrypt the message). 
-Mentioned in Whitfield Diffie and Martin Hellman 1976 paper `New Directions in Cryptography`
-
->Public and private key definition can be found in the Tools, Glossary section.  
-
-[More information on how it works](https://www.preveil.com/blog/public-and-private-key/)
+## ¿Cuál es la diferencia entre una clave pública y una privada?
 
 
-## What are the best practices for programming in JavaScript?
+Ellas son parte del `Cifrado asimétrico`. Imagine una cerradura donde se usa la clave pública para cerrar la cerradura (encriptar el mensaje) y la clave privada se usa para abrir la cerradura (descifrar el mensaje). 
+Mencionado en el artículo de Whitfield Diffie y Martin Hellman 1976 `Nuevas direcciones en criptografía`.
+
+>La definición de clave pública y privada se pueden encontrar en la sección de Herramientas, Glosario.
+
+[Más información sobre cómo funciona](https://www.preveil.com/blog/public-and-private-key/)
 
 
-Following ** a standard makes it easier to understand the code **, more than one engineer works in a software project and being able to understand the code is vital for the development flow of the final product. Some of the most outstanding recommendations of this stardard are the following:
-- Use single quote
+## ¿Cuáles son las mejores prácticas para programar en JavaScript?
+
+
+Seguir ** un estándar facilita la comprensión del código **, más de un ingeniero trabaja en un proyecto de software y ser capaz de comprender el código es vital para el flujo de desarrollo del producto final. Algunas de las recomendaciones más destacadas de este estándar son las siguientes:
+- Usar comillas simples
 
     ```js
     console.log('hello there')    // ✓ ok
-    console.log("hello there")    // ✗ avoid
-    console.log(`hello there`)    // ✗ avoid
+    console.log("hello there")    // ✗ evitar
+    console.log(`hello there`)    // ✗ evitar
     $("<div class='box'>")        // ✓ ok
     console.log(`hello ${name}`)  // ✓ ok
     ```
 
-- Add a space after a keyword
+- Agrega un espacio después de una palabra clave
 
     ```js
     if (condition) { ... }   // ✓ ok
-    if(condition) { ... }    // ✗ avoid
+    if(condition) { ... }    // ✗ evitar
     ```
 
-- Add a space before the declaration of the parentheses of the function
+- Agregue un espacio antes de la declaración de los paréntesis de la función
 
     ```js
     function name (arg) { ... }   // ✓ ok
-    function name(arg) { ... }    // ✗ avoid
+    function name(arg) { ... }    // ✗ evitar
     run(function () { ... })      // ✓ ok
-    run(function() { ... })       // ✗ avoid
+    run(function() { ... })       // ✗ evitar
     ```
 
-For more information on the guidelines to follow, see [JavaScript Standard Style](https://standardjs.com/rules.html)
+Para obtener más información sobre las pautas a seguir, consulte [JavaScript Standard Style](https://standardjs.com/rules.html).
 
-## Why Blockchain?
+## ¿Por qué Blockchain?
 
-A blockchain is a data registry that works as a large ledger of accounts shared between several users or "nodes" in which transactions are recorded in a reliable and secure way. In this ledger, "blocks" are recorded, which are collections of data. These blocks are connected to each other in a chronological way creating a kind of chain.
-For more details, see [How does a blockchain work?](https://eoscostarica.medium.com/https-medium-com-eoscostarica-que-es-blockchain-d54d42439ef3)
+Un Blockchain es un registro de datos que funciona como un gran libro de cuentas compartido entre varios usuarios o "nodos" en el que las transacciones se registran de forma confiable y segura. En este libro mayor, se registran "bloques", que son colecciones de datos. Estos bloques están conectados entre sí de forma cronológica creando una especie de cadena.
+Para obtener más detalles, consulte [¿Cómo funciona una cadena de bloques?](https://eoscostarica.medium.com/https-medium-com-eoscostarica-que-es-blockchain-d54d42439ef3)
 
-## How does a Smart Contract work?
+## ¿Cómo funciona un Contrato Inteligente?
 
-A contract is simply a formalization agreement between two or more parties. It must define the scope, how to act and the consequences of acting in a different way. However, traditional contracts can present a problem: they are subject to interpretation.
-For more details on a smart contract, you can see [What is a smart contract?](https://eoscostarica.medium.com/qu%C3%A9-es-un-smart-contract-793d2042c65d)
-
+Un contrato es simplemente un acuerdo de formalización entre dos o más partes. Debe definir el alcance, la forma de actuar y las consecuencias de actuar de forma diferente. Sin embargo, los contratos tradicionales pueden presentar un problema: están sujetos a interpretación.
+Para obtener más detalles sobre un contrato inteligente, puede ver [¿Qué es un contrato inteligente?](https://eoscostarica.medium.com/qu%C3%A9-es-un-smart-contract-793d2042c65d)

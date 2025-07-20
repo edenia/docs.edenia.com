@@ -1,77 +1,87 @@
 ---
 id: consensus-mechanism
-title: DPoS Consensus Algorithm
-sidebar_label: DPoS Consensus Algorithm
-description: Consensus Algorithm for EOSIO protocol based blockchain networks.
-keywords: [Consensus Mechanism, Consensus Algorithms, Consensus, What is a consensus algorithm, What is a blockchain consensus algorithm, What is a consensus algorithm, POS, DPoS, POW, Delegated Proof of Stake, Proof of Stake]
+title: Algoritmo de Consenso DPoS
+sidebar_label: Algoritmo de Consenso DPoS
+description: Algoritmo de Consenso DPoS para redes blockchain basadas en protocolo EOSIO 
+keywords: [algoritmos de consenso, blockchain, eosio, Delegated Proof of Stake, DPoS, Mecanismo de Consenso, Qué es un mecanismo de consenso, Para qué es un algoritmo de consenso, Proof of Stake ]
 ---
 
-A consensus mechanism ensures that each new block that is added to the blockchain is accepted as the only version of the truth by all nodes on the network. In essence, a consensus algorithm aims to find a common agreement that is accepted for the whole network.
+El mecanismo de consenso asegura que cada nuevo bloque que se agrega al Blockchain sea la única versión de la verdad acordada por todos los nodos en la red. Por lo tanto, un algoritmo de consenso tiene como objetivo encontrar un acuerdo común que sea una aceptado por toda la red.
+
+Un Algoritmo de consenso es un proceso en Ciencias de la Computación usado para lograr acuerdo en un sólo valor de datos entre procesos o sistemas distribuidos.
+
+La tecnología Blockchain depende de Algoritmos de Consenso para lograr un acuerdo entre los nodos. Un blockchain puede ser pensado como una base de datos descentralizada que es manejada por computadoras distribuidas en una red de punto a punto (P2P). Cada punto mantiene una copia del estado de la red para prevenir un punto único de fallo (en inglés SPOF). Actualizaciones y validaciones son reflejadas en todas las copias simultáneamente.
 
 ## Delegated Proof of Stake (DPoS)
 
 <figure className="video_container">
-  <iframe width="100%"  height="315" src="https://www.youtube.com/embed/OVKAOwzAwHI" frameBorder="0" allowFullScreen loading="lazy"> </iframe>
+  <iframe 
+    width="100%" 
+    height="315" 
+    src="https://www.youtube.com/embed/OVKAOwzAwHI"     
+    frameBorder={0}
+    allowFullScreen
+    loading="lazy"> </iframe>
 </figure>
 
-A consensus algorithm is a process in Computer Science used to achieve agreement on a single data value between processes or distributed systems.
+El software EOSIO utiliza el único conocido Algoritmo de Consenso Descentralizado probado capaz de cumplir los requerimientos de rendimiento de las aplicaciones en el blockchain, **Delegated Proof of Stake (DPoS)**. Bajo este algoritmo, aquellos que mantienen token en el blockchain adoptando el software EOSIO pueden seleccionar los productores de bloques através de un sistema de aprobación continua. Cualquiera que elija participar en la producción de bloques tendrán la oportunidad de producirlos, siempre que puedan persuadir a los titulares de tokens para que voten por ellos.
 
-Blockchain technology depends on Consensus Algorithms to achieve an agreement between the nodes. A blockchain can be thought of as a decentralized database that is managed by computers distributed in a point-to-point (P2P) network. Each point maintains a copy of the network state to prevent a single point of failure (SPOF). Updates and validations are reflected on all copies simultaneously.
+ - [DPOS Algoritmo de Consenso](https://steemit.com/dpos/@dantheman/dpos-consensus-algorithm-this-missing-white-paper)
 
-EOSIO software uses the only known proven decentralized consensus algorithm capable of meeting the performance requirements of blockchain applications, **Delegated Proof of Stake (DPoS)**. Under this algorithm, those who hold tokens on the blockchain by adopting EOSIO software can select block producers through a continuous approval system. Anyone who chooses to participate in block production will have a chance to produce them, provided they can persuade token holders to vote for them.
+EOSIO delegará la autoridad para validar y escribir nuevos bloques a un grupo de nodos que llamamos [Productores de Bloques](#qué-es-un-productor-de-bloques).
 
- - [DPoS Consensus algorithm](https://steemit.com/dpos/@dantheman/dpos-consensus-algorithm-this-missing-white-paper)
+## ¿Qué es un productor de bloques?
 
-EOSIO will delegate the the authority to validate and write new blocks to a group of nodes that we call **Block Producers**.
+Los productores de bloques proveen la infraestructura requerida para procesar las transacciones. Algunos productores de bloques operan con sus propios equipos físicos, mientras otros proveen servicios utilizando servicios en la nube de terceros.
 
-## What is a Block Producer?
-
-Block producers provide the infrastructure required to process transactions. Some block producers operate on their own physical equipment, while others provide services using third-party cloud services.
-
-### Explaining the Role of an EOS Block Producer
+### Explicando el rol de un productor de bloques de EOS
 
 <figure className="video_container">
-  <iframe width="100%"  height="315" src="https://www.youtube.com/embed/YLt5uexD9gg" frameBorder="0" allowFullScreen loading="lazy"> </iframe>
+  <iframe 
+    width="100%" 
+    height="315" src="https://www.youtube.com/embed/YLt5uexD9gg"     
+    frameBorder={0}
+    allowFullScreen
+    loading="lazy"> </iframe>
 </figure>
 
+### Productores de Bloques Activos
 
-### Active Blocks Producers
+Los nodos autorizados como productores de bloques activos pertenecen a un grupo que comparte la responsabilidad de validar y escribir todas las acciones en la red.
 
-The accounts authorized as active block producers belong to a group that shares the responsibility of validating and writing all the transactions in the network.
+Son capaces de reconocer las firmas de los nodos escritores y verificar que las transacciones hayan sido transmitidas a la red por nodos autorizados mediante listas blancas en contratos inteligentes.
 
-They are able to recognize the signatures of other nodes and verify that the transactions have been transmitted to the network by authorized nodes through white lists in smart contracts.
+Una red EOSIO esta configurada por defecto para utilizar 21 productores activos y una serie productores de reserva para una operación estable.
 
-An EOSIO network is configured by default to use 21 active producers and a series of reserve producers for stable operation.
 
-> EOSIO allows up to 125 active block producers, specified by `max_producers` in [config.hpp](https://github.com/EOSIO/eos/blob/master/libraries/chain/include/eosio/chain/config.hpp#L106)
+> EOSIO permite hasta 125 productores de bloque activos, especificado mediante `max_producers` en [config.hpp](https://github.com/EOSIO/eos/blob/master/libraries/chain/include/eosio/chain/config.hpp#L106)
 
-### Block Producer Schedule
+### Cronograma de Producción
 
-In EOSIO networks, active block producers are listed on a list, called **schedule**.
+En redes EOSIO, los productores de bloques activos se enumeran en un cronograma, llamado **schedule**.
 
-The schedule is arranged alphabetically and thus defines the sequence in which block producers must sign blocks.
+La lista de cuentas de productores en el schedule se ordena alfabéticamente y así se define la secuencia en que deben firmar bloques.
 
-Each producer receives a 12 block window to sign before the next producer starts their window. New blocks are produced by the first node in the list for a period of 6 seconds (12 blocks) and then the next node continues to produce the next 12 blocks and so on.
+Cada productor recibe una ventana de 12 bloques para firmar antes de que el siguiente productor inicie su ventana. Los bloques nuevos son producidos por el primer nodo en la lista durante un periodo de 6 segundos (12 bloques) y luego pasa el siguiente nodo a producir los siguientes 12 bloques y así sucesivamente.
 
-If a producer node is not ready or unavailable, there is no one to produce the 12 blocks, so all speculative transactions are delayed until the next producer starts signing.
+Si un nodo productor no está listo o no está disponible, no hay nadie para producir los 12 bloques, por lo que todas las transacciones especulativas se retrasan hasta que el próximo productor comience a firmar.
 
-### Byzantine Fault Tolerance
+### Tolerancia a Fallas Bizantinas
 
-New blocks are considered reversible until they have been validated by 2/3 +1 of the active producers. This way if a producer node inserts an invalid block, the following nodes will reject it and the block will not be included unless 2/3 +1 of the producers group approve it.
+Los bloques no se consideran irreversibles en la cadena hasta que hayan sido validados por 2/3 +1 de los productores activos. De tal manera que si un productor del grupo inserta un bloque invalido los nodos siguientes lo rechazaran y las transacciones y no serán incluidas sin que 2/3 +1 hayan validado ese bloque.
 
-> **Example:** A network of 21 active producers requires validation of 15 nodes (2/3 +1), which takes on average 90 seconds to obtain irreversibility of a new block
+> **Ejemplo:** Una red de 21 productores activos requiere validación de 15 nodos (2/3 +1), lo cual toma en promedio 90 segundos para obtener irreversibilidad de un bloque nuevo
 
-### Node Fault Tolerance
+### Tolerancia a Fallas en Nodos
 
-Once a block is signed, other producers on the schedule validate it and it goes into an irreversible state after 2/3 + 1 producers have signed. So if 1/3 or more of all producers are offline, the last irreversible block number, known as **Last Irreversible Block** or **LIB**, would not increase and the blockchain will stop.
+Una vez que se firma un bloque, otros productores lo validan en el cronograma y pasa a un estado irreversible después de que 2/3 + 1 productores lo hayan validado. Entonces, si 1/3 o más de todos los productores están fuera de línea, el último número de bloque irreversible, conocido como **Last Irreversible Block** o **LIB**, no aumentaría y la cadena de bloques se detendrá.
 
-Servers sometimes fail, and sometimes must be decommissioned for software updates and system maintenance, which is important to consider on small EOSIO networks.
+Los servidores a veces fallan, y a veces deben ser retirados de operación para actualizaciones de software y mantenimiento del sistema, lo que es importante considerar en redes EOSIO pequeñas.
 
-With only 5 producers, the network will tolerate 1 producer going offline. If more than one is offline, the number of the **LIB** will stop increasing and the network will stop. With 4 nodes, a single failed a node will stall the network. With 9 producers, two nodes can be disconnected without breaking the network.
+Con solo 5 productores, la red tolerará que 1 productor se desconecte. Si más de uno está fuera de línea, el número del **LIB** dejará de moverse y la red se detendrá. Con 4 nodos, la interrupción de un nodo interrumpirá la operación. Con 9 productores, dos nodos pueden desconectarse sin romper la red.
 
-It is also important that private keys used by production nodes are properly backed up. If block producer keys are lost due to a system disaster, there is a chance that the network will stop working forever.
+Es importante que las llaves privadas de producción estén respaldadas correctamente. Si se pierden llaves de productores de bloques debido a un desastre del sistema, existe la posibilidad de que la red deje de funcionar para siempre.
 
-### Stand-By Block Producers
+### Productores de Bloques de Reserva
 
-EOSIO networks keep a list of registered block producer accounts that run nodes that can successfully produce blocks just by being added to the schedule of active producers.
-
+Las redes EOSIO manejan un grupo de nodos productores de bloques registrados que pueden asumir el rol de productores de bloques con solo ser agregado al schedule de productores activos.

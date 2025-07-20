@@ -16,6 +16,7 @@
  import { Box, Grid, Container, Link} from '@mui/material';
  import { AiFillGithub, AiFillLinkedin, AiOutlineTwitter, AiOutlineInstagram, AiFillYoutube } from "react-icons/ai";
  import { BsMedium } from "react-icons/bs";
+ import Translate from '@docusaurus/Translate';
   
  const FooterLogo = ({ url, alt }) => (
    <img className="footer__logo" alt={alt} src={url} width='140' height='100' loading="lazy" />
@@ -60,21 +61,21 @@
                     <Grid item xs>
                      <Box className={styles.borderleft}>
                        <Box>
-                       <h4>EOS Costa Rica</h4>
+                       <h4><Translate id="footer.eosCostaRica">EOS Costa Rica</Translate></h4>
                        </Box>
                        <Box>
                          <Link href="https://guide.eoscostarica.io/docs/engineering-culture" color="inherit">
-                          Engineering Culture
+                          <Translate id="footer.engineeringCulture">Engineering Culture</Translate>
                          </Link>
                        </Box>
                        <Box>
                          <Link href="https://guide.eoscostarica.io/docs/open-source-projects" color="inherit">
-                           Open Source Projects
+                           <Translate id="footer.openSourceProjects">Open Source Projects</Translate>
                          </Link>
                        </Box>
                        <Box>
                          <Link href="https://guide.eoscostarica.io/docs/open-source-guidelines" color="inherit">
-                           Open Source Guidelines
+                           <Translate id="footer.openSourceGuidelines">Open Source Guidelines</Translate>
                          </Link>
                        </Box>
                      </Box>
@@ -82,21 +83,21 @@
                    <Grid item xs>
                      <Box className={styles.bordermid}>
                        <Box>
-                        <h4>Community</h4>
+                        <h4><Translate id="footer.community">Community</Translate></h4>
                         </Box>
                        <Box>
                          <Link href="https://www.meetup.com/es/EOS-Costa-Rica/" color="inherit">
-                           Meetup
+                           <Translate id="footer.meetup">Meetup</Translate>
                          </Link>
                        </Box>
                        <Box>
                          <Link href="https://t.me/eoscr" color="inherit">
-                           Telegram Channel
+                           <Translate id="footer.telegram">Telegram Channel</Translate>
                          </Link>
                        </Box>
                        <Box>
                          <Link href="https://github.com/eoscostarica/" color="inherit">
-                           GitHub
+                           <Translate id="footer.github">GitHub</Translate>
                          </Link>
                        </Box>
                      </Box>
@@ -104,21 +105,21 @@
                    <Grid item xs>
                      <Box className={styles.borderRight}>
                        <Box>
-                       <h4>More</h4>
+                       <h4><Translate id="footer.more">More</Translate></h4>
                        </Box>
                        <Box>
                          <Link href="https://www.linkedin.com/company/eoscostarica/" color="inherit">
-                           Linkedin
+                           <Translate id="footer.linkedin">Linkedin</Translate>
                          </Link>
                        </Box>
                        <Box>
                          <Link href="https://eoscostarica.medium.com/" color="inherit">
-                           Medium
+                           <Translate id="footer.medium">Medium</Translate>
                          </Link>
                        </Box>
                        <Box>
                          <Link href="https://twitter.com/eoscostarica" color="inherit">
-                           Twitter
+                           <Translate id="footer.twitter">Twitter</Translate>
                          </Link>
                        </Box>
                      </Box>

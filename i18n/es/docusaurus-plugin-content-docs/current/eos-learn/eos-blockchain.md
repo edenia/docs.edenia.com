@@ -2,7 +2,7 @@
 id: eos-blockchain
 title: EOS Blockchain
 sidebar_label: EOS Blockchain
-description: EOS Blockchain, explaining how it works and how to use it.
+description: EOS Blockchain, explicando cómo funciona y cómo usarlo.
 keywords: [EOS Blockchain, blockchain, eos, EOSIO, mainnet, EOS Costa Rica, What is blockchain]
 ---
 
@@ -45,11 +45,11 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
   <br />
 </p>
 
-* * *
+---
 
-## EOS Storage
+## Almacenamiento de EOS
 
-[EOS.IO Storage White Paper](https://steemit.com/eos/@eosio/eos-io-storage-white-paper-now-available)
+[Libro Blanco de Almacenamiento de EOS.IO](https://steemit.com/eos/@eosio/eos-io-storage-white-paper-now-available)
 
 <figure className="video_container">
   <iframe
@@ -63,28 +63,28 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
   </iframe>
 </figure>
 
-* * *
+---
 
-### EOS Explained by Dan Larimer   
+### EOS explicado por Dan Larimer
 
 <figure className="video_container">
-  <iframe width="100%" height="315" src="https://www.youtube.com/embed/xkXuFeN-KMw" frameBorder="0"     allowFullScreen loading="lazy"> </iframe>
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/xkXuFeN-KMw" frameBorder="0" allowFullScreen loading="lazy"> </iframe>
 </figure>
 
-* * *
+---
 
-### Introduction to EOS
+### Introducción a EOS
 
 <figure className="video_container">
-  <iframe width="100%" height="315" src="https://www.youtube.com/embed/IjrDj6KQGe8" frameBorder="0"     allowFullScreen loading="lazy"> </iframe>
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/IjrDj6KQGe8" frameBorder="0" allowFullScreen loading="lazy"> </iframe>
 </figure>
 
-* * *
+---
 
-### Internal Economy
+### Economía interna
 
 <figure className="video_container">
-  <iframe width="100%" height="315" src="https://www.youtube.com/embed/2EgBTvUeH30" frameBorder="0"     allowFullScreen loading="lazy"> </iframe>
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/2EgBTvUeH30" frameBorder="0" allowFullScreen loading="lazy"> </iframe>
 </figure>
 
 <br/>
@@ -92,6 +92,6 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
   <img alt="EOS Application Stack" src={ useBaseUrl( '/img/eos-blockchain/eos-application-stack.webp' )} width="100%" />
   <br />
   <small>
-    <b>Source:</b>steemit.com/eos/@eosio/introducing-eos-io-application-stack
+    <b>Fuente:</b> steemit.com/eos/@eosio/introducing-eos-io-application-stack
   </small>
 </p>

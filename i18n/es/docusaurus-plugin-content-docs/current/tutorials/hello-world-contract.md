@@ -1,59 +1,60 @@
 ---
 id: hello-world-contract
-title: Creating Smart Contracts to EOSIO
-sidebar_label: Hello World Contract
-description: Creating Hello World Contract to EOSIO blockchain
-keywords: [Contract, Smart Contracts, Create Contract, How Create a Smart Contract, What is a Smart Contract, EOS, EOS Costa Rica]
+title: Creando Contrato para EOSIO
+sidebar_label: Contrato Hola Mundo
+description: Creando contrato hola mundo para la blockchain EOSIO
+keywords: [contrato, crear contrato, eosio, blockchain, EOS, Qué es un contrato inteligente, Qué es un contrato inteligente]
 ---
 
-We explain by example how to create an account and a `Hello World` contract to upload to a EOS.IO based blockchain. For this example, we based on the resources published by [Block.one to share with the community](https://developers.eos.io/).
+Explicamos con ejemplos cómo crear una cuenta y un contrato `Hello World` para subir a una blockchain basada en EOS.IO. Para este ejemplo, nos basamos en recursos publicados por [Block.one para compartir con la comunidad](https://developers.eos.io/).
 
-## Get your Private Keys
+## Obtenga sus Llaves Privadas
 
-More information [about private keys](https://guide.eoscostarica.io/docs/eos-learn/private-keys).
+Mas información [sobre llaves privadas](https://guias.eoscostarica.io/docs/aprender-eosio/llaves-privadas).
 
-## Acquire RAM Resource
+## Adquirir Recurso RAM
 
-We can use the Faucet to receive dummy tokens for free, that in this case will be EOS, necessary to use network resources (as long as we have participation on that network). The sense of that is, for the contract, we will be requiring to acquire RAM resources of the block producers, for which that we will need these EOS that were just sent to us.
+Una vez que se tiene la cuenta, podemos usar el Faucet para recibir tokens ficticios gratis, que en este caso serán EOS, necesarios para usar recursos de la red (siempre y cuando se tenga participación en esa red). La lógica de esto es que, para el contrato, estaremos requiriendo adquirir recursos RAM de block producers, para lo cual necesitaremos estos EOS que se nos acaban de enviar.
 
-With this command, we can check the EOS quantity we have in this account (which in this case are 100 EOS), as well as the RAM resource, which at this moment is 5.366 KiB.
+Con este comando podemos revisar la cantidad de EOS con los que contamos en esta cuenta (que en este caso son 100 EOS), así como el recurso RAM, que en este momento es de 5.366 KiB.
 
-To acquire RAM, we write the command `buyram` for our account. We must specify twice the name of the account, once to define where the EOS come out and again to indicate where to RAM is sent. In the same line, we must indicate the EOS quantity we will be providing. For this example, we are sending 50 EOS. By having the wallet unlocked, automatically we acquired the RAM for the amount of EOS that we indicated.
+Para adquirir RAM, escribimos el comando `buyram` para nuestra cuenta. Se debe especificar dos veces el nombre de la cuenta, una vez para definir de dónde salen los EOS y otra vez para indicar hacia dónde se envía el RAM. En la misma línea, se debe indicar la cantidad de EOS que estaremos aportando. Para el ejemplo estaremos enviando 50 EOS. Al tener la billetera desbloqueada, automáticamente adquirimos el RAM por el monto de EOS que indicamos.
 
-After executing the buy, we can verify that now we have 86 KiB of RAM and just 50 EOS of the 100 that originally were assigned to us.
+Luego de ejecutar la compra, se puede verificar que ahora se tienen 86 KiB de RAM y solo 50 EOS de los 100 que originalmente nos fueron asignados.
 
-In the Bloks.io explorer, we can search for the information in that account. Additionally, we can review the taken actions, including the RAM buy transactions, the Faucet tokens and the complete history of movements.
+En el block explorer de Bloks.io, se puede buscar la información de esa cuenta. Adicionalmente, se pueden revisar las acciones tomadas, incluyendo las transacciones de compra de RAM, los tokens del Faucet y el historial completo de movimientos.
 
-## Create a Contract
+## Crear un Contrato
 
-To continue, let's create a simple contract inside a new directory, which we call "hellocontract". As resources are needed on EOS, these should be associated with the account tokens, so first should put the same contract name previously created.
+Para continuar, vamos a crear un contrato sencillo dentro de un nuevo directorio, el cual llamamos “holacontrato”. Como en EOS se requieren recursos, estos deberán estar asociados a los tokens de una cuenta, por lo que se debe poner el mismo nombre del contrato anteriormente creado.
 
-To edit the contract, a text editor can be used. For this example, Sublime Text was used.
+Para editar el contrato, puede usarse un editor de texto. Para este ejemplo se utilizó Sublime Text.
 
-The first line includes a library in which we have access through the Contract Development Kit (CDT), a tool that allows access to resources to create the contracts.
+La primera línea incluye una librería que a la cual se tiene acceso a través del Contract Development Toolkit (CDT), una herramienta que permite acceder a recursos para crear los contratos.
 
-In the class line, our "hellocontract" contract should be exposed, which has an action defined, which in this case we call it "hello" and its argument is a user of the type name. Upon saving the contract, is left a C++ in the directory.
+En la línea de clase, se deberá exponer nuestro contrato “holacontrato” que tiene una acción definida, que en este caso llamamos “Hola” y su argumento es un usuario tipo nombre. Al guardar el contrato, en el directorio queda un archivo C++.
 
-The C++ file needs to be compiled using the tool CDT (Contract Development Toolkit), that receives as input the C++ file and as output originates a web assembly (warm) file which is an executable file by the contract. Additionally to the wasm file, an abi file is also generated which functions for mapping the contract functions. The command is going to receive the contract as input and as output is going to generate a wasm file which is the file that is uploaded on the blockchain.
+El archivo C++ se tiene que compilar usando la herramienta CDT (Contract Development Toolkit), que recibe de input el archivo C++ y como output origina un archivo web assembly (wasm) que es un archivo ejecutable por el contrato. Adicional al archivo wasm, también se genera un archivo abi que sirve para el mapeo de las funciones del contrato. El comando va a recibir el contrato como un input y como output va a generar un archivo wasm que es el archivo que realmente se sube al blockchain.
 
-As we didn't specify one, the system give us a message that there is no Ricardian clause. A Ricardian clause is a contract in prose, written in English, that describes the intention of the contract and should be aligned with the intention for which it was created. In the Block.one's site are resources for the Ricardian clauses. For the purposes of the example, we don't create one.
+Como no especificamos una, el sistema nos da un mensaje de que no existe una cláusula ricardiana. Una cláusula ricardiana es un contrato en prosa, escrito en inglés, que describe la intención del contrato y que debe estar alineada con la intención para la que se creó. En el sitio de Block.one vienen recursos para las cláusulas ricardianas. Para efectos del ejemplo no creamos uno.
 
-Once the command has been executed for the set contract, the system reads the information in the contract and then publish it.
+Una vez ejecutado el comando para set contract, el sistema lee la información en el contrato para luego publicarlo.
 
-## Publish the Contract
+## Publicar el Contrato
 
-To publish our contract, we should use the `cleos` and the API endpoint to upload the contract to the location we want with active permission to sign with the created wallet.
+Para publicar nuestro contrato, debemos usar el comando usado en `cleos` y el API endpoint usado anteriormente para subir el contrato a la ubicación que queremos con un permiso activo para poder firmar con la billetera creada.
 
-Back in the block explorer (Bloks.io), we can verify that the account is the owner of the contract that exposes the "Hello" action and contains the abi information in which is specified in JSON structure the actions within the contract and associated components.
+De vuelta al block explorer (Bloks.io), podemos verificar que la cuenta es dueña de un contrato que expone la acción “Hola” y que contiene la información abi en la que se especifican en estructura JSON las acciones dentro del contrato y componentes asociados.
 
-Once the contract is ready, we can execute one action in the contract. With cleos there is a command to specify the endpoint within the Jungle Testnet and execute the "Hello" action. For this example, we put as input: "eoscostarica". The output of the action will be the text "Hello eoscostarica".
+Una vez que el contrato esté listo, podemos ejecutar una acción en el contrato. Con cleos existe un comando para especificar el endpoint y así ejecutar la acción “Hola”. Para este ejemplo, ponemos como input: “eoscostarica”. El output de la acción será el texto “Hola eoscostarica”.
 
-We can verify in the blocks explorer the executed actions.
+Podemos verificar en el explorador de bloques las acciones ejecutadas.
 
-Is necessary to wait some seconds to complete the irreversibility of the block, since the block producers should validate the data block for this.
+Es necesario esperar unos segundos para completar la irreversibilidad del bloque, ya que los block producers deben hacer la validación del bloque de datos para esto.
 
-Finally, this is a sample of how you can interact with a blockchain. There are JavaScript tools, library [EOS JS](https://guide.eoscostarica.io/docs/tools/eosio-sdk-libraries) that could be implemented to execute actions in a way more programmatic to integrate with dApps, data may persist, or even execute business logic on the blockchain with this same pattern.
+Finalmente, esta es una muestra de cómo se puede interactuar con una blockchain. Existen herramientas de Javascript, librería [EOS JS](https://guias.eoscostarica.io/docs/herramientas/librerias-sdk#eosjs) que podría implementarse para ejecutar acciones de una manera más programática para integrar con dApps, poder persistir datos, o incluso ejecutar lógica de negocios en la blockchain con este mismo patrón.
 
 ## Video Tutorial
 
-<iframe width="100%" height="350" src="https://www.youtube.com/embed/nMivNMvS09Y" frameBorder="0" allowFullScreen loading="lazy"></iframe>
+<iframe width="100%" height="350" src="https://www.youtube.com/embed/nMivNMvS09Y" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen>
+</iframe>

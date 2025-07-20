@@ -1,21 +1,22 @@
 ---
 id: blockchain-security
-title: Blockchain Vulnerabilities
-sidebar_label: Blockchain Security
-description: Dangerous vulnerabilities in the blockchain ecosystem.
-keywords: [blockchain, security, vulnerabilities, Security Risks in the Blockchain Ecosystem, EOSIO, EOS, EOS Costa Rica, eosio.io, What is Security, What is the Blockchain Security]
+title: Vulnerabilidades del Blockchain
+sidebar_label: Seguridad Blockchain
+description: Consideraciones de Seguridad que para Aplicaciones Blockchain
+keywords: [seguridad, blockchain, eosio, eos, EOS, Vulnerabilidades Blockchain, ¿Riesgo de Seguridad en blockchain?]
 ---
-## Exploiting vulnerabilities in Blockchain
+## Explotando Vulnerabilidades en Blockchain
 
-Blockchain is a set of emerging technologies that are presented as alternatives to centralized systems. A notable example is that they seek to replace traditional banking systems through the use of cryptocurrencies without centralized control, as in the case of the well-known Bitcoin. They also have other important applications, such as in the traceability of assets, the control of corruption, and even democratic systems. Some of these capabilities are implemented through "smart contracts", basically software that runs on blockchains.
+El blockchain es un conjunto de tecnologías emergentes que se presentan como alternativas a sistemas centralizados. Un ejemplo notable es que buscan reemplazar los tradicionales sistemas bancarios por medio del uso de criptomonedas sin un control centralizado, como el caso del conocido Bitcoin. También tienen otras aplicaciones importantes, como en la trazabilidad de bienes, el control de la corrupción, e incluso los sistemas democráticos. Algunas de estas capacidades se implementan por medio de "contratos inteligentes", básicamente software que se ejecute sobre las blockchain.
 
-Being a relatively new technology, in full swing of research and development, it also presents security problems that can be exploited by attackers. As mentioned before, some of the systems that blockchains seek to replace are critical. Any security problem can have catastrophic consequences in money and continuity of the organizations.
+Al ser una tecnología relativamente nueva, en pleno auge de investigación y desarrollo, también presenta problemas de seguridad que pueden ser explotados por atacantes. Como se menciona antes, algunos de los sistemas que las blockchain buscan reemplazar son críticos. Cualquier problema de seguridad puede tener consecuencias catastróficas en dinero y continuidad de las organizaciones.
 
-In this talk we will talk about the main security problems that affect blockchains, especially with a focus on smart contracts. We will show how these flaws can be exploited and we will give some practical examples. We will also talk about some famous hacks in which attackers have been able to steal millions of dollars from some blockchain-based systems. Finally we will explain how these failures can be avoided. We will especially focus on EOSIO technology.
+En esta charla hablaremos de los principales problemas de seguridad que afectan a las blockchain, especialmente con un enfoque en los contratos inteligentes. Mostraremos como se pueden explotar estas fallas y daremos algunos ejemplos prácticos. También hablaremos de algunos hackeos famosos en los que atacantes han sido capaz de robar millones de dolares de algunas sistemas basados en blockchain. Finalmente explicaremos como se pueden evitar dichas fallas. Nos enfocaremos especialmente en a tecnología de EOSIO.
 
 <iframe width="100%" height="350" src="https://www.youtube.com/embed/tss1d0sow0o" frameBorder="0" allowFullScreen loading="lazy"></iframe> 
 
-As mentioned above, no system is 100% secure. Therefore, it is necessary to take into account that attackers can steal information in one way or another, so it is important to know how to avoid these attacks and learn from them to improve the security of our systems and thus avoid future threats.
+<br/>
 
-We have witnessed some attacks first-hand in which attackers have been able to steal information over even user funds, such as the attack on **(EOS SX Vault)**. In this case, the attacker found some vulnerabilities in the smart contract running on the blockchain. For this attack our team conducted an investigation to analyze and learn from the vulnerability, you can follow up on this complete analysis on **[Analysis of the Vulnerability Found in the vaults.sx Smart Contract](https://eoscostarica.medium.com/analysis-of-the-vulnerability-found-in-the-vaults-sx-smart-contract-445c8c968b5f)**.
+Como se mencionaba anteriormente, ningún sistema es 100% seguro. Por ello, es necesario tener en cuenta que los atacantes pueden robar información de alguna u otra manera, por lo que es importante saber cómo evitar estos ataques y aprender de los mismos para mejorar la seguridad de nuestros sistemas y así evitar futuras amenazas.
 
+Hemos presenciando algunos ataques en los que los atacantes han sido capaces de robar información o inclusive fondos de usuarios, como es el caso del ataque a **(EOS SX Vault)**. En este caso, el atacante encontró algunas vulnerabilidades en el contrato inteligente que se ejecuta en la blockchain. Para este ataque nuestro equipo realizó un seguimiento completo para analizar y aprender de la vulnerabilidad que presentaba el sistema, puedes dar seguimiento de este análisis completo en **[Vulnerabilidad encontrada en el contrato inteligente "vaults.sx" (ataque EOS SX Vault)](https://eoscostarica.medium.com/vulnerabilidad-encontrada-en-el-contrato-inteligente-vaults-sx-ataque-eos-sx-vault-c60eb192f148)**.

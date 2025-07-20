@@ -1,69 +1,69 @@
 ---
 id: github-keys
-title: GitHub Keys
-sidebar_label: GitHub Keys 
-description: Keys SSH from GitHub to access the repositories
-keywords: [ GitHub, Keys, SSH, SSH Keys, GitHub Keys, What is SSH, What is SSH Keys, How to use SSH, How to use SSH Keys, SSH Guide ]
+title: Llaves de GitHub
+sidebar_label: Llaves de GitHub
+description: "Llaves SSH para acceder a los repositorios de GitHub"
+keywords: [github, ssh, ssh-key, ssh-keygen, generar ssh key github, git key, extensión de la llave privada en git, ssh key github, Qué es SSH, Qué son las llaves SSH]
 ---
 
-## Why we need GitHub Keys?
+## ¿Por qué necesitamos Llaves de GitHub?
 
-Let's first define GitHub as a browser-based online control system of distributed version for those software developers using the Git revision control system. Git uses SSH public key authentication and not a password authentication.  Each user of the system has to generate a key.
+Definamos primero a GitHub como un sistema de control de versiones distribuidas en línea basado en un navegador para aquellos desarrolladores de software que utilizan el sistema de control de revisiones Git. Git utiliza la autenticación de clave pública SSH y no una autenticación por contraseña.  Cada usuario del sistema tiene que generar una clave.
 
-The `SSH` is also known as Secure Shell or Secure Socket Shell [More About SSH in GitHub](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/about-ssh). SSH keys are used to authenticate secure connections they are generate through a public key cryptographic algorithm, the most common being RSA or DSA. This is a one-way formula that ensures the public key can be derived from the private key but the private key cannot be derived from the public key.
+El `SSH` es también conocido como Secure Shell o Secure Socket Shell. [Más sobre SSH en GitHub](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/about-ssh). Las claves SSH se utilizan para autenticar conexiones seguras que se generan a través de un algoritmo criptográfico de clave pública, siendo los más comunes RSA o DSA. Se trata de una fórmula unidireccional que garantiza que la clave pública puede derivarse de la clave privada, pero que la clave privada no puede derivarse de la clave pública.
 
-## How to generate a new SSH key?
+## ¿Cómo generar una nueva clave SSH en Windows?
 
-This guide is for Windows users, more information for Linux and Mac on this guide [Generating a new SSH Key](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
+Esta guía es para usuarios de Windows, más información para Linux y Mac visite [Generando una nueva llave SSH](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
 
-Windows environments do not have a standard default Unix shell. External shell programs will need to be installed for to have a complete keygen experience. The most straight forward option is to utilize Git Bash.
+Los entornos Windows no tienen un shell Unix estándar por defecto. Será necesario instalar programas de shell externos para tener una experiencia completa de keygen. La opción más directa es utilizar Git Bash.
 
-- Open Git Bash
+- Abra Git Bash
 
-- Paste the text below, substitute `"your_email@example.com"` with your GitHub email address
+- Pega el texto de abajo, sustituyendo `"your_email@example.com"` por tu dirección de correo electrónico de GitHub
+
 ```shell
 $ ssh-keygen -t ed25519 -C "your_email@example.com"
 ```
 ---
-**NOTE :** 
-If you are using a legacy system that doesn't support the `ed25519` algorithm, use:
+**NOTA:** 
+Si está utilizando un sistema heredado que no soporta el algoritmo `ed25519`, utilice:
 
 ```shell
 $ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 ```
 ---
 
-- It will ask for a file to save the key, just press enter. This accepts the default file location. 
+- Le pedirá un archivo para guardar la clave, sólo tiene que pulsar enter. Esto acepta la ubicación del archivo por defecto. 
 
-- At the prompt, type a secure passphrase. For security reasons it should be as complex as possible.
+- En el indicador (shell), escriba una frase de contraseña segura. Por razones de seguridad debe ser lo más compleja posible.
 
-Now you have a new SSH key!
+¡Ahora tienes una nueva clave SSH!
 
-## How to Add your SSH Key to the ssh-agent
+## ¿Cómo añadir su clave SSH al ssh-agent?
 
-- Ensure the ssh-agent is running, for more information, visit [Working with SSH Key](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/working-with-ssh-key-passphrases) , or start it manually:
+- Asegúrate de que el ssh-agent se está ejecutando, para más información visite [Trabajando con Llaves SSH](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/working-with-ssh-key-passphrases), o inicielo manualmente:
 
 ```shell
-#start the ssh-agent in the background
+#iniciar el agente ssh en segundo plano
 $ eval $(ssh-agent -s)
 > Agent pid 59566
 ```
 ---
 
-**NOTE :** 
-If you are following this ssh key generation flow , there is no need to start the ssh-agent.
+**NOTA:** 
+Si sigue este flujo de generación de claves ssh, no es necesario iniciar el agente ssh.
 
 ---
 
-- Add your SSH private key to the ssh-agent. If you created your key with a different name, or if you are adding an existing key that has a different name, replace `id_ed25519` in the command with the name of your private key file.
+- Añade tu clave privada SSH al ssh-agent. Si creó su clave con un nombre diferente, o si está añadiendo una clave existente que tiene un nombre diferente, sustituya `id_ed25519` en el comando por el nombre de su archivo de clave privada.
 
 ```shell
 $ ssh-add ~/.ssh/id_ed25519
 ```
 
-- Now you need to add your public key to your **GitHub account** , for this [follow this steps](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account).
+- Ahora necesitas añadir tu clave pública a tu cuenta de **GitHub**, para ello [sigue estos pasos](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account).
 
-Now you are set.
+Ya está listo.
 
-[More information on how it works](https://www.preveil.com/blog/public-and-private-key/).
-
+[Más información sobre cómo funciona](https://www.preveil.com/blog/public-and-private-key/).

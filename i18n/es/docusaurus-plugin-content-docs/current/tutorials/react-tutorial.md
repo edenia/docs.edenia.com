@@ -2,72 +2,68 @@
 id: react-tutorial
 title: React JS
 sidebar_label: React JS
-description: How to use React JS to build a web application
-keywords: [React JS, How to use React JS, How to build a web application, How to use React JS to build a web application, React JS tutorial, What is React, Learn React, First Steps with React]
+description: Tutorial de React JS
+keywords: [Qué es React, Qué es react js, Para qué sirve React, Tutorial React, Cómo usar React]
 ---
 
-React is a JavaScript library that will be used to build web interfaces and mobile applications with an extension called [React Native](https://reactnative.dev/). React works with units of code that work independently. React also uses a tool called JSX that allows a very simple interaction with JavaScript, that is, it can also be used with HTML in a simple way.
+React es una librería de JavaScript que servirá para construir interfaces web y aplicaciones móviles con una extensión llamada [React Native](https://reactnative.dev/). React trabaja con unidades de código que se trabajan de forma independiente. React también utiliza una herramienta llamada JSX que permite una interacción muy sencilla con JavaScript, es decir se podrá utilizar con HTML también de forma sencilla.
+>Para más información visite [React](https://es.reactjs.org/)
 
->For more information, visit [ReactJs](https://reactjs.org)  
+## Herramientas
 
-## Tools
+Para React se sugieren las siguientes herramientas, las herramientas con * son necesarias:
 
-For React the following tools are suggested, tools with * are required:
+* Navegador Web (Google Chorme, Moxilla Firefox)*
+* [Node Js](https://nodejs.org/es/)*
+* Administradores de Paquetes ([Brew](https://brew.sh/index_es), [Chocolatey](https://chocolatey.org/) ).
+* Terminal, se puede utilizar con la terminal nativa pero te recomendamos [iTerm2](https://iterm2.com/) , [Hyper](https://hyper.is/) , [cmder](https://cmder.net/).
+* Editor de código, se sugiere que se utilice [Visual Studio Code](https://code.visualstudio.com/).
 
-* Web Browser (Google Chorme, Moxilla Firefox)*
-* [Node JS](https://nodejs.org/en/)*
-* Package Managers ([Brew](https://brew.sh/index_es), [Chocolatey](https://chocolatey.org/) ).
-* Terminal, it can be used with the native terminal but we recommend [iTerm2](https://iterm2.com/), [Hyper](https://hyper.is/), [cmder](https://cmder.net/).
-* Code editor, it is suggested to use [Visual Studio Code](https://code.visualstudio.com/).  
+## Extensiones
 
-## Extensions
+Estas extensiones son una recomendación para mejorar tu experiencia en el desarrollo con React.
 
-These extensions are a recommendation to improve your experience in developing with React.
+* Instalar [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=es),  esta se encuentra en la chrome web store (Navegador Web).
+* Debugger for Chrome (Visual Studio Code).
+* React Extension Pack (Visual Studio Code).
+* Auto Close Tag (Visual Studio Code).
+* Prettier - Code Formatter (Visual Studio Code).
+* ESLint - Estandares de JavaScript (Visual Studio Code).
 
-* Install [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=es),  
-this is in the chrome web store (Web Navigator)
-* Debugger for Chrome (Visual Studio Code)
-* React Extension Pack (Visual Studio Code)
-* Auto Close Tag (Visual Studio Code)
-* Prettier - Code Formatter (Visual Studio Code)
-* ESLint - JavaScript standards (Visual Studio Code)
+## Recomendaciones
 
+Es importante para el desarrollo de un buen proyecto la organización de los diferentes componentes del trabajo, por esto es recomendado generar carpetas que tengan contenido similar, algunos ejemplos son:
 
-## Recommendations
+* Carpeta de *components*, en donde se guardan los componentes que necesiten.
+* Carpeta de *styles*, en donde se guardan los estilos del proyecto por ejemplo los archivos `.css`.
+* Carpeta de *assets*, en donde se guardan los recursos estáticos de la aplicación como por ejemplo las imágenes.
 
-It is important for the development of a good project to organize the different components of the work, for this reason it is recommended to generate folders that have similar content, some examples are:
+>Recordar cambiar las referencias una vez ordenado tu proyecto y no hacer cambios, a menos que sea realmente necesario, en el index.js
 
-* *Components* folder, where the necessary components are stored.
-* *Styles* folder, where the project styles are stored, for example the `.css` files.
-* *Assets* folder, where the application static resources such as images are stored.
+### Estandares de JavaScript
 
+Es importante seguir los estándares de JavaScript, es recomendado utilizar la librería [ESLint](https://eslint.org/) para ayudarte a seguir estos [estándares de JavaScript](https://standardjs.com/rules.html).
 
->Remember to change the references once your project is ordered and not make changes, unless it is really necessary, in the index.js 
+## DOM Virtual
 
-### JavaScript Standards
+**Modelo en Objetos para la Representación de Documentos** (Document Object Model por sus siglas en ingles) es esencialmente una interfaz de plataforma que proporciona un conjunto estándar de objetos para representar documentos HTML, XHTML y XML.​ Un modelo estándar sobre cómo pueden combinarse dichos objetos, y una interfaz estándar para acceder a ellos y manipularlos.
 
-It is important to follow the JavaScript standards, it is recommended to use the [ESLint](https://eslint.org/) library to help you follow these [JavaScript standards](https://standardjs.com/rules.html).
+React se dio cuenta que actualizar la pantalla completa es una tarea que puede tener muchos costos en rendimiento y tiempo. Entonces creo un DOM Virtual. Este objeto DOM virtual es idéntico al objeto DOM de JavaScript.
 
-## Virtual DOM
+### ¿Cómo Funciona?
 
-**Document Object Model for Document Representation** (Document Object Model) is essentially a platform interface that provides a standard set of objects to represent HTML, XHTML and XML documents. A standard model on how these objects can be combined, and a standard interface to access and manipulate them.
+* El DOM virtual completo se actualiza.
+* El DOM virtual se compara con una versión anterior a la actualización. React se da cuenta de cuales objetos cambiaron.
+* El objeto actualizado y solo ese objeto se actualiza en el DOM real.
+* Cambios en el DOM real causa que la pantalla cambie.
 
-React realized that updating the full screen is a task that can be costly in performance and time. Then a virtual DOM is created. This virtual DOM object is identical to the JavaScript DOM object.
-
-### How does it work?
-
-* The entire virtual DOM is updated.
-* Virtual DOM is compared to a version prior to upgrade. React notices which objects have changed.
-* The updated object and only that object is updated in the actual DOM.
-* Changes to the actual DOM cause the screen to change.
-
->This process is known as reconciliation.
+>Este proceso se le conoce como la reconciliación.
 
 * * *
 
-## Check Versions
+## Verificar Instalaciones
 
-Verify Node js, with these commands you can verify the version and also if they are installed.
+Verificar Node js, con estos comandos se puede verificar la versión y además si están instalados.
 
 ```shell
 $ node -v
@@ -76,41 +72,40 @@ $ npm -v
 #6.14.9
 ```
 
-## Start the First Application with React
+## Iniciar la Primera Aplicación con React
 
-We are going to create a first application with React where some of React's functionalities will be reflected, in this case you must change "name_of_your_application" to the name you want, to make it easier to read from now on my- app.
+Vamos a crear una primera aplicación con React en donde se van a ver reflejados algunas de las funcionalidades de React, en este caso debes cambiar "nombre_de_tu_aplicación" por el nombre que desees, para hacer más sencilla la lectura de ahora en adelante se utilizara my-app.
 
 ```shell
-$ npx create-react-app "name_of_your_application"
+$ npx create-react-app "nombre_de_tu_aplicación"
 ```
-Now you must enter your my-app directory and start your application.
+Ahora debes entrar a tu directorio de my-app y arrancar tu aplicación.
 
 ```shell
 $ cd my-app
 $ yarn start
 ```
-To see your code you must use, duplicating your terminal, the following: 
+Para ver tu código debes utilizar, duplicando tu terminal, lo siguiente: 
 
 ```shell
 $ code .
 ```
 
-## First steps
+## Primeros Pasos
 
-Once the code has been opened in your editor, in this case recommended Visual Studio Code, you can navigate until you find inside the *src* folder the `App.js` file with a content equal to this:
+Una vez abierto el código en tu editor, en este caso recomendablemente Visual Studio Code, puedes navegar hasta encontrar dentro de la carpeta *src* el archivo `App.js` con un contenido igual a este:
 
 ```javascript
 import logo from './logo.svg';
-
 import './App.css';
 
 function App() {
-     return (
+  return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Editar <code>src/App.js</code> and save to reload.
         </p>
         <a
           className="App-link"
@@ -128,33 +123,31 @@ function App() {
 export default App;
 ```
 
-You can change the content to the following and make the changes you want as the first steps for your adventure in React. In addition, you can see the changes in your browser, for this you must keep your terminal with the server open.
+Puedes cambiar el contenido por el siguiente y hacer los cambios que desees como primeros pasos para tu aventura en React. Además, puedes ver los cambios en tu navegador, para esto debes mantener tu terminal con el servidor abierto.
 
 ```javascript
 import { Component } from 'react';
 
 import logo from './logo.svg';
-
 import './App.css';
 
 class App extends Component{
   render(){
-    return (
-      <div className="App">
-        <p>Hello World</p>
-      </div>
-    );
-  }
+  return (
+    <div className="App">
+      <p>Hola Mundo</p>
+    </div>
+  );
 }
-
+}
 export default App;
 ```
 
-## What are Components?
+## ¿Qué son los Componentes?
 
-Components are defined as a single unit of code that will have a specifically assigned responsibility that certain behaviors can be encapsulated in components.
+Los componentes se definen como una unidad única de código que tendrá una responsabilidad asignada de manera específica que se podrá encapsular determinados comportamientos en los componentes.
 
-This is an example of a component. Create a new file inside your `components` folder with the name of `header.js` and in this way you can use it later. This type of component is no longer used in EOS Costa Rica, however it is important to understand its definition and use.
+Este es un ejemplo de un componente. Crea un nuevo archivo dentro de tu carpeta de `componentes` con el nombre de `header.js` y de esta manera poder utilizarlo posteriormente. Este tipo de componentes ya no se utiliza en EOS Costa Rica, sin embargo es importante entender su definición y uso.
 
 ```javascript
 import React, { Component } from "react";
@@ -163,7 +156,7 @@ class Header extends Component{
     render(){
         return(
             <div>
-                <h1>Example </h1>
+                <h1>Ejemplo </h1>
             </div>
         );
     }
@@ -172,103 +165,119 @@ class Header extends Component{
 export default Header;
 ```
 
-This component can be used as follows inside the `App.js`:
+Este componente se puede utilizar de la siguiente manera dentro del `App.js`:
 
 ```javascript
 import { Component } from 'react';
 
 import './styles/App.css';
 
-import Header from "./components/header" //The import of the component must be added
+import Header from "./components/header" // Se debe agregar el import del componente
 
 class App extends Component{
   render(){
-    return (
-      <div className="App">
-        <Header />   /*Component is added*/
-      </div>
-    );
-  }
+  return (
+    <div className="App">
+      <Header />  /* Se agrega el componente */
+    </div>
+  );
 }
-
+}
 export default App;
 ```
 
-### Components
+### Componentes
 
 <iframe
-width="100%" height="350" src="https://www.youtube.com/embed/Y2hgEGPzTZY" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen>
+  width="100%" 
+  height="350" 
+  src="https://www.youtube.com/embed/Y2hgEGPzTZY" 
+  frameBorder="0" 
+  allowFullScreen 
+  loading="lazy" 
+  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 </iframe>
 
-### Component Life Cycle
+### Ciclo de Vida de los Componentes
 
 <iframe
-width="100%" height="350" src="https://www.youtube.com/embed/qnN_FuFNq2g" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen>
+  width="100%" 
+  height="350" 
+  src="https://www.youtube.com/embed/qnN_FuFNq2g"
+  frameBorder="0" 
+  allowFullScreen 
+  loading="lazy"
+  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 </iframe>
 
-### Higher Order Component (HoC)
+### Componente de Orden Superior (HoC)
 
 * * *
 
->*"A higher-order component (HOC) is an advanced technique in React for reusing component logic. HOCs are not part of the React API. They are a pattern that arises from the compositional nature of React."*  
+>*"Un componente de orden superior (HOC por las siglas en inglés de higher-order component) es una técnica avanzada en React para el reuso de la lógica de componentes. Los HOCs no son parte de la API de React. Son un patrón que surge de la naturaleza composicional de React."*
 
 * * *
 
+Para más informacion sobre [HoC](https://es.reactjs.org/docs/higher-order-components.html#:~:text=Un%20componente%20de%20orden%20superior,de%20la%20l%C3%B3gica%20de%20componentes.&text=En%20concreto%2C%20un%20componente%20de,y%20devuelve%20un%20nuevo%20componente.).
 
-For more information on [HoC](https://reactjs.org/docs/higher-order-components.html#:~:text=Un%20componente%20de%20orden%20superior,de%20la%20l%C3%B3gica%20de%20componentes.&text=En%20concreto%2C%20un%20componente%20de,y%20devuelve%20un%20nuevo%20componente.).
+## Componentes en EOS Costa Rica
 
-## Components in EOS Costa Rica
+React utiliza componentes reusables para todas las aplicaciones, estos componentes pueden tener varias versiones, que puede generar conflictos al hacer pequeños cambios. [Storybook](https://storybook.js.org/) es una herramienta open-source que sirve para crear componentes visuales de forma aislada donde se pueden organizar los componentes y sus versiones en historias.
 
-React uses reusable components for all applications, these components can have several versions, which can generate conflicts when making small changes. [Storybook](https://storybook.js.org/) is an opensource tool that is used to create visual components in isolation where the components and their versions can be organized in stories.
-
-EOS Costa Rica uses [Storybook EOS Costa Rica](https://components.edenia.cloud/) for the creation of its components. To use these `eoscr-components` components we leave you the installation guide in [EOS CR Components](https://www.npmjs.com/package/@eoscostarica/eoscr-components#installation).
+EOS Costa Rica utiliza [Storybook EOS Costa Rica](https://components.edenia.cloud/) para la creación de sus componentes. Para utilizar estos componentes de `eoscr-components` te dejamos la guía de instalación en [Componentes EOS CR](https://www.npmjs.com/package/@eoscostarica/eoscr-components#installation).
 
 ### Storybook
 
 <iframe
-width="100%" height="350" src="https://www.youtube.com/embed/BySFuXgG-ow" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen>
+  width="100%" 
+  height="350" 
+  src="https://www.youtube.com/embed/BySFuXgG-ow" 
+  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+  frameBorder="0" 
+  allowFullScreen 
+  loading="lazy">
 </iframe>
 
-## Main Concepts
+## Conceptos Principales
 
-Next, we give you a list of elements that are taken from the official React documentation to apply in your project.
+A continuación, te damos una lista de elementos que se toman de la documentación oficial de React para aplicar en tu proyecto.
 
-* [JSX](https://reactjs.org/docs/introducing-jsx.html)
-* [Rendering Elements](https://reactjs.org/docs/rendering-elements.html)
-* [Components and Properties](https://reactjs.org/docs/components-and-props.html)
-* [Status and Life Cycle](https://reactjs.org/docs/state-and-lifecycle.html)
-* [Handling Events](https://reactjs.org/docs/handling-events.html)
-* [Conditional Rendering](https://reactjs.org/docs/conditional-rendering.html)
-* [Lists and Keys](https://reactjs.org/docs/lists-and-keys.html)
-* [Forms](https://reactjs.org/docs/forms.html)
-* [Raising the State](https://reactjs.org/docs/lifting-state-up.html)
-* [Composition vs. Heritage](https://reactjs.org/docs/composition-vs-inheritance.html)
+* [JSX](https://es.reactjs.org/docs/introducing-jsx.html)
+* [Renderizando Elementos](https://es.reactjs.org/docs/rendering-elements.html)
+* [Components y Propiedades](https://es.reactjs.org/docs/components-and-props.html)
+* [Estado y Ciclo de Vida](https://es.reactjs.org/docs/state-and-lifecycle.html)
+* [Manejando Eventos](https://es.reactjs.org/docs/handling-events.html)
+* [Renderizado Condicional](https://es.reactjs.org/docs/conditional-rendering.html)
+* [Listas y Keys](https://es.reactjs.org/docs/lists-and-keys.html)
+* [Formularios](https://es.reactjs.org/docs/forms.html)
+* [Levantando el Estado](https://es.reactjs.org/docs/lifting-state-up.html)
+* [Composición vs. Herencia](https://es.reactjs.org/docs/composition-vs-inheritance.html)
 
-## What's new in react?
+## Lo Nuevo en React
 
 ### Hooks
 
-Hooks are a new feature in React 16.8. These allow you to use the state and other features of React without writing a class.
+Hooks son una nueva característica en React 16.8. Estos te permiten usar el estado y otras características de React sin escribir una clase.
 
-Hooks are functions that allow you to "hook" React state and lifecycle from functional components. Hooks don't work inside classes they allow you to use React without classes. (We don't recommend rewriting your existing components overnight, but you can start using Hooks on new ones if you want).
+Los Hooks son funciones que te permiten “enganchar” el estado de React y el ciclo de vida desde componentes funcionales. Los hooks no funcionan dentro de las clases estos te permiten usar React sin clases. (No recomendamos reescribir tus componentes existentes de la noche a la mañana, pero puedes comenzar a usar Hooks en los nuevos si quieres).
 
-It has:
+Se tiene:
 
-* [State Hook](https://reactjs.org/docs/hooks-state.html)
-* [Effect Hook](https://reactjs.org/docs/hooks-effect.html)
-* [Context Hook](https://reactjs.org/docs/hooks-reference.html#usecontext)
+* [Hook de Estado](https://es.reactjs.org/docs/hooks-state.html)
+* [Hook de Effecto](https://es.reactjs.org/docs/hooks-effect.html)
+* [Hook de Contexto](https://es.reactjs.org/docs/hooks-reference.html#usecontext)
 
-Other types:
+Otros tipos:
 
-* [useReducer](https://reactjs.org/docs/hooks-reference.html#usereducer)
-* [useCallback](https://reactjs.org/docs/hooks-reference.html#usecallback)
-* [useMemo](https://reactjs.org/docs/hooks-reference.html#usememo)
-* [useRef](https://reactjs.org/docs/hooks-reference.html#useref)
-* [useImperativeHandle](https://reactjs.org/docs/hooks-reference.html#useimperativehandle)
-* [useLayoutEffect](https://reactjs.org/docs/hooks-reference.html#uselayouteffect)
-* [useDebugValue](https://reactjs.org/docs/hooks-reference.html#usedebugvalue)
+* [useReducer](https://es.reactjs.org/docs/hooks-reference.html#usereducer)
+* [useCallback](https://es.reactjs.org/docs/hooks-reference.html#usecallback)
+* [useMemo](https://es.reactjs.org/docs/hooks-reference.html#usememo)
+* [useRef](https://es.reactjs.org/docs/hooks-reference.html#useref)
+* [useImperativeHandle](https://es.reactjs.org/docs/hooks-reference.html#useimperativehandle)
+* [useLayoutEffect](https://es.reactjs.org/docs/hooks-reference.html#uselayouteffect)
+* [useDebugValue](https://es.reactjs.org/docs/hooks-reference.html#usedebugvalue)
 
-This is an example of use, you can replace the code of your `App.js` to test it. In this example they show the dimensions of the screen even when it is resized.
+Este es un ejemplo de utilización, se puede reemplazar el código de tu `App.js` para probarlo. En este ejemplo muestran las dimensiones de la pantalla aun cuando se re-dimensiona.
 
 ```javascript
 import React , { useState, useEffect } from "react";
@@ -292,7 +301,6 @@ const App = () => {
     }
   }
   )
-
   return(
     <div className="App">
       Width = {width}
@@ -301,16 +309,22 @@ const App = () => {
     </div>
   );
 }
-
 export default App;
 ```
 
-[**Recommended Rules**](https://reactjs.org/docs/hooks-rules.html)
+[**Reglas Recomendadas**](https://es.reactjs.org/docs/hooks-rules.html)
 
->For more information, visit [ReactJs Hooks Intro](https://reactjs.org/docs/hooks-intro.html)  
+>Para más información visite [Introducción a Hooks](https://es.reactjs.org/docs/hooks-intro.html)
 
-## React Cleaner with Hooks
+## React más Limpio con Hooks
 
 <iframe
-width="100%" height="350" src="https://www.youtube.com/embed/dpw9EHDh2bM" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen loading="lazy">
+  width="100%" 
+  height="350" 
+  src="https://www.youtube.com/embed/dpw9EHDh2bM" 
+  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+  frameBorder="0" 
+  allowFullScreen 
+  loading="lazy"
+  >
 </iframe>

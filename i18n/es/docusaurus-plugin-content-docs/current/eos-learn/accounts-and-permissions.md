@@ -1,72 +1,78 @@
 ---
 id: accounts-and-permissions
-title: Accounts And Permissions EOSIO
-sidebar_label: Accounts And Permissions
-description: Accounts And Permissions for accounts on EOSIO
-keywords: [Accounts And Permissions, EOS Costa Rica, Accounts, Permissions, Permissions EOSIO, Blockchain, Blockchain EOSIO, What are the Accounts and Permissions for EOSIO]
+title: Cuentas y Permisos de EOSIO
+sidebar_label: Cuentas y Permisos
+description: Cuentas y Permisos para el uso de EOSIO
+keywords: [cuentas permisos, Cuentas y Permisos, cuentas, permisos, EOSIO, EOS, EOS Costa Rica, Para qué son los permisos EOSIO]
 ---
 
-## Accounts
+## Cuentas
 
-An **account** on EOSIO is a legible name for humans that get stored on the blockchain. An account can belong to an individual or group of individuals depending on the permissions configuration. An account is required in order to execute any transaction on the blockchain.
+Una **cuenta** en EOSIO es un nombre legible para humanos que se almacena en la cadena de bloques. Puede ser propiedad de un individuo o grupo de individuos dependiendo de la configuración de los permisos. Se requiere una cuenta para transferir o enviar cualquier transacción válida a la cadena de bloques.
 
-The account name must comply with certain requirements: characters from `a` to `z` in lower case, numbers from `1` to `5` and have 12 characters length. E. g. `eosioaccount`.
+El nombre de la cuenta debe cumplir con ciertos requisitos: caracteres de la `a` a la `z` en minúscula, números del `1` al `5` y tener una longitud de 12 caracteres. Por ejemplo : `cuentaeosio1`.
 
-Read more on [EOSIO account creation](https://developers.eos.io/manuals/eosjs/latest/how-to-guides/how-to-create-an-account).
+Más infomación sobre [ creación de cuenta EOSIO](https://developers.eos.io/manuals/eosjs/v21.0/how-to-guides/how-to-create-an-account).
 
-## Permissions
+## Permisos
 
-EOSIO allows to create custom hierarchical permissions that stem from the owner permission. A custom permission is basically a key that can only perform the actions you allow it to perform.
+EOSIO permite crear permisos jerárquicos personalizados que se derivan del permiso `owner`. Un permiso personalizado es básicamente una llave que solo puede realizar las acciones que se le permite realizar.
 
-> **For example:** Any account can create a custom permission with its unique key pair to solely interact with a single contract.
+> **Por ejemplo**: Cualquier cuenta puede crear un permiso personalizado con su par de llaves únicas para interactuar únicamente con un contrato.
 
-In this way EOSIO offers state of the art permissioning capabilities with huge flexibility to configure simple or complex built in to the base protocol.
+De esta manera, EOSIO ofrece capacidades de permisos de última generación con una gran flexibilidad para configurar un protocolo simple o complejo integrado en el protocolo base.
 
-Account permissions also strengthen security in case someone who is unauthorized gets a hold of a private key, all they can ever do is the actions that key has been limited to execute.
+Los permisos de la cuenta también fortalecen la seguridad en caso de que alguien que no esté autorizado obtenga una llave privada, lo único que puede hacer son las acciones que la clave se ha limitado a ejecutar.
 
-## Authorizations
+## Autorizaciones
 
-Any given account can define a mapping between any of its named permissions and a smart contract or action within that contract. This allows finer control over action authorizations which makes it very easy for accounts belonging to actors with different roles within an organization reflect the organizational structure on the blockchain.
+Una cuenta puede definir una asignación entre cualquiera de sus permisos nombrados y un contrato inteligente o acción dentro de ese contrato. Esto permite un control más preciso sobre las autorizaciones de acción, lo que facilita mucho que las cuentas que pertenecen a actores con diferentes roles dentro de una organización reflejen la estructura organizativa en la cadena de bloques.
 
-In other words each account's permission can be linked to an authority table used to determine whether a given action authorization can be satisfied
+En otras palabras, el permiso de cada cuenta se puede vincular a una tabla de autoridad utilizada para determinar si se puede satisfacer una autorización de acción determinada.
 
-To get more information about these concepts, see [accounts and permissions documentation](https://developers.eos.io/welcome/latest/protocol-guides/accounts_and_permissions).
+Para obtener más información sobre estos conceptos, consulte [documentación de cuentas y permisos](https://developers.eos.io/welcome/v2.1/smart-contract-guides/before-you-begin/accounts-and-permissions).
 
-## Authenticators (Wallets)
 
-The wallets are clients that store private keys associated with the permissions of one or more accounts. Ideally, a wallet has a locked state (encrypted) and unlock (un-encrypted) that is protected by a high entropy password.
+## Autenticado (Wallets)
 
-## Transit Wallet Access Layer
+Las billeteras son clientes que almacenan llaves privadas asociadas con los permisos de una o más cuentas. Idealmente, una billetera tiene un estado bloqueado (encriptado) y desbloqueado (sin encriptar) que está protegido por una contraseña de alta entropía.
 
-This library is a small abstraction layer on top of `eosjs` which aims to assist EOS dApp (decentralized app) developers with wallet communication (signature verification and acceptance) by providing a simple and intuitive API.
+### Capa de Acceso al Wallet de Tránsito
+Esta biblioteca es una pequeña capa de abstracción sobre `eosjs` que tiene como objetivo ayudar a los desarrolladores de EOS dApp (aplicación descentralizada) con la comunicación de billetera (verificación y aceptación de firma) al proporcionar una API simple e intuitiva.
 
-Instead of focusing on supporting specific signature providers one by one, developers can support every one that has built a Transit plugin, allowing the user to use their signature provider of choice. This way, the best UX for signature providers wins and the developers can focus on building their dApp instead of setting up `eosjs` and wallet connections.
+En lugar de centrarse en admitir proveedores de firmas específicos uno por uno, los desarrolladores pueden admitir a todos los que han creado un complemento de Transit, lo que permite al usuario utilizar su proveedor de firmas de elección. De esta manera, gana el mejor UX para proveedores de firmas y los desarrolladores pueden centrarse en construir su dApp en lugar de configurar conexiones `eosjs` y de billetera.
 
-Please see the **Quick Start guide** and thorough guide in the [eos-transit](https://github.com/eosnewyork/eos-transit) package docs.
+Consulte la **Guía de inicio rápido** y la guía completa en los documentos del paquete [eos-transit](https://github.com/eosnewyork/eos-transit).
 
-## Universal Authenticator Library
+## Biblioteca de Autenticación Universal
 
-A library exists that allows apps to easily use different auth providers. App Developers need to support many authentication providers (wallets) in order to maximize user reach and permit user choice.
+Existe una biblioteca que permite a las aplicaciones usar fácilmente diferentes proveedores de autenticación. Los desarrolladores de aplicaciones deben admitir muchos proveedores de autenticación (billeteras) para maximizar el alcance del usuario y permitir la elección del usuario.
 
-The [Universal Authenticator Library (UAL)](https://github.com/EOSIO/universal-authenticator-library) achieves this goal by abstracting the internal business logic of many authentication providers and exposing a single universal API.
+La librería [Universal Authenticator Library (UAL)](https://github.com/EOSIO/universal-authenticator-library) logra este objetivo al abstraer la lógica comercial interna de muchos proveedores de autenticación y exponer una única API universal.
 
-### Available Authenticators:
+### Autenticadores Disponibles:
 
-* [UAL for Scatter](https://github.com/EOSIO/ual-scatter)
-* [UAL for Lynx](https://github.com/EOSIO/ual-lynx)
-* [UAL for Ledger](https://github.com/EOSIO/ual-ledger)
-* [UAL for Token Pocket](https://github.com/EOSIO/ual-token-pocket)
-* [UAL for MEET.ONE](https://github.com/meet-one/ual-meetone)
-* [UAL for Anchor](https://github.com/greymass/ual-anchor)
+- [UAL for Scatter](https://github.com/EOSIO/ual-scatter)
+- [UAL for Lynx](https://github.com/EOSIO/ual-lynx)
+- [UAL for Ledger](https://github.com/EOSIO/ual-ledger)
+- [UAL for Token Pocket](https://github.com/EOSIO/ual-token-pocket)
+- [UAL for MEET.ONE](https://github.com/meet-one/ual-meetone)
+- [UAL for Anchor](https://github.com/greymass/ual-anchor)
 
 ## KEOSD
 
-In the EOSIO's distribution comes included a CLI client called [cleos](https://developers.eos.io/manuals/eos/latest/cleos/index) that interacts with lite client called [keosd](https://developers.eos.io/manuals/eos/latest/keosd/index) which provides a secure wallet service and API endpoint for applications that require back-end integration with a signature provider.
+En la distribución de EOSIO viene incluido un cliente CLI llamado [cleos](https://developers.eos.io/manuals/eos/latest/cleos/index) que interactúa con un cliente llamado [keosd](https://developers.eos.io/manuals/eos/latest/keosd/index) que proporciona un servicio de billetera seguro y un punto final API para aplicaciones que requieren integración de back-end con un proveedor de firmas digitales.
 
-## EOSIO Permissions
+## Permisos de EOSIO
 
-EOSIO's permissions make it possible to strengthen account security to the point where the loss or theft of keys is nothing more than minor inconveniences. This weekly EOS episode covers what EOSIO permissions are on a conceptual level and the trend towards strong interconnected account networks.
+Los permisos de EOSIO hacen posible fortalecer la seguridad de la cuenta al punto donde la pérdida o robo de las llaves son nada más que pequeñas inconveniencias. Este episodio semanal de EOS cubre qué son los permisos de EOSIO a un nivel conceptual y la tendencia a redes de cuentas interconectadas fuertes.
 
 <figure className="video_container">
-  <iframe width="100%" height="315" src="https://www.youtube.com/embed/kTjF0-Edxw8" frameBorder="0" allowFullScreen > </iframe>
+  <iframe 
+    width="100%" 
+    height="315" 
+    src="https://www.youtube.com/embed/kTjF0-Edxw8"     
+    frameBorder={0}
+    allowFullScreen
+    loading="lazy"> </iframe>
 </figure>

@@ -1,121 +1,119 @@
 ---
 id: pair-mob-programming
-title: Software Development in Pairs or Groups
-sidebar_label: Pair or Mob Programming
-description: Pair programming and mob programming as a group.
-keywords:  [ Programming in pairs, Pair Programming, What is Pair Programming, How to Apply Pair Programming]
+title: Programación en Parejas o Grupos (Pair Programming)
+sidebar_label: Programación en Parejas o Grupos
+description: Una forma de trabajar en parejas o grupos llamada pair programming para asegurar que los trabajos se realicen bien de forma colaborativa.
+keywords: [programación en parejas, grupos, pair programming, desarrollo pair programming, software, EOS, EOS Costa Rica, Qué es pair programming, Cómo aplicar pair programming]
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-The development of new software is not a simple process, depending on the size of the program, a large number of possible junctures, functions and problematic issues must be taken into account.
-Hence, in recent years other more modern working methods have been developed that allow more efficient programming and generate error-free code.
+
+El desarrollo de un software nuevo no es un proceso sencillo, dependiendo del tamaño del programa, se deberá tener en cuenta una gran cantidad de posibles coyunturas, funciones y cuestiones problemáticas.  
+De ahí que en estos últimos años se hayan ido desarrollando otros métodos de trabajo más modernos que permiten programar con mayor eficiencia y generar un código libre de errores.
+
 
 ## Pair Programming
 
-### What is Pair Programming?
-
-Pair programming specifies that there are always two people working on the code at the same time and  as far as possible, they sit together. One is in charge of writing the code and the other of supervising it in real time. At the same time, they are constantly exchanging impressions: they discuss problems, find solutions and develop creative ideas.
+### ¿Qué es Pair Programming?
+El pair programming específica que siempre haya dos personas trabajando al mismo tiempo en el código y que, en la medida de lo posible, se sienten juntas. Una se encarga de escribir el código y la otra de supervisarlo en tiempo real. Al mismo tiempo, están constantemente intercambiando impresiones: debaten problemas, encuentran soluciones y desarrollan ideas creativas. 
 
 <div style={{  textAlign: "center" }}>
-<img alt="Image Pair Programing"  src={ useBaseUrl( 'img/PairMobProgramming/PairProgramming.webp' )} /> </div>
+<img alt="Imagen Pair Programing"  src={ useBaseUrl( 'img/metodosProgramacion/PairProgramming.webp' )} /> </div>
 
-### How is it done?
-
-**Team size:** 2 people.
+### ¿Cómo se hace?
+**Tamaño del equipo:** 2 personas.
 
 ### Roles:
 
-- **Driver** He is charge of writing the code.
-- **Navigator:** He is charge of supervising that code.
+- **Conductor:** Se encarga de escribir el código. 
+- **Navegador:** Se encarga de supervisar ese código. 
 
-One of the rules of pair programming establishes that these two roles are exchanged regularly, in this way a possible hierarchical gap is avoided.
+Una de las reglas del pair programming establece que estos dos roles se intercambien con regularidad, de esta manera se evita una posible brecha jerárquica.
 
-### Types of Pair Programming:
+### Tipos de Pair Programming:
 
-- **Backset Navigator:** The navigator takes on more of the driver's tactical roles. In backseat navigation, the controller continues to control the keyboard and typing, but the browser dictates syntactic instructions, such as what name to call a variable or what specific method to call. The rear seat navigator style works best with a beginner as a driver and an expert as a navigator, allowing the beginner to learn by doing.
-- **Ping Pong Pairing:** Allows roles to change frequently and forces engineers to pay attention to the coding and testing aspects of development, gaining familiarity with the process.
-- **Pomodoro:** A typical Pomodoro style matching session lasts 25 minutes followed by a 5 minute break. The controller and the browser change positions. After four 25-minute sessions, both programmers take a longer 20-minute break. Force breaks and regular position change help ensure both programmers are always productive, focused, and up-to-date when a session begins.
+- **Navegador:** El navegador asume más de los roles tácticos del conductor. En la navegación, el controlador sigue controlando el teclado y escribiendo, pero el navegador dicta instrucciones sintácticas, como qué nombre llamar a una variable o qué método específico llamar. El estilo de navegador del asiento trasero funciona mejor con un principiante como conductor y experto como el navegante, permitiendo que el principiante aprenda haciendo.
+- **Ping Pong Pairing:**  Permite a los roles cambiar con frecuencia y obliga a los ingenieros a prestar atención a los aspectos de codificación y pruebas del desarrollo, ganando familiaridad con el proceso.
+- **Pomodoro:** Una sesión de emparejamiento típica al estilo Pomodoro dura 25 minutos seguida de un descanso de 5 minutos. El controlador y el navegador cambian de posición. Después de cuatro sesiones de 25 minutos, ambos programadores toman un descanso más largo de 20 minutos. Los descansos forzados y el cambio de posición regular ayudan a garantizar que ambos programadores estén siempre productivos, enfocados y actualizados cuando comienza una sesión.
 
-### Benefits
+### Beneficios
 
-- You can improve overall productivity through the collaboration process.
-- Higher quality code as a result of real-time review.
-- Better solutions designed through shared collaboration.
-- Faster delivery because solutions to challenging problems are found more quickly.
-- Greater focus on code and programming task without distractions.
-- Unlocking stuck developers.
-- Quick feedback.
-- Fewer distractions in development teams.
-- Shared best practices.
+- Puede mejorar la productividad general a través del proceso de colaboración.
+- Código de mayor calidad como resultado de la revisión en tiempo real.
+- Mejores soluciones diseñadas a través de la colaboración compartida.
+- Entrega más rápida porque las soluciones a problemas desafiantes se encuentran más rápidamente.
+- Mayor enfoque en el código y la tarea de programación sin distracciones.
+- Desbloqueo a los desarrolladores atascados.
+- Feedback rápido.
+- Menos distracciones en los equipos de desarrollo.
+- Prácticas recomendadas compartidas.
 
 ## Mob Programming
 
-### What is Mob programming?
+### ¿Qué es Mob Programming?
 
-A group of highly intelligent people with great challenges working as a team to solve challenges creatively, with operational excellence and working focused on delivering constant value.
-
+Un grupo de personas con mucha inteligencia, con grandes retos trabajando en equipo para resolver los retos de manera creativa, con excelencia operacional y trabajando enfocado en entrega de valor constante.
 <div style={{  textAlign: "center" }}>
-<img alt="Image Mob Programing" width="70%" src={ useBaseUrl( 'img/PairMobProgramming/MobProgramming.webp' )} /> 
-</div>
+<img alt="Imagen Mob Programing" width="70%" src={ useBaseUrl( 'img/metodosProgramacion/MobProgramming.webp' )} /> </div>
 
-### How is it done?
+### ¿Cómo se hace?
 
-**Team size:** 3-6 people.
+**Tamaño del equipo:** 3-6 personas.
 
 ### Roles:
 
-- **Driver:** Receives input from the team and executes the implementation of ideas.
-- **Navigators:** They are the ones that give the driver direction, it is also the voice of the team.
+- **Conductor:** Recibe input del equipo y ejecuta la implementación de las ideas.
+- **Navegadores:** Son los que le dan dirección al conductor, también es la voz del equipo.
 
 ### Bias for Action:
 
-- Avoid staying in abstract conversations for a long time.
-- Do not discuss a problem for more than 10 minutes (Recommended).
-- If there is more than one solution to a problem, experiment with two or 3 (Use
+- Evitar quedarse en conversaciones abstractas por mucho tiempo.
+- No discuta un problema por más de 10 minutos (Recomendado).
+- Si hay más de una solución a un problema experimente con dos o 3 (Use
 paretto).
-- Use examples to keep the conversation going.
-- The ideas of the browsers are only implemented by the driver.
-- The skill level of the driver is key for navigators to further develop the instructions.
-- Immediate feedback.
-- Learn or contribute.
-- Agility in communication.
-- Retrospective.
-- Empathy and respect.
+- Use ejemplos para mantener la conversación caminando.
+- Las ideas de los navegadores solo se implementan por el conductor.
+- El nivel de habilidad del conductor es clave para que los navegadores desarrollen más las instrucciones.
+- Feedback inmediato.
+- Aprender o contribuir.
+- Agilidad en comunicación.
+- Retrospectiva.
+- Empatía y respeto.
 
-### Artifacts:
+### Artefactos:
 
-- Backlog of specific problems defined by the product owner or the tech lead.
-- Alignment in programming katas (New code, bug fixing, test driven development, refactoring).
+- Backlog de problemas específicos definidos por el product owner o el tech lead.
+- Alineación en programación de katas (Código nuevo, corrección de errores, desarrollo impulsado por pruebas, refactorización).
 - Test automation.
 - Repo - DevOps.
 
-### Types of Mob Programming:
+### Tipos de Mob Programming:
 
-- **Expert-Expert:** Higher productivity and high-quality results, minimal interruption of approaches and exploration to challenge existing solutions.
-- **Expert-Novice:** Increased opportunity to explore solutions and mentoring opportunities for people new to the team. The novice is more prone to challenging existing solutions and brings disruption, and the expert when teaching can rethink existing paradigms. The risk that experts cannot develop the patience to teach can create conflict and affect the
-organizational culture.
-- **Novice-Novice:** Normally not recommended for complex solutions, but good for innovation as long as it can be developed with a mentor who can generate a role model.
-- **With audience:** The team is working with an audience of stakeholders or users.
+- **Expert-Expert:** Mayor productividad y resultados de alta calidad, mínima disrupción de los acercamientos y exploración a retar soluciones existentes.
+- **Expert-Novice:** Mayor oportunidad de exploración de soluciones y oportunidades de mentorship para personas nuevas en el equipo. El novato es más propenso a retar soluciones existentes y aporta disrupción, y el experto al enseñar se puede replantear paradigmas existentes. El riesgo de que los expertos no puedan desarrollar paciencia para enseñar puede traer conflicto y afectar la
+cultura de la organización.
+- **Novice-Novice:** Normalmente no es recomendado para soluciones complejas pero bueno para innovación siempre y cuando se pueda desarrollar con un mentor que pueda generar un role model.
+- **With audience:** El equipo está trabajando con una audiencia de partes interesadas o usuarios.
 
-### The Value of Mobbing:
+### El Valor del Mobbing:
 
-- Solutions are delivered faster, with higher quality through increased focus.
-- Mitigate tedious tasks, have 360 ​​visibility, and improve automation.
-- Leverage training between team members.
-- Deliver faster results by reducing work in progress time and eliminating handoff times between teams and mitigating communication problems.
-- You can increase the delivery time of a task by the number of people thinking about an individual task, but decrease approx 15% of defects or margin of error, refactoring and rework and support of the task or the deliverable are mitigated.
-- Satisfaction increases 96% among programmers.
-- Agile training.
-- Team building and communication.
-- More solution options for several problems at the same time.
+- Soluciones se entregan más rápido, con mayor calidad por medio del incremento del enfoque.
+- Mitiga las tareas tediosas, tiene visibilidad 360 y mejora la automatización.
+- Apalanca el entrenamiento entre miembros del equipo.
+- Entrega resultados más rápido reduciendo el tiempo del work in progress y eliminando tiempos de handoff entre equipos y mitiga los problemas de comunicación.
+- Puede incrementar el tiempo de entrega de una tarea por la cantidad de personas pensando alrededor de una tarea individual, pero bajan aproximadamente 15% de defectos o margen de error, se mitiga refactoring, retrabajo y soporte de la tarea o el entregable.
+- Satisfacción se incrementa un 96% entre programadores.
+- Entrenamiento ágil.
+- Team building y comunicación.
+- Más opciones de soluciones para varios problemas a la vez.
 
-### Benefits for Other Organizations and Services
+### Beneficios para Otras Organizaciones y Servicios
 
-- Recruiting.
-- Design (Service, UX, Production).
-- Tech debt and refactoring.
+- Reclutamiento.
+- Diseño (Servicio, UX, Producción).
+- Deuda tecnológica y refactorización.
 
->Information provided by:
+>Información brindada por:
 >**Julian Alvarado**
 >- Twitter [@jascorecr](https://twitter.com/jascorecr)  
 >- Linkedin: [alvarado.lj.1](https://www.linkedin.com/in/alvaradolj1/)

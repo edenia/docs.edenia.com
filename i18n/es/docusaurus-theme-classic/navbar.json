@@ -7,27 +7,27 @@
     "message": "Guías para Desarrolladores",
     "description": "Navbar item with label Developer Guidelines"
   },
-  "navbar.item.label.Learn EOSIO + Antelope": {
+  "item.label.Learn EOSIO + Antelope": {
     "message": "Aprender EOSIO + Antelope",
     "description": "Navbar item with label Learn EOSIO + Antelope"
   },
-  "navbaritem.label.Tutorials": {
+  "item.label.Tutorials": {
     "message": "Tutoriales",
     "description": "Navbar item with label Tutorials"
   },
-  "navbar.item.label.Tools": {
+  "item.label.Tools": {
     "message": "Herramientas",
     "description": "Navbar item with label Tools"
   },
-  "navbar.item.label.Community": {
+  "item.label.Community": {
     "message": "Comunidad",
     "description": "Navbar item with label Community"
   },
-  "navbar.item.label.Website": {
+  "item.label.Website": {
     "message": "Sitio Web",
     "description": "Navbar item with label Website"
   },
-  "navbar.item.label.Español": {
+  "item.label.Español": {
     "message": "Español",
     "description": "Navbar item with label Español"
   }

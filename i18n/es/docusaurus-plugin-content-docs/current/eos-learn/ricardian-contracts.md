@@ -1,47 +1,46 @@
 ---
 id: ricardian-contracts
-title: What are Ricardian Contracts ?
-sidebar_label: Ricardian Contracts
-description: Definition and explanation of Ricardian Contracts.
-keywords: [ Ricardian Contracts, React Component for Ricardian Contract, EOSIO Ricardian Contract, Ricardian Contract as HTML, Blockchain, EOSIO, EOS Costa Rica]
+title: ¿ Qué son los Contratos Ricardianos ?
+sidebar_label: Contratos Ricardianos
+description: Definiciones y explicaciones de contratos ricardianos.
+keywords: [Contrato ricardiano, contratos blockchain, eos, eosio, Cómo crear un contrato Ricardiano, HTML de Contrato Ricardiano, Contrato Ricardiano React]
 ---
 
-## What are Ricardian Contracts?
-They are digital documents that define the terms and conditions among those involved in the contract, these are signed and verified cryptographically and are readable by both humans and computer systems.
+## ¿Qué son los contratos ricardianos?
+Son documentos digitales que definen los términos y condiciones entre los involucrados en el contrato, estos están firmados y verificados criptográficamente y pueden ser leídos tanto por humanos como por sistemas informáticos.
 
-### Characteristics of these contracts
+### Características de estos Contratos
+- Lectura humana y de software.
+- Se puede imprimir.
+- Todas las formas de documentos (físicos, virtuales, encriptados) son equivalentes.
+- Están firmados por todas las partes.
+- Se pueden identificar de forma segura gracias a las características de cada contrato.
 
-- Human and software readable.
-- It can be printed.
-- All forms of documents (physical, virtual, encrypted) are equivalent.
-- They are signed by all parties.
-- They can be identified safely thanks to the has of each contract.
+### Contratos Ricardianos en EOSIO
+Las cadenas de bloques operan bajo contratos inteligentes, sin embargo, se está trabajando para incluir los contratos ricardianos en las transacciones de estas redes. Uno de los objetivos principales es convertir la complejidad del código observado dentro de la tecnología Blockchain en un lenguaje más simple para que cualquiera pueda entenderlo.
 
-### Ricardian contracts for EOSIO
-Blockchains operate under smart contracts, however, work is underway to include Ricardian contracts in the transactions of these networks. One of the main objectives is to convert the complexity of the code observed within Blockchain technology into a simpler language so that anyone could understand it.
-
-EOS Costa Rica has developed a react component that renders ricardian contracts for smart contracts on EOSIO networks. You can view the react component in [Ricardian Contract Component](https://components.edenia.cloud/?path=/story/example-ricardian-contract--example). In that link, go to the `Knobs` section to modify `httpEndpoint` and `contractName`. Once done, check the Ricardian Contract for a Smart Contract. For example, set:
+EOS Costa Rica ha desarrollado un componente de React que renderiza contratos ricardianos para contratos inteligentes en redes EOSIO. Puede ver el componente de React en el siguiente enlace [Contratos Ricardianos](https://components.edenia.cloud/?path=/story/example-ricardian-contract--example). En ese enlace, vaya a la sección `Knobs` para modificar` httpEndpoint` y `contractName`. Una vez hecho esto, consulte el Contrato Ricardiano para un Contrato Inteligente. Por ejemplo, configure:
 ```
 httpEndpoint: https://jungle.edenia.cloud
 contractName: eosio
 ```
-The component will automatically load the content of the Ricardian Contract. The open source repository for this component is located here: https://github.com/eoscostarica/eoscr-components.
+El componente cargará automáticamente el contenido del Contrato Ricardiano. El repositorio de código abierto para este componente se encuentra aquí: https://github.com/eoscostarica/eoscr-components.
 
-## How to add a Ricardian Contract?
-The process is as similar as compiling a Smart Contract, is fact, it is done during the same process, eosio-cpp provide some extra configuration options when compiling and one of them are `-R`, which allow to set an extra resource in this case the Ricardian Contract with just providing the Ricardian path, the compiler then is responsible to add the contracts and clauses to the .abi file.
+## ¿Cómo añadir un Contrato Ricardiano?
+El proceso es parecido a la compilación de un Smart Contract, de hecho, se realiza durante el mismo paso. eosio-cpp brinda algunas opciones de configuración extra al compilar y una de ellas es `-R`, que permite configurar un recurso extra que para este caso es el contrato ricardiano donde se debe proporcionar la ruta ricardiana, el compilador será el responsable de agregar los contratos y las cláusulas al archivo .abi.
 
-## How to create a Ricardian Contract?
-Usually there is a contract folder called `ricardian` inside the smart contract folder which contains two main files that compose the Ricardian Contract `<contract name>.contracts.md` and `<contract name>.clauses.md`.
-
+## ¿Cómo crear un Contrato Ricardiano?
+Usualmente hay un folder llamado `ricardian` dentro del folder del smart contract el cual contiene dos archivos principales que componen el Contracto Ricardiano `<contract name>.contracts.md` y `<contract name>.clauses.md`.
+    
 ### Contracts
-Its purpose is to declare and define all the actions inside of the Smart Contract. According to [EOSIO ricardian-spec](https://github.com/EOSIO/ricardian-spec) the are some Metadata Fields:
+Su propósito es declarar y definir las acciones del Smart Contract. Según [EOSIO ricardian-spec](https://github.com/EOSIO/ricardian-spec) se deben respetar los siguientes metadatos:
 
 - spec_version
 - title
 - summary
 - icon
 
-For example:
+Por ejemplo:
 ```
 <h1 class="contract">Create Post</h1>
 spec_version: 0.0.0
@@ -51,20 +50,20 @@ icon: https://app.com/create-post.png#00506E08A55BCF269FE67F202BBC08CFF55F9E3C7C
 ```
 
 ### Clauses
-Its purpose is to declare and define clauses or rules of the Smart Contract. It is simpler to create, for example:
+Su propósito es declarar y definir las cláusulas y reglas del Smart Contract. Es más sencillo de crear, por ejemplo:
 
 ```
 <h1 class="clause">UserAgreement</h1>
 
 User agreement for the chain can go here.
 ```
-More examples on [EOSIO eosio.system](https://raw.githubusercontent.com/EOSIO/eosio.contracts/master/contracts/eosio.system/ricardian/eosio.system.clauses.md).
+Más ejemplos en [EOSIO eosio.system](https://raw.githubusercontent.com/EOSIO/eosio.contracts/master/contracts/eosio.system/ricardian/eosio.system.clauses.md).
 
-## Compiling Process
-To compile a Smart Contract with its respective Ricardian Contract, execute next command adding the `-R` flag:
+## Proceso de Compilación
+Para compilar un Smart Contract con su respectivo Contrato Ricardiano, se debe ejecutar el siguiente comando añadiendo la bandera `-R`:
 
 ```
 eosio-cpp -abigen -R ./ricardian -contract contracttest -o contracttest.wasm src/contracttest.cpp
 ```
 
-Visit [How EOSIO Smart Contracts Work](https://es.cointelegraph.com/eos-101/how-eos-smart-contracts-work) to see more content on this topic.
+Visite [Cómo trabajan los Contratos Inteligentes de EOS](https://es.cointelegraph.com/eos-101/how-eos-smart-contracts-work) para ver más contenido sobre este tema.

@@ -1,12 +1,12 @@
 ---
 id: block-explorers
-title: Block Explorers
-sidebar_label: Block Explorers
-description: Block Explorers for different types of blocks.
-keywords: [ Block explorers, Explorers, Bloks.io, EOSX, EOSQ, EOS Flare, EOS Network Monitor, EOS Tracker, EOS Spark, Vote Tracker, EOSDAC Explorer]
+title: Exploradores de Bloques
+sidebar_label: Explorador de Bloques
+description: Exploradores de bloques para distintos tipos de bloques
+keywords: [explorador de bloques, explorador, Bloks.io, EOSX, EOSQ, EOS Flare, EOS Network Monitor, EOS Tracker, EOS Spark, Vote Tracker, EOSDAC Explorer]
 ---
 
-A block explorer is a program or website accessible through a compatible browser that allows a user to search and navigate the blocks of a blockchain, their contents, and their relevant details.
+Un explorador de bloques es un programa o sitio web accesible a través de un navegador que permite a un usuario buscar y navegar por los bloques de una cadena de bloques, sus contenidos y sus detalles relevantes.
 
 ## Bloks.io
 
@@ -16,6 +16,10 @@ https://bloks.io/
 
 https://www.eosx.io/
 
+## EOSQ
+
+https://eosq.app/
+
 ## EOS Flare
 
 https://eosflare.io/
@@ -24,7 +28,7 @@ https://eosflare.io/
 
 https://eosnetworkmonitor.io/
 
-## EOS Tracker
+## EOS Tracker 
 
 https://eostracker.io/
 

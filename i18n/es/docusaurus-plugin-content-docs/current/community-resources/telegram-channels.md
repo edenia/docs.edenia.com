@@ -1,14 +1,14 @@
 ---
 id: telegram-channels
-title: EOS Telegram Channels
-sidebar_label: Telegram Channels
-description: Telegram Channels of EOS community
-keywords: [EOS Telegram Channels, EOS, EOS Costa Rica, eosio.io, What is the EOS Costa Rica Telegram Channels?, Telegram EOS Community]
+title: Canales de Telegram EOS
+sidebar_label: Canales de Telegram
+description: Canales de Telegram de la comunidad EOS
+keywords: [Canales de Telegram, Comunidad, Comunidad EOS, EOS, EOS Costa Rica]
 ---
 
-Telegram channels are an ideal tool to spread messages to large numbers of people. The following is a list of the most relevant channels of the EOS community, in which content is shared that can be very useful.
+Los canales de Telegram son una herramienta ideal para difundir mensajes a grandes cantidades de personas. A continuación, se presenta una lista de los canales más relevantes de la comunidad de EOS, en ellos se comparte contenido que puede ser de gran utilidad.
 
-## EOS General Community
+## Comunidad EOS General 
 
 - [EOS](https://t.me/EOSproject)
 - [EOIO Gov](https://t.me/EOSGov)
@@ -24,15 +24,14 @@ Telegram channels are an ideal tool to spread messages to large numbers of peopl
 - [EOS Jobs](https://t.me/eos_jobs)
 - [EOS Project](https://t.me/EOSproject)
 - [EOS Opportunities](https://t.me/eos_opportunities)
-- [Jungle Testnet](https://t.me/jungletestnet)
 
-## EOS Costa Rica Community
+## Comunidad EOS Costa Rica
 
 - [LAChhain EOSIO](https://t.me/lacchaineosio)
 - [EOS Surf](https://t.me/eosbeach)
 - [Blockchain Costa Rica](https://t.me/btccr)
 
-## Developers Community
+## Comunidad de Desarrolladores
 
 - [EOS Developers](https://t.me/joinchat/DQRZHEPktgcLlyfbl-bDuQ)
 - [EOS Design](https://t.me/EOSdesign)
@@ -45,7 +44,7 @@ Telegram channels are an ideal tool to spread messages to large numbers of peopl
 - [EOS Ram](https://t.me/eosram)
 - [EOS Hackathon](https://t.me/EOSHackathonFriends)
 
-## Other Networks we Participate In
+## Redes en las que Participamos
 
 - [Bitcoin Libre](https://t.me/bitcoinlibrecomunidad)
 - [Proton](https://t.me/protonxpr)

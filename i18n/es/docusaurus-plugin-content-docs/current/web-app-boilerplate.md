@@ -1,60 +1,56 @@
 ---
 id: web-app-boilerplate
-title: Web App Boilerplate
-sidebar_label: Webapp Boilerplate
-description: Webapp Boilerplate for software developers EOS Costa Rica
-keywords: [ Webapp Boilerplate, Components, Material to develop, Web boilerplate]
+title: Plantilla para Aplicación Web
+sidebar_label: Plantilla para Aplicación Web
 ---
 
-## React Webapp Boilerplate
+## Plantilla para Aplicación Web de React
 
-A bare-bones react web app featuring UAL for EOSIO authenticators (wallets)
+Plantilla para aplicaciones eb de React incorporando UAL para autenticadores EOSIO (wallets)
 
-## Technologies
+## Tecnologías
 
 - React.js - React 16✨, React Router 5
-- Rematch/core - Rematch a Redux Framework
-- Material-ui/core - React components for faster and easier web development
-- universal-authenticator-library - A library for allowing apps to easily use different auth providers (optional)
-- Lint - ESlint
-- Styles - Material-UI Theme (customizable)
+- Revancha / núcleo - Rematch a Redux Framework
+- Material-ui / core - Componentes de React para un desarrollo web más rápido y sencillo
+- biblioteca-autenticador-universal: una biblioteca para permitir que las aplicaciones utilicen fácilmente diferentes proveedores de autenticación (opcional)
+- Pelusa - ESlint
+- Estilos - Tema Material-UI (personalizable)
 
-## Installation
+## Instalación
 
-Basic knowledge about Docker, Docker Compose and NodeJS is required.
+Se requieren conocimientos básicos sobre Docker, Docker Compose y NodeJS.
 
-### Prerequisites
+### Requisitos previos
 
 - [git](https://git-scm.com/)
 - [node.js](https://nodejs.org/es/)
 - [yarn](https://yarnpkg.com/)
 
-### Step by step
+### Paso a paso
 
-Copy the `.env.example` then update the environment variables according to your needs
+Copie el `.env.example` y luego actualice las variables de entorno de acuerdo con sus necesidades
 
 ```
 cp .env.example .env
 ```
 
-_If you want to the boilerplate using UAL login integration, please make sure that `REACT_APP_USE_UAL` env variable is set as true._
+_Si desea utilizar la integración de inicio de sesión UAL en el modelo estándar, asegúrese de que la variable env `REACT_APP_USE_UAL` esté configurada como verdadera ._
 
-## Execution
+## Ejecución
 
-1.  Clone this repo using `git clone --depth=1 https://github.com/eoscostarica/webapp-boilerplate.git <YOUR_PROJECT_NAME>`
-2.  Move to the appropriate directory: `cd <YOUR_PROJECT_NAME>`.
-3.  Run `yarn` in order to install dependencies.
-    _At this point you can run `yarn start` to see the example app at `http://localhost:3000`._
+1. Clone este repositorio usando `git clone --depth = 1 https://github.com/eoscostarica/webapp-boilerplate.git <YOUR_PROJECT_NAME>`
+2. Vaya al directorio apropiado: `cd <YOUR_PROJECT_NAME>`.
+3. Ejecute `yarn` para instalar las dependencias.
+    _En este punto puede ejecutar `yarn start` para ver la aplicación de ejemplo en` http: // localhost: 3000`._
 
 - **GitHub** : https://github.com/eoscostarica/webapp-boilerplate
 
-## EOSCR React Components
-A collection of React Components for EOSIO
+## Componentes de React de EOSCR
+Una colección de componentes de React para EOSIO.
 
-### GitHub Repository
+### Repositorio de GitHub
 https://github.com/eoscostarica/eoscr-components
 
-### StoryBook Preview
-https://components.eosio.cr
-
-
+### Previsualización de StoryBook
+https://components.edenia.cloud

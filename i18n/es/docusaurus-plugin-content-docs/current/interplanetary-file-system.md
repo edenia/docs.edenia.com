@@ -2,69 +2,66 @@
 id: interplanetary-file-system
 title: IPFS (Interplanetary File System)
 sidebar_label: IPFS (Interplanetary File System)
-description: IPFS is a peer-to-peer hypermedia protocol that enables the exchange of information between computers on the Internet.
-keywords: [IPFS, Interplanetary File System, File System, EOS, EOS Costa Rica, What is IPFS, What is IPFS For]
+description: IPFS es un protocolo de comunicación de datos que permite almacenar y recuperar archivos en una red de nodos.
+keywords: [IPFS, Interplanetary File System, File System, EOS, EOS Costa Rica, Qué es IPFS, Para qué sirve IPFS]
 ---
 
-[IPFS](https://ipfs.io/) (Interplanetary File System) is a decentralized network protocol that is based on a distributed network, this to create a direct relationship with the p2p method ([peer to peer](https://es.wikipedia.org/wiki/Peer-to-peer)), the purpose of this protocol is to store files or information quickly and safely. In this way, IPFS changes the traditional form of information storage from centralized to decentralized, bringing with it many benefits such as access to information without depending on a single storage point for its respective access, increased storage, control of use of your own data and among many other benefits.
+[IPFS](https://ipfs.io/) (Interplanetary File System) es un protocolo de red descentralizado que se basa en una red distribuida, esto para crear una relación directa con el método p2p ([peer to peer](https://es.wikipedia.org/wiki/Peer-to-peer)), el fin de dicho protocolo es almacenar archivos u información de una manera rápida y segura. De esta manera, IPFS cambia la forma tradicional de almacenamiento de la información pasando de centralizada a descentralizada, trayendo consigo muchos beneficios como el acceso a la información sin depender de un único punto de almacenamiento para su respectivo acceso, aumento de almacenamiento, control de uso de tus propios datos y entre muchos otros beneficios.
 
 <figure 
   className="video_container">
   <iframe
-   width="100%" height="315" src="https://www.youtube.com/embed/5Uj6uR3fp-U" frameBorder="0" allowFullScreen
-   loading="lazy">
+   width="100%" height="315" src="https://www.youtube.com/embed/5Uj6uR3fp-U"  frameBorder="0" allowFullScreen loading="lazy">
   </iframe>
 </figure>
 
-## History of IPFS
+## Historia de IPFS
 
-IPFS was born with the need to solve many problems that are seen every day in the storage of data on the Internet. A clear example is centralized storage, hoarding data in one place makes its use slower depending on the number of people, also if the server stops working there is no way to use the information until it is back on on going. It is also very common to use information to sell it to third parties, as is the case with some social networks where they sell information on tastes and preferences without the consent of the users. This system was born in order to solve many problems present in the current protocol.
+IPFS nace con la necesidad de solventar muchos problemas que se ven día con día en el almacenamiento de los datos en internet. Un claro ejemplo es el almacenamiento centralizado, el acaparamiento de datos en un sólo lugar hace que su uso sea más lento dependiendo la cantidad de personas, también si el servidor deja de funcionar no hay manera de utilizar la información hasta que este vuelva a estar en marcha. También es muy común el uso de información para venderla a terceros como es el caso de algunas redes sociales donde venden información de gustos y preferencias sin el consentimiento de los usuarios. Este sistema nace con el fin de dar solución a muchos problemas presentes en el protocolo actual.
 
-The beginning of IPFS occurs in 2014, when Juan Benet, a software programmer, creates a company called Protocol Labs. In 2015, Benet announces a new technology that is already known worldwide as IPFS. As mentioned above, the central idea was to build a p2p network, in this way its users could store as well as distribute information to other users, in this way the protocol works in a decentralized manner. For the respective storage, the network uses the Distributed Hash Table ([DHT](https://es.wikipedia.org/wiki/Tabla_de_hash_distribuida)) as well as the [BitTorrent](https://es.wikipedia.org/wiki/BitTorrent) protocol. 
+El inicio de IPFS se da en el año 2014, donde Juan Benet programador de software crea una empresa llamada Protocol Labs. En el año 2015 Benet anuncia una nueva tecnología la que ya es conocida mundialmente como IPFS. Como se mencionó anteriormente, la idea central era construir una red p2p, de esta manera los usuarios de la misma podrían tanto almacenar como repartir la información a los demás usuarios, de esta manera el protocolo trabaja de forma descentralizada. Para el respectivo almacenamiento la red utiliza la Tabla de Hash Distribuida ([DHT](https://es.wikipedia.org/wiki/Tabla_de_hash_distribuida)) al igual que el protocolo [BitTorrent](https://es.wikipedia.org/wiki/BitTorrent).
+
+## ¿Cómo funciona IPFS?
+El sistema está creado para realizar la búsqueda de los datos por el contenido que se está solicitando y no por ubicación que es como se conoce comúnmente. Es importante resaltar que IPFS utiliza la DHT, dicha función es utilizada para crear un hash del contenido que se desea agregar a la red, dicho hash es único y nunca se va a repetir, además redirige las búsquedas a los nodos donde se encuentra la información solicitada. IPFS utiliza el hash SHA-256, mismo que utiliza [Bitcoin](https://www.newscientist.com/definition/bitcoin/), esto debido a los beneficios que este ofrece como seguridad, fácil de usar y no necesita muchos recursos para generar el hash.
 
 
-## How does IPFS work?
+El protocolo actual realiza los siguientes pasos para realizar una búsqueda:
 
-The system is created to search for the data by the content that is being requested and not by location, as it is commonly known. It is important to highlight that IPFS uses the DHT, this function is used to create a hash of the content that you want to add to the network, said hash is unique and will never be repeated, it also redirects the searches to the nodes where the information is found. requested. IPFS uses the SHA-256 hash, the same as [Bitcoin](https://www.newscientist.com/definition/bitcoin/), this due to the benefits it offers such as security, easy to use and does not require many resources to generate the hash.
+- Primero toma la dirección web para luego consultar al DNS la IP de la ubicación del servidor.
+- Ya con la IP en mano se hace la consulta de información del servidor y se inicia la respectiva descarga.
+- Luego de la descarga nos muestra la información de dicho servidor.
 
-The current protocol performs the following steps to perform a search:
+De esta manera es como funciona el protocolo tradicional, **búsquedas de contenido por ubicación**, en la cual es necesario tener conocimiento de la dirección a la cual se quiere realizar la consulta de los datos. En el caso de IPFS es distinto, como se mencionó anteriormente, el protocolo hace esta búsqueda por contenido. Este sistema utiliza los siguientes pasos para realizar una búsqueda:
 
-- First take the web address and then query the DNS for the IP of the server location.
-- Already with the IP in hand, the server information query is made and the respective download is started.
-- After downloading, it shows us the information of said server.
+- No es necesario saber la dirección, únicamente se busca en el sistema lo	que se necesita.
+- El sistema envía a la red de nodos la búsqueda que se está realizando. Esta información está protegida por cifrado, hash y firma digital, esto con el fin de proteger la información y dar acceso únicamente a quién se le de autorización.
+- Luego del envío de la búsqueda los nodos responden con información de las versiones disponibles de lo solicitado.
+- Al elegir uno de los resultados obtenidos se puede ver tanto su contenido como su historial de la información.
 
-This is how the traditional protocol works, **content searches by location**, in which it is necessary to know the address to which you want to query the data. In the case of IPFS it is different, as mentioned above, the protocol does this **search by content**. This system uses the following steps to perform a search:
+Esa es la manera como trabaja el sistema IPFS, por eso motivo se le conoce como **búsqueda por contenido** ya que simplemente indicamos lo que necesitamos y la red de nodos nos responde con opción de consultar los datos que se vayan a requerir.
 
-- It is not necessary to know the address, only what is needed is searched in the system.
-- The system sends the search that is being carried out to the network of nodes. This information is protected by encryption, hash and digital signature, this in order to protect the information and give access only to those who are authorized.
-- After sending the search, the nodes respond with information on the available versions of what was requested.
-- By choosing one of the results obtained, you can see both its content and its information history.
+## Ventajas y desventajas de IPFS
 
-That is the way IPFS system works, for this reason it is known as **content addressing** since we simply indicate what we need and the network of nodes responds with the option to consult the data that is going to be required.
+Algunas ventajas de usar IPFS son:
 
-## Advantages and disadvantages of IPFS
+- Almacenamiento descentralizado por lo que no depende de un sólo lugar para el acceso además de que es accesible en cualquier momento.
+- Es escalable, por lo que se le pueden agregar futuras mejoras y funcionalidades.
+- Rápido almacenamiento y consulta de datos.
+- Mayor capacidad de almacenamiento.
+- No hay censura de contenido, al estar descentralizado es imposible que se pueda censurar algún contenido.
 
-Some advantages of using IPFS are:
+Algunas desventajas de usar IPFS son:
+- Es una nueva tecnología que al implementarla traerá consigo algunas complicaciones al querer ejecutarla por completo en internet.
+- Aún se encuentra en proceso de mejora y desarrollo.
+- Al ser una nueva tecnología y paradigma, puede ser difícil de usar para algunas personas.
 
-- Decentralized storage so it does not depend on a single place for access and is accessible at any time.
-- It is scalable, so future improvements and functionalities can be added.
-- Fast data storage and query.
-- Greater storage capacity.
-- There is no censorship of content, being decentralized it is impossible for any content to be censored.
+## Casos de uso de IPFS
 
-Some of the disadvantages of using IPFS are:
-- It is a new technology that when implemented will bring with it some complications when wanting to run it completely on the internet.
-- It is still in the process of improvement and development.
-- Being new technology and paradigm it may be difficult to use for some people.
+Actualmente existen varios casos de usos de sistemas en los cuales las empresas han decidido innovar utilizando esta nueva tecnología. Esto es debido a la gran cantidad de beneficios que ofrece este sistema, algunas empresas que dan uso de esta tecnología son:    [Audius](https://audius.co/), una plataforma que utiliza la tecnología de IPFS para almacenar sus datos de forma descentralizada donde el artista puede ver quienes escuchan su música por lo que tienen total control en las misma, otra empresa muy reconocida y que está empezando en el uso de esta tecnología para el manejo de sus archivos es [Netflix](https://www.netflix.com/).
 
-## IPFS Use Cases
+Este protocolo IPFS también ha sido implementado en varias redes relacionadas con el blockchain. Esto debido a su capacidad de almacenamiento y gran cantidad de beneficios que puede traer a estas redes. Algunas de las redes que utilizan este protocolo de almacenamiento son: [Filecon](https://filecoin.io/), es una red de almacenamiento decentralizada primera red blockchain en implementar el protocolo IPFS en su red, [Storj](https://www.storj.io/), es otra red blockchain de almacenamiento decentralizado que también utiliza el protocolo. Otro gran caso de uso es con  los NFT ([Non Fungible Tokens](https://guias.eoscostarica.io/docs/aprender-eosio/nfts-en-eosio)), esta tecnología actualmente se encuentra en tendencia y es utilizada para activos digitales encriptados la cual utiliza IPFS para el almacenamiento de sus datos. 
 
-Currently there are several cases of use of systems in which companies have decided to innovate using this new technology. This is due to the large number of benefits offered by this system, some companies that use this technology are: [Audius](https://audius.co/), a platform that uses IPFS technology to store your data in a decentralized way where the artist can see who listens to their music so they have total control over it, another well-known company that is starting to use this technology to manage their files is [Netflix](https://www.netflix.com/).
+Estas son sólamente algunos de los muchos sistemas que se encuentran utilizando este nuevo protocolo que apenas está iniciando su impacto en el internet.
 
-IPFS protocol has also been implemented in various networks related to the blockchain. This is due to its storage capacity and large number of benefits that it can bring to these networks. Some of the networks that use this storage protocol are: [Filecon](https://filecoin.io/), it is a decentralized storage network, the first blockchain network to implement the IPFS protocol in its network, [Storj](https://www.storj.io/), is another decentralized storage blockchain network that also uses the protocol. Another great use case is with NFTs ([Non Fungible Tokens](https://guide.eoscostarica.io/docs/eos-learn/nfts-on-eosio/)), this technology is currently trending and is used for encrypted digital assets which uses IPFS for the storage of its data.
-
-These are just some of the many systems that are using this new protocol that is just beginning its impact on the Internet.
-
-## What to expect in the future for IPFS
-
-Technology is clearly changing and with more and more improvements, new trends come to replace current technologies, this in order to solve errors and problems that current systems have. This technology seems to be a great candidate for replacing the current protocol, so in the not too distant future, IPFS will be the main Internet protocol due to its scalability and great benefits that it brings to the web.
+## Que se espera en el futuro para IPFS
+Claramente la tecnología es cambiante y cada vez con más mejoras, nuevas tendencias vienen a sustituir las actuales tecnologías, esto con el fin de solventar errores y problemas que tienen los actuales sistemas. Esta tecnología parece ser una gran candidata para la sustitución del actual protocolo por lo que en un futuro no muy lejano IPFS va a ser el principal protocolo de la internet debido a su escalabilidad y grandes beneficios que trae para la web.

@@ -1,67 +1,70 @@
 ---
 id: flight-methodology
-title: Flight Methodology
-sidebar_label: Flight Methodology
-description: Flight Methodology - EOS Costa Rica
-keywords: [EOS, Flight Methodology, EOS Costa Rica, Grooming, What is Flight Methodology, What is Flight Methodology For]
+title: Metodología de Vuelos
+sidebar_label: Metodología de Vuelos
+description: EOS Costa Rica - Metodología de vuelos
+keywords: [EOS, Costa Rica, Metodología de vuelos, grooming, Qué es Metodología de vuelos, Para qué sirve la metodología de vuelos]
 ---
 
-## Metodologías Ágiles en Edenia
+## Agilidad en Edenia
 
-En Edenia nos esforzamos por ser innovadores no solo con nuestras soluciones de software, sino también con nuestros procesos. Estamos en constante evolución y mejorando la forma en que nuestro equipo se organiza para optimizar nuestro entorno de trabajo y la entrega de resultados.
+En Edenia nos esforzamos por ser innovadores no solo con nuestras soluciones de software sino también con nuestros procesos, estamos en constante evolución y mejorando la forma en que nuestro equipo está organizado para mejorar nuestro entorno de trabajo y optimizar la forma en que entregamos resultados.
 
-Somos un equipo flexible que aplica metodologías ágiles adaptables a las preferencias de cada proyecto o cliente. Conocemos diversas metodologías ágiles y usamos un enfoque híbrido personalizado según nuestras necesidades.
+Somos un equipo flexible que aplica metodologías ágiles que deben adaptarse a cada proyecto o preferencia del cliente. Estamos familiarizados con una variedad de diferentes metodologías ágiles y utilizamos un enfoque híbrido que se ha personalizado según nuestras necesidades.
 
-## Ceremonias
+## Ceremonias:
 
-### Reunión Diaria
+-**Reunión diaria**  
+Con una duración que no exceda los 30 minutos, en el cual nuestros pilotos nos darán su reporte de clima y el avance que han tenido en el mismo, indicarán si tiene algún problema o si necesitan alguna ayuda para aterrizar el vuelo a tiempo.
 
-La reunión diaria dura 30 minutos y cada piloto a cargo de los “flights” nos presentará su informe del clima y el progreso alcanzado.
+-**Grooming:**
+Esta ceremonia se realiza una vez por semana durante 30 minutos, donde desarrollamos los nuevos vuelos en los diferentes proyectos en lo que se  estará trabajando próximamente. 
 
-El piloto indicará si tiene algún problema o necesita ayuda para aterrizar el “flight” a tiempo.
 
-### Grooming
+### Manual de Vuelos:
 
-Esta ceremonia de grooming se lleva a cabo una vez por semana durante 30 minutos, en la que planificamos los nuevos “flights” de los distintos proyectos en curso.
+Un marco ágil, liviano y sin ceremonias para ofrecer características de una manera eficiente y continua, es una forma para alinear, planificar y reflexionar sobre el trabajo. Es algo que debe llevarse a cabo de la manera que tenga más sentido para el equipo específico y no implique ni entre en conflicto con las prácticas de uso de Vuelos. Para las empresas emergentes, y los equipos que generalmente trabajan en condiciones de extrema incertidumbre, un enfoque continuo será mucho más beneficioso.
 
-## Manual de Flight
+## Definición de un vuelo:
 
-Marco ágil, ligero y sin ceremonias excesivas para ofrecer funcionalidades de forma eficiente y continua. Es una forma de alinear, planificar y reflexionar sobre el trabajo, adaptándose a lo que tenga más sentido para cada equipo, sin entrar en conflicto con las prácticas de los “Flights”.
-
-Para startups y equipos que suelen trabajar bajo alta incertidumbre, este enfoque continuo resulta mucho más beneficioso.
-
-## Definición de Flight
-
-Puedes ver un “flight” como una fusión entre un sprint y un epic. Es un conjunto de tareas relacionadas que cuenta con su propio tablero. Sin embargo, hay diferencias clave.  
-Cuando reservas un “flight”, añades tareas al mismo. Las tareas pueden ser cualquier cosa que deba hacerse, sin estar limitadas al formato de “User Story” que conocemos de Scrum. Por lo general, conviene reservar un “flight” con tareas que van juntas, dependen entre sí o se espera que se completen al mismo tiempo.
-
-No obstante, nada impide agregar tareas no relacionadas a un “flight” si hay “espacio disponible”.
+Puedes ver un vuelo como una fusión entre un sprint y una épica. Es un grupo de tareas relacionadas y tiene su propio tablero de tareas. Sin embargo, hay algunas diferencias clave. Cuando reserva un vuelo, le agrega tareas. Las tareas pueden ser cualquier cosa que deba hacerse, pero no están restringidas al formato de una "Historia de usuario" como la conocemos por Scrum.
 
 <iframe width="100%" height="350" src="https://www.youtube.com/embed/pCShsesxRZA" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 
-### Tripulación del Flight
 
-- **Piloto:** Puede ser cualquier miembro del equipo; es responsable de entregar el “flight” con todos los requisitos y a tiempo.  
-- **Copiloto:** Brinda apoyo al piloto y, en conjunto, busca soluciones si surgen turbulencias.  
-- **Staff:** Cualquier persona del equipo que trabaje en una tarea del “flight”.
+Como regla general, tiene sentido reservar un vuelo con tareas que van juntas, dependen unas de otras o se espera que aterricen al mismo tiempo. Sin embargo, nada le impide agregar tareas no relacionadas a un vuelo si hay "espacio para ello".
 
-## Recomendaciones
+## Tripulación de vuelos:
 
-1. **Cada flight debe tener un piloto**  
-2. **Un desarrollador solo puede pilotar un flight a la vez (pero puede ser copiloto o staff en otros)**  
-3. **Los desarrolladores pueden ser staff en distintos flights simultáneamente**
+-**Piloto:** puede ser cualquier persona del equipo, esta persona es la encargada de entregar el  vuelo con todos los requisitos y a tiempo.
 
-## Estados del Flight
+-**Copiloto:** Debe dar soporte al piloto si es necesario, y entre ambos buscar soluciones en caso de encontrarse alguna turbulencia.
 
-- **On Deck:** El flight está en cola para despegar y el staff puede comenzar a prepararse.  
-- **At Gate:** Se tiene clara la idea del flight y qué debe hacerse para aportar valor al proyecto.  
-- **Boarding:** Indica que, tan pronto alguien termine un flight, el nuevo flight pasa a alta prioridad.  
-- **Flying:** Cuando ya se está trabajando en el flight y existe piloto, copiloto y staff asignados.  
-- **Delayed:** Si el flight enfrenta complicaciones internas o externas y no podrá aterrizar a tiempo.  
-- **Landed:** Significa que el objetivo del flight se completó y llegó a su destino.
+-**Staff:** Este puede ser cualquier  miembro del equipo que esté ayudando en paralelo en alguna tarea en el vuelo. 
 
-## Condiciones Climáticas
+***Algunas recomendaciones sobre sobre la metodología de Vuelos son:***
+- Cada vuelo debe de tener un piloto. 
+- Un desarrollador solo puede ser piloto de una vuelo a la vez (Pero si puede ser un co-piloto o staff)
+- Desarrolladores pueden ser staff en diferentes vuelos al mismo tiempo.
 
-- **Clear:** El flight no presenta problemas internos ni externos y se espera completar en el tiempo estimado.  
-- **Cloudy:** Existe un inconveniente menor que requiere ayuda, pero no afecta el tiempo de aterrizaje.  
-- **Turbulence:** Problemas internos o externos impiden avanzar, lo cual afectará la hora de llegada del flight.  
+## Tipos de vuelos 
+
+-**En cubierta:** El vuelo está en cola para el despegue y el personal puede comenzar a prepararse.
+ 
+-**Puerta de abordaje:** Idea clara sobre el vuelo, y lo que se debe hacer para agregar valor al proyecto.
+
+-**Abordando:** indica que en cuanto alguien termine un  vuele esta será  de prioridad alta hacer el nuevo vuelo. 
+
+**volando:** Cuando ya se está trabajando en el vuelo y tiene un piloto, co- piloto y staff. 
+
+-**retrasado:** cuando el vuelo tiene dificultades externas o internas el vuelo tardará más de lo previsto. 
+
+-**aterrizado:** El vuelo aterrizó, esto quiere decir se realizó por completo la tarea y el resultado fue satisfactorio.
+
+## Tipo de climas 
+
+-**Despejado:** esto quiere decir que el vuelo está sin problemas internos o externos y se espera se termine en el tiempo estimado.
+
+-**Nublado:** es cuando tiene algún problema pequeño que necesitas ayuda y no implica en el tiempo de aterrizaje.
+
+-**Turbulencia:** Es cuando tienes problemas en el vuelo ya sea externa o interna y no puedes avanzar, y esto afectará el tiempo de llegada del vuelo.

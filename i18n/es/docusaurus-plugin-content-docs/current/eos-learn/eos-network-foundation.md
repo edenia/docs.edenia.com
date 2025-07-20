@@ -1,103 +1,103 @@
 ---
 id: eos-network-foundation
-title: EOS Network Foundation Blue Papers
+title: Blue Papers Fundación Red EOS (ENF)
 sidebar_label: ENF Blue Papers
-description: Research papers conducted by the EOS Network Foundation
-keywords: [Blue Papers EOS, ENF Research, blue-papers-eos, eos-network-foundation-research]
+description: Investigaciones realizadas por la Fundación Red EOS
+keywords: [Blue Papers EOS, Investigación ENF, EOS Network Foundation, Publicaciones ENF]
 ---
 
-The EOS Network Foundation, also known as ENF (EOS Network Foundation) is a non-profit foundation, has created a series of "Blue Papers" on the main issues or doubts of the community and the respective actions to be taken in such situations. In this section we will see in a quick and concise way some of them:
+La fundación de la Red EOS también conocida por sus siglas en ingles como ENF (EOS Network Foundation) es una fundación sin fines de lucro, han creado una serie de documentos "Blue Papers" sobre los principales temas o dudas de la comunidad y de las respectivas acciones a tomar ante dichas situaciones. En esta sección veremos de manera concisa y rápida algunos de ellos:
 
 ## API+
 
-Being a blockchain that is required to be read and written by several users at the same time, a lot is expected from the APIs by the developers, due to this and added to the fact that depending on its functionality it can directly affect in an economic way to the users, they become a crucial section for the operation/growth of the network.
+Siendo una cadena de bloques que se requiere leer y escribir por varios usuarios a la vez, se espera mucho de los APIs por parte de los desarrolladores, debido a esto y sumado al hecho que dependiendo de su funcionalidad puede afectar directamente de manera económica a los usuarios, se vuelven un apartado crucial para el funcionamiento/crecimiento de la red.
 
-Faced with this situation, the community faced the following challenges:
+Ante esta situación, la comunidad se encontró ante los siguientes desafíos:
 
-- Need for a lot of research and standardization on the use of APIs.
-- Development by the community with losses supported by the rewards of the network.
-- Lack of feedback from developers on possible improvements.
+- Necesidad de mucha Investigación y Estandarización sobre el uso de las APIs.
+- Desarrollo por parte de la comunidad con perdidas apoyándose de las recompensas de la red.
+- Falta de feedback por parte de los desarrolladores ante posibles mejoras.
 
-With the effort made by the community, the following has been achieved:
+Con el esfuerzo realizado por la comunidad se ha logrado lo siguiente:
 
-- Create a tool base for the development of apps based on the EOSIO network.
-- Obtain the support of external organizations, which are interested in the current and future achievements of the network.
-- Obtain the necessary feedback for the creation of new tools and improvements to existing ones.
+- Crear una base de herramientas para el desarrollo de apps con su base en la red EOSIO.
+- Obtener el apoyo de organizaciones externas, las cuales se han interesado en los logros actuales y futuros de la red.
+- Obtener el feedback necesario para la creación de nuevas herramientas y mejoras en las ya existentes.
 
-To learn more about this topic and its participation in the life cycle in the network, you can see it in the following link [API+ Blue Paper](https://bit.ly/api-plus-english) with availability to download if desired.
+Si desea obtener más conocimiento sobre este tema y su participación en el ciclo de vida en la red, puede verlo en [API+ Blue Paper](https://bit.ly/api-plus-english) con disponibilidad de descargarlo si así lo desea.
 
 ## Core+  
 
-For the development of applications supported by the EOSIO network it is necessary to understand how the Core works and the steps to follow for its current use, for this it is essential to have knowledge about the main strengths and challenges to date.
+Para el desarrollo de aplicaciones que se apoyen en la red EOSIO es necesario entender el funcionamiento del Core y los pasos a seguir para su uso en la actualidad, para esto es esencial tener conocimiento sobre las principales fortalezas y retos hasta la fecha.
 
-For the launching of applications supported by EOSIO, it is recommended by the community to take into consideration the following:
+Para el lanzamiento de aplicaciones apoyadas en EOSIO se recomienda por parte de la comunidad tener en consideración lo siguiente:
 
-### Launch Pad
+### Plataforma de Lanzamiento
 
-A good launching platform that meets the minimum requirements to produce value to the network and at the same time is stable for the support in EOSIO is of utmost importance, in order to achieve this it is important to be actively involved in the network community, as well as reading and providing feedback on possible improvements of the documentation and tools.
+Una buena plataforma de lanzamiento que cubra los requisitos mínimos para producir un valor a la red y a su vez resulte estable para el apoyo en EOSIO es de suma importancia, para poder lograr es importante involucrarse de manera activa en la comunidad de la red, así como leyendo y brindando feedback de posibles mejoras de la documentación y las herramientas.
 
-### Lift Off
+### Despegue
 
-For a successful take-off, it is recommended to engage with other platforms through partnerships, events and working groups. Provide growth opportunities to both users and developers to provide platform awareness and exposure.
+Para obtener un despegue exitoso se recomienda involucrarse con otras plataformas por medio de asociaciones, eventos y grupos de trabajo. Brindar oportunidades de crecimiento tanto a los usuarios como a desarrolladores para brindar conocimiento de la plataforma y exposición de la misma.
 
-### Propel
-In order to propel the platform, it is recommended to improve speed and scalability, attract new users, giving more exposure to the platform and opportunities for growth with other EOSIO platforms. It is also necessary to continue investing in the platform, therefore it is necessary to establish a team for research and development of possible improvements or technologies.
+### Propulsar
+Para poder propulsar la plataforma se recomienda mejorar la velocidad y escalabilidad, atraer nuevos usuarios, dando más exposición de la plataforma y oportunidades de crecimiento con otras plataformas de EOSIO. También es necesario no dejar de invertir en la plataforma, por lo mismo es necesario establecer un equipo para la investigación y desarrollo de posibles mejoras o tecnologías.
 
-To learn more about this topic, you can see it in the following link [Core+ Blue Papers](https://bit.ly/eos-core-plus) with availability to download if desired.
+Si desea obtener más conocimiento sobre este tema puede verlo en [Core+ Blue Paper](https://bit.ly/eos-core-plus) con disponibilidad de descargarlo si así lo desea.
 
 ## Wallet+
 
-The Wallet+ group was created as an ENF measure, given the various complementary products that benefit application developers and end users, in order to determine the possible vulnerabilities of these and the necessary improvements to be implemented. The group was created to understand the current state of the network in an honest and holistic way, in order to coordinate with external groups the improvement supported by the feedback provided by the community to concentrate efforts on what will provide the best benefits in the future.
+El grupo Wallet+ nace como una medida de ENF, ante los varios productos complementarios que benefician a los desarrolladores de aplicaciones y usuarios finales, con el fin de determinar las posibles vulnerabilidades de estos y las mejoras necesarias a implementarse. Para esto se creo el grupo que de manera honesta y holística pueda entender el estado actual de la red, de esta manera poder coordinar a los grupos externos el mejoramiento apoyado del feedback brindado por la comunidad para poder concentrar los esfuerzos en aquello que brinde mejores beneficios a futuro.
 
-In this paper you will find the weaknesses found by the group on the possible improvements to be implemented, but for this we must know which were the questions answered by this group and their order, which is in the following list:
+En este Paper se encuentra las debilidades encontradas por el grupo sobre las posibles mejoras a implementarse, pero para esto debemos saber cuáles fueron las preguntas contestadas por este grupo y su orden, mismo que se encuentra en la siguiente lista:
 
-1. Evaluation of the current state of the EOS ecosystem.
-2. Work done in other ecosystems that can be adopted.
-3. List initiatives that can improve the EOS ecosystem.
-4. List the foundation's recommendations for action.
+1. Evaluación de estado actual del ecosistema EOS.
+2. Trabajo realizado en otros ecosistemas que pueda ser adoptado.
+3. Listar las iniciativas que pueden mejorar el ecosistema EOS.
+4. Listar las recomendaciones de la fundación para tomar acción.
 
-To learn more about this topic, you can see it in the following link [Wallet+ Blue Paper](https://bit.ly/wallet-plus-english) with availability to download if desired.
+Si desea obtener más conocimiento sobre este tema puede verlo en [Wallet+ Blue Paper](https://bit.ly/wallet-plus-english) con disponibilidad de descargarlo si así lo desea.
 
 ## Audit+
 
-The Audit+ group was born as an initiative of the ENF to develop testing tools to address the clear shortage of security enhancement tools within the community, which has lagged behind the growth of security compared to other blockchain technologies.
+El grupo Audit+ nace como una iniciativa de la ENF para el desarrollo de herramientas de testeo que solventen la clara escasez de herramientas para el mejoramiento de la seguridad dentro de la comunidad, la cual se ha quedado atrás en el crecimiento de esta en comparación de las otras tecnologías blockchain.
 
-To this end, Audit+ decided to focus its efforts on the following:
+Para esto Audit+ decidió centrar sus esfuerzos en lo siguiente:
 
-### Automated Open Source Security Auditing Tools and APIs
+### Herramientas de Seguridad-Auditoria y APIs Automáticas
 
-The group decided as one of its main objectives the development of automated tools that allow the verification of security through auditing not only of smart contracts but also of APIs, since EOS did not have a space dedicated to contract auditing, which was a major vulnerability for developers and end users.
+El grupo decidió como una de sus principales objetivos el desarrollo de herramientas automatizadas que permitan la verificación de la seguridad por medio de Auditoria no solamente de los contratos inteligentes sino también de las APIs, esto ya que EOS no poseía un espacio dedicado a la auditoria de contratos mismo que suponía una gran vulnerabilidad para desarrolladores y usuarios finales.
 
-### Contract Upgrade Authorizations 
+### Autorización de Mejoras de Contratos 
 
-This issue is important because of the uncertainty present in the community, especially for ordinary EOS accounts, which had to rely 100% on the owners of the contract, who had full authority to change the stipulations of the contract or take all the funds. This was necessary not only for the user community, but also for the developers in order to improve the existing contracts.
+Este tema obtiene su importancia ante la incertidumbre presente en la comunidad, sobre todo de las cuentas de EOS ordinarias, las cuales tenían que confiar 100% en los dueños del contrato, los cuales tenían total autoridad para cambiar lo estipulado en el contrato o tomar todos los fondos. Siendo de necesario no solamente para la comunidad de usuarios, sino también para los desarrolladores con el fin de poder mejorar los contratos ya existentes.
 
-### Software Libraries for Secure Smart Contract Development
+### Librerías para Contratos Inteligentes Seguros
 
-This topic is being addressed by a large group of developers with little or no technical knowledge regarding security and its implementation in smart contracts. For this reason, the Audit+ group plans to develop not only the libraries, but also a roadmap to understand their operation and application.
+Este tema se obtiene ante un amplio grupo de desarrolladores con poco o escaso conocimiento técnicos referentes a la seguridad, así como su implementación en los contratos inteligentes. Por lo mismo, el grupo Audit+ tiene pensado el desarrollo no solamente de las librerías, incluso el de un roadmap que permita comprender su funcionamiento y aplicación.
 
-To learn more about this topic, you can see it in the following link [Audit+ Blue Paper](https://drive.google.com/file/d/1hQsN-_4DN5Lj9iDih0N41r8-ZeEpFRlr/view?usp=sharing) with availability to download if desired.
+Si desea obtener más conocimiento sobre este tema puede verlo en [Audit+ Blue Paper](https://drive.google.com/file/d/1hQsN-_4DN5Lj9iDih0N41r8-ZeEpFRlr/view?usp=sharing) con disponibilidad de descargarlo si así lo desea.
 
 ## EVM+
 
-This topic is born as one of the many measures by the community for the growth of the same, aiming the development of a bridge with Ethereum, as its name suggests EVM+ (Ethereum Virtual Machine) is the group in charge of the development of ETH compatibility with EOS, so that contracts developed in Solidity (ETH) can be launched on the EOSIO network allowing you to launch your apps 100 times faster and 1000 times cheaper.
+Este tema nace como una de las tantas medidas por parte de la comunidad para el crecimiento de la misma, teniendo como objetivo el desarrollo de un puente con Ethereum, como su nombre lo indica EVM+ (Ethereum Virtual Machine) es el grupo a cargo del desarrollo de compatibilidad de ETH con EOS, para que puedan ejecutarse contratos desarrollados en Solidity (ETH) ser lanzados en la red EOSIO permitiendo lanzar sus apps 100 veces más rápido y 1000 veces más barato.
 
-Its main goal is to create full compatibility between EOS and the EVM platform for both developers and end users.
-In order to achieve this goal, some specific objectives have been established, such as:
+Siendo un su principal meta crear una compatibilidad total entre EOS y la plataforma EVM tanto para desarrolladores así como para usuarios finales.
+Para lograr dicho objetivo se han establecido algunos objetivos específicos, entre ellos:
 
-- Native implementation in Nodeos for smart contracts.
+- Implementación nativa en Nodeos para contratos inteligentes.
 
-- Pre-compiled ETH contracts
+- Contratos ETH pre-compilados
 
-- Full RCP support
+- Compatibilidad RCP completa
 
-To learn more about this topic, you can see it in the following link [EVM+ Blue Paper](https://eosnetwork.com/blog/evm-bringing-the-ethereum-virtual-machine-to-eos/).
+Si desea obtener más conocimiento sobre este tema puede verlo en [EVM+ Blue Paper](https://eosnetwork.com/blog/evm-bringing-the-ethereum-virtual-machine-to-eos/).
 
 ## Recorver+
 
-The Recorver+ group was born as a response to the possibility of an attack by a group of hackers and the possible actions to be taken for the recovery of the network, as well as measures to be taken into consideration to reduce damage to developers and end users. It is necessary to understand that despite the research done by the group, this Paper does not contain all possible scenarios, added to this fact, the existence of many variables outside the network, such as a global economic recession or similar.
+El grupo Recorver+ nace como una respuesta ante la posibilidad del ataque de un grupo de hackers y las posibles acciones a tomar para la recuperación de la red, así como medidas a tener en consideración para disminución de daños hacia desarrolladores y usuarios finales. Es necesario entender que a pesar de la investigación realizada por el grupo, este Paper no contenga todos los escenarios posibles, sumados a este hecho, la existencia de muchas variables ajenas a la red, como bien lo podría ser una recesión económica global o similares.
 
-To learn more about this topic, you can see it in the following link [Recover+ Blue Paper](https://eosnetwork.com/wp-content/uploads/2022/06/Recover-Blue-Paper-English.pdf) with availability to download if desired.
+Si desea obtener más conocimiento sobre este tema puede verlo en [Recover+ Blue Paper](https://eosnetwork.com/wp-content/uploads/2022/06/Recover-Blue-Paper-English.pdf) con disponibilidad de descargarlo si así lo desea.
 
 
-These "Papers" are the results of research carried out by different groups, but they are not the only ones. If you wish to see all the Blue Papers and have knowledge about the different topics, you can visit the [EOS Fundation Blue Papers](https://eosnetwork.com/blog/category/eos-blue-papers/).
+Siendo estos "Papers" los resultados de investigaciones realizadas por distintos grupos, más no siendo los únicos si desea ver todos los Blue Papers y tener conocimiento sobre los distintos temas puede visitar [Fundación EOS Blue Papers](https://eosnetwork.com/blog/category/eos-blue-papers/).

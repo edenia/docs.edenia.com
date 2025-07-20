@@ -1,22 +1,22 @@
 ---
 id: command-line
-title: Cleos Commands
-sidebar_label: Command Line
-description: List of commands for use with Cleos.
-keywords: [ Cleos Commands, Cleos, EOS, EOS Costa Rica, What is Cleos]
+title: Comandos Cleos
+sidebar_label: Línea de Comando
+description: Lista de comando para el uso de Cleos
+keywords: [Comandos Cleos, cleos, comandos, EOS, Costa Rica, Qué es cleos]
 ---
 
-### Cleos Command
+### Comando Cleos 
 
-Show the complete command reference in the following link to [Cleos Documentation](https://developers.eos.io/manuals/eos/latest/cleos/index)
+Ver referencia completa de comandos en el siguiente enlace a [Documentación Cleos](https://developers.eos.io/manuals/eos/latest/cleos/index)
 
-To get a full list of the available `cleos` commands, execute:
+Para obtener una lista de todos los comandos `cleos`, ejecute:
 
-```bash
+``` bash
 cleos --help
 ```
 
-```
+``` 
 Command Line Interface to EOSIO Client
 Usage: cleos [OPTIONS] SUBCOMMAND
 
@@ -24,7 +24,7 @@ Options:
   -h,--help                   Print this help message and exit
   -u,--url TEXT=http://127.0.0.1:8888/
                               the http/https URL where nodeos is running
-   --wallet-url TEXT=unix:///Users/username/eosio-wallet/keosd.sock
+  --wallet-url TEXT=unix:///Users/username/eosio-wallet/keosd.sock
                               the http/https URL where keosd is running
   -r,--header                 pass specific HTTP header; repeat this option to pass multiple headers
   -n,--no-verify              don't verify peer certificate when using HTTPS
@@ -49,15 +49,15 @@ Subcommands:
   system                      Send eosio.system contract action to the blockchain.
 ```
 
-### Cleos Subcommands
+### Sub-comandos de Cleos
 
-To get help whit whatever subcommand in particular, execute `code SUBCOMMAND --help`. For example:
+Para obtener ayuda con cualquier sub-comando en particular, ejecute `cleos SUBCOMMAND --help`. Por ejemplo:
 
-```bash
+``` bash
 cleos create --help
 ```
 
-```
+``` bash
 Create various items, on and off the blockchain
 Usage: cleos create SUBCOMMAND
 
@@ -67,9 +67,9 @@ Subcommands:
                               (assumes system contract does not restrict RAM usage)
 ```
 
-`cleos` can also provide help for subcommands use within subcommands. For example:
+`cleos` también puede proporcionar ayuda para uso de sub-comandos dentro de sub-comandos. Por ejemplo:
 
-```bash
+``` bash 
 cleos create account --help
 ```
 
@@ -86,7 +86,7 @@ Positionals:
 Options:
   -h,--help                   Print this help message and exit
   -x,--expiration             set the time in seconds before a transaction expires, defaults to 30s
-  -f,--force-unique           force the transaction to be unique. this will consume extra bandwidth and remove any protections against accidentally issuing the same transaction multiple times
+  -f,--force-unique           force the transaction to be unique. this will consume extra bandwidth and remove any protections against accidently issuing the same transaction multiple times
   -s,--skip-sign              Specify if unlocked wallet keys should be used to sign transaction
   -j,--json                   print result as json
   --json-file TEXT            save result in json format into a file
@@ -100,17 +100,18 @@ Options:
   --delay-sec UINT            set the delay_sec seconds, defaults to 0s
 ```
 
-## Cleos Example
+## Ejemplo de Cleos
 
-The following command `cleos` creates a local wallet called `my_wallet` and shows the password on the screen:
+El siguiente comando `cleos` crea una billetera local llamada `mibilletera` y muestra la contraseña en la pantalla:
 
 ```bash
-cleos wallet create -n my_wallet --to-console
+cleos wallet create -n mibilletera --to-console
 ```
 
 ```
-Creating wallet: my_wallet
+Creating wallet: mibilletera
 Save password to use in the future to unlock this wallet.
 Without password imported keys will not be retrievable.
 "PW5JbF34UdA193Eps1bjrWVJRaNMt1VKddLn4Dx6SPVTfMDRnMBWN"
 ```
+

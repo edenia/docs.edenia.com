@@ -1,27 +1,27 @@
 ---
 id: blog-posts
-title: EOS Blog
-sidebar_label: Blog Posts
-description: Blog posts of EOS community
-keywords: [EOS Blog, EOS, EOS Costa Rica, eosio.io, Blog EOS Costa Rica, Blog Posts EOS Community]
+title: Blogs EOS
+sidebar_label: Publicaciones de Blog
+description: Publicaciones de blog de EOS Costa Rica
+keywords: [Publicaciones, Blog, Comunidad, Comunidad EOS, EOS, EOS Costa Rica]
 ---
 
-## What is Blockchain?
+## ¿Qué es Blockchain?
 
-Blockchain technology offers improved security, transparency, privacy, traceability and efficiency for companies and organizations.
+La tecnología Blockchain ofrece seguridad, transparencia, privacidad, trazabilidad y eficiencia mejoradas para empresas y organizaciones.
 
-A blockchain acts as a distributed ledger of information shared by a network of trusted computers that validate each new evolution before adding it to the registry. This **chain** of data can only grow in size, which means that to modify a record, a user must request a new modification. This makes the data on a blockchain unalterable and avoids human error when recording transactions.
+Una cadena de bloques actúa como un libro mayor distribuido de información compartida por una red de computadoras confiables que validan cada nueva evolución antes de agregarla al registro. Esta **cadena** de datos solo puede crecer en tamaño, lo que significa que para modificar un registro, un usuario debe solicitar una nueva modificación. Esto hace que los datos en una cadena de bloques sean inalterables y evita errores humanos al registrar transacciones.
 
-See more content from **Blockchain** in our blog [What Is Blockchain? — An Introduction](https://medium.com/@eoscostarica/what-is-blockchain-an-introduction-9535ed3e6005)
+Vea más contenido de **Blockchain** en nuestro blog [¿Qué es Blockchain? - Introducción](https://medium.com/@eoscostarica/what-is-blockchain-an-introduction-9535ed3e6005)
 
-## What is a Smart Contract?
+## ¿Qué es un Contrato Inteligente?
 
-Smart contracts have the ability to be executed autonomously and automatically through computer codes, which avoids having to go through third-party interpretations. A smart contract will be valid as a code visible to all parties and cannot be modified.
+Los contratos inteligentes tienen la capacidad de ejecutarse de forma autónoma y automática a través de códigos informáticos, lo que evita tener que pasar por interpretaciones de terceros. Un contrato inteligente será válido como un código visible para todas las partes y no se puede modificar.
 
-See more content from **smart contract** in our blog [What is a Smart Contract?](https://medium.com/@eoscostarica/qu%C3%A9-es-un-smart-contract-793d2042c65d)
+Vea más contenido de **contrato inteligente** en nuestro blog [¿Qué es un Smart contract?](https://medium.com/@eoscostarica/qu%C3%A9-es-un-smart-contract-793d2042c65d)
 
-## Get to Know EOS Costa Rica
+## Conozca EOS Costa Rica
 
-We founded EOS Costa Rica two years ago, before the launch of EOS ... and we quickly realized that it was a marathon, not a sprint. We were there before the genesis block was created. During this time, we learned a lot and believe that now is the time to share our journey.
+Fundamos EOS Costa Rica hace dos años, antes del lanzamiento de EOS ... y rápidamente nos dimos cuenta de que era un maratón, no un sprint. Estuvimos allí antes de que se creara el bloque génesis. Durante este tiempo, aprendimos mucho y creemos que ahora es el momento de compartir nuestro viaje.
 
-See more content from **EOS Costa Rica** in our blog [Get to Know EOS Costa Rica](https://medium.com/@eoscostarica/get-to-know-eos-costa-rica-f91f5b0bb7c4)
+Vea más contenido de **EOS Costa Rica** en nuestro blog [Conozca EOS Costa Rica](https://medium.com/@eoscostarica/get-to-know-eos-costa-rica-f91f5b0bb7c4)

@@ -1,11 +1,11 @@
 ---
 id: sample-nodeos-configs
-title: Sample Nodeos Configurations 
-sidebar_label: Sample Nodeos Configurations 
-description: Sample for Nodeos Configurations
-keywords: [nodeos, config, configuration, Nodeos Configuration, What is Nodeos, How to configure Nodeos?, How to configure an EOSIO node, EOS, EOS Costa Rica]
+title: Ejemplos para la Configuración de Nodeos 
+sidebar_label: Ejemplos de Configuración Nodeos 
+description: Ejemplos de configuración de nodeos
+keywords: [Ejemplos, Configuración, Nodeos, Configuración Nodeos, Configuración Nodeos EOS, EOS, EOS Costa Rica, Cómo configurar un nodo, Cómo configurar un nodo EOS, Qué es Nodeos]
 ---
 
-For example configurations for different EOSIO node types, you can visit the [Sample Nodeos Configurations](https://github.com/eoscostarica/sample-nodeos-configs) repository, which contains a collection of nodeos configuration files and other helpful resources meant to assist students of the [EOSIO Node Operator](https://training.eos.io/courses/eosio-node-operator) and [EOSIO Blockchain Administrator](https://training.eos.io/courses/eosio-blockchain-adminstrator) courses learn from first-hand experience.
+Para ejemplos de configuraciones para diferentes tipos de nodos EOSIO, puede visitar el repositorio en inglés [Ejemplos de Configuración de Nodeos](https://github.com/eoscostarica/sample-nodeos-configs), el cual contiene una colección de archivos de configuración de nodeos y otros recursos útiles destinados a ayudar a los estudiantes de los cursos [EOSIO Node Operator](https://training.eos.io/courses/eosio-node-operator) y [EOSIO Blockchain Administrator](https://training.eos.io/courses/eosio-blockchain-adminstrator).
 
-There are also four student lab assignments included in this repository that must be completed by students to obtain the course certification.
+También, hay cuatro asignaciones de laboratorios en el repositorio que deben ser completados por los estudiantes para obtener la certificación del curso.

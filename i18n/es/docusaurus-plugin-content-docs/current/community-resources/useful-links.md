@@ -1,31 +1,29 @@
 ---
 id: useful-links
-title: EOS Community Links
-sidebar_label: Useful Links
-description: Useful links for the EOS community
-keywords: [EOS Community Links, EOS Developer Resources, EOSIO]
+title: Enlaces Comunidad EOS
+sidebar_label: Enlaces Útiles
+description: Enlaces Útiles de la Comunidad EOS
+keywords: [Enlaces Útiles, Elaces Comunidad, Comunidad, Comunidad EOS, EOS, EOS Costa Rica]
 ---
 
-Here is a list of helpful links related to the EOS community.
+Aquí hay una lista de enlaces útiles relacionados con la comunidad EOS.
 
-* [EOSIO for Developers](https://eos.io/for-developers/)
-* [EOSIO Developer Documentation](https://developers.eos.io/)
-* [Learn how to Develop on EOSIO](https://medium.com/@theblockstalk/learning-eosio-development-telos-eos-and-other-blockchains-94d384a8b09f) 
-* [EOSIO Blockchain Developers Workshop, March 2020](https://www.youtube.com/playlist?list=PLbq67nzUl6Prlg2Su8Rkmh8exeAL5O5l7) 
-* [EOSIO Customization and Governance](https://www.youtube.com/watch?v=ITDFQESxglc&list=PLbq67nzUl6Prlg2Su8Rkmh8exeAL5O5l7&index=9) 
-* [EOSIO Webinars](https://eos.io/webinars/)
-* [CMichael Blog](https://cmichel.io/)
-* [Learn how EOSIO Works and You’ll Earn EOS Tokens](https://www.coinbase.com/earn/eos/)
-* [EOSIO Training and Certification](https://training.eos.io/)
-* [Kubernetes Documentation](https://kubernetes.io/docs/tutorials/)
-* [Telos Documentation GitHub](https://github.com/telosnetwork/docs)
-* [Learning EOSIO development (Telos, EOS and other blockchains)](https://theblockstalk.medium.com/learning-eosio-development-telos-eos-and-other-blockchains-94d384a8b09f) 
-* [EOSCommunity.org Forums](https://eoscommunity.org/)
-* [EOSIO Smart Contract Developer's Handbook](https://cc32d9.gitbook.io/eosio-smart-contract-developers-handbook)
+* [EOSIO para Desarrolladores](https://eos.io/for-developers/)
+* [Documentación de los Desarrolladores de EOSIO](https://developers.eos.io/)
+* [¿Cómo Aprender a Desarrollar en EOSIO?](https://theblockstalk.medium.com/learning-eosio-development-telos-eos-and-other-blockchains-94d384a8b09f)
+* [Taller para Desarrolladores de Blockchain de EOSIO, Marzo de 2020](https://www.youtube.com/playlist?list=PLbq67nzUl6Prlg2Su8Rkmh8exeAL5O5l7)
+* [Personalización y Gobernanza de EOSIO](https://www.youtube.com/watch?v=ITDFQESxglc&list=PLbq67nzUl6Prlg2Su8Rkmh8exeAL5O5l7&index=9&ab_channel=JackTanner)
+* [Seminarios Web de EOSIO](https://eos.io/webinars/)
+* [Blog de CMichael](https://cmichel.io/)
+* [Aprenda como Funciona EOSIO y Gane Tokens EOS](https://www.coinbase.com/es-LA/earn/eos/)
+* [Entrenamiento y Certificado EOSIO](https://training.eos.io/)
+* [Documentación Kubernetes](https://kubernetes.io/es/docs/tutorials/kubernetes-basics/)
+* [Foro EOSCommunity.org](https://eoscommunity.org/)
+* [Manual del desarrollador de Contratos Inteligentes EOSIO](https://cc32d9.gitbook.io/eosio-smart-contract-developers-handbook)
 
-### UX/UI
+## UX/UI
 
 * [Material Design](https://material.io/)
-* [Figma Page](https://www.figma.com/ui-design-tool/)
-* [Why Zeplin?](https://zeplin.io/why-zeplin)
-* [Sketch Blog](https://www.sketch.com/blog/)
+* [Página de Figma](https://www.figma.com/ui-design-tool/)
+* [¿Por qué Zeplin?](https://zeplin.io/why-zeplin)
+* [Blog de Sketch](https://www.sketch.com/blog/)

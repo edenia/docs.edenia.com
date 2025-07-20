@@ -1,58 +1,58 @@
 ---
 id: eosio-sdk-libraries
-title: EOSIO SDK Libraries
-sidebar_label: EOSIO SDK Libraries
-description: Libraries for use with the blockchain EOSIO 
-keywords: [ libraries, SDK, EOSIO, EOS, Blockchain, EOS, EOS Costa Rica]
+title: Librerías SDK para EOSIO
+sidebar_label: Librerías SDK
+description: Librerías para utilizar con el blockchain de EOSIO
+keywords: [librerias, SDK, EOSIO, EOS, blockchain, EOS Costa Rica, librerias blockchain]
 ---
 
-## SDKs for EOSIO
+## Librerías SDK para EOSIO
 
-APIs for integrating with EOSIO blockchains.
+APIs para integrarse con blockchains basadas en EOSIO.
 
-## JavaScript SDK
+## Javascript SDK
 
-EOSJS is a JavaScript library for the integration with EOSIO based blockchains using EOSIO's RPC API. This library was created to provide a JavaScript interface for the interaction between web applications for the final user and EOSIO blockchains. As this develops a significant amount of applications in JavaScript, this library is designed to provide a higher support to the ecosystem in general and establishes the better practices in the industry for the interaction of the web applications with EOSIO blockchains.
+EOSJS es una biblioteca de JavaScript para la integración con blockchains basadas en EOSIO utilizando la API EOSIO RPC. Esta biblioteca se creó para proporcionar una interfaz JavaScript para la interacción entre las aplicaciones web del usuario final y las cadenas de bloques EOSIO. A medida que se desarrolla un número significativo de aplicaciones en JavaScript, esta biblioteca está diseñada para brindar un mayor soporte al ecosistema en general y establece las mejores prácticas de la industria para la interacción de aplicaciones web con las cadenas de bloques EOSIO.
 
 ### [eosjs](https://developers.eos.io/manuals/eosjs/latest/index)
-A general purpose Javascript library which provides an API for integrating with EOSIO-based blockchains using the EOSIO Nodeos RPC API.
+Una biblioteca de Javascript que proporciona una API para integrarse con cadenas de bloques basadas en EOSIO utilizando la API de EOSIO Nodeos RPC.
 
 ### [eosjs-keygen](https://github.com/EOSIO/eosjs-keygen)
-A Javascript library for managing keys in local storage.
+Una biblioteca de Javascript para administrar claves en el almacenamiento local.
 
 ## Swift SDK
 
 ### [eosio-swift](https://github.com/EOSIO/eosio-swift)
-An API for integrating with EOSIO-based blockchains using the EOSIO RPC API.
+Una API para integrarse con blockchains basadas en EOSIO utilizando la API EOSIO RPC.
 
 ### [eosio-swift-abieos-serialization-provider](https://github.com/EOSIO/eosio-swift-abieos-serialization-provider)
-A pluggable serialization provider for EOSIO SDK for Swift.
+Un proveedor de serialización conectable para EOSIO SDK para Swift.
 
 ### [eosio-swift-ecc](https://github.com/EOSIO/eosio-swift-ecc)
-A library for working with public and private keys, cryptographic signatures, encryption/decryption, etc. as part of the EOSIO SDK for Swift family of libraries.
+Una biblioteca para trabajar con claves públicas y privadas, firmas criptográficas, cifrado / descifrado, etc. como parte de la familia de bibliotecas EOSIO SDK para Swift.
 
 ### [eosio-swift-reference-ios-authenticator-signature-provider](https://github.com/EOSIO/eosio-swift-reference-ios-authenticator-signature-provider)
-A pluggable signature provider for EOSIO SDK for Swift.
+Un proveedor de firmas conectable para EOSIO SDK para Swift.
 
 ### [eosio-swift-softkey-signature-provider](https://github.com/EOSIO/eosio-swift-softkey-signature-provider)
-An example pluggable signature provider for EOSIO SDK for Swift. It allows for signing transactions using in-memory K1 keys.
+Un ejemplo de proveedor de firmas conectable para EOSIO SDK para Swift. Permite firmar transacciones utilizando claves K1 en memoria.
 
 ### [eosio-swift-vault-signature-provider](https://github.com/EOSIO/eosio-swift-vault-signature-provider)
-A pluggable signature provider for EOSIO SDK for Swift.
+Un proveedor de firmas conectable para EOSIO SDK para Swift.
 
 ### [eosio-swift-vault](https://github.com/EOSIO/eosio-swift-vault)
-An utility library for working with public/private keys and signing with Apple's Keychain and Secure Enclave.
+Una biblioteca de utilidades para trabajar con claves públicas / privadas y firmar con Keychain y Secure Enclave de Apple.
 
 ## Java SDK
 
 ### [eosio-java-android-abieos-serialization-provider](https://github.com/EOSIO/eosio-java-android-abieos-serialization-provider)
-A pluggable serialization provider for EOSIO SDK for Java.
+Un proveedor de serialización conectable para EOSIO SDK para Java.
 
 ### [eosio-java-android-rpc-provider](https://github.com/EOSIO/eosio-java-android-rpc-provider)
-An Android RPC provider implementation for use within EOSIO SDK for Java as a plugin.
+Una implementación de proveedor de RPC de Android para usar dentro de EOSIO SDK para Java como complemento.
 
 ### [eosio-java-softkey-signature-provider](https://github.com/EOSIO/eosio-java-softkey-signature-provider)
-An example pluggable signature provider for EOSIO SDK for Java.
+Un ejemplo de proveedor de firmas conectable para EOSIO SDK para Java.
 
 ### [eosio-android-keystore-signature-provider](https://github.com/EOSIO/eosio-android-keystore-signature-provider)
-An example pluggable signature provider for EOSIO SDK for Java written in Kotlin.
+Un ejemplo de proveedor de firmas conectable para EOSIO SDK para Java escrito en Kotlin.

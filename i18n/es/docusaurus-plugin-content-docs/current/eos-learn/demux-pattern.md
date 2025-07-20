@@ -1,89 +1,89 @@
 ---
 id: demux-pattern
-title: Demux architecture pattern
-sidebar_label: Demux Pattern
-description: Description of demux pattern
-keywords: [demux, backend architectural pattern, demux pattern, demux architecture pattern, EOSIO, EOS Costa Rica]
+title: Patrón arquitectónico Demux
+sidebar_label: Patrón Demux
+description: Descripción del patrón demux
+keywords: [demux, patrón arquitectónico backend, patrón demux, patrón de arquitectura demux, EOSIO, EOS Costa Rica]
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-## Demux pattern
+## Patrón Demux
 
-[Demux](https://medium.com/eosio/introducing-demux-deterministic-databases-off-chain-verified-by-the-eosio-blockchain-bd860c49b017) is an architectural pattern for backend infrastructure based on [Flux Architecture](https://facebook.github.io/flux/docs/in-depth-overview.html) and [Redux](https://github.com/reduxjs/redux/).
+[Demux](https://medium.com/eosio/introducing-demux-deterministic-databases-off-chain-verified-by-the-eosio-blockchain-bd860c49b017) es un patrón arquitectónico para infraestructura backend basado en el patrón de [Arquitectura Flux](https://facebook.github.io/flux/docs/in-depth-overview.html) y [Redux](https://github.com/reduxjs/redux/). 
 
-It’s used for applications built on the EOSIO blockchain to sourcing to event blockchain events to update queryable datastores and trigger deterministically side effects on the blockchain or external services.
+Es utilizado para que aplicaciones construidas en la cadena de bloques de EOSIO puedan abastecer de eventos a la cadena de bloques, actualizar de forma determinista bases de datos consultables y desencadenar efectos secundarios tanto en la cadena de bloques como en servicios externos.
 
-Likewise, the pattern in question was born considering the following:
+Del mismo modo, el patrón en cuestión nació considerando lo siguiente:
 
-- Separate the concern of how the state exists on the blockchain and how the client frontend queries it.
-- The client frontend is not the only one responsible for determining the derived, reduced, and/or accumulated state.
-- The capacity for blockchain events to trigger new transactions, as well as other side effects outside of the blockchain.
-- The blockchain is the single source of truth for all application state. 
+- Separar la preocupación de cómo existe el estado en la cadena de bloques y cómo es consultado por el frontend del cliente.
+- El frontend del cliente no es el único responsable de determinar el estado derivado, reducido y/o acumulado.
+- Posibilidad de que los eventos de la cadena de bloques desencadenen nuevas transacciones, así como otros efectos secundarios fuera de la cadena de bloques.
+- La cadena de bloques como la única fuente de verdad para todo el estado de la aplicación.
 
-In general, demux allows you to get the benefits of blockchain and traditional databases, for one hand, properties such as immutability, traceability, and trust of blockchain, and on the other hand the facility, velocity, and flexibility to query databases. It’s because how to make complex queries on the blockchain has high costs and is taken advantage of thanks to different optimizations of databases the number of resources needed is lower.
+De manera general, demux permite aprovechar los beneficios tanto de las cadenas de bloques como de las bases de datos tradicionales, por un lado, se mantienen las propiedades de inmutabilidad, trazabilidad y confianza ofrecidas por las cadenas de bloques y por el otro, la facilidad, rapidez y flexibilidad para consultar bases de datos. Esto porque como realizar consultas complejas en una cadena de bloques posee un alto costo, se aprovecha que gracias a diversas optimizaciones que efectúan las bases de datos la cantidad de recursos necesarios es mucho menor.
 
-## Separated Persistence Layer
+## Capa de persistencia separada
 
-The storage of data in an indexed state on the blockchain could be useful for the next three reasons:
+El almacenamiento de datos en el estado indexado de las cadenas de bloques puede ser útil por tres razones: 
 
-- The decentralized consensus of the computational results.
-- The use of state within other blockchain computations.
-- The retrieve of the state for use in client interfaces.
+- El consenso descentralizado de los resultados de los cálculos.
+- El uso del estado dentro de otros cálculos de la cadena de bloques. 
+- La recuperación del estado para su uso en las interfaces de los clientes.
 
-However, when more complex frontends are built some problems start to appear when directly querying the blockchain, is because of this that demux addresses the scaling problem by off-loading queries to any persistence layer that is defined according to the needs, for this reason, the data are preprocessed and indexed in a traditional database.
+Sin embargo, cuando se construyen frontends más complicados comienzan a aparecer problemas al realizar la consulta directa a la cadena de bloques, es debido a esto, que demux aborda los problemas de escalado descargando las consultas a una capa de persistencia, definida a la medida según las necesidades, por lo que, se preprocesan e indexan en una base de datos tradicional.
 
-This avoids adding more endpoints nodes when you need to scale the load of queries and also omits having to perform an excessive number of queries to the blockchain and process the extremely costly data. The previous is useful when complex applications need to retrieve data from the blockchain.
+De este modo, se evita agregar más nodos endpoints cuando se necesita escalar la carga de las consultas y también, omite que se deba realizar un excesivo número de consultas a la cadena de bloques y procesar los datos, lo cual es sumamente costoso. Lo anterior es útil para cuando se tienen aplicaciones complejas que requieran recuperar los datos de una cadena de bloque. 
 
-Thus, as the blockchain events are produced, the chosen database is updated by update functions (`Updaters`) that deterministically process the `Actions` object array. Then, the database is kept updated concerning the blockchain state and the DAPP frontend queries the database through the appropriate `API`.
+Además, a medida que se producen los eventos de la cadena de bloques, la base de datos elegida se actualiza mediante funciones de actualización (`Updaters`), que procesan de forma determinista una lista de objetos de acciones (`Actions`). Entonces, de esta manera la base de datos se mantiene actualizada con respecto a la cadena de bloques y el frontend de la DAPP consulta la base de datos a través de una `API` adecuada.
 
-## Single Source of Truth
+## Única fuente de la verdad
 
-- If the database is deleted or lost it can be recovered by reproducing the actions of the blockchain.
-- If the application is open-source and the blockchain is public, the state of the application could be audited. 
-- It’s not necessary to keep multiple ways of updating the state.
+- Si se elimina o se pierde la base de datos puede ser recuperada reproduciendo las acciones de la cadena de bloques.
+- Si la aplicación es de código abierto y la cadena de bloques es pública, el estado de la aplicación puede ser auditado.
+- No se requiere mantener múltiples formas de actualizar el estado.
 
-## Side Effects
+## Efectos Secundarios
 
-Since you have a system for acting on specific blockchain events deterministically, you can use this system to handle non-deterministic events as well. 
+Dado que se tiene un sistema para actuar sobre eventos específicos de la cadena de bloques de forma determinista, se puede utilizar este sistema para gestionar también eventos no deterministas.
 
-These effect functions (`Effects`) work almost the same as update functions, except that they run asynchronously, do not run during replays, and modification of the deterministic data store is out of bounds. 
+Para esto se tienen las funciones de efecto (`Effects`) que trabajan de manera similar a las funciones de actualización, con la diferencia que las de efecto se ejecutan de forma asincrónica, no se ejecutan durante las repeticiones, y modificar la base de datos está fuera del alcance de estas funciones. 
 
-Some examples of side effects are:
+Algunos ejemplos de efectos secundarios son: 
 
-- Signing and broadcasting a transaction.
-- Sending an email.
-- Begin a traditional fiat payment.
+- Firmar y emitir una transacción.
+- Enviar un correo electrónico.
+- Iniciar un pago Fiat tradicional.
 
-## Data Flow
+## Flujo de los datos
 
-Like [Flux](https://facebook.github.io/flux/docs/in-depth-overview.html#structure-and-data-flow) and [Redux](https://redux.js.org/tutorials/essentials/part-1-overview-concepts#redux-terms-and-concepts), the data flow in demux is unidirectional. Starting from the DAPP frontend, it can write to the data string through `Transactions`, which will be read by an observer (`Action Watcher`) to notify that they should be handled which can cause side effects, after that through the update functions the event will be recorded in the database which will be queried through an `API` by the DAPP.
+Así como [Flux](https://facebook.github.io/flux/docs/in-depth-overview.html#structure-and-data-flow) y [Redux](https://redux.js.org/tutorials/essentials/part-1-overview-concepts#redux-terms-and-concepts), el flujo de los datos en demux es unidireccional. Comenzando desde el frontend de la DAPP, este puede escribir en la cadena de datos mediante transacciones (`Transactions`), que serán leídas por un observador (`Action Watcher`) para notificar que deben ser manejadas lo que puede provocar efectos secundarios, después de esto mediante las funciones de actualización el evento será registrado en la base de datos que será consultada mediante un `API` por la DAPP. 
 
-### Demux Data Flow Diagram
+### Diagrama del flujo de datos de demux
 
 <div style={{  textAlign: "center" }}>
-    <img alt="Demux Data Flow Diagram" title="Demux Patern Diagram" 
-    src={ useBaseUrl( '/img/diagrams/demux-pattern.webp' )} loading="lazy"/> 
+    <img alt="Diagrama del flujo de datos de demux" title="Diagrama del patrón Demux" 
+    src={ useBaseUrl( '/img/diagramas/demux-pattern.webp' )} loading="lazy"/> 
 </div>
 
-### Sequence of Demux Data Flow
+### Secuencia del flujo de datos de demux
 
-1. The client sends a transaction to the blockchain.
-1. The `Action Watcher` invokes `Action Reader` to check for new blocks.
-1. The `Action Reader` sees transactions in the new block and parses actions.
-1. The `Action Watcher` sends actions to `Action Handler`.
-1. The `Action Handler` processes actions through `Updaters` and `Effects`.
-1. `Actions` run their corresponding `Updaters`, updating the state of the Datastore.
-1. `Actions` run their corresponding `Effects`, triggering external events.
-1. The client queries `API` for updated data.
+1. El cliente envía una transacción a la cadena de bloques.
+1. El `Action Watcher` invoca al `Action Reader` para verificar los nuevos bloques.
+1. El `Action Reader` ve las transacciones del nuevo bloque, analiza las acciones.
+1. El `Action Watcher` envía las acciones al `Action Handler`.
+1. El `Action Handler` procesa las acciones mediante `Updaters` y `Effects`.
+1. `Actions` ejecuta los correspondientes `Updaters`, actualizando el estado de la base de datos.
+1. `Actions` ejecuta los correspondientes `Effects`, activando eventos externos.
+1. El cliente consulta el `API` para actualizar los datos.
 
-## Implementation at EOS Costa Rica
+## Implementación en EOS Costa Rica
 
-We use our solution inspired by the demux architectural pattern, which use the nodeos State History Plugin as `Action Watcher`.
+Utilizamos nuestra propia solución inspirada en el patrón arquitectónico demux, en la que se usa el State History Plugin de nodeos como `Action Watcher`.
 
-### Open-source projects
+### Proyectos de código abierto
 
-Some of our open source projects implemented the solution based on the demux pattern:
+Algunos de nuestros proyectos de código abierto implementados con la solución basada en el patrón demux:
 
 - [EOS Rate](https://github.com/eoscostarica/eos-rate)
 - [Antelope Tools](https://github.com/edenia/antelope-tools)

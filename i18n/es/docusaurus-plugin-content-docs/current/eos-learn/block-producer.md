@@ -1,17 +1,18 @@
 ---
 id: block-producers
-title: Block Producer
-sidebar_label: Block Producer
-description: Block Producer definition and how to become one
-keywords: [Block Producer, Block Producer Definition, Block Producer How to become one, EOSIO, EOS, EOS Costa Rica, BP, What is Block Producer, What is the Block Producer]
+
+title: Productor de Bloques
+sidebar_label: Productor de Bloques
+description: Definición de un Productor de Bloques (BP) en EOSIO
+keywords: [Block Producer, Productor de Bloques, Como ser un Block Producer, EOSIO, EOS, BP, Que es un Productor de Bloques]
 ---
 
-## What is a Block Producer?
+## ¿Qué es un productor de bloques?
 
-Block producers provide the infrastructure required to run the underlying network layer to process all transactions. Some block producers run their own "Bare Metal Servers" meaning they own and operate their physical equipment. Other Block producers provide the service by using third party cloud services.  
+Los productores de bloques proveen la infraestructura requerida para procesar las transacciones. Algunos productores de bloques operan con sus propios equipos físicos, mientras otros proveen servicios utilizando servicios en la nube de terceros.
 
-### Explaining the Role of an EOS Block Producer
+### Explicando el Rol de un Productor de Bloques de EOS.
 
-<figure className="video_container">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/YLt5uexD9gg" frameBorder="0" allowFullScreen> </iframe>
+<figure class="video_container">
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/YLt5uexD9gg" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>

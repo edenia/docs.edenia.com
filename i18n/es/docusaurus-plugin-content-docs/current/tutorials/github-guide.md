@@ -1,196 +1,195 @@
 ---
 id: github-guide
-title: GitHub Guide 
-sidebar_label: GitHub Guide 
-description: Definition and usage of version control system GitHub
-keywords: [ GitHub, Git, What is GitHub, How GitHub Works, How to use GitHub, What is GitHub for]
+title: Guía GitHub
+sidebar_label: Guía GitHub
+description: Definición y uso de controlador de versiones en GitHub
+keywords: [GitHub, Git, versiones, controlador, controladores, controlador de versiones, Qué es GitHub, Cómo usar Github]
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-[GitHub](https://docs.github.com/en) is a project management system in the cloud that allows developers to store and have code version control. This platform allows you to work collaboratively with other people around the world, track jobs, and manage projects. [Learn more about GitHub](https://www.howtogeek.com/180167/htg-explains-what-is-github-and-what-do-geeks-use-it-for/).
+[GitHub](https://docs.github.com/es/) es un sistema de gestión de proyectos en la nube que permite a los desarrolladores almacenar y tener un control de versiones de código. Esta plataforma te permite trabajar en colaboración con otras personas alrededor del mundo, realizar seguimientos de trabajos y administrar proyectos. [Conoce más de GitHub](https://www.xataka.com/basics/que-github-que-que-le-ofrece-a-desarrolladores).
 
-For EOS Costa Rica, it is of utmost importance that our collaborators familiarize themselves with this tool, which is why we offer below a basic guide to get started in the world of GitHub.
+Para EOS Costa Rica, es de suma importancia que nuestros colaboradores se familiaricen con esta herramienta, por lo que les ofrecemos a continuación una guía base para empezar en el mundo de GitHub.
 
 * * *
 
-## **Tools**
+## **Herramientas**
+
 ### [GitHub CLI](https://docs.github.com/es/free-pro-team@latest/github/getting-started-with-github/github-cli)
 
-GitHub [CLI](https://cli.github.com) is a command line tool for using GitHub functions on your own computer.
+[CLI](https://cli.github.com) de GitHub es una herramienta de línea de comandos para utilizar la funciones de GitHub en su propia computadora.
 
-<img alt="GitHub CLI Image" src={ useBaseUrl( 'img/LogosGitHub/GitHub-CLI.webp' )} />
+<img alt="Imagen GitHub CLI" src={ useBaseUrl( 'img/LogosGitHub/GitHub-CLI.webp' )} />
 
 ### [GitHub Desktop](https://docs.github.com/es/free-pro-team@latest/github/getting-started-with-github/github-desktop)
 
-[GitHub Desktop](https://docs.github.com/en/desktop/installing-and-configuring-github-desktop/installing-github-desktop) is the desktop application that allows the user to interact with Github functionalities through the graphical interface, replacing the lines of code with a visual device.
+[GitHub Desktop](https://docs.github.com/es/free-pro-team@latest/desktop/installing-and-configuring-github-desktop/installing-github-desktop) es la aplicación de escritorio que permite interactuar al usuario con las funcionalidades de Github por medio de la interfaz gráfica, remplazando las líneas de código por un dispositivo visual.
 
-<img alt="GitHub Desktop Image" src={ useBaseUrl( 'img/LogosGitHub/GitHub-Desktop.webp' )} />
+<img alt="Imagen GitHub Desktop" src={ useBaseUrl( 'img/LogosGitHub/GitHub-Desktop.webp' )} />
 
-### [GitHub for mobile](https://docs.github.com/en/github/getting-started-with-github/github-for-mobile)
+### [GitHub para móviles](https://docs.github.com/es/free-pro-team@latest/github/getting-started-with-github/github-for-mobile)
 
+GitHub para [dispositivos móviles](https://play.google.com/store/apps/details?id=com.github.android&hl=es_419&gl=US) está disponible para Android e iOS, te ofrece una forma de realizar un trabajo de alto impacto en GitHub de forma rápida y desde cualquier lugar. Además se vuelve una manera segura y estable de acceder a los datos de GitHub a través de una aplicación cliente confiable de primera parte.
 
-[GitHub for mobile](https://play.google.com/store/apps/details?id=com.github.android&hl=es_419&gl=US) is available for Android and iOS, it gives you a way to get high-impact work on GitHub quickly, from anywhere. It also becomes a secure and stable way to access GitHub data through a trusted source client application.
+<img alt="Imagen GitHub Móvil" src={ useBaseUrl( 'img/LogosGitHub/GitHub-Movil.webp' )} />
 
-<img alt="GitHub Móvil Image" src={ useBaseUrl( 'img/LogosGitHub/GitHub-Movil.webp' )} />
 
 ### [Git Bash](https://desarrolloweb.com/articulos/entiende-instala-configura-git.html#:~:text=Git%20Bash%20es%20la%20línea,para%20usar%20Git%20en%20Windows.)
 
-[Git Bash](https://gitforwindows.org) is a Git application for Windows, where it allows working through command lines managing projects found on GitHub.
+[Git Bash](https://gitforwindows.org) es una aplicación de Git para Windows, donde permite trabajar por medio de líneas de comando el manejo de proyectos que se encuentran en GitHub.
 
-<img alt="Git Bash Image" src={ useBaseUrl( 'img/LogosGitHub/GitHub-Bash.webp' )} />
+<img alt="Imagen Git Bash" src={ useBaseUrl( 'img/LogosGitHub/GitHub-Bash.webp' )} />
 
 ### [Hub](https://hub.github.com)
 
-[Hub](https://github.com/github/hub) is an extension to command-line git that helps you do everyday GitHub tasks without ever leaving the terminal.
+[Hub](https://github.com/github/hub) es una extensión de línea de comandos de git, que te ayuda a realizar las tareas diarias de GitHub sin tener que salir de la terminal.
 
 
 ### [Git-extras](https://www.mankier.com/1/git-extras)
-[Git-extras](https://github.com/tj/git-extras) repo hosts more than 60 scripts that add to Git's basic functionality. More information about [Commands](https://github.com/tj/git-extras/blob/master/Commands.md).
-
-
+[Git-extras](https://github.com/tj/git-extras) repo aloja más de 60 scripts que se suman a la funcionalidad básica de Git. Más información sobre [Comandos](https://github.com/tj/git-extras/blob/master/Commands.md).
 
 * * * 
+## **Comandos** 
 
-## **Commands** 
+### Iniciar Repositorio
 
-### Start Repository
-
-Create a new directory.
+Crear un directorio nuevo.
 ```
  git init
 ```
 
-Clone an existing repository.
+Clonar un repositorio existente.
 ```
 git clone <url>
 ```
-For more information, visit [Git Commands](https://github.com/joshnh/Git-Commands).
 
-### Branches
+Para más información visite [Git como empezar](https://dominicode.com/git-como-empezar/#:~:text=Para%20iniciar%20tu%20primer%20proyecto,ejecuta%20el%20comando%20git%20init%20.&text=Deberías%20tener%20un%20mensaje%20de,la%20carpeta%20no%20verás%20nada.).
 
-List the existing branches.
+### Ramas
+
+Lista las ramas existentes.
 ```
 git branch 
 ```
 
-Create new branch.
+Crear nueva rama.
 ```
-git branch <name of the new branch> 
-```
-
-Create new branch and switch to it.
-```
-git branch -m <name of the new branch>
-git checkout -b <name of the new branch>
+git branch <nombre de la nueva rama> 
 ```
 
-Change branch.
+Crear nueva rama y cambiarse a ella.
 ```
-git checkout <branch name> 
+git branch -m <nombre de la nueva rama>
+git checkout -b <nombre de la nueva rama>
 ```
 
-Delete a branch.
+Cambiar de rama.
 ```
-git branch -d <branch name> 
+git checkout <nombre de la rama> 
 ```
-For more information, visit [Working with Branches in Git and GitHub](https://thenewstack.io/dont-mess-with-the-master-working-with-branches-in-git-and-github/).
 
-### Upload Changes
+Borrar una rama.
+```
+git branch -d <nombre de la rama> 
+```
+Para más información visite [Gestión de Ramas](https://git-scm.com/book/es/v2/Ramificaciones-en-Git-Gestión-de-Ramas).
 
-Update your local repository.
+### Subir Cambios
+
+Actualizar tu repositorio local.
 ```
 git pull
 ```
 
-Add a file to the repository.
+Añadir un archivo al repositorio.
 ```
-git add <file name>
+git add <nombre archivo>
 ```
 
-Add all the files to the repository.
+Añadir todos los archivos al repositorio.
 ```
 git add .
 ```
 
-Add all files omitting the new ones.
+Añadir todos los archivos omitiendo los nuevos.
 ```
 git add --all
 ```
 
-Add all files within a directory.
+Añadir todos los archivos dentro de un directorio.
 ```
 git add <url> 
 ```
 
-Commit the changes.
+Realizar el commit de los cambios.
 ```
-git commit -m <"commit title"> 
-```
-
-Upload changes to the repository.
-```
-git push origin <branch name> 
+git commit -m <"titulo del commit"> 
 ```
 
-Merge another branch to the current one.
+Subir cambios al repositorio.
 ```
-git merge <branch name> 
+git push origin <nombre de la rama> 
 ```
-For more information, visit [Github Command Line](https://www.tutsmake.com/upload-project-files-on-github-using-command-line/).
+
+Fusionar otra rama a la actual.
+```
+git merge <nombre de la rama> 
+```
+Para más información visite [Git - Guía Sencilla](https://rogerdudler.github.io/git-guide/index.es.html).
 
 ### Fork
 
-Download remote from a fork
+Descargar remote de un fork
 ```
 git remote add upstream <url>
 ```
 
-Merge with master
+Hacer merge con master
 ```
 git fetch upstream
 git merge upstream/master 
 ```
-For more information, visit [Using the Fork and Branch Git Workflow](https://blog.scottlowe.org/2015/01/27/using-fork-branch-git-workflow/).
+Para más información visite [Fork de Repositorios](https://aprendegit.com/fork-de-repositorios-para-que-sirve/).
 
-### Other Commands
+### Otros Comandos
 
-Review commit logs.
+Revisar logs de los commits.
 ```
 git log
 ```
 
-Show changes made to a file.
+Mostrar cambios realizados a un archivo.
 ```
 git diff 
 ```
 
-Take file out of a commit.
+Sacar archivo de un commit.
 ```
-git reset HEAD <file> 
+git reset HEAD <archivo> 
 ```
 
-Add remote repository.
+Agregar repositorio remoto.
 ```
 git remote set-url origin <url> 
 ```
 
-Show list of repositories.
+Mostrar lista de repositorios.
 ```
 git renite -v 
 ```
 
-Show current repository status.
+Mostrar estado actual del repositorio.
 ```
 git status 
 ```
  
-Verify changes in the repository online with the local one.
+Verificar cambios en el repositorio online con el local.
  ```
 git fetch 
 ```
 
-Delete file from repository.
+Borrar archivo del repositorio.
 ```
-git rm <file> 
+git rm <archivo> 
 ```
-For more information, visit [Git Commands](https://dzone.com/articles/top-20-git-commands-with-examples).
+Para más información visite [Configuración de Git](https://gist.github.com/dasdo/9ff71c5c0efa037441b6).

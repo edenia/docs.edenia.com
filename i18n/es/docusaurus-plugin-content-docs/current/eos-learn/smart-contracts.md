@@ -1,55 +1,68 @@
 ---
 id: smart-contract
-title: Smart Contracts
-sidebar_label: EOSIO Smart Contracts
-description: Smart Contracts, explanation and definitions how it works and how to use it.
-keywords: [ Smart Contracts, What is a Smart Contract, How work a smart contract, How Create a Smart Contract, EOS, EOS Costa Rica]
+title: Contratos Inteligentes en EOSIO
+sidebar_label: Contratos Inteligentes EOSIO
+description: Definiciones y explicaciones de contratos inteligentes en EOSIO.
+keywords: [contratos inteligentes, contrato inteligente, smart contract, blockchain, eosio, EOS, WASM, Qué es un contrato inteligente, Cómo crear un contrato inteligente] 
 ---
 
-A contract is an agreement governing outcomes for actions, given a set of inputs. A contract can range from formal legal contracts (e.g., a financial transaction) to something as simple as the "rules" of a game. Typical actions can be things such as fund transfers (in the case of a financial contract) or game moves (in the case of a game contract).
+Un contrato es un acuerdo que rige los resultados de las acciones una vez dado un conjunto de datos de entrada. Un contrato puede ir desde los tipo legal (ejemplo transacciones financieras) hasta algo más simple como las reglas de un juego. Las acciones típicas pueden ser transacciones de fondos (en el caso de un contrato financiero) o movimientos de juegos (en el caso de un contrato de juego).
 
-An EOSIO Smart Contract is software registered on the blockchain and executed on EOSIO nodes, that implements the semantics of a "contract" whose ledger of action requests are being stored on the blockchain. The Smart Contract defines the interface (actions, parameters, data structures) and the code that implements the interface. The code is compiled into a **canonical bytecode** format that nodes can retrieve and execute. The blockchain stores the transactions (e.g., legal transfers, game moves) of the contract. Each Smart Contract must be accompanied by a Ricardian Contract that defines the legally binding terms and conditions of the contract.
+Un Contrato Inteligente de EOSIO es software registrado en el blockchain y ejecutado en los nodos de EOSIO, esto implementa las semánticas de un contrato cuyo registro de solicitudes de acciones están siendo guardadas en el blockchain. El Contrato Inteligente define la interfaz (acciones, parámetros, estructuras de datos) y el código que implementa la interfaz. El código es compilado en el formato **bytecode canónico** el cual puede ser obtenido y ejecutado por los nodos. El blockchain guarda las transacciones (transferencias legales, movimientos de juego) del contrato. Cada Contrato Inteligente debe ser acompañado de un Contrato Ricardiano que define la legalidad de los términos y condiciones enlazadas del contrato.
 
-Check out our [Modern C++ Tutorial](https://guide.eoscostarica.io/docs/tutorials/modern-cpp)
+Visite nuestro [Tutorial C++ Moderno](https://guias.eoscostarica.io/docs/tutoriales/cpp-moderno)
 
-## Smart Contract Design Framework 
-Digital Scarcity's [github repo](https://github.com/digital-scarcity/equiprental) has an example designed to provide a step-by-step framework and example for creating a smart contract on EOS. It uses a simple use case of equipment rentals that list their equipment for rent and renters who pay rent for those items.
+## Framework de Diseño de Contratos Inteligentes
 
-### Process Steps
-Here are the general steps to developing a Smart Contract.
-![Diagram with the steps to develop a smart contract](/img/contracts/steps.webp "Steps")
+Escasez Digital [github repo](https://github.com/digital-scarcity/equiprental) tiene un ejemplo diseñado para proveer un framework paso a paso y ejemplo de cómo crear un Contrato Inteligente en EOS. Usa un simple caso de alquiler de equipos que lista el equipo para alquilar y los alquiladores que pagan por el alquiler de dicho equipo.
 
+### Pasos del Proceso
 
-### Data Model
-Define the data that will be persisted in the Smart Contract.
-![Logical Data Model Diagram](/img/contracts/datamodel.webp "Data Model")
+Aquí se pueden ver los pasos generales para desarrollar un Contrato Inteligente.
+![Diagrama con los pasos para desarrollar un contrato inteligente](/img/contracts/steps.webp "Pasos")
 
-### Actions
-Define the actions, or state changes, that must exist in your Smart Contract.
-![Use Case Diagram](/img/contracts/actions.webp "Actions")
+### Modelo de Datos
 
-### Pre- and Post- Conditions
-Define the actions, or state changes, that must exist in your Smart Contract.
-![Diagram with the pre and post conditions](/img/contracts/prepostconditions.webp "Pre and Post Conditions")
+Define la información que persistirá en el Contrato Inteligente.
+![Modelo lógico de datos](/img/contracts/datamodel.webp "Modelo de Datos")
 
+### Acciones
 
-## Open Source Smart Contracts 
-We maintain a list of open source EOS Smart Contracts in the following our [Example EOSIO Smart Contracts](https://guide.eoscostarica.io/docs/tools/example-eosio-smart-contract)
+Define las acciones o el estado de cambio que deben existir en el Contrato Inteligente.
+![Diagrama de caso de uso](/img/contracts/actions.webp "Acciones")
 
-Also check out this list of open source contracts for EOSIO maintained by César Rodríguez:
+### Pre- y Post- Condiciones
+
+Define las acciones o el estado de cambios que deben existir en tu Contrato Inteligente.
+![Diagrama con las pre y post condiciones](/img/contracts/prepostconditions.webp "Pre y Post Condiciones")
+
+## Contratos Inteligentes de Código Abierto
+
+Nosotros manteneos una lista de Contratos Inteligentes de EOS de código de abierto en el siguiente repositorio:
+
+https://github.com/eoscostarica/eos-contracts
+
+También, revisar la siguiente lista de Contratos Inteligentes de EOS de código abierto mantenida por César Rodríguez:
 
 https://github.com/kesar/eos-awesome-contracts
 
-## Basic Smart Contract Scheme
+## Esquema de Contrato Inteligente Básico 
 
 <figure className="video_container">
-  <iframe width="100%" height="315" src="https://www.youtube.com/embed/ZE2HxTmxfrI" frameBorder="0" allowFullScreen loading="lazy"> </iframe>
+  <iframe 
+    width="100%" 
+    height="315" src="https://www.youtube.com/embed/ZE2HxTmxfrI"     
+    frameBorder={0}
+    allowFullScreen
+    loading="lazy"> </iframe>
 </figure>
 
-## Additional Resources
+Puedes ver más en este canal: https://www.youtube.com/user/grandmoren1/videos
 
-To learn more about EOSIO smart contract development we recommend you check out the following links:
+## Recursos Adicionales
 
-* [Hello World Smart Contract Tutorial](https://guias.eoscostarica.io/docs/tutoriales/contrato-hola-mundo)
-* [EOSIO Smart Contract Guides](https://developers.eos.io/welcome/v2.1/smart-contract-guides/index)
-* [EOSIO Smart Contract Developers Handbook](https://cc32d9.gitbook.io/eosio-smart-contract-developers-handbook)
+Si desea conocer más sobre esto puede visite los siguientes enlaces:
+
+* [Tutorial Contrato Inteligente Hola Mundo](https://guias.eoscostarica.io/docs/tutoriales/contrato-hola-mundo)
+* [Guías de Contrato Inteligente](https://developers.eos.io/welcome/v2.1/smart-contract-guides/index)
+* [Manual del desarrollador de Contratos Inteligentes EOSIO](https://cc32d9.gitbook.io/eosio-smart-contract-developers-handbook)

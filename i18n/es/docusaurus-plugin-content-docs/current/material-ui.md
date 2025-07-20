@@ -1,46 +1,44 @@
 ---
 id: material-ui
-title: Material UI & Theme
+title: Material UI
 sidebar_label: Material UI Theme
-description: Material UI & Theme for handling the theme of different projects
-keywords: [Material UI, Theme, Material UI Theme, styles, css, color palette, EOS, EOS Costa Rica]
+description: Material UI Theme para el manejo de estilos en proyectos
+keywords: [material-ui, theme, styles, css, paleta de colores, EOS, EOS Costa Rica]
 ---
 
-import useBaseUrl from '@docusaurus/useBaseUrl';
+## Logo y Activos Visuales
 
-## Logo and Visual Assets
+En este [Repositorio de Recursos Gráficos](https://github.com/eoscostarica/design-assets) tiene acceso a Logos y activos visuales
 
-In this [Repository of Graphic Design Assets](https://github.com/eoscostarica/design-assets) you have access to Logos and visual assets
-
-## Color Palette
+## Paleta de Colores
 
 ![Color Scheme Primary](/img/OSS_screnshots/EOSCR_Color_Scheme_Primary.webp)
 
 ![Color Scheme Segundary](/img/OSS_screnshots/EOSCR_Color_Scheme_Secondary.webp)
 
-To see a complete guide to the colors, you can visit [Color Scheme](https://github.com/eoscostarica/eoscr-mui-library/blob/master/exports/Color_Scheme.pdf)
+Para ver una guía completa de los colores, puede visitar la [Paleta de Colores](https://github.com/eoscostarica/eoscr-mui-library/blob/master/exports/Color_Scheme.pdf)
 
-## Typography
+## Tipografía
 
-![Typography preview](/img/OSS_screnshots/EOSCR_Typography_Scale.webp)
+<!-- Image removed: preview_typography_scale.webp not found -->
 
-For a complete guide to font sizes and shapes, you can visit [Typography Scale](https://github.com/eoscostarica/eoscr-mui-library/blob/master/exports/Typography_Scale.pdf)
+Para ver una guía completa de los tamaños y formas de utilización de la fuente, puede visitar [Escala tipográfica](https://github.com/eoscostarica/eoscr-mui-library/blob/master/exports/Typography_Scale.pdf) 
 
-## Material UI theme
+## Tema de Material UI
 
-We have our own `Material Design` Library to facilitate the development of new applications.
+Contamos con nuestra propia Librería de `Material Design` para facilitar el desarrollo de nuevas aplicaciones.
 
 ### Zeplin
 
-You can check our portfolio at `Zeplin` for more details of our components.
+Puede consultar nuestro portafolio en `Zeplin` para obtener más detalles de nuestros componentes.
 
-### Material UI Theme NPM Package
+### Paquete de NPM de Nuestro Tema de Material UI
 
 - **GitHub** : https://github.com/eoscostarica/eoscr-theme
 - **NPM cloud** : https://www.npmjs.com/package/@eoscostarica/eoscr-theme
 
-### Theme Exports
+### Exportaciones del Tema
 - [Theme UI](https://github.com/eoscostarica/eoscr-mui-library/blob/master/exports/Theme_UI.pdf)
-- [Product Icons](https://github.com/eoscostarica/eoscr-mui-library/blob/master/exports/System_Icons.pdf)
-- [System Icons](https://github.com/eoscostarica/eoscr-mui-library/blob/master/exports/Color_Scheme.pdf)
-- [Elevation](https://github.com/eoscostarica/eoscr-mui-library/blob/master/exports/Elevation.pdf)
+- [Íconos de producto](https://github.com/eoscostarica/eoscr-mui-library/blob/master/exports/System_Icons.pdf)
+- [Íconos de sistema](https://github.com/eoscostarica/eoscr-mui-library/blob/master/exports/Color_Scheme.pdf)
+- [Elevaciones](https://github.com/eoscostarica/eoscr-mui-library/blob/master/exports/Elevation.pdf)
