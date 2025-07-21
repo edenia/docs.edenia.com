@@ -66,7 +66,31 @@ This project is meant to serve as a tool for assisting with new developer on-boa
 
     `
     yarn start
-    `
+        `
+
+   #### **Running Locally & Language Switching**
+
+After installing dependencies, you can build and run the site with support for multiple languages.
+
+1. Build and serve both languages (production build):
+
+        1.1 yarn build && npm run serve
+This command generates the static files for all available locales (e.g., English and Spanish) 
+and serves them locally, allowing you to switch between / (English) and /es/ (Spanish) in your browser.
+
+2. Development mode – English (default):
+         2.1 yarn start
+
+         or
+
+         2.2 yarn run start --locale en 
+ Runs the site in development mode with hot-reloading, defaulting to English locale.
+
+ 3. Development mode – Spanish:
+         3.1 yarn run start --locale es
+         Runs the site in development mode with hot-reloading, with all pages served in Spanish.
+
+
 
 
 ## File Structure
