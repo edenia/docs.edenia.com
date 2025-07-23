@@ -61,7 +61,7 @@
                     <Grid item xs>
                      <Box className={styles.borderleft}>
                        <Box>
-                       <h4><Translate id="footer.edeniaCostaRica">EDENIA Costa Rica</Translate></h4>
+                       <h4><Translate id="footer.edeniaCostaRica">Sistemas Edenia</Translate></h4>
                        </Box>
                        <Box>
                          <Link href="https://guide.eoscostarica.io/docs/engineering-culture" color="inherit">

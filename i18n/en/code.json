@@ -452,5 +452,7 @@
   "theme.tags.tagsPageTitle": {
     "message": "Tags",
     "description": "The title of the tag list page"
-  }
+  },
+  "footer.edeniaCostaRica": { "message": "Edenia Systems" },
+  "home.hero.title": { "message": "Edenia Systems" }
 }
