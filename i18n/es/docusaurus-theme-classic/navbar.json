@@ -1,0 +1,34 @@
+{
+  "logo.alt": {
+    "message": "EOS Costa Rica Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Developer Guidelines": {
+    "message": "Guías para Desarrolladores",
+    "description": "Navbar item with label Developer Guidelines"
+  },
+  "item.label.Learn EOSIO + Antelope": {
+    "message": "Aprender EOSIO + Antelope",
+    "description": "Navbar item with label Learn EOSIO + Antelope"
+  },
+  "item.label.Tutorials": {
+    "message": "Tutoriales",
+    "description": "Navbar item with label Tutorials"
+  },
+  "item.label.Tools": {
+    "message": "Herramientas",
+    "description": "Navbar item with label Tools"
+  },
+  "item.label.Community": {
+    "message": "Comunidad",
+    "description": "Navbar item with label Community"
+  },
+  "item.label.Website": {
+    "message": "Sitio Web",
+    "description": "Navbar item with label Website"
+  },
+  "item.label.Español": {
+    "message": "Español",
+    "description": "Navbar item with label Español"
+  }
+}

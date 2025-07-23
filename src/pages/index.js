@@ -4,6 +4,7 @@ import { useColorMode } from "@docusaurus/theme-common";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import { Box, Grid, useMediaQuery } from "@mui/material";
+import Translate from '@docusaurus/Translate';
 
 import "../css/homepage.css";
 
@@ -65,11 +66,16 @@ const HeroSection = () => {
           />
         </Box>
       ))}
-      <h1 className="textImgTitle">EOS Costa Rica</h1>
-      <h2 className="textSubTitleImg">Developers Guide</h2>
+      <h1 className="textImgTitle">
+        <Translate id="home.hero.title">EOS Costa Rica</Translate>
+      </h1>
+      <h2 className="textSubTitleImg">
+        <Translate id="home.hero.subtitle">Developers Guide</Translate>
+      </h2>
       <h3 className="textImg">
-        Welcome to our web3 developers portal. Begin your journey to learn about
-        blockchain technology and all the stuff that makes it possible.
+        <Translate id="home.hero.description">
+          Welcome to our web3 developers portal. Begin your journey to learn about blockchain technology and all the stuff that makes it possible.
+        </Translate>
       </h3>
       <Box className="buttonHeroContainer">
         <a
@@ -77,7 +83,7 @@ const HeroSection = () => {
           style={{ textDecoration: "none" }}
           href="/docs/engineering-culture"
         >
-          GET STARTED
+          <Translate id="home.hero.button">GET STARTED</Translate>
         </a>
       </Box>
       <Box className="dotContainer">
@@ -144,7 +150,7 @@ const StartResourceSection = () => {
       <Box className="startTitleContainer">
         <Box className="box-title-startResource" />
         <Box className="section-title-startResource">
-          Get started with these resources
+          <Translate id="home.resources.title">Get started with these resources</Translate>
         </Box>
       </Box>
       <Grid
@@ -154,7 +160,7 @@ const StartResourceSection = () => {
         alignItems="center"
         spacing={smDown ? 1 : 3}
       >
-        {startResourceList.map(({ title, body, href, img }) => (
+        {startResourceList.map(({ title, body, href, img }, idx) => (
           <Grid
             key={title}
             item
@@ -187,16 +193,15 @@ const StartResourceSection = () => {
                     : "cardHeaderLight-mode"
                 }`}
               >
-                <span>SECTION</span>
+                <span><Translate id="home.section">SECTION</Translate></span>
               </Box>
-              <h1 className="cardTitle"> {title} </h1>
+              <h1 className="cardTitle"> <Translate id={`home.resource.${idx}.title`}>{title}</Translate> </h1>
               <Box
                 className={`cardBody ${
                   color === "dark" ? "darkTextColor" : "ligthTextColor"
                 }`}
               >
-                {" "}
-                {body}
+                <Translate id={`home.resource.${idx}.body`}>{body}</Translate>
               </Box>
               <a
                 className={`cardLinkFooter ${
@@ -206,8 +211,7 @@ const StartResourceSection = () => {
                 id="box-link-id-customCard"
                 href={href}
               >
-                {" "}
-                READ MORE{" "}
+                <Translate id="home.readMore">READ MORE</Translate>
               </a>
             </Box>
           </Grid>
@@ -253,7 +257,7 @@ const ArticleSection = () => {
     <Box className="container" id="article-id">
       <Box className="startTitleContainer">
         <Box className="box-title-startResource" />
-        <Box className="section-title-startResource"> Read our blog posts </Box>
+        <Box className="section-title-startResource"> <Translate id="home.readBlogPosts">Read our blog posts</Translate> </Box>
       </Box>
       <Grid
         container
@@ -262,7 +266,7 @@ const ArticleSection = () => {
         alignItems="center"
         spacing={smDown ? 1 : 3}
       >
-        {articlesList.map(({ title, body, href, img }) => (
+        {articlesList.map(({ title, body, href, img }, idx) => (
           <Grid
             key={title}
             item
@@ -285,18 +289,17 @@ const ArticleSection = () => {
                 width="100%"
                 className="cardArticleImg"
               />
-              <Box className="cardArticleHeader"> ARTICLES </Box>
+              <Box className="cardArticleHeader"> <Translate id="home.articles">ARTICLES</Translate> </Box>
               <Box className="cardArticleTitleContainer">
                 <Box className="cardArticleBlueBoxTitle" />
-                <Box className="cardArticleTitle "> {title} </Box>
+                <Box className="cardArticleTitle "> <Translate id={`home.article.${idx}.title`}>{title}</Translate> </Box>
               </Box>
               <Box
                 className={`cardArticleBody ${
                   color === "dark" ? "darkTextColor" : "ligthTextColor"
                 }`}
               >
-                {" "}
-                {body}
+                <Translate id={`home.article.${idx}.body`}>{body}</Translate>
               </Box>
               <a
                 className={`cardLinkFooter ${
@@ -306,8 +309,7 @@ const ArticleSection = () => {
                 id="box-link-id-customCard"
                 href={href}
               >
-                {" "}
-                READ MORE{" "}
+                <Translate id="home.readMore">READ MORE</Translate>
               </a>
             </Box>
           </Grid>

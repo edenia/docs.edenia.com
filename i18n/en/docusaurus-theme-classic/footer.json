@@ -1,0 +1,58 @@
+{
+  "link.title.EOS Costa Rica": {
+    "message": "EOS Costa Rica",
+    "description": "The title of the footer links column with title=EOS Costa Rica in the footer"
+  },
+  "link.title.Community": {
+    "message": "Community",
+    "description": "The title of the footer links column with title=Community in the footer"
+  },
+  "link.title.More": {
+    "message": "More",
+    "description": "The title of the footer links column with title=More in the footer"
+  },
+  "link.item.label.Engineering Culture": {
+    "message": "Engineering Culture",
+    "description": "The label of footer link with label=Engineering Culture linking to /docs/engineering-culture"
+  },
+  "link.item.label.Open Source Projects": {
+    "message": "Open Source Projects",
+    "description": "The label of footer link with label=Open Source Projects linking to /docs/open-source-projects"
+  },
+  "link.item.label.Open Source Guidelines": {
+    "message": "Open Source Guidelines",
+    "description": "The label of footer link with label=Open Source Guidelines linking to /docs/open-source-guidelines"
+  },
+  "link.item.label.Meetup": {
+    "message": "Meetup",
+    "description": "The label of footer link with label=Meetup linking to https://www.meetup.com/es/EOS-Costa-Rica/"
+  },
+  "link.item.label.Telegram channels": {
+    "message": "Telegram channels",
+    "description": "The label of footer link with label=Telegram channels linking to https://t.me/eoscr"
+  },
+  "link.item.label.GitHub": {
+    "message": "GitHub",
+    "description": "The label of footer link with label=GitHub linking to https://github.com/eoscostarica/"
+  },
+  "link.item.label.Linkedin": {
+    "message": "Linkedin",
+    "description": "The label of footer link with label=Linkedin linking to https://www.linkedin.com/company/eoscostarica/"
+  },
+  "link.item.label.Medium": {
+    "message": "Medium",
+    "description": "The label of footer link with label=Medium linking to https://medium.com/@eoscostarica"
+  },
+  "link.item.label.Twitter": {
+    "message": "Twitter",
+    "description": "The label of footer link with label=Twitter linking to https://twitter.com/eoscostarica"
+  },
+  "copyright": {
+    "message": "Copyright © 2025 <a title=\"Edenia Web3 Development\" href=\"https://edenia.com\" target=\"_blank\">EDENIA</a>",
+    "description": "The footer copyright"
+  },
+  "logo.alt": {
+    "message": "EOS Costa Rica Logo",
+    "description": "The alt text of footer logo"
+  }
+}

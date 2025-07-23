@@ -17,6 +17,19 @@ const siteConfig = {
   projectName: "docs.edenia.com",
   organizationName: "edenia",
   favicon: "img/favicon/favicon.ico",
+  
+    i18n: {
+    defaultLocale: 'en',           // Idioma por defecto
+    locales: ['en', 'es'],     
+    localeConfigs: {
+        en: {
+        label: 'English',    
+      },
+      es: {
+        label: 'Español',
+      },
+    },
+  },
   //scripts: ['https://buttons.github.io/buttons.js','../../scripts/languageSelector.js'],
   themeConfig: {
     image: "img/metaImg.jpg",
@@ -54,13 +67,22 @@ const siteConfig = {
           label: "Community",
           position: "left",
         },
-        { to: "https://eoscostarica.io/", label: "Website", position: "left" },
-        {
-          href: "https://guias.eoscostarica.io/",
-          label: "Español",
-          position: "right",
+        { to: "https://eoscostarica.io/", 
+          label: "Website", 
+          position: "left" 
         },
-        { to: "search" },
+        { 
+          type: 'localeDropdown', 
+          position: 'right' 
+        },
+        // {
+        //   href: "https://guias.eoscostarica.io/",
+        //   label: "Español",
+        //   position: "right",
+        // },
+        { 
+          to: "search" 
+        },
       ],
     },
     colorMode: {
@@ -146,12 +168,18 @@ const siteConfig = {
         docs: {
           // Docs folder path relative to website dir.
           path: "./docs",
+          routeBasePath: 'docs',
           // Sidebars file relative to website dir.
           editUrl:
             "https://github.com/edenia/docs.edenia.com/tree/master/",
           sidebarPath: require.resolve("./sidebars.js"),
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
+        },
+        pages: {
+          path: 'src/pages',       // donde viven tus páginas React/MDX
+          routeBasePath: '/',      // las páginas se servirán en /
+          include: ['**/*.{js,jsx,ts,tsx,md,mdx}'],
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),

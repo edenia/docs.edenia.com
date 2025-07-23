@@ -1,0 +1,30 @@
+{
+  "version.label": {
+    "message": "Siguiente",
+    "description": "The label for version current"
+  },
+  "sidebar.docs.category.Developer Guidelines": {
+    "message": "Guías para Desarrolladores",
+    "description": "The label for category Developer Guidelines in sidebar docs"
+  },
+  "sidebar.docs.category.Learn EOSIO + Antelope": {
+    "message": "Aprender EOSIO + Antelope",
+    "description": "The label for category Learn EOSIO + Antelope in sidebar docs"
+  },
+  "sidebar.docs.category.Tutorials": {
+    "message": "Tutoriales",
+    "description": "The label for category Tutorials in sidebar docs"
+  },
+  "sidebar.docs.category.Tools": {
+    "message": "Herramientas",
+    "description": "The label for category Tools in sidebar docs"
+  },
+  "sidebar.docs.category.Community Resources": {
+    "message": "Recursos de la Comunidad",
+    "description": "The label for category Community Resources in sidebar docs"
+  },
+  "sidebar.docs.category.Developer Guidelines.open-source-guidelines": {
+    "message": "Guías para Código Abierto",
+    "description": "The label for link open-source-guidelines in sidebar docs"
+  }
+}
