@@ -35,7 +35,7 @@ const siteConfig = {
     image: "img/metaImg.jpg",
     navbar: {
       logo: {
-        alt: "EOS Costa Rica Logo",
+        alt: "Edenia Costa Rica Logo",
         src: "/img/byw-horizontal-transparent.png",
         srcDark:
           "/img/byw-horizontal-transparent-white.png",
@@ -92,13 +92,13 @@ const siteConfig = {
     },
     footer: {
       logo: {
-        alt: "EOS Costa Rica Logo",
+        alt: "Edenia Costa Rica Logo",
         src: "/img/byw-horizontal-transparent.png",
         href: "https://docs.edenia.com/",
       },
       links: [
         {
-          title: "EOS Costa Rica",
+          title: "Edenia Costa Rica",
           items: [
             {
               label: "Engineering Culture",

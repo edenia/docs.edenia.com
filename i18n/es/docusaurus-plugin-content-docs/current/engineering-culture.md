@@ -10,7 +10,7 @@ Somos una startup de rápido crecimiento con ingenieros realmente talentosos que
 
 Nuestros valores se reflejan en la forma en que desarrollamos software.
 
-## En EOS Costa Rica valoramos:
+## En Edenia Costa Rica valoramos:
 
 ### Descentralización
 

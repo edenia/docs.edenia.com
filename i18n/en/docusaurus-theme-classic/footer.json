@@ -1,7 +1,7 @@
 {
-  "link.title.EOS Costa Rica": {
-    "message": "EOS Costa Rica",
-    "description": "The title of the footer links column with title=EOS Costa Rica in the footer"
+  "link.title.EDENIA Costa Rica": {
+    "message": "Edenia Costa Rica",
+    "description": "The title of the footer links column with title=EDENIA Costa Rica in the footer"
   },
   "link.title.Community": {
     "message": "Community",
@@ -52,7 +52,7 @@
     "description": "The footer copyright"
   },
   "logo.alt": {
-    "message": "EOS Costa Rica Logo",
+    "message": "Edenia Costa Rica Logo",
     "description": "The alt text of footer logo"
   }
 }
