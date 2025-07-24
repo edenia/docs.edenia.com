@@ -36,9 +36,9 @@ const siteConfig = {
     navbar: {
       logo: {
         alt: "Sistemas Edenia Logo",
-        src: "/img/byw-horizontal-transparent.png",
+        src: "/img/Edenia_Logo.svg",
         srcDark:
-          "/img/byw-horizontal-transparent-white.png",
+          "/img/Edenia_Logo.svg",
       },
       items: [
         /*{
@@ -93,7 +93,7 @@ const siteConfig = {
     footer: {
       logo: {
         alt: "Sistemas Edenia Logo",
-        src: "/img/byw-horizontal-transparent.png",
+        src: "/img/Edenia_Logo.svg",
         href: "https://docs.edenia.com/",
       },
       links: [
