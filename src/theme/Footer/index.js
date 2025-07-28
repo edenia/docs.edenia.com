@@ -13,8 +13,6 @@
  import styles from './styles.module.css';
  import edeniaLogo from '../../../static/img/EdeniaLogo.png'
  import { Box, Grid, Container, Link} from '@mui/material';
- import { AiFillGithub, AiFillLinkedin, AiOutlineTwitter, AiOutlineInstagram, AiFillYoutube } from "react-icons/ai";
- import { BsMedium } from "react-icons/bs";
  import Translate from '@docusaurus/Translate';
   
  const FooterLogo = ({ url, alt }) => (
@@ -41,9 +39,9 @@
    return (
      <Box className={clsx('styles.footerLight', styles.bordertop, {'styles.footerDark': footer.style === 'dark'})}>
         <Container maxWidth="xl">
-          <Grid container spacing={2}>
-            <Grid container >
-              <Grid item xs={12} sm={3}>
+          <Grid container spacing={3}>
+            {/* Logo Section */}
+            <Grid item xs={12} md={4}>
                <Box align='center' className={styles.footerLogo}>
                  <a href={logo.href}>
                    <FooterLogo alt={logo.alt} url={logoUrl} />
@@ -51,13 +49,15 @@
                  {copyright ? <div>Copyright &reg; {new Date().getFullYear()}  <a title="Edenia Web3 Development" href="https://edenia.com" target="_blank">EDENIA</a></div> : null}
                 </Box>
              </Grid>
-              <Grid item xs>
+             
+             {/* Content Sections */}
+             <Grid item xs={12} md={8}>
                <Box className={styles.lineas}>
-                 <Grid container >
-                    <Grid item xs>
+                 <Grid container spacing={2}>
+                    <Grid item xs={12} sm={4}>
                      <Box className={styles.borderleft}>
                        <Box>
-                       <h4><Translate id="footer.edeniaCostaRica">Sistemas Edenia</Translate></h4>
+                       <h4><Translate id="footer.sistemasEdenia">Sistemas Edenia</Translate></h4>
                        </Box>
                        <Box>
                          <Link href="https://guide.eoscostarica.io/docs/engineering-culture" color="inherit">
@@ -76,7 +76,7 @@
                        </Box>
                      </Box>
                    </Grid>
-                   <Grid item xs>
+                   <Grid item xs={12} sm={4}>
                      <Box className={styles.bordermid}>
                        <Box>
                         <h4><Translate id="footer.community">Community</Translate></h4>
@@ -98,56 +98,21 @@
                        </Box>
                      </Box>
                    </Grid>
-                   <Grid item xs>
+                   <Grid item xs={12} sm={4}>
                      <Box className={styles.borderRight}>
                        <Box>
                        <h4><Translate id="footer.more">More</Translate></h4>
                        </Box>
                        <Box>
-                         <Link href="https://www.linkedin.com/company/eoscostarica/" color="inherit">
-                           <Translate id="footer.linkedin">Linkedin</Translate>
-                         </Link>
-                       </Box>
-                       <Box>
-                         <Link href="https://eoscostarica.medium.com/" color="inherit">
-                           <Translate id="footer.medium">Medium</Translate>
-                         </Link>
-                       </Box>
-                       <Box>
-                         <Link href="https://twitter.com/eoscostarica" color="inherit">
-                           <Translate id="footer.twitter">Twitter</Translate>
+                         <Link href="https://github.com/eoscostarica/" color="inherit">
+                           <Translate id="footer.github">GitHub</Translate>
                          </Link>
                        </Box>
                      </Box>
                    </Grid>
                   </Grid>
                 </Box>
-             </Grid>             
-              <Grid item xs={12} sm={3}>
-               <Box className={styles.contentSocial}>
-                 <Grid container spacing={0} >
-                   <Grid item xs={2} sm={4} > 
-                     <AiFillGithub cursor='pointer' size={40} onClick={()=> window.open("https://github.com/eoscostarica/")}/>
-                   </Grid>
-                   <Grid item xs={2} sm={4} >
-                     <AiFillLinkedin cursor='pointer' size={40} onClick={()=> window.open("https://www.linkedin.com/company/eoscostarica/")}/>
-                   </Grid>
-                   <Grid item xs={2} sm={4} >
-                     <AiOutlineTwitter cursor='pointer' size={40} onClick={()=> window.open("https://twitter.com/eoscostarica")} />
-                   </Grid>
-                   <Grid item xs={2} sm={4} >
-                     <BsMedium cursor='pointer' size={40} onClick={()=> window.open("https://eoscostarica.medium.com/")}/>
-                   </Grid>
-                   <Grid item xs={2} sm={4} >
-                     <AiOutlineInstagram cursor='pointer' size={40} onClick={()=> window.open("https://www.instagram.com/eoscostarica/")}/>
-                   </Grid>
-                   <Grid item xs={2} sm={4} >
-                     <AiFillYoutube cursor='pointer' size={40} onClick={()=> window.open("https://www.youtube.com/c/EOSCostaRica")}/>
-                   </Grid>
-                 </Grid>
-               </Box>
              </Grid>
-            </Grid>
           </Grid>
         </Container>
      </Box>

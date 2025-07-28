@@ -453,7 +453,7 @@
     "message": "Etiquetas",
     "description": "The title of the tag list page"
   },
-  "footer.edeniaCostaRica": { "message": "Sistemas Edenia" },
+  "footer.sistemasEdenia": { "message": "Sistemas Edenia" },
   "footer.engineeringCulture": { "message": "Cultura de Desarrollo" },
   "footer.openSourceProjects": { "message": "Proyectos de Código Abierto" },
   "footer.openSourceGuidelines": { "message": "Guías para Código Abierto" },
