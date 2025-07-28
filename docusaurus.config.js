@@ -36,9 +36,9 @@ const siteConfig = {
     navbar: {
       logo: {
         alt: "Sistemas Edenia Logo",
-        src: "/img/Edenia_Logo.svg",
+        src: "/img/EdeniaLogo.png",
         srcDark:
-          "/img/Edenia_Logo.svg",
+          "/img/EdeniaLogo.png",
       },
       items: [
         /*{
@@ -93,7 +93,7 @@ const siteConfig = {
     footer: {
       logo: {
         alt: "Sistemas Edenia Logo",
-        src: "/img/Edenia_Logo.svg",
+        src: "/img/EdeniaLogo.png",
         href: "https://docs.edenia.com/",
       },
       links: [

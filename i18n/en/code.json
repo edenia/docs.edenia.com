@@ -453,6 +453,6 @@
     "message": "Tags",
     "description": "The title of the tag list page"
   },
-  "footer.edeniaCostaRica": { "message": "Edenia Systems" },
-  "home.hero.title": { "message": "Edenia Systems" }
+  "footer.edeniaCostaRica": { "message": "Sistemas Edenia" },
+  "home.hero.title": { "message": "Sistemas Edenia" }
 }

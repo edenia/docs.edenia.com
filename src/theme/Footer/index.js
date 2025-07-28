@@ -11,24 +11,14 @@
  import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
  import useBaseUrl from '@docusaurus/useBaseUrl';
  import styles from './styles.module.css';
- import edeniaLogo from '../../../static/img/Edenia_Logo.svg'
+ import edeniaLogo from '../../../static/img/EdeniaLogo.png'
  import { Box, Grid, Container, Link} from '@mui/material';
  import { AiFillGithub, AiFillLinkedin, AiOutlineTwitter, AiOutlineInstagram, AiFillYoutube } from "react-icons/ai";
  import { BsMedium } from "react-icons/bs";
  import Translate from '@docusaurus/Translate';
   
- const FooterLogo = ({ url, alt, isDarkMode }) => (
-   <img 
-     className="footer__logo" 
-     alt={alt} 
-     src={url} 
-     width='140' 
-     height='100' 
-     loading="lazy"
-     style={{
-       filter: isDarkMode ? 'brightness(0) saturate(100%) invert(1)' : 'brightness(0) saturate(100%)',
-     }}
-   />
+ const FooterLogo = ({ url, alt }) => (
+   <img className="footer__logo" alt={alt} src={url} width='225' height='60' loading="lazy" />
  );
  
  function Footer() {
@@ -56,7 +46,7 @@
               <Grid item xs={12} sm={3}>
                <Box align='center' className={styles.footerLogo}>
                  <a href={logo.href}>
-                   <FooterLogo alt={logo.alt} url={logoUrl} isDarkMode={colorMode === 'dark'} />
+                   <FooterLogo alt={logo.alt} url={logoUrl} />
                  </a>
                  {copyright ? <div>Copyright &reg; {new Date().getFullYear()}  <a title="Edenia Web3 Development" href="https://edenia.com" target="_blank">EDENIA</a></div> : null}
                 </Box>

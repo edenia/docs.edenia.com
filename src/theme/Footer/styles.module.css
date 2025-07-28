@@ -85,3 +85,14 @@ h4 {
   margin-top: 10px;
 }
 
+/* Estilos específicos para el logo del footer */
+.footerLogo img.footer__logo {
+  object-fit: contain;
+  max-width: 225px;
+  max-height: 60px;
+  width: auto;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
