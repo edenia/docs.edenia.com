@@ -46,7 +46,7 @@
                  <a href={logo.href}>
                    <FooterLogo alt={logo.alt} url={logoUrl} />
                  </a>
-                 {copyright ? <div>Copyright &reg; {new Date().getFullYear()}  <a title="Edenia Web3 Development" href="https://edenia.com" target="_blank">EDENIA</a></div> : null}
+                 {copyright ? <div>Copyright &reg; {new Date().getFullYear()}  <a title="Edenia Web3 Development" href="https://edenia.com" target="_blank">Sistemas Edenia</a></div> : null}
                 </Box>
              </Grid>
              
@@ -62,11 +62,6 @@
                        <Box>
                          <Link href="https://docs.edenia.com/docs/engineering-culture" color="inherit">
                           <Translate id="footer.engineeringCulture">Engineering Culture</Translate>
-                         </Link>
-                       </Box>
-                       <Box>
-                         <Link href="https://docs.edenia.com/docs/open-source-projects" color="inherit">
-                           <Translate id="footer.openSourceProjects">Open Source Projects</Translate>
                          </Link>
                        </Box>
                        <Box>
@@ -87,8 +82,8 @@
                          </Link>
                        </Box>
                        <Box>
-                         <Link href="https://github.com/edenia/" color="inherit">
-                           <Translate id="footer.github">GitHub</Translate>
+                         <Link href="https://docs.edenia.com/docs/open-source-projects" color="inherit">
+                           <Translate id="footer.openSourceProjects">Open Source Projects</Translate>
                          </Link>
                        </Box>
                      </Box>
