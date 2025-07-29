@@ -3,7 +3,7 @@
 
 
 
-Sisetmas Edenia Developers Documentation Site.
+Sistemas Edenia Developers Documentation Site.
 
 ![Guide front page](static/img/docs-pageNew.png)
 
