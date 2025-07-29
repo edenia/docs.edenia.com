@@ -60,17 +60,17 @@
                        <h4><Translate id="footer.sistemasEdenia">Sistemas Edenia</Translate></h4>
                        </Box>
                        <Box>
-                         <Link href="https://guide.eoscostarica.io/docs/engineering-culture" color="inherit">
+                         <Link href="https://docs.edenia.com/docs/engineering-culture" color="inherit">
                           <Translate id="footer.engineeringCulture">Engineering Culture</Translate>
                          </Link>
                        </Box>
                        <Box>
-                         <Link href="https://guide.eoscostarica.io/docs/open-source-projects" color="inherit">
+                         <Link href="https://docs.edenia.com/docs/open-source-projects" color="inherit">
                            <Translate id="footer.openSourceProjects">Open Source Projects</Translate>
                          </Link>
                        </Box>
                        <Box>
-                         <Link href="https://guide.eoscostarica.io/docs/open-source-guidelines" color="inherit">
+                         <Link href="https://docs.edenia.com/docs/open-source-guidelines" color="inherit">
                            <Translate id="footer.openSourceGuidelines">Open Source Guidelines</Translate>
                          </Link>
                        </Box>
@@ -82,17 +82,12 @@
                         <h4><Translate id="footer.community">Community</Translate></h4>
                         </Box>
                        <Box>
-                         <Link href="https://www.meetup.com/es/EOS-Costa-Rica/" color="inherit">
-                           <Translate id="footer.meetup">Meetup</Translate>
-                         </Link>
-                       </Box>
-                       <Box>
                          <Link href="https://t.me/eoscr" color="inherit">
                            <Translate id="footer.telegram">Telegram Channel</Translate>
                          </Link>
                        </Box>
                        <Box>
-                         <Link href="https://github.com/eoscostarica/" color="inherit">
+                         <Link href="https://github.com/edenia/" color="inherit">
                            <Translate id="footer.github">GitHub</Translate>
                          </Link>
                        </Box>
@@ -104,7 +99,7 @@
                        <h4><Translate id="footer.more">More</Translate></h4>
                        </Box>
                        <Box>
-                         <Link href="https://github.com/eoscostarica/" color="inherit">
+                         <Link href="https://github.com/edenia/" color="inherit">
                            <Translate id="footer.github">GitHub</Translate>
                          </Link>
                        </Box>
