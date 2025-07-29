@@ -35,10 +35,10 @@ const siteConfig = {
     image: "img/metaImg.jpg",
     navbar: {
       logo: {
-        alt: "EOS Costa Rica Logo",
-        src: "/img/byw-horizontal-transparent.png",
+        alt: "Sistemas Edenia Logo",
+        src: "/img/EdeniaLogo.png",
         srcDark:
-          "/img/byw-horizontal-transparent-white.png",
+          "/img/Edenia_Logo.svg",
       },
       items: [
         /*{
@@ -67,7 +67,7 @@ const siteConfig = {
           label: "Community",
           position: "left",
         },
-        { to: "https://eoscostarica.io/", 
+        { to: "https://edenia.com/", 
           label: "Website", 
           position: "left" 
         },
@@ -92,13 +92,13 @@ const siteConfig = {
     },
     footer: {
       logo: {
-        alt: "EOS Costa Rica Logo",
-        src: "/img/byw-horizontal-transparent.png",
+        alt: "Sistemas Edenia Logo",
+        src: "/img/Edenia_Logo.svg",
         href: "https://docs.edenia.com/",
       },
       links: [
         {
-          title: "EOS Costa Rica",
+          title: "Sistemas Edenia",
           items: [
             {
               label: "Engineering Culture",
@@ -117,17 +117,17 @@ const siteConfig = {
         {
           title: "Community",
           items: [
-            {
-              label: "Meetup",
-              href: "https://www.meetup.com/es/EOS-Costa-Rica/",
-            },
+            // {
+            //   label: "Meetup",
+            //   href: "https://www.meetup.com/es/EOS-Costa-Rica/",
+            // },
             {
               label: "Telegram channels",
               href: "https://t.me/eoscr",
             },
             {
               label: "GitHub",
-              href: "https://github.com/eoscostarica/",
+              href: "https://github.com/edenia/",
             },
           ],
         },
@@ -136,15 +136,15 @@ const siteConfig = {
           items: [
             {
               label: "Linkedin",
-              href: "https://www.linkedin.com/company/eoscostarica/",
+              href: "https://www.linkedin.com/company/edeniaweb3/",
             },
             {
               label: "Medium",
               href: "https://medium.com/@eoscostarica",
             },
             {
-              label: "Twitter",
-              href: "https://twitter.com/eoscostarica",
+              label: "X",
+              href: "https://x.com/EdeniaWeb3",
             },
           ],
         },

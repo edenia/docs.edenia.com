@@ -67,7 +67,7 @@ const HeroSection = () => {
         </Box>
       ))}
       <h1 className="textImgTitle">
-        <Translate id="home.hero.title">EOS Costa Rica</Translate>
+        <Translate id="home.hero.title">Sistemas Edenia</Translate>
       </h1>
       <h2 className="textSubTitleImg">
         <Translate id="home.hero.subtitle">Developers Guide</Translate>

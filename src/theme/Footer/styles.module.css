@@ -22,13 +22,11 @@
   background-color: rgb(31, 27, 41);
 }
 
-.contentSocial{
-  margin-top: 40px;
+.lineas {
   display: flex;
-  align-items: center;
-  justify-content: right;
-  flex-direction: column;
-  text-align: center;
+  align-items: flex-start;
+  justify-content: center;
+  height: 100%;
 }
 
 h4 {
@@ -39,6 +37,7 @@ h4 {
   font-style: normal;
   line-height: normal;
   letter-spacing: 0.25px;
+  margin-bottom: 15px;
 }
 
 .borderleft{
@@ -50,6 +49,7 @@ h4 {
   border-color: #bdbdbd;
   line-height: 2.0;
   margin-bottom: 25px;
+  padding-left: 20px;
 }
 
 .textBox{
@@ -64,6 +64,7 @@ h4 {
   margin-top: 25px;
   line-height: 2.0;
   margin-bottom: 25px;
+  padding: 0 20px;
 }
 
 .borderRight{
@@ -75,6 +76,7 @@ h4 {
   border-color: #bdbdbd;
   line-height: 2.0;
   margin-bottom: 25px;
+  padding-right: 20px;
 }
 
 .bordertop{
@@ -83,5 +85,41 @@ h4 {
 
 .footerLogo{
   margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+/* Estilos específicos para el logo del footer */
+.footerLogo img.footer__logo {
+  object-fit: contain;
+  max-width: 225px;
+  max-height: 60px;
+  width: auto;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .borderleft,
+  .bordermid,
+  .borderRight {
+    border: none;
+    padding: 10px 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .footerLogo {
+    margin-bottom: 20px;
+  }
+  
+  .lineas {
+    align-items: flex-start;
+  }
 }
 

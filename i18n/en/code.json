@@ -452,5 +452,7 @@
   "theme.tags.tagsPageTitle": {
     "message": "Tags",
     "description": "The title of the tag list page"
-  }
+  },
+  "footer.sistemasEdenia": { "message": "Sistemas Edenia" },
+  "home.hero.title": { "message": "Sistemas Edenia" }
 }

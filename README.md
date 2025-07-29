@@ -1,15 +1,15 @@
-# EOS Costa Rica Developer Guides
+# Sistemas Edenia Developer Guides
 ![](https://img.shields.io/github/license/eoscostarica/guias.eoscostarica.io) ![](https://img.shields.io/badge/code%20style-standard-brightgreen.svg) ![](https://img.shields.io/badge/%E2%9C%93-collaborative_etiquette-brightgreen.svg) ![](https://img.shields.io/twitter/follow/eoscostarica.svg?style=social&logo=twitter) ![](https://img.shields.io/github/forks/eoscostarica/guias.eoscostarica.io?style=social)
 
 
 
-EOS Costa Rica Developers Documentation Site.
+Sistemas Edenia Developers Documentation Site.
 
-![Guide front page](static/img/guide-pageNew.png)
+![Guide front page](static/img/docs-pageNew.png)
 
 ## About the Project
 
-In this site you will find the resources collected in the day-to-day life of EOS Costa Rica collaborators. Feel free to collaborate, comment and suggest changes / ideas to improve the site.
+In this site you will find the resources collected in the day-to-day life of Sistemas Edenia collaborators. Feel free to collaborate, comment and suggest changes / ideas to improve the site.
 
 ## Table of Contents
 
@@ -20,11 +20,11 @@ In this site you will find the resources collected in the day-to-day life of EOS
 1. Development Environment
 1. File Structure
 1. Contributing
-1. About EOS Costa Rica
+1. About Sistemas Edenia
 
 ## Project Purpose
 
-This project is meant to serve as a tool for assisting with new developer on-boarding. Initially created by a group of university students to facilitate getting up to speed with other team members and contribute to open source projects. It's main purpose is to provide guidance to new team members and accelerate becoming familiar with processes and the culture at EOS Costa Rica.
+This project is meant to serve as a tool for assisting with new developer on-boarding. Initially created by a group of university students to facilitate getting up to speed with other team members and contribute to open source projects. It's main purpose is to provide guidance to new team members and accelerate becoming familiar with processes and the culture at Sistemas Edenia.
 
 ## Tech Stack
 - React.js - React 16✨, React Router 5.
@@ -47,7 +47,7 @@ This project is meant to serve as a tool for assisting with new developer on-boa
 1. Clone the repository
 
     `
-    git clone https://github.com/eoscostarica/guide.eoscostarica.io.git
+    git clone https://github.com/edenia/docs.edenia.com.git
     `
 
 1. Move to the appropriate directory
@@ -136,11 +136,11 @@ If you want to make a contribution, please follow the next steps:
 1. Push to the Branch (`git push origin feature/AmazingFeature`)
 1. Open a Pull Request
 
-Please Read EOS Costa Rica's [Open Source Contributing Guidelines](https://guide.eoscostarica.io/docs/open-source-guidelines/) for more information about programming conventions.
+Please Read Sustemas Edenia [Open Source Contributing Guidelines](https://guide.eoscostarica.io/docs/open-source-guidelines/) for more information about programming conventions.
 
 If you find a bug, please report big and small bugs by [opening an issue](https://github.com/eoscostarica/guide.eoscostarica.io/issues/new/choose).
 
-## About EOS Costa Rica
+## About Sistemas Edenia
 
 <p align="center">
 	<a href="https://eoscostarica.io/">
@@ -148,6 +148,6 @@ If you find a bug, please report big and small bugs by [opening an issue](https:
 		width="300px" >
 	</a>
 
-EOS Costa Rica is an independently-owned, self-funded, bare-metal Genesis block producer that provides stable and secure infrastructure for EOSIO blockchains. We support open source software for our community while offering enterprise blockchain development and custom smart contract development for our clients.
+Sistemas Edenia is an independently-owned, self-funded, bare-metal Genesis block producer that provides stable and secure infrastructure for EOSIO blockchains. We support open source software for our community while offering enterprise blockchain development and custom smart contract development for our clients.
 
 [eoscostarica.io](https://eoscostarica.io/)
