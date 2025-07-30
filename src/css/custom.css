@@ -108,6 +108,32 @@ article > div > span.badge.badge--secondary {
   margin: 0 25%;
 }
 
+/* Navbar logo styling to ensure consistent sizing */
+.navbar__logo img {
+  height: 32px !important;
+  width: auto !important;
+  max-width: 200px !important;
+  object-fit: contain;
+}
+
+/* Ensure both light and dark mode logos have the same dimensions */
+.navbar__logo img[src*="EdeniaLogo.png"],
+.navbar__logo img[src*="Edenia_Logo.svg"] {
+  height: 32px !important;
+  width: auto !important;
+  max-width: 200px !important;
+  object-fit: contain;
+}
+
+/* Specific styling for dark mode logo to match light mode size */
+.navbar__logo img[src*="Edenia_Logo.svg"] {
+  height: 24px !important;
+  width: auto !important;
+  max-width: 140px !important;
+  object-fit: contain;
+  transform: scale(0.75);
+}
+
 .lightbox {
   display: none;
   position: fixed;
