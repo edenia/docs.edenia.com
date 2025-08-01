@@ -1,8 +1,8 @@
 ---
 id: telegram-channels
-title: Edenia Telegram Channels
+title: Eos Costa Rica Telegram Channels
 sidebar_label: Telegram Channels
-description: Telegram Channels of Edenia community
+description: Telegram Channels of Eos Costa Rica community
 keywords: [Edenia Telegram Channels, EOS, EOS Costa Rica, eosio.io, What is the Edenia Telegram Channels?, Telegram Edenia Community]
 ---
 

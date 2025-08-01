@@ -2,7 +2,7 @@
 id: telegram-channels
 title: Canales de Telegram Edenia
 sidebar_label: Canales de Telegram
-description: Canales de Telegram de la comunidad Edenia
+description: Canales de Telegram de la comunidad Eos Costa Rica
 keywords: [Canales de Telegram, Comunidad, Comunidad Edenia, EOS, EOS Costa Rica]
 ---
 
