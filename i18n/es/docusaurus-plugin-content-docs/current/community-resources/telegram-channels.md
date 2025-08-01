@@ -6,9 +6,9 @@ description: Canales de Telegram de la comunidad Edenia
 keywords: [Canales de Telegram, Comunidad, Comunidad Edenia, EOS, EOS Costa Rica]
 ---
 
-Los canales de Telegram son una herramienta ideal para difundir mensajes a grandes cantidades de personas. A continuación, se presenta una lista de los canales más relevantes de la comunidad de Edenia, en ellos se comparte contenido que puede ser de gran utilidad.
+Los canales de Telegram son una herramienta ideal para difundir mensajes a grandes cantidades de personas. A continuación, se presenta una lista de los canales más relevantes de la comunidad de Eos Costa Rica, en ellos se comparte contenido que puede ser de gran utilidad.
 
-## Comunidad Edenia General 
+## Comunidad Eos Costa Rica General 
 
 - [EOS](https://t.me/EOSproject)
 - [EOIO Gov](https://t.me/EOSGov)
@@ -25,7 +25,7 @@ Los canales de Telegram son una herramienta ideal para difundir mensajes a grand
 - [EOS Project](https://t.me/EOSproject)
 - [EOS Opportunities](https://t.me/eos_opportunities)
 
-## Comunidad Edenia
+## Comunidad Eos Costa Rica
 
 - [LAChhain EOSIO](https://t.me/lacchaineosio)
 - [EOS Surf](https://t.me/eosbeach)
