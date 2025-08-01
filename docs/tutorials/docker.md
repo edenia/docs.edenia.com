@@ -70,7 +70,7 @@ volumes:
 
 ## Getting Started
 
-To start our first Docker project, we are going to create the needed configuration to make it start and says `Hello world, we are EOS Costa Rica 🦋`. First of all, we need the main configuration, so follow next steps to get it.
+To start our first Docker project, we are going to create the needed configuration to make it start and says `Hello world, we are Edenia`. First of all, we need the main configuration, so follow next steps to get it.
 
 ### Project Structure
 ```
@@ -121,7 +121,7 @@ CMD [ "yarn", "start" ]
 const app = require('express')();
  
 app.get('/', (req, res ) => 
-    res.json({ message: 'Hello world, we are EOS Costa Rica 🦋' }) 
+    res.json({ message: 'Hello world, we are Edenia' }) 
 );
  
 const port = process.env.PORT || 8080;
@@ -135,7 +135,7 @@ app.listen(port, () => console.log(`app listening on http://localhost:${port}`) 
 {
   "name": "docker-demo",
   "version": "1.0.0",
-  "description": "Hello world, we are EOS Costa Rica 🦋",
+  "description": "Hello world, we are Edenia",
   "main": "index.js",
   "scripts": {
     "start": "node src/index.js"
@@ -153,7 +153,7 @@ app.listen(port, () => console.log(`app listening on http://localhost:${port}`) 
 
 #### Build the Image
 
-`docker build -t eoscostarica/helloworld:1.0 .`
+`docker build -t edenia/helloworld:1.0 .`
 
 #### Run the Container
 

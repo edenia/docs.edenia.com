@@ -174,10 +174,10 @@ Otro texto
 ### **Enlaces**
 
 ``` markdown title="Sintaxis"
-[EOS Costa Rica](https://es.eoscostarica.io)
+[Edenia](https://edenia.com/)
 ```
 **Ejemplo:**  
-[EOS Costa Rica](https://es.eoscostarica.io)
+[Edenia](https://edenia.com/)
 
 * * * 
 

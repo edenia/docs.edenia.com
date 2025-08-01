@@ -173,11 +173,11 @@ Another Text
 ### **Links**
 
 ```markdown title="Syntax"
-[EOS Costa Rica](https://es.eoscostarica.io)
+[Edenia](https://edenia.com/)
 ```
 
 **Example:**  
-[EOS Costa Rica](https://es.eoscostarica.io)
+[Edenia](https://edenia.com/)
 
 ### **Images**
 

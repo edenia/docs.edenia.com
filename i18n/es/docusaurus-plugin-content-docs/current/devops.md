@@ -161,9 +161,9 @@ Para más información visite nuestro tutorial [Kubernetes](/docs/tutorials/kube
 
 * * *
 
-## Kubernetes en EOS Costa Rica
+## Kubernetes en Edenia
 
-Par probar los anteriores [tutoriales](https://kubernetes.io/docs/tutorials/kubernetes-basics/) en un ambiente real, podrías utilizar nuestra instalación de kubernetes sobre Openstack. 
+Para probar los anteriores [tutoriales](https://kubernetes.io/docs/tutorials/kubernetes-basics/) en un ambiente real, podrías utilizar nuestra instalación de kubernetes sobre Openstack. 
 Si así lo prefieres, también puedes crear un cluster local en tu propia máquina: 
 
 [Instalar Minikube](https://computingforgeeks.com/how-to-install-minikube-on-ubuntu-debian-linux/) 

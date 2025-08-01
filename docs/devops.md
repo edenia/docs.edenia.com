@@ -159,7 +159,7 @@ Following you can find a set of very convenient tutorials for learning kubernete
 
 * * *
 
-## Kubernetes at EOS Costa Rica
+## Kubernetes at Edenia
 
 To be able to try the [tutorials](https://kubernetes.io/docs/tutorials/kubernetes-basics/) in a real environment, you could try our Kubernetes installation in Openstack. If you prefer so, you may also create a local setup in your own machine: 
 

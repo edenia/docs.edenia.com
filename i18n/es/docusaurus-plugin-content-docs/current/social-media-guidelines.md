@@ -8,24 +8,24 @@ keywords: [redes sociales EOS, guías, desarrollo, software, EOS, EOS Costa Rica
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-Este sitio muestra las diferentes redes sociales con las que cuenta EOS Costa Rica, así como algunas recomendaciones sobre cómo interactuar con nosotros a través de ellas.
+Este sitio muestra las diferentes redes sociales con las que cuenta Edenia, así como algunas recomendaciones sobre cómo interactuar con nosotros a través de ellas.
 
 Sea respetuoso, cuide su lenguaje y mantenga lo profesional al representar a la empresa o al hablar sobre temas relacionados a blockchain/crypto.
 
 ## **Objetivo:**
->Nuestros potenciales clientes o nuevos talentos se podrían encontrar en LinkedIn, Twitter, Telegram y otras redes sociales. Por eso, es muy importante que todos, como representantes de EOS Costa Rica, nos identifiquemos como parte de la compañía en redes sociales.
+>Nuestros potenciales clientes o nuevos talentos se podrían encontrar en LinkedIn, Xr, Telegram y otras redes sociales. Por eso, es muy importante que todos, como representantes de Edenia, nos identifiquemos como parte de la compañía en redes sociales.
 
 
-## [LinkedIn](https://www.linkedin.com/company/eoscostarica/)
+## [LinkedIn](https://www.linkedin.com/company/edeniaweb3/)
 
 ### **Instrucciones**
 
-- Crear una cuenta y seguir a [EOS Costa Rica](https://www.linkedin.com/company/eoscostarica/).
+- Crear una cuenta y seguir a [Edenia](https://www.linkedin.com/company/edeniaweb3/).
 
-- Compartir las publicaciones de EOS Costa Rica con la comunidad.
+- Compartir las publicaciones de Edenia con la comunidad.
 
 - Incluir en su perfil de LinkedIn la siguiente descripción como actual puesto de trabajo, llenando los campos de acuerdo a sus responsabilidades y experiencia.  
-La finalidad de este proceso es documentar de manera homogénea el trabajo de los colaboradores de EOS Costa Rica en esta red social.
+La finalidad de este proceso es documentar de manera homogénea el trabajo de los colaboradores de Edenia en esta red social.
 
 
 
@@ -56,10 +56,10 @@ Por favor seguir estas indicaciones para alinear nuestros perfiles de LinkedIn. 
 I am a [**specialization developer**] with industry experience building decentralized apps and blockchain-based enterprise solutions on the EOSIO platform. I specialize in [**main languages and frameworks**]. Also, I have experience working with [**secondary languages and frameworks**].  
 
 
-EOS Costa Rica is a startup that offers blockchain-based solutions and top-grade hardware resources to the EOSIO infrastructure. The company also provides an open platform for developers to innovate and explore the many assets of the EOSIO protocol, as well as training programs to increase opportunities in the blockchain environment.  
+Edenia is a startup that offers blockchain-based solutions and top-grade hardware resources to the EOSIO infrastructure. The company also provides an open platform for developers to innovate and explore the many assets of the EOSIO protocol, as well as training programs to increase opportunities in the blockchain environment.  
 
 More on:
-- Web: https://eoscostarica.io/
+- Web: https://edenia.com/es
 - Telegram: https://t.me/eoscr
 
 ***Ejemplos de descripciones:***
@@ -80,18 +80,18 @@ More on:
 </div>
 
 
-## [Twitter](https://twitter.com/EOSCostaRica)
+## [Twitter](https://x.com/EdeniaWeb3)
 
 ### **Instrucciones**  
-- Seguir a [EOS Costa Rica](https://twitter.com/EOSCostaRica) si tiene una cuenta.
-- Compartir las publicaciones de EOS Costa Rica con la comunidad.
+- Seguir a [Edenia](https://x.com/EdeniaWeb3) si tiene una cuenta.
+- Compartir las publicaciones de Edenia con la comunidad.
 
-## [GitHub](https://github.com/eoscostarica)
+## [GitHub](https://github.com/edenia/)
 
 ### **Instrucciones** 
-- Crear una cuenta y seguir a [EOS Costa Rica](https://github.com/eoscostarica).
+- Crear una cuenta y seguir a [Edenia](https://github.com/edenia/).
 - Revise los repositorios y solicite permisos.
-- Edite el perfil para que aparezca como colaborador de EOS Costa Rica.
+- Edite el perfil para que aparezca como colaborador de Edenia.
 
 ** *Siga los siguientes pasos:* **
 1. Incluya su **puesto**, el nombre de la **companía**, su **locación**, y su **linkedin**.
@@ -104,10 +104,10 @@ More on:
 ** *Ejemplos de descripciones:* **
 
 - **Ejemplo 1:**  
->Software Intern  @eoscostarica - a blockchain development company.
+>Software Intern  @sistemasedenia - a blockchain development company.
 
 - **Ejemplo 2:**  
->Communications Strategist @eoscostarica - a blockchain development company.
+>Communications Strategist @sistemasedenia - a blockchain development company.
 
 ### **Así es como se Vería**
 <div style={{  textAlign: "center" }}>
@@ -118,19 +118,17 @@ More on:
 ## [Telegram](https://t.me/eoscr)
 
 ### **Instrucciones**  
-- Crear una cuenta y seguir a [EOS Costa Rica](https://t.me/eoscr).
+- Crear una cuenta y seguir a [Edenia](https://t.me/eoscr).
 - Buscar los canales:
     - https://t.me/blockchaincostarica
     - https://t.me/eosEs 
     - https://t.me/evodex_io 
     - https://t.me/lacchaineosio
 
-## Otros Canales para Seguir a EOS Costa Rica:
-- ### [Facebook](https://www.facebook.com/costaricaeos)
-- ### [Instagram](https://www.instagram.com/eoscostarica/)
-- ### [Youtube](https://www.youtube.com/channel/UCvYinCH3O1iKpi-_dNfQAGQ)
-- ### [Medium](https://eoscostarica.medium.com)
-- ### [Steemit](https://steemit.com/@eos-costarica)
+## Otros Canales para Seguir a Edenia:
+- ### [Facebook](https://www.facebook.com/EDENIAcr)
+- ### [Youtube](https://www.youtube.com/@edenia-web3)
+
 
 
 

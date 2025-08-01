@@ -25,7 +25,7 @@ Los canales de Telegram son una herramienta ideal para difundir mensajes a grand
 - [EOS Project](https://t.me/EOSproject)
 - [EOS Opportunities](https://t.me/eos_opportunities)
 
-## Comunidad Edenia Costa Rica
+## Comunidad Edenia
 
 - [LAChhain EOSIO](https://t.me/lacchaineosio)
 - [EOS Surf](https://t.me/eosbeach)

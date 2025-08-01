@@ -2,7 +2,7 @@
 id: blog-posts
 title: Blogs Edenia
 sidebar_label: Publicaciones de Blog
-description: Publicaciones de blog de Edenia Costa Rica
+description: Publicaciones de blog de Edenia 
 keywords: [Publicaciones, Blog, Comunidad, Comunidad Edenia, EOS, EOS Costa Rica]
 ---
 

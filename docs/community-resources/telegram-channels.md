@@ -3,7 +3,7 @@ id: telegram-channels
 title: Edenia Telegram Channels
 sidebar_label: Telegram Channels
 description: Telegram Channels of Edenia community
-keywords: [Edenia Telegram Channels, EOS, EOS Costa Rica, eosio.io, What is the Edenia Costa Rica Telegram Channels?, Telegram Edenia Community]
+keywords: [Edenia Telegram Channels, EOS, EOS Costa Rica, eosio.io, What is the Edenia Telegram Channels?, Telegram Edenia Community]
 ---
 
 Telegram channels are an ideal tool to spread messages to large numbers of people. The following is a list of the most relevant channels of the Edenia community, in which content is shared that can be very useful.
@@ -26,7 +26,7 @@ Telegram channels are an ideal tool to spread messages to large numbers of peopl
 - [EOS Opportunities](https://t.me/eos_opportunities)
 - [Jungle Testnet](https://t.me/jungletestnet)
 
-## Edenia Costa Rica Community
+## Edenia Community
 
 - [LAChhain EOSIO](https://t.me/lacchaineosio)
 - [EOS Surf](https://t.me/eosbeach)

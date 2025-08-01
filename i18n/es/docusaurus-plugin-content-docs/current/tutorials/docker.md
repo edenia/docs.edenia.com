@@ -69,7 +69,7 @@ volumes:
 
 ### Cómo Iniciar
 
-Para iniciar nuestro primer proyecto Docker, vamos a crear la configuración necesaria para que arranque y diga `Hola mundo, somos EOS Costa Rica 🦋`. En primer lugar, necesitamos la configuración principal, así que sigue los siguientes pasos para obtenerla.
+Para iniciar nuestro primer proyecto Docker, vamos a crear la configuración necesaria para que arranque y diga `Hola mundo, somos Edenia`. En primer lugar, necesitamos la configuración principal, así que sigue los siguientes pasos para obtenerla.
 
 ### Estructura del proyecto
 
@@ -114,7 +114,7 @@ CMD [ "yarn", "start" ]
 const app = require('express')();
  
 app.get('/', (req, res ) => 
-    res.json({ message: 'Hello world, we are EOS Costa Rica 🦋' }) 
+    res.json({ message: 'Hello world, we are Edenia' }) 
 );
  
 const port = process.env.PORT || 8080;
@@ -128,7 +128,7 @@ app.listen(port, () => console.log(`app listening on http://localhost:${port}`) 
 {
   "name": "docker-demo",
   "version": "1.0.0",
-  "description": "Hello world, we are EOS Costa Rica 🦋",
+  "description": "Hello world, we are Edenia",
   "main": "index.js",
   "scripts": {
     "start": "node src/index.js"
@@ -146,7 +146,7 @@ app.listen(port, () => console.log(`app listening on http://localhost:${port}`) 
 
 #### Construir Imagen
 
-`docker build -t eoscostarica/helloworld:1.0 .`
+`docker build -t edenia/helloworld:1.0 .`
 
 #### Correr contenedor
 

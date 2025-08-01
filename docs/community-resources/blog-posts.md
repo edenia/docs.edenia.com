@@ -3,7 +3,7 @@ id: blog-posts
 title: Edenia Blog
 sidebar_label: Blog Posts
 description: Blog posts of Edenia community
-keywords: [Edenia Blog, EOS, EOS Costa Rica, eosio.io, Blog Edenia Costa Rica, Blog Posts Edenia Community]
+keywords: [Edenia Blog, EOS, EOS Costa Rica, eosio.io, Blog Posts Edenia Community]
 ---
 
 ## What is Blockchain?
