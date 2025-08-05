@@ -174,10 +174,10 @@ Otro texto
 ### **Enlaces**
 
 ``` markdown title="Sintaxis"
-[Edenia](https://edenia.com/)
+[Edenia](https://edenia.com/es)
 ```
 **Ejemplo:**  
-[Edenia](https://edenia.com/)
+[Edenia](https://edenia.com/es)
 
 * * * 
 

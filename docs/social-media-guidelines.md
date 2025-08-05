@@ -58,7 +58,7 @@ I am a [**specialization developer**] with industry experience building decentra
 Edenia is a startup that offers blockchain-based solutions and top-grade hardware resources to the EOSIO infrastructure. The company also provides an open platform for developers to innovate and explore the many assets of the EOSIO protocol, as well as training programs to increase opportunities in the blockchain environment.  
 
 More on:
-- Web:  https://edenia.com/es
+- Web: https://edenia.com
 - Telegram: https://t.me/eoscr
 
 ** *Examples of text:* **
