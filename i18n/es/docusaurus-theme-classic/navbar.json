@@ -7,9 +7,9 @@
     "message": "Guías para Desarrolladores",
     "description": "Navbar item with label Developer Guidelines"
   },
-  "item.label.Learn EOSIO + Antelope": {
+  "item.label.Blockchain & Web3": {
     "message": "Aprender EOSIO + Antelope",
-    "description": "Navbar item with label Learn EOSIO + Antelope"
+    "description": "Navbar item with label Blockchain & Web3"
   },
   "item.label.Tutorials": {
     "message": "Tutoriales",

@@ -10,7 +10,7 @@ We explain by example how to create an account and a `Hello World` contract to u
 
 ## Get your Private Keys
 
-More information [about private keys](https://guide.eoscostarica.io/docs/eos-learn/private-keys).
+More information [about private keys](https://guide.eoscostarica.io/docs/blockchain-web3/eos-learn/private-keys).
 
 ## Acquire RAM Resource
 

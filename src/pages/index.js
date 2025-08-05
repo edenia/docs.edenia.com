@@ -103,9 +103,9 @@ const startResourceList = [
     img: "/img/cards-icons/guidelines.svg",
   },
   {
-    title: "Learn EOSIO + Antelope",
-    body: "Resources and information to learn about the EOSIO and Antelope protocol.",
-    href: "/docs/eos-learn/eosio-protocol",
+    title: "Blockchain & Web3",
+    body: "Resources and information on Blockchain and Web3.",
+    href: "/docs/blockchain-web3",
     img: "/img/cards-icons/icons-eosio.svg",
   },
   {

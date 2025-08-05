@@ -7,9 +7,9 @@
     "message": "Guías para Desarrolladores",
     "description": "The label for category Developer Guidelines in sidebar docs"
   },
-  "sidebar.docs.category.Learn EOSIO + Antelope": {
+  "sidebar.docs.category.Blockchain & Web3": {
     "message": "Aprender EOSIO + Antelope",
-    "description": "The label for category Learn EOSIO + Antelope in sidebar docs"
+    "description": "The label for category Blockchain & Web3 in sidebar docs"
   },
   "sidebar.docs.category.Tutorials": {
     "message": "Tutoriales",

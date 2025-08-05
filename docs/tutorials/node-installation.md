@@ -112,7 +112,7 @@ p2p-peer-address = API_NODE_IP:API_NODE_PORT
 }
 ```
 
-> Replace `EOS_PUB_DEV_KEY` with its corresponding value. To see how to generate a key pair, check out our guide [Private Keys](https://guide.eoscostarica.io/docs/eos-learn/private-keys/) about this topic.
+> Replace `EOS_PUB_DEV_KEY` with its corresponding value. To see how to generate a key pair, check out our guide [Private Keys](https://guide.eoscostarica.io/docs/blockchain-web3/eos-learn/private-keys/) about this topic.
 
 ### `start.sh`
 ```bash

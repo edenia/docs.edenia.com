@@ -62,7 +62,7 @@ Currently the networks that use this consensus mechanism are:
 | Main strengths | It is a very secure mechanism | It is more user-friendly and involves the community more | It allows for greater democracy on the part of the community | It is a very safe mechanism
 | Main challenges | Extremely costly | Favors those with greater resources | Requires a very involved community |
 
-If you want to learn more about Delegate Proof of Stake (DPoS) you can visit the consensus mechanism [Delegated Proof of Stake](https://guide.eoscostarica.io/docs/eos-learn/consensus-mechanism#delegated-proof-of-stake-dpos).
+If you want to learn more about Delegate Proof of Stake (DPoS) you can visit the consensus mechanism [Delegated Proof of Stake](https://guide.eoscostarica.io/docs/blockchain-web3/eos-learn/consensus-mechanism#delegated-proof-of-stake-dpos).
 
 ## Others Consensus Mechanisms
 

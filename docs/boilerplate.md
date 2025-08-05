@@ -93,7 +93,7 @@ Get more information at [hapi](https://guide.eoscostarica.io/docs/developer-tool
 
 EOSIO is a third generation blockchain that will achieve the goal of providing an immutable, permanent, traceable and verifiable record of all activity in container warehouses. These data will be public and may be consumed by any external third party.
 
-Get more information at [EOSIO components](https://guide.eoscostarica.io/docs/eos-learn/eosio-components).
+Get more information at [EOSIO components](https://guide.eoscostarica.io/docs/blockchain-web3/eos-learn/eosio-components).
 
 ### PostgresDB
 

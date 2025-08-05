@@ -48,7 +48,7 @@ For more information, visit our guide [Command Line](https://guide.eoscostarica.
 
 ## Get your Private Keys
 
-More information [about private keys](https://guide.eoscostarica.io/docs/eos-learn/private-keys)
+More information [about private keys](https://guide.eoscostarica.io/docs/blockchain-web3/eos-learn/private-keys)
 
 ## Getting Started
 

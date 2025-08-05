@@ -52,8 +52,8 @@ const siteConfig = {
           position: "left",
         },
         {
-          to: "docs/eos-learn/eosio-protocol",
-          label: "Learn EOSIO + Antelope",
+          to: "docs/blockchain-web3/eos-learn/eosio-protocol",
+          label: "Blockchain & Web3",
           position: "left",
         },
         {
