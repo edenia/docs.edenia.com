@@ -42,7 +42,7 @@ const siteConfig = {
       },
       items: [
         /*{
-          href: 'https://guias.eoscostarica.io/',
+          href: 'https://docs.edenia.com/es/',
           label: 'Inicio',
           position: 'left',
         },*/
@@ -76,7 +76,7 @@ const siteConfig = {
           position: 'right' 
         },
         // {
-        //   href: "https://guias.eoscostarica.io/",
+        //   href: "https://docs.edenia.com/es/",
         //   label: "Español",
         //   position: "right",
         // },

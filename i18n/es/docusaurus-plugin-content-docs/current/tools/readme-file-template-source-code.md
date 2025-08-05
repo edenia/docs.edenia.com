@@ -142,7 +142,7 @@ Esto podría ayudar al lector a comprender la organización dentro del proyecto,
     4. Push a la rama de trabajo (`git push origin feature/AmazingFeature`)
     5. Abra un Pull Request
 
-    Por favor lea EOS Costa Rica [Pautas de contribución de código abierto](https://guias.eoscostarica.io/docs/pautas-para-codigo-abierto/) para obtener más información sobre las convenciones de programación.
+    Por favor lea EOS Costa Rica [Pautas de contribución de código abierto](https://docs.edenia.com/es/docs/pautas-para-codigo-abierto/) para obtener más información sobre las convenciones de programación.
 
     Si encuentra un error, informe los errores grandes y pequeños **abriendo un issue** `<enlace a la sección del proyecto de emisión>`
 

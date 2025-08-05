@@ -136,7 +136,7 @@ If you want to make a contribution, please follow the next steps:
 1. Push to the Branch (`git push origin feature/AmazingFeature`)
 1. Open a Pull Request
 
-Please Read Sustemas Edenia [Open Source Contributing Guidelines](https://guide.eoscostarica.io/docs/open-source-guidelines/) for more information about programming conventions.
+Please Read Sustemas Edenia [Open Source Contributing Guidelines](https://docs.edenia.com/docs/open-source-guidelines/) for more information about programming conventions.
 
 If you find a bug, please report big and small bugs by [opening an issue](https://github.com/eoscostarica/guide.eoscostarica.io/issues/new/choose).
 

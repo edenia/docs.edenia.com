@@ -4,6 +4,6 @@
 The following is a set of guidelines for contributing to EOS Costa Rica's Open Source Projects and its packages, which are hosted in the [`eoscostarica`](https://github.com/eoscostarica/) Organization on GitHub.
 
 
-### [View Open Source Contributing Guidelines](https://guide.eoscostarica.io/docs/open-source-guidelines)
+### [View Open Source Contributing Guidelines](https://docs.edenia.com/docs/open-source-guidelines)
 
 These are mostly guidelines, not rules. Use your best judgment, and feel free to propose changes to [Open Source Guidelines](https://github.com/eoscostarica/guide.eoscostarica.io/blob/master/docs/open-source-guidelines.md) in a pull request.

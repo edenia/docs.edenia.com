@@ -38,7 +38,7 @@ En EOS Costa Rica hemos creado tres repositorios boilerplate: **Front-End Boiler
 
 "Front-end" se refiere a la interfaz de usuario y en el contexto de una aplicación web es la aplicación que se ejecuta en el navegador web de los usuarios.
 
-Utilizamos [React JS](https://guias.eoscostarica.io/docs/tutoriales/tutorial-react), una biblioteca de JavaScript para la construcción de interfaces de usuario de alto rendimiento y basada en componentes que facilita el desarrollo de interfaces de usuario complejas con código predecible y fácil de depurar.
+Utilizamos [React JS](https://docs.edenia.com/es/docs/tutoriales/tutorial-react), una biblioteca de JavaScript para la construcción de interfaces de usuario de alto rendimiento y basada en componentes que facilita el desarrollo de interfaces de usuario complejas con código predecible y fácil de depurar.
 
 ### Front-End Tech Stack
 
@@ -49,7 +49,7 @@ Utilizamos [React JS](https://guias.eoscostarica.io/docs/tutoriales/tutorial-rea
 
 ### Colecciones de Componentes React
 
-Hemos desarrollado una colección de componentes en React para EOSIO. Puede ver los componentes que hemos construido en nuestro [EOS Costa Rica React Components Storybook](https://guias.eoscostarica.io/docs/tutoriales/tutorial-react#componentes-en-eos-costa-rica)
+Hemos desarrollado una colección de componentes en React para EOSIO. Puede ver los componentes que hemos construido en nuestro [EOS Costa Rica React Components Storybook](https://docs.edenia.com/es/docs/tutoriales/tutorial-react#componentes-en-eos-costa-rica)
 Para más información sobre los componentes puede visitar [Repositorio de Componentes](https://github.com/eoscostarica/eoscr-components)
 
 ## Back-End Boilerplate
@@ -79,26 +79,26 @@ La consola de Hasura le brinda herramientas de interfaz de usuario que aceleran 
 
 El motor Hasura GraphQL le permite hacer cualquier cosa que normalmente haría con Postgres al proporcionar GraphQL sobre construcciones nativas de Postgres.
 
-Obtenga más información en [Hasura](https://guias.eoscostarica.io/docs/herramientas-para-desarrolladores#hasura)
+Obtenga más información en [Hasura](https://docs.edenia.com/es/docs/herramientas-para-desarrolladores#hasura)
 
 ### HTTP API (HAPI)
 
 hapi.js (comúnmente conocido como hapi) son las siglas de HTTP API. Es un marco rico para crear aplicaciones y servicios. Fue diseñado originalmente para el rápido desarrollo de servicios de API RESTful usando JavaScript, pero desde entonces ha crecido hasta convertirse en un marco de aplicación web completo con características listas para usar plantillas, validación de entrada, autenticación, almacenamiento en caché y, más recientemente, soporte. para aplicaciones en tiempo real con soporte web socket.
 
-Obtenga más información en [hapi](https://guias.eoscostarica.io/docs/herramientas-para-desarrolladores#hapi)
+Obtenga más información en [hapi](https://docs.edenia.com/es/docs/herramientas-para-desarrolladores#hapi)
 
 ### EOSIO
 
 EOSIO es un blockchain de tercera generación que permitirá alcanzar el objetivo de proporcionar un registro immutable, permanente, trazable y verificable de toda la actividad en los depósitos de contenedores. Estos datos serán públicos y podrán ser consumidos por cualquier tercero externo.
 
-Obtenga más información en [Componentes EOSIO](https://guias.eoscostarica.io/docs/aprender-eosio/componentes-eosio)
+Obtenga más información en [Componentes EOSIO](https://docs.edenia.com/es/docs/aprender-eosio/componentes-eosio)
 
 ### PostgresDB
 
 *"PostgreSQL es un potente sistema de base de datos relacional de objetos de código abierto con más de 30 años de desarrollo activo que le ha ganado una sólida reputación por su fiabilidad, solidez y rendimiento".*
 
 PostgreSQL viene con muchas características destinadas a ayudar a los desarrolladores a crear aplicaciones, a los administradores a proteger la integridad de los datos y a crear entornos tolerantes a fallas, y a administrar sus datos sin importar cuán grande o pequeño sea el conjunto de datos.
-Obtenga más información en [PostgresDB](https://guias.eoscostarica.io/docs/herramientas-para-desarrolladores#postgresdb)
+Obtenga más información en [PostgresDB](https://docs.edenia.com/es/docs/herramientas-para-desarrolladores#postgresdb)
 
 ## Full-Stack Boilerplate
 

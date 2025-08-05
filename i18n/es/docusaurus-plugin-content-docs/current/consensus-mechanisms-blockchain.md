@@ -27,7 +27,7 @@ En la actualidad las redes que utilizan este mecanismo de consenso son:
 - Monero.
 - Entre otras.
 
-Si se desea obtener más información puede visitar el glosario [Proof of Work](https://guias.eoscostarica.io/docs/herramientas/glosario#proof-of-work).
+Si se desea obtener más información puede visitar el glosario [Proof of Work](https://docs.edenia.com/es/docs/herramientas/glosario#proof-of-work).
 
 ## Proof of Stake (PoS)
 
@@ -35,7 +35,7 @@ Si se desea obtener más información puede visitar el glosario [Proof of Work](
   <iframe width="100%" height="315" src="https://www.youtube.com/embed/psKDXvXdr7k"  frameBorder="0" allowFullScreen loading="lazy"> </iframe>
 </figure>
 
-Este mecanismo de consenso nace con el 2011 con el fin de eliminar aquellas limitaciones presentes en su antecesor proof of work, teniendo en lugar de "mineros" que requieren recursos para la verificación de transacciones tales como equipos especializados y grandes cantidades energía a los "validadores" los cuales son dueños de monedas y ponen como colateral ["Stake"](https://guias.eoscostarica.io/docs/herramientas/glosario/#stake) cierta cantidad de monedas, siendo escogido de manera aleatoria los validadores responsables de "validar" o "minar" en caso de que exista un validador corrupto perderá el stake y no podrá ser validador en el futuro.
+Este mecanismo de consenso nace con el 2011 con el fin de eliminar aquellas limitaciones presentes en su antecesor proof of work, teniendo en lugar de "mineros" que requieren recursos para la verificación de transacciones tales como equipos especializados y grandes cantidades energía a los "validadores" los cuales son dueños de monedas y ponen como colateral ["Stake"](https://docs.edenia.com/es/docs/herramientas/glosario/#stake) cierta cantidad de monedas, siendo escogido de manera aleatoria los validadores responsables de "validar" o "minar" en caso de que exista un validador corrupto perderá el stake y no podrá ser validador en el futuro.
 
 Para la validación de transacciones en EOSIO se requiere una mayoría de 2/3+1 para el consenso (Este dato puede variar según la red) del total de los validadores aprueben y el bloque de transacciones. Para la elección de los validadores se toma en consideración los siguientes aspectos:
 
@@ -62,7 +62,7 @@ En la actualidad las redes que utilizan este mecanismo de consenso son:
 | Principales fortalezas | Es un mecanismo muy seguro | Es más amigable con los usuarios e involucra más a la comunidad | Permite una mayor democracia por parte de la comunidad |
 | Principales retos | Es extremadamente costoso | Favorece a aquellos con mayores recursos | Requiere una comunidad muy involucrada |
 
-Si desea aprender más sobre Delegated Proof of Stake (DPoS) puede visitar el mecanismo de consenso [Delegated Proof of Stake](https://guias.eoscostarica.io/docs/aprender-eosio/mecanismo-de-consenso#delegated-proof-of-stake-dpos).
+Si desea aprender más sobre Delegated Proof of Stake (DPoS) puede visitar el mecanismo de consenso [Delegated Proof of Stake](https://docs.edenia.com/es/docs/aprender-eosio/mecanismo-de-consenso#delegated-proof-of-stake-dpos).
 
 ## Otros Mecanismos de Consenso
 

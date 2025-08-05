@@ -112,7 +112,7 @@ p2p-peer-address = API_NODE_IP:API_NODE_PORT
 }
 ```
 
-> Replace `EOS_PUB_DEV_KEY` with its corresponding value. To see how to generate a key pair, check out our guide [Private Keys](https://guide.eoscostarica.io/docs/blockchain-web3/eos-learn/private-keys/) about this topic.
+> Replace `EOS_PUB_DEV_KEY` with its corresponding value. To see how to generate a key pair, check out our guide [Private Keys](https://docs.edenia.com/docs/blockchain-web3/eos-learn/private-keys/) about this topic.
 
 ### `start.sh`
 ```bash
@@ -187,7 +187,7 @@ $ cleos -u http://DESTINATION_NODE_ADDRESS system regproducer testproducer EOS_P
 ```
 For a more detailed information about the above command, please visit [System Regproducer](https://developers.eos.io/manuals/eos/v2.0/cleos/command-reference/system/system-regproducer).
 
-Now, your node is set up. If you configured this node to operate in a Private Network, you need to make sure your node is included in the producers schedule. Check our guide [Set Block Producer Schedule](https://guide.eoscostarica.io/docs/tutorials/private-network-installation/#set-block-producers-schedule) to see more information about this.
+Now, your node is set up. If you configured this node to operate in a Private Network, you need to make sure your node is included in the producers schedule. Check our guide [Set Block Producer Schedule](https://docs.edenia.com/docs/tutorials/private-network-installation/#set-block-producers-schedule) to see more information about this.
 
 On the other hand, if you are looking to produce blocks in a testnet, token holders need to vote for you in order to be in the 21 top block producers.
 
