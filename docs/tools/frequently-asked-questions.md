@@ -7,7 +7,7 @@ keywords: [ EOS Costa Rica, EOS, FAQ, Frequently Asked Questions, EOSIO question
 ---
 
 
-At EOS Costa Rica we are interested in the doubts of our engineers.
+At Sistemas Edenia we are interested in the doubts of our engineers.
 
 Good development is key to the success of each of our products, so we seek to provide the best answers to each of your questions.
 

@@ -1,12 +1,12 @@
 ---
 id: useful-links
-title: Enlaces Comunidad EOS
+title: Enlaces Comunidad Edenia
 sidebar_label: Enlaces Útiles
-description: Enlaces Útiles de la Comunidad EOS
-keywords: [Enlaces Útiles, Elaces Comunidad, Comunidad, Comunidad EOS, EOS, EOS Costa Rica]
+description: Enlaces Útiles de la Comunidad Edenia
+keywords: [Enlaces Útiles, Enlaces Comunidad, Comunidad, Comunidad Edenia, EOS, EOS Costa Rica]
 ---
 
-Aquí hay una lista de enlaces útiles relacionados con la comunidad EOS.
+Aquí hay una lista de enlaces útiles relacionados con la comunidad Edenia.
 
 * [EOSIO para Desarrolladores](https://eos.io/for-developers/)
 * [Documentación de los Desarrolladores de EOSIO](https://developers.eos.io/)

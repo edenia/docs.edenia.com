@@ -108,6 +108,32 @@ article > div > span.badge.badge--secondary {
   margin: 0 25%;
 }
 
+/* Navbar logo sizing */
+.navbar__logo img {
+  height: 32px !important;
+  width: auto !important;
+  max-width: 200px !important;
+  object-fit: contain;
+}
+
+
+.navbar__logo img[src*="EdeniaLogo.png"],
+.navbar__logo img[src*="Edenia_Logo.svg"] {
+  height: 32px !important;
+  width: auto !important;
+  max-width: 200px !important;
+  object-fit: contain;
+}
+
+/* Specific light mode logo size */
+.navbar__logo img[src*="Edenia_Logo.svg"] {
+  height: 20px !important;
+  width: auto !important;
+  max-width: 140px !important;
+  object-fit: contain;
+  margin-top: 4px; 
+}
+
 .lightbox {
   display: none;
   position: fixed;

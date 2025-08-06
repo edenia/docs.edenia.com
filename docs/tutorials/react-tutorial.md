@@ -154,7 +154,7 @@ export default App;
 
 Components are defined as a single unit of code that will have a specifically assigned responsibility that certain behaviors can be encapsulated in components.
 
-This is an example of a component. Create a new file inside your `components` folder with the name of `header.js` and in this way you can use it later. This type of component is no longer used in EOS Costa Rica, however it is important to understand its definition and use.
+This is an example of a component. Create a new file inside your `components` folder with the name of `header.js` and in this way you can use it later. This type of component is no longer used in Edenia, however it is important to understand its definition and use.
 
 ```javascript
 import React, { Component } from "react";
@@ -217,11 +217,11 @@ width="100%" height="350" src="https://www.youtube.com/embed/qnN_FuFNq2g" frameB
 
 For more information on [HoC](https://reactjs.org/docs/higher-order-components.html#:~:text=Un%20componente%20de%20orden%20superior,de%20la%20l%C3%B3gica%20de%20componentes.&text=En%20concreto%2C%20un%20componente%20de,y%20devuelve%20un%20nuevo%20componente.).
 
-## Components in EOS Costa Rica
+## Components in Edenia
 
 React uses reusable components for all applications, these components can have several versions, which can generate conflicts when making small changes. [Storybook](https://storybook.js.org/) is an opensource tool that is used to create visual components in isolation where the components and their versions can be organized in stories.
 
-EOS Costa Rica uses [Storybook EOS Costa Rica](https://components.edenia.cloud/) for the creation of its components. To use these `eoscr-components` components we leave you the installation guide in [EOS CR Components](https://www.npmjs.com/package/@eoscostarica/eoscr-components#installation).
+Edenia uses [Storybook Edenia](https://components.edenia.cloud/) for the creation of its components. To use these `edenia-components` components we leave you the installation guide in [Edenia Components](https://www.npmjs.com/package/@eoscostarica/eoscr-components#installation).
 
 ### Storybook
 

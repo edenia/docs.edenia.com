@@ -1,9 +1,9 @@
 ---
 id: blog-posts
-title: Blogs EOS
+title: Blogs Edenia
 sidebar_label: Publicaciones de Blog
-description: Publicaciones de blog de EOS Costa Rica
-keywords: [Publicaciones, Blog, Comunidad, Comunidad EOS, EOS, EOS Costa Rica]
+description: Publicaciones de blog de Edenia 
+keywords: [Publicaciones, Blog, Comunidad, Comunidad Edenia, EOS, EOS Costa Rica]
 ---
 
 ## ¿Qué es Blockchain?

@@ -1,12 +1,12 @@
 ---
 id: useful-links
-title: EOS Community Links
+title: Edenia Community Links
 sidebar_label: Useful Links
-description: Useful links for the EOS community
-keywords: [EOS Community Links, EOS Developer Resources, EOSIO]
+description: Useful links for the Edenia community
+keywords: [Edenia Community Links, Edenia Developer Resources, EOSIO]
 ---
 
-Here is a list of helpful links related to the EOS community.
+Here is a list of helpful links related to the Edenia community.
 
 * [EOSIO for Developers](https://eos.io/for-developers/)
 * [EOSIO Developer Documentation](https://developers.eos.io/)

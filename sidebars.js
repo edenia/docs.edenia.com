@@ -92,7 +92,7 @@ module.exports = {
         "community-resources/eosio-networks",
         "community-resources/telegram-channels",
         "community-resources/blog-posts",
-        "community-resources/eos-podcasts",
+        "community-resources/edenia-podcasts",
         "community-resources/useful-links",
       ],
     },

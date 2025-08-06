@@ -122,7 +122,7 @@ const startResourceList = [
   },
   {
     title: "Community",
-    body: "Links to sites of interest related to the EOS community.",
+    body: "Links to sites of interest related to the Edenia community.",
     href: "docs/community-resources/telegram-channels",
     img: "/img/cards-icons/community.svg",
   },
