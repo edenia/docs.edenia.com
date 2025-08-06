@@ -10,7 +10,7 @@ A contract is an agreement governing outcomes for actions, given a set of inputs
 
 An EOSIO Smart Contract is software registered on the blockchain and executed on EOSIO nodes, that implements the semantics of a "contract" whose ledger of action requests are being stored on the blockchain. The Smart Contract defines the interface (actions, parameters, data structures) and the code that implements the interface. The code is compiled into a **canonical bytecode** format that nodes can retrieve and execute. The blockchain stores the transactions (e.g., legal transfers, game moves) of the contract. Each Smart Contract must be accompanied by a Ricardian Contract that defines the legally binding terms and conditions of the contract.
 
-Check out our [Modern C++ Tutorial](https://guide.eoscostarica.io/docs/tutorials/modern-cpp)
+Check out our [Modern C++ Tutorial](https://docs.edenia.com/docs/tutorials/modern-cpp)
 
 ## Smart Contract Design Framework 
 Digital Scarcity's [github repo](https://github.com/digital-scarcity/equiprental) has an example designed to provide a step-by-step framework and example for creating a smart contract on EOS. It uses a simple use case of equipment rentals that list their equipment for rent and renters who pay rent for those items.
@@ -34,7 +34,7 @@ Define the actions, or state changes, that must exist in your Smart Contract.
 
 
 ## Open Source Smart Contracts 
-We maintain a list of open source EOS Smart Contracts in the following our [Example EOSIO Smart Contracts](https://guide.eoscostarica.io/docs/tools/example-eosio-smart-contract)
+We maintain a list of open source EOS Smart Contracts in the following our [Example EOSIO Smart Contracts](https://docs.edenia.com/docs/tools/example-eosio-smart-contract)
 
 Also check out this list of open source contracts for EOSIO maintained by César Rodríguez:
 
@@ -50,6 +50,6 @@ https://github.com/kesar/eos-awesome-contracts
 
 To learn more about EOSIO smart contract development we recommend you check out the following links:
 
-* [Hello World Smart Contract Tutorial](../tutorials/hello-world-contract)
+* [Hello World Smart Contract Tutorial](../../tutorials/hello-world-contract)
 * [EOSIO Smart Contract Guides](https://developers.eos.io/welcome/v2.1/smart-contract-guides/index)
 * [EOSIO Smart Contract Developers Handbook](https://cc32d9.gitbook.io/eosio-smart-contract-developers-handbook)

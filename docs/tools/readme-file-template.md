@@ -149,7 +149,7 @@ If you want to make a contribution, please follow the next steps:
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-Please Read EOS Costa Rica's [Open Source Contributing Guidelines](https://guide.eoscostarica.io/docs/open-source-guidelines/) for more information about programming conventions.
+Please Read EOS Costa Rica's [Open Source Contributing Guidelines](https://docs.edenia.com/docs/open-source-guidelines/) for more information about programming conventions.
 
 If you find a bug, please report big and small bugs by **opening an issue** `<link to issue project section>`
 

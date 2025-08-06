@@ -115,7 +115,7 @@ p2p-peer-address = API_NODE_IP:API_NODE_PORT
 }
 ```
 
-> Sustituye `EOS_PUB_DEV_KEY` por su valor correspondiente. Para ver cómo generar un par de claves, consulta nuestra guía [Llaves Privadas](https://guias.eoscostarica.io/docs/aprender-eosio/llaves-privadas) sobre este tema.
+> Sustituye `EOS_PUB_DEV_KEY` por su valor correspondiente. Para ver cómo generar un par de claves, consulta nuestra guía [Llaves Privadas](https://docs.edenia.com/es/docs/aprender-eosio/llaves-privadas) sobre este tema.
 
 ### `start.sh`
 ```bash
@@ -191,7 +191,7 @@ $ cleos -u http://URL_NODO_DESTINO system regproducer testproducer EOS_PUB_KEY "
 ```
 Para una información más detallada sobre el comando anterior, por favor visite [System Regproducer](https://developers.eos.io/manuals/eos/v2.0/cleos/command-reference/system/system-regproducer).
 
-Ahora, el nodo está configurado. Si configuraste este nodo para operar en una Red Privada, necesitas asegurarte de que tu nodo está incluido en la de productores. Consulta nuestra guía [Instalación de Red Privada](https://guias.eoscostarica.io/docs/tutoriales/instalacion-de-red-privada) para ver más información sobre esto.
+Ahora, el nodo está configurado. Si configuraste este nodo para operar en una Red Privada, necesitas asegurarte de que tu nodo está incluido en la de productores. Consulta nuestra guía [Instalación de Red Privada](https://docs.edenia.com/es/docs/tutoriales/instalacion-de-red-privada) para ver más información sobre esto.
 
 Por otro lado, si quieres producir bloques en una red de prueba, los poseedores de tokens tienen que votar por ti para estar entre los 21 principales productores de bloques.
 

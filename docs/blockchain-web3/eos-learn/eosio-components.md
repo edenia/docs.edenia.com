@@ -15,7 +15,7 @@ keywords: [EOSIO Components, eosio, eosio.io, EOS Costa Rica, Components EOSIO, 
 * Produce blocks containing valid transactions.
 * Confirm blocks to record them on the blockchain.
 
->For more information, visit our guide [Nodeos Command Line](https://guide.eoscostarica.io/docs/tools/nodeos-command-line-reference)
+>For more information, visit our guide [Nodeos Command Line](https://docs.edenia.com/docs/tools/nodeos-command-line-reference)
 
 ## Cleos
 
@@ -40,7 +40,7 @@ $cleos create account --help
 $ cleos wallet create -n mywallet --to-console
 ```
 
-For more information, visit our guide [Command Line](https://guide.eoscostarica.io/docs/tools/command-line)
+For more information, visit our guide [Command Line](https://docs.edenia.com/docs/tools/command-line)
 
 ## EOSIO.CDT
 
@@ -48,7 +48,7 @@ For more information, visit our guide [Command Line](https://guide.eoscostarica.
 
 ## Get your Private Keys
 
-More information [about private keys](https://guide.eoscostarica.io/docs/eos-learn/private-keys)
+More information [about private keys](https://docs.edenia.com/docs/blockchain-web3/eos-learn/private-keys)
 
 ## Getting Started
 

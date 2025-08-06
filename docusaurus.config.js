@@ -42,7 +42,7 @@ const siteConfig = {
       },
       items: [
         /*{
-          href: 'https://guias.eoscostarica.io/',
+          href: 'https://docs.edenia.com/es/',
           label: 'Inicio',
           position: 'left',
         },*/
@@ -52,8 +52,8 @@ const siteConfig = {
           position: "left",
         },
         {
-          to: "docs/eos-learn/eosio-protocol",
-          label: "Learn EOSIO + Antelope",
+          to: "docs/blockchain-web3/eos-learn/eosio-protocol",
+          label: "Blockchain & Web3",
           position: "left",
         },
         {
@@ -76,7 +76,7 @@ const siteConfig = {
           position: 'right' 
         },
         // {
-        //   href: "https://guias.eoscostarica.io/",
+        //   href: "https://docs.edenia.com/es/",
         //   label: "Español",
         //   position: "right",
         // },

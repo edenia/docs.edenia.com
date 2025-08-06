@@ -27,7 +27,7 @@ Currently the networks that use this consensus mechanism are:
 - Monero.
 - Among others.
 
-For more information you can visit the Glossary [Proof of Work](https://guide.eoscostarica.io/docs/tools/glossary#proof-of-work).
+For more information you can visit the Glossary [Proof of Work](https://docs.edenia.com/docs/tools/glossary#proof-of-work).
 
 ## Proof of Stake (PoS)
 
@@ -35,7 +35,7 @@ For more information you can visit the Glossary [Proof of Work](https://guide.eo
   <iframe width="100%" height="315" src="https://www.youtube.com/embed/psKDXvXdr7k" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
-This consensus mechanism was born in 2011 with the purpose of eliminating those limitations present in its predecessor proof of work, instead of "miners" that require resources for the verification of transactions such as specialized equipment and large amounts of energy to "validators" who are owners of coins and put as collateral ["Stake"](https://guide.eoscostarica.io/docs/tools/glossary/#stake) a certain amount of coins, being chosen randomly the validators responsible for "validating" or "mining" in case there is a corrupt validator will lose the stake and will not be able to be a validator in the future.
+This consensus mechanism was born in 2011 with the purpose of eliminating those limitations present in its predecessor proof of work, instead of "miners" that require resources for the verification of transactions such as specialized equipment and large amounts of energy to "validators" who are owners of coins and put as collateral ["Stake"](https://docs.edenia.com/docs/tools/glossary/#stake) a certain amount of coins, being chosen randomly the validators responsible for "validating" or "mining" in case there is a corrupt validator will lose the stake and will not be able to be a validator in the future.
 
 For the validation of transactions, in EOSIO a supermajority of 2/3 +1 is required for consensus (this figure may vary depending on the network) of the total number of validators are required to approve the transaction block. The following aspects are taken into consideration for the choice of validators:
 
@@ -62,7 +62,7 @@ Currently the networks that use this consensus mechanism are:
 | Main strengths | It is a very secure mechanism | It is more user-friendly and involves the community more | It allows for greater democracy on the part of the community | It is a very safe mechanism
 | Main challenges | Extremely costly | Favors those with greater resources | Requires a very involved community |
 
-If you want to learn more about Delegate Proof of Stake (DPoS) you can visit the consensus mechanism [Delegated Proof of Stake](https://guide.eoscostarica.io/docs/eos-learn/consensus-mechanism#delegated-proof-of-stake-dpos).
+If you want to learn more about Delegate Proof of Stake (DPoS) you can visit the consensus mechanism [Delegated Proof of Stake](https://docs.edenia.com/docs/blockchain-web3/eos-learn/consensus-mechanism#delegated-proof-of-stake-dpos).
 
 ## Others Consensus Mechanisms
 

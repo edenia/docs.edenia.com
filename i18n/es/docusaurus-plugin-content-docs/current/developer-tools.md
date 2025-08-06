@@ -55,7 +55,7 @@ Axios es una biblioteca de JavaScript muy popular que se puede usar para realiza
 
 ### ¿Qué es EOSIO?
 
-EOSIO es un software de código abierto que permite el lanzamiento de redes de blockchain altamente configurables en las que los desarrolladores y empresarios pueden ejecutar aplicaciones de blockchain de alto rendimiento. Para obtener más información sobre EOSIO, visite [aprender EOS](https://guias.eoscostarica.io/docs/aprender-eosio/protocolo-eosio).
+EOSIO es un software de código abierto que permite el lanzamiento de redes de blockchain altamente configurables en las que los desarrolladores y empresarios pueden ejecutar aplicaciones de blockchain de alto rendimiento. Para obtener más información sobre EOSIO, visite [aprender EOS](https://docs.edenia.com/es/docs/aprender-eosio/protocolo-eosio).
 
 ### ¿Por qué usamos EOSIO?
 
@@ -73,7 +73,7 @@ Aquí hay algunas razones por las que usamos EOSIO:
 
 ### Instalación de EOSIO 
 
-Tenemos una guía para que te inicies en el mundo EOSIO, visita [Componentes EOSIO](https://guias.eoscostarica.io/docs/aprender-eosio/componentes-eosio).
+Tenemos una guía para que te inicies en el mundo EOSIO, visita [Componentes EOSIO](https://docs.edenia.com/es/docs/aprender-eosio/componentes-eosio).
 
 * * *
 

@@ -10,7 +10,7 @@ Explicamos con ejemplos cómo crear una cuenta y un contrato `Hello World` para 
 
 ## Obtenga sus Llaves Privadas
 
-Mas información [sobre llaves privadas](https://guias.eoscostarica.io/docs/aprender-eosio/llaves-privadas).
+Mas información [sobre llaves privadas](https://docs.edenia.com/es/docs/aprender-eosio/llaves-privadas).
 
 ## Adquirir Recurso RAM
 
@@ -52,7 +52,7 @@ Podemos verificar en el explorador de bloques las acciones ejecutadas.
 
 Es necesario esperar unos segundos para completar la irreversibilidad del bloque, ya que los block producers deben hacer la validación del bloque de datos para esto.
 
-Finalmente, esta es una muestra de cómo se puede interactuar con una blockchain. Existen herramientas de Javascript, librería [EOS JS](https://guias.eoscostarica.io/docs/herramientas/librerias-sdk#eosjs) que podría implementarse para ejecutar acciones de una manera más programática para integrar con dApps, poder persistir datos, o incluso ejecutar lógica de negocios en la blockchain con este mismo patrón.
+Finalmente, esta es una muestra de cómo se puede interactuar con una blockchain. Existen herramientas de Javascript, librería [EOS JS](https://docs.edenia.com/es/docs/herramientas/librerias-sdk#eosjs) que podría implementarse para ejecutar acciones de una manera más programática para integrar con dApps, poder persistir datos, o incluso ejecutar lógica de negocios en la blockchain con este mismo patrón.
 
 ## Video Tutorial
 

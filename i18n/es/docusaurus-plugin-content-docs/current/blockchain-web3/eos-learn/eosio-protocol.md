@@ -25,7 +25,7 @@ Es importante saber la diferencia entre EOSIO / Antelope y EOS para no confundir
 
 Las características de EOS fueron altamente personalizadas por la comunidad mediante los **contratos de sistema**, así que, EOS es un ejemplo de cómo utilizar EOSIO, pero, no su definición, es por esta razón que EOS no pertenece ni es controlada por B1 sino por su comunidad. 
 
-Además, existen otras redes blockchain basadas en EOSIO como las son LACChain, Proton, Telos, WAX, entre otras.  Puede ver la siguiente [lista de redes EOSIO](https://guias.eoscostarica.io/docs/comunidad/redes-eosio). También existen múltiples redes privadas que actualmente utilizan EOSIO.
+Además, existen otras redes blockchain basadas en EOSIO como las son LACChain, Proton, Telos, WAX, entre otras.  Puede ver la siguiente [lista de redes EOSIO](https://docs.edenia.com/es/docs/comunidad/redes-eosio). También existen múltiples redes privadas que actualmente utilizan EOSIO.
 
 ## Protocolo EOSIO / Antelope
 

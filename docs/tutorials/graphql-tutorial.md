@@ -730,6 +730,6 @@ Each field on each type is backed by a function called the resolver which is pro
 
 #### Services
 
-- [**Apollo:**](https://guide.eoscostarica.io/docs/developer-tools#apollo) A cloud service for monitoring the performance and usage of your GraphQL backend.
-- [**Hasura:**](https://guide.eoscostarica.io/docs/developer-tools#hasura) Hasura connects to your databases and microservices and instantly gives you a production-ready GraphQL API.
-- [**Postman:**](https://guide.eoscostarica.io/docs/developer-tools#postman) An HTTP Client that supports editing GraphQL queries.
+- [**Apollo:**](https://docs.edenia.com/docs/developer-tools#apollo) A cloud service for monitoring the performance and usage of your GraphQL backend.
+- [**Hasura:**](https://docs.edenia.com/docs/developer-tools#hasura) Hasura connects to your databases and microservices and instantly gives you a production-ready GraphQL API.
+- [**Postman:**](https://docs.edenia.com/docs/developer-tools#postman) An HTTP Client that supports editing GraphQL queries.

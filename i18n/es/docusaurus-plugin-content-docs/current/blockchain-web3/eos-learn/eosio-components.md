@@ -15,7 +15,7 @@ keywords: [componentes-eosio, Componentes EOSIO, blockchain, eos, eosio, eosio.i
 * Producir bloques que contengan transacciones válidas.
 * Confirmar bloques para registrarlos en el blockchain.
 
->Para más información visite [Configuración Nodeos](https://guias.eoscostarica.io/docs/herramientas/opciones-configuracion-nodeos)
+>Para más información visite [Configuración Nodeos](https://docs.edenia.com/es/docs/herramientas/opciones-configuracion-nodeos)
 
 ## Cleos
 
@@ -41,7 +41,7 @@ $ cleos create account --help
 $ cleos wallet create -n mywallet --to-console
 ```
 
-Para más información visite [Linea de Comando](https://guias.eoscostarica.io/docs/herramientas/linea-de-comando)
+Para más información visite [Linea de Comando](https://docs.edenia.com/es/docs/herramientas/linea-de-comando)
 
 ## EOSIO.CDT
 
@@ -50,7 +50,7 @@ kit de herramientas para WebAssembly(WASM) para facilitar el desarrollo de contr
 
 ## Obtenga sus Llaves Privadas
 
-Más información sobre [llaves privadas](https://guias.eoscostarica.io/docs/aprender-eosio/llaves-privadas).
+Más información sobre [llaves privadas](https://docs.edenia.com/es/docs/aprender-eosio/llaves-privadas).
 
 ## Empecemos
 
