@@ -1,9 +1,9 @@
 ---
-id: eos-podcasts
-title: EOS Podcasts
-sidebar_label: EOS Podcasts
-description: Podcasts of EOS community
-keywords: [EOS Podcasts, EOS, EOS Costa Rica, eosio.io, What is the EOS Costa Rica Podcasts, Podcast EOS Community]
+id: edenia-podcasts
+title: Edenia Podcasts
+sidebar_label: Edenia Podcasts
+description: Podcasts of Edenia community
+keywords: [Edenia Podcasts, EOS, EOS Costa Rica, eosio.io, What is the Edenia Podcasts, Podcast Edenia Community]
 ---
 
 ## EOSIO

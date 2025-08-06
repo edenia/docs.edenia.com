@@ -77,7 +77,7 @@ Like [Flux](https://facebook.github.io/flux/docs/in-depth-overview.html#structur
 1. `Actions` run their corresponding `Effects`, triggering external events.
 1. The client queries `API` for updated data.
 
-## Implementation at EOS Costa Rica
+## Implementation at Edenia
 
 We use our solution inspired by the demux architectural pattern, which use the nodeos State History Plugin as `Action Watcher`.
 

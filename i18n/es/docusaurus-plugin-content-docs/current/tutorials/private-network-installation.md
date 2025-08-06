@@ -795,7 +795,7 @@ $ ./clean.sh
 $ ./genesis_start.sh
 ```
 ## Interactuar con la Red
-En este punto, la red es capaz de albergar cualquier contrato. Supongamos que quieres desplegar un contrato como [easycontract](https://github.com/eoscostarica/eoscr-smart-contracts/tree/master/easycontract) el repo de ejemplo de EOS Costa Rica. Después de seguir las instrucciones especificadas allí, puede llamar a la acción `save` de easycontract de la siguiente manera:
+En este punto, la red es capaz de albergar cualquier contrato. Supongamos que quieres desplegar un contrato como [easycontract](https://github.com/eoscostarica/eoscr-smart-contracts/tree/master/easycontract) el repo de ejemplo de Edenia. Después de seguir las instrucciones especificadas allí, puede llamar a la acción `save` de easycontract de la siguiente manera:
 ```bash
 cleos -u URL_NODO_AQUI push action easycontract save '{"date":"2021/01/10 21:01:35","filename":"ejemplo.pdf","path":"/var/www/docs"}' -p easycontract@active
 ```

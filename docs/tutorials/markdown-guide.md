@@ -103,7 +103,7 @@ For more information, visit [Markdown Unordered List](https://www.markdownguide.
 2. Second Item
 3. Third Item
 
-For more information, visit [Markdown Ordered List]https://www.markdownguide.org/basic-syntax/#ordered-lists).
+For more information, visit [Markdown Ordered List](https://www.markdownguide.org/basic-syntax/#ordered-lists).
 
 
 
@@ -173,11 +173,11 @@ Another Text
 ### **Links**
 
 ```markdown title="Syntax"
-[EOS Costa Rica](https://es.eoscostarica.io)
+[Edenia](https://edenia.com/)
 ```
 
 **Example:**  
-[EOS Costa Rica](https://es.eoscostarica.io)
+[Edenia](https://edenia.com/)
 
 ### **Images**
 
