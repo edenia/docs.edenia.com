@@ -1,5 +1,6 @@
 ---
-title: Introduction to Nimiq
+id: blockchain-web3-nimiq
+title: Introducción to Nimiq
 sidebar_position: 12
 ---
 
@@ -27,7 +28,7 @@ Las carteras Nimiq permiten almacenar, enviar y recibir NIM (el token nativo de 
 * **Carteras de Hardware**: Integración con dispositivos Ledger para almacenamiento en frío.
 * **Aplicaciones de Escritorio**: Clientes independientes para uso sin conexión.
 
-###Cartera Popular de Nimiq: Nimiq Wallet (Basada en Navegador)
+### Cartera Popular de Nimiq: Nimiq Wallet (Basada en Navegador)
 La cartera oficial de Nimiq ofrece una experiencia limpia y nativa en el navegador, sin necesidad de instalación, con soporte tanto para cuentas personales como para herramientas para comerciantes.
 
 ## Comprendiendo las Tarifas en Nimiq

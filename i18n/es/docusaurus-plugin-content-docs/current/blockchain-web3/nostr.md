@@ -1,5 +1,6 @@
 ---
-title: Introduction to Nostr
+id: blockchain-web3-nostr
+title: Introducción to Nostr
 sidebar_position: 10
 ---
 
@@ -16,13 +17,13 @@ Su simplicidad, resiliencia y resistencia a la censura lo convierten en un está
 * **Simplicidad**: Protocolo ligero con requisitos mínimos, fácil de implementar.
 * **Control del Usuario**: Los usuarios son dueños de sus claves e identidades, no la plataforma.
 
-##El Papel de Nostr en la Web Descentralizada
+## El Papel de Nostr en la Web Descentralizada
 Nostr busca resolver problemas de control, censura y vigilancia presentes en las redes sociales centralizadas. Al usar claves públicas y privadas para la identidad y la firma de mensajes, permite una comunicación global, segura e inviolable, sin importar la plataforma o aplicación utilizada.
 
 ## Carteras / Gestión de Claves en Nostr
 Aunque Nostr no es una criptomoneda, utiliza claves criptográficas similares a las de las carteras de Bitcoin para identificar y autenticar usuarios. Algunas aplicaciones de Nostr se integran con la Lightning Network de Bitcoin para micropagos.
 
-###Tipos de Clientes Nostr
+### Tipos de Clientes Nostr
 * **Clientes Web**: Aplicaciones en navegador como Coracle o Snort.
 * **Clientes Móviles**: Apps como Damus (iOS) o Amethyst (Android).
 * **Clientes de Escritorio**: Programas como Gossip.

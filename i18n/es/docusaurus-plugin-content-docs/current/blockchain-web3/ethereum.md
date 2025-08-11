@@ -1,5 +1,6 @@
 ---
-title: Introduction to Ethereum
+id: blockchain-web3-ethereum
+title: Introducción a Ethereum
 sidebar_position: 3
 ---
 

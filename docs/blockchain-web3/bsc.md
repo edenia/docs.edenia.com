@@ -1,4 +1,5 @@
 ---
+id: blockchain-web3-bsc
 title: Introduction to BSC
 sidebar_position: 6
 ---

@@ -1,4 +1,5 @@
 ---
+id: blockchain-web3-lightning
 title: Introduction to Lightning
 sidebar_position: 9
 ---
@@ -28,10 +29,10 @@ Custodial Wallets: Services where a third party manages private keys, such as Wa
 * **Non-Custodial Wallets**: The user retains full control of private keys, such as Phoenix or Breez.
 * **Hybrid Wallets**: Combine ease of use with partial self-custody, such as Muun Wallet.
 
-##Popular Lightning Wallet: Muun Wallet
+## Popular Lightning Wallet: Muun Wallet
 Muun Wallet is known for its user-friendly interface and ability to handle both Bitcoin network transactions and Lightning payments from the same application.
 
-##Understanding Lightning Network Fees
+## Understanding Lightning Network Fees
 Lightning fees are paid to nodes that route payments and are significantly lower than on-chain Bitcoin fees. These fees depend on factors such as the chosen route and payment size.
 
 ### Factors Affecting Lightning Fees

@@ -1,4 +1,5 @@
 ---
+id: blockchain-web3-bitcoin
 title: Introduction to Bitcoin
 sidebar_position: 8
 ---

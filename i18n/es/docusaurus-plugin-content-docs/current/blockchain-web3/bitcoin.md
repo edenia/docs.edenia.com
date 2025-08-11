@@ -1,5 +1,6 @@
 ---
-title: Introduction to Bitcoin
+id: blockchain-web3-bitcoin
+title: Introducción a Bitcoin
 sidebar_position: 8
 ---
 
@@ -51,7 +52,7 @@ Congestión de la Red: Una mayor demanda incrementa las tarifas en momentos de a
 ### Redes de Prueba de Bitcoin
 Bitcoin cuenta con redes de prueba dedicadas para que los desarrolladores experimenten sin arriesgar BTC reales.
 
-##Principales Redes de Prueba
+## Principales Redes de Prueba
 Bitcoin Testnet3: Simula el comportamiento de la red principal de Bitcoin para pruebas.
 
 **Regtest (Regression Test Mode)**: Entorno de pruebas local con generación instantánea de bloques.

@@ -1,6 +1,7 @@
 ---
+id: blockchain-web3-libre
 title: Introduction to Libre
-sidebar_position: 11
+sidebar_position: 12
 ---
 Libre is a high-performance, EVM-compatible blockchain designed for scalable decentralized finance (DeFi) applications and real-world asset (RWA) tokenization. Built with a focus on low fees, fast transactions, and regulatory compliance, Libre provides a secure and developer-friendly environment for creating financial products that bridge traditional and blockchain-based markets.
 Its architecture supports interoperability with Ethereum and other EVM networks, making it an attractive choice for institutions and innovators in Web3.

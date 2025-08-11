@@ -1,5 +1,6 @@
 ---
-title: Introduction to Libre
+id: blockchain-web3-libre
+title: Introducción a Libre
 sidebar_position: 11
 ---
 Libre es una blockchain de alto rendimiento compatible con EVM, diseñada para aplicaciones DeFi escalables y tokenización de activos del mundo real (RWA). Construida con un enfoque en bajas comisiones, transacciones rápidas y cumplimiento regulatorio, Libre ofrece un entorno seguro y amigable para desarrolladores que buscan crear productos financieros que conecten los mercados tradicionales con los basados en blockchain.

@@ -1,6 +1,7 @@
 ---
+id: blockchain-web3-nostr
 title: Introduction to Nostr
-sidebar_position: 10
+sidebar_position: 11
 ---
 
 Nostr (Notes and Other Stuff Transmitted by Relays) is an open protocol designed for creating decentralized and censorship-resistant social networks. Unlike traditional platforms that rely on centralized servers, Nostr operates through a network of independent relays that transmit signed messages between users.

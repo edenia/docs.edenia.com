@@ -1,6 +1,7 @@
 ---
+id: blockchain-web3-metamask
 title: How-To Configure Metamask
-sidebar_position: 7
+sidebar_position: 13
 ---
 
 This guide provides the general steps to connect your **MetaMask** wallet to the following supported networks:

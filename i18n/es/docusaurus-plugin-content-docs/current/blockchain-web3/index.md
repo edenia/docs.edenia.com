@@ -1,5 +1,6 @@
 ---
-title: Blockchain and Web3
+id: blockchain-web3-index
+title: Blockchain y Web3
 sidebar_position: 2
 ---
 

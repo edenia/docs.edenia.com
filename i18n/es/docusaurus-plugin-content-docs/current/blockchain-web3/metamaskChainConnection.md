@@ -1,5 +1,6 @@
 ---
-title: How-To Configure Metamask
+id: blockchain-web3-metamask
+title: Como configurar Metamask
 sidebar_position: 7
 ---
 

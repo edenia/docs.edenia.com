@@ -1,5 +1,6 @@
 ---
-title: Introduction to Lightning
+id: blockchain-web3-lightning
+title: Introdución a Lightning
 sidebar_position: 9
 ---
 

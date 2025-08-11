@@ -1,6 +1,7 @@
 ---
+id: blockchain-web3-nimiq
 title: Introduction to Nimiq
-sidebar_position: 12
+sidebar_position: 10
 ---
 
 Nimiq is a blockchain protocol designed for simplicity, accessibility, and ease of use directly in the browser. It aims to make cryptocurrency adoption as seamless as possible by allowing users to interact with the blockchain without installing additional software. Nimiq focuses on fast transactions, eco-friendly consensus mechanisms, and user-friendly tools for both beginners and developers.
@@ -40,10 +41,10 @@ Nimiq’s transaction fees are very low and are designed to encourage everyday u
 
 * **Priority Settings**: Users can choose higher fees for faster confirmation.
 
-##Nimiq Testnet
+## Nimiq Testnet
 Nimiq offers a public testnet for developers to build and test applications without using real NIM tokens.
 
-###Features of Nimiq Testnet
+### Features of Nimiq Testnet
 * **Identical Protocol Rules**: Matches mainnet functionality.
 
 * **Free Test Tokens**: Available from official faucets.
