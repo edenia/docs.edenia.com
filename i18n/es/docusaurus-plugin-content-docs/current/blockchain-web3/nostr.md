@@ -1,6 +1,6 @@
 ---
 id: blockchain-web3-nostr
-title: Introducción to Nostr
+title: Introducción a Nostr
 sidebar_position: 10
 ---
 

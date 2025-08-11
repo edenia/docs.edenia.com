@@ -1,6 +1,6 @@
 ---
 id: blockchain-web3-polygon
-title: Introducción to Polygon
+title: Introducción a Polygon
 sidebar_position: 4
 ---
 

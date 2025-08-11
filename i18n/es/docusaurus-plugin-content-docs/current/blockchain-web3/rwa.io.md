@@ -1,6 +1,6 @@
 ---
 id: blockchain-web3-rwa.io
-title: Introducción to RWA.IO
+title: Introducción a RWA.IO
 sidebar_position: 1
 ---
 

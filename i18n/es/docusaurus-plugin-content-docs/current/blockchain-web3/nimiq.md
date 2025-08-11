@@ -1,6 +1,6 @@
 ---
 id: blockchain-web3-nimiq
-title: Introducción to Nimiq
+title: Introducción a Nimiq
 sidebar_position: 12
 ---
 
