@@ -52,7 +52,7 @@ const siteConfig = {
           position: "left",
         },
         {
-          to: "docs/blockchain-web3/eos-learn/eosio-protocol",
+          to: "docs/blockchain-web3",
           label: "Blockchain & Web3",
           position: "left",
         },

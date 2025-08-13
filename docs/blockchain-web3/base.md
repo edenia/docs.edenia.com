@@ -1,4 +1,5 @@
 ---
+id: blockchain-web3-base
 title: Introduction to Base
 sidebar_position: 5
 ---
