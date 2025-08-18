@@ -32,7 +32,7 @@ const siteConfig = {
   },
   //scripts: ['https://buttons.github.io/buttons.js','../../scripts/languageSelector.js'],
   themeConfig: {
-    image: "img/metaImg.jpg",
+    image: "img/developer_guides_preview_image.png",
     navbar: {
       logo: {
         alt: "Sistemas Edenia Logo",
