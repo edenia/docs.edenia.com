@@ -319,6 +319,12 @@ body {
   background-color: #fff;
 }
 
+/* Specific sizing for Blockchain & Web3 icon to add more inner spacing */
+.cardImgContainer img[src*="blockchain_icon.svg"] {
+  width: 70%;
+  height: auto;
+}
+
 /* ------------------------------------------ Article Section Styles --------------------------------------- */
 /* Global dimention card article */
 .cardArticleDimentions {
