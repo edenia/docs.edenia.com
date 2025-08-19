@@ -109,6 +109,12 @@ const startResourceList = [
     img: "/img/cards-icons/blockchain_icon.svg",
   },
   {
+    title: "Artificial Intelligence",
+    body: "Resources and information on Artificial Intelligence.",
+    href: "/docs/artificial-intelligence",
+    img: "/img/cards-icons/icons-opensource.svg",
+  },
+  {
     title: "Tutorials",
     body: "Support information needed to perform the installation and execution of processes.",
     href: "docs/tutorials/markdown-guide",
@@ -125,12 +131,6 @@ const startResourceList = [
     body: "Links to sites of interest related to the Edenia community.",
     href: "docs/community-resources/telegram-channels",
     img: "/img/cards-icons/community.svg",
-  },
-  {
-    title: "Open source projects",
-    body: "Open source projects developed by EOS Costa Rica.",
-    href: "docs/open-source-projects",
-    img: "/img/cards-icons/icons-opensource.svg",
   },
 ];
 

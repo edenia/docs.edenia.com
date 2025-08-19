@@ -25,7 +25,7 @@ module.exports = {
       label: "Blockchain and Web3",
       link: {
         type: "doc",
-        id: "blockchain-web3/blockchain-web3-index"
+        id: "blockchain-web3/blockchain-web3-index",
       },
       items: [
         "blockchain-consensus-mechanism",
@@ -46,7 +46,7 @@ module.exports = {
           label: "Antelope and EOSIO",
           link: {
             type: "doc",
-            id: "blockchain-web3/eos-learn/eosio-protocol"
+            id: "blockchain-web3/eos-learn/eosio-protocol",
           },
           items: [
             "blockchain-web3/eos-learn/consensus-mechanism",
@@ -62,10 +62,24 @@ module.exports = {
             "blockchain-web3/eos-learn/ricardian-contracts",
             "blockchain-web3/eos-learn/nfts-on-eosio",
             "blockchain-web3/eos-learn/migration-to-mandel",
-            "blockchain-web3/eos-learn/eos-network-foundation"
-          ]
-        }
-      ]
+            "blockchain-web3/eos-learn/eos-network-foundation",
+          ],
+        },
+      ],
+    },
+    {
+      type: "category",
+      label: "Artificial Intelligence",
+      link: {
+        type: "doc",
+        id: "artificial-intelligence/artificial-inteligence",
+      },
+      items: [
+        "artificial-intelligence/cursor",
+        "artificial-intelligence/claude-code",
+        "artificial-intelligence/warp",
+        "artificial-intelligence/windsurf",
+      ],
     },
     {
       type: "category",
@@ -86,15 +100,15 @@ module.exports = {
           label: "Antelope and EOSIO",
           link: {
             type: "doc",
-            id: "tutorials/hello-world-contract"
+            id: "tutorials/hello-world-contract",
           },
           items: [
             "tutorials/hello-world-contract",
             "tutorials/node-installation",
             "tutorials/private-network-installation",
             "tutorials/how-to-mint",
-          ]
-        }
+          ],
+        },
       ],
     },
     {
@@ -108,8 +122,8 @@ module.exports = {
           type: "category",
           label: "Antelope and EOSIO",
           link: {
-            type: 'doc',
-            id: "tools/example-eosio-smart-contract"
+            type: "doc",
+            id: "tools/example-eosio-smart-contract",
           },
           items: [
             "tools/example-eosio-smart-contract",
@@ -118,8 +132,8 @@ module.exports = {
             "tools/nodeos-command-line-reference",
             "tools/eosio-sdk-libraries",
             "tools/block-explorers",
-          ]
-        }
+          ],
+        },
       ],
     },
     {
@@ -131,16 +145,16 @@ module.exports = {
           type: "category",
           label: "Antelope and EOSIO",
           link: {
-            type: 'doc',
-            id: "community-resources/eosio-networks"
+            type: "doc",
+            id: "community-resources/eosio-networks",
           },
           items: [
             "community-resources/eosio-networks",
             "community-resources/telegram-channels",
             "community-resources/edenia-podcasts",
             "community-resources/useful-links",
-          ]
-        }
+          ],
+        },
       ],
     },
   ],
