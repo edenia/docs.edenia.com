@@ -45,6 +45,19 @@ const imagesList = [
 ];
 
 const HeroSection = () => {
+  const { i18n } = useDocusaurusContext();
+  
+  // Función para generar URLs localizadas
+  const getLocalizedUrl = (path) => {
+    // Normalizar el path removiendo la barra inicial si existe
+    const normalizedPath = path.startsWith('/') ? path.slice(1) : path;
+    
+    if (i18n.currentLocale === 'es') {
+      return `/es/${normalizedPath}`;
+    }
+    return `/${normalizedPath}`;
+  };
+
   useEffect(() => {
     document.getElementsByClassName("mySlides")[0].style.display = "block";
     const carousel = new Carousel();
@@ -81,7 +94,7 @@ const HeroSection = () => {
         <a
           className="buttonHero"
           style={{ textDecoration: "none" }}
-          href="/docs/engineering-culture"
+          href={getLocalizedUrl("docs/engineering-culture")}
         >
           <Translate id="home.hero.button">GET STARTED</Translate>
         </a>
@@ -137,7 +150,19 @@ const startResourceList = [
 const StartResourceSection = () => {
   const smDown = useMediaQuery("(max-width:400px)");
   const { colorMode } = useColorMode();
+  const { i18n } = useDocusaurusContext();
   const [color, setColor] = useState("");
+
+  // Función para generar URLs localizadas
+  const getLocalizedUrl = (path) => {
+    // Normalizar el path removiendo la barra inicial si existe
+    const normalizedPath = path.startsWith('/') ? path.slice(1) : path;
+    
+    if (i18n.currentLocale === 'es') {
+      return `/es/${normalizedPath}`;
+    }
+    return `/${normalizedPath}`;
+  };
 
   useEffect(() => {
     if (!colorMode) return;
@@ -209,7 +234,7 @@ const StartResourceSection = () => {
                 }`}
                 style={{ textDecoration: "none" }}
                 id="box-link-id-customCard"
-                href={href}
+                href={getLocalizedUrl(href)}
               >
                 <Translate id="home.readMore">READ MORE</Translate>
               </a>
