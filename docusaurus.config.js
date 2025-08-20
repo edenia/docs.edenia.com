@@ -57,6 +57,11 @@ const siteConfig = {
           position: "left",
         },
         {
+          to: "docs/artificial-intelligence",
+          label: "Artificial Intelligence",
+          position: "left",
+        },
+        {
           to: "docs/tutorials/markdown-guide",
           label: "Tutorials",
           position: "left",

@@ -11,6 +11,10 @@
     "message": "Blockchain & Web3",
     "description": "Navbar item with label Blockchain & Web3"
   },
+  "item.label.Artificial Intelligence": {
+    "message": "Inteligencia Artificial",
+    "description": "Navbar item with label Artificial Intelligence"
+  },
   "item.label.Tutorials": {
     "message": "Tutoriales",
     "description": "Navbar item with label Tutorials"
