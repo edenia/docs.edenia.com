@@ -125,7 +125,7 @@ const startResourceList = [
     title: "Artificial Intelligence",
     body: "Resources and information on Artificial Intelligence.",
     href: "/docs/artificial-intelligence",
-    img: "/img/cards-icons/icons-opensource.svg",
+    img: "/img/cards-icons/artificial_intelligence_icon.svg",
   },
   {
     title: "Tutorials",
