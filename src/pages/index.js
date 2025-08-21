@@ -45,6 +45,19 @@ const imagesList = [
 ];
 
 const HeroSection = () => {
+  const { i18n } = useDocusaurusContext();
+  
+  // Función para generar URLs localizadas
+  const getLocalizedUrl = (path) => {
+    // Normalizar el path removiendo la barra inicial si existe
+    const normalizedPath = path.startsWith('/') ? path.slice(1) : path;
+    
+    if (i18n.currentLocale === 'es') {
+      return `/es/${normalizedPath}`;
+    }
+    return `/${normalizedPath}`;
+  };
+
   useEffect(() => {
     document.getElementsByClassName("mySlides")[0].style.display = "block";
     const carousel = new Carousel();
@@ -81,7 +94,7 @@ const HeroSection = () => {
         <a
           className="buttonHero"
           style={{ textDecoration: "none" }}
-          href="/docs/engineering-culture"
+          href={getLocalizedUrl("docs/engineering-culture")}
         >
           <Translate id="home.hero.button">GET STARTED</Translate>
         </a>
@@ -100,7 +113,7 @@ const startResourceList = [
     title: "Developer Guidelines",
     body: "General guidelines for open source development.",
     href: "/docs/open-source-guidelines",
-    img: "/img/cards-icons/guidelines.svg",
+    img: "/img/cards-icons/menu_book.svg",
   },
   {
     title: "Blockchain & Web3",
@@ -118,26 +131,38 @@ const startResourceList = [
     title: "Tutorials",
     body: "Support information needed to perform the installation and execution of processes.",
     href: "docs/tutorials/markdown-guide",
-    img: "/img/cards-icons/tutorials.svg",
+    img: "/img/cards-icons/school.svg",
   },
   {
     title: "Tools",
     body: "Set of useful tools for the learning process.",
     href: "docs/tools/glossary",
-    img: "/img/cards-icons/tools.svg",
+    img: "/img/cards-icons/build.svg",
   },
   {
     title: "Community",
     body: "Links to sites of interest related to the Edenia community.",
     href: "docs/community-resources/telegram-channels",
-    img: "/img/cards-icons/community.svg",
+    img: "/img/cards-icons/groups.svg",
   },
 ];
 
 const StartResourceSection = () => {
   const smDown = useMediaQuery("(max-width:400px)");
   const { colorMode } = useColorMode();
+  const { i18n } = useDocusaurusContext();
   const [color, setColor] = useState("");
+
+  // Función para generar URLs localizadas
+  const getLocalizedUrl = (path) => {
+    // Normalizar el path removiendo la barra inicial si existe
+    const normalizedPath = path.startsWith('/') ? path.slice(1) : path;
+    
+    if (i18n.currentLocale === 'es') {
+      return `/es/${normalizedPath}`;
+    }
+    return `/${normalizedPath}`;
+  };
 
   useEffect(() => {
     if (!colorMode) return;
@@ -209,7 +234,7 @@ const StartResourceSection = () => {
                 }`}
                 style={{ textDecoration: "none" }}
                 id="box-link-id-customCard"
-                href={href}
+                href={getLocalizedUrl(href)}
               >
                 <Translate id="home.readMore">READ MORE</Translate>
               </a>
