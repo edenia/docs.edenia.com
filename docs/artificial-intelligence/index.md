@@ -48,7 +48,7 @@ Since 2020, the emergence of **foundation models** (like GPT, Claude, Gemini, LL
 
 ---
 
-# Use Cases (with Real Examples)
+# Use Cases
 
 ### Healthcare
 

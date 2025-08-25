@@ -35,7 +35,7 @@ Warp includes **Warp AI** for smart suggestions, **Warp Drive** for sharing work
 
 ---
 
-## Use Cases (with Real Examples)
+## Use Cases
 
 ### Auto-Assist via NLP in Terminal
 

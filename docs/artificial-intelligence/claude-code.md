@@ -42,7 +42,7 @@ In August 2025, Anthropic added Claude Code to **Team** and **Enterprise** plans
 
 ---
 
-# Use Cases (with real examples)
+# Use Cases 
 
 ### From Issue to PR in a Single Session (CLI)
 

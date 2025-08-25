@@ -41,7 +41,7 @@ Cursor is a proprietary AI-assisted integrated development environment (IDE) bui
 
 ---
 
-# Use Cases (with Real Examples)
+# Use Cases
 
 ### Agentic Project-Wide Edits
 

@@ -48,7 +48,7 @@ Launched after the team behind Codeium reimagined VS Code as an AI-native editor
 
 ---
 
-## Use Cases (based on real experiences)
+## Use Cases
 
 ### Magic Multi-Step Workflows
 
