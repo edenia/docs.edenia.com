@@ -79,6 +79,7 @@ module.exports = {
         "artificial-intelligence/claude-code",
         "artificial-intelligence/warp",
         "artificial-intelligence/windsurf",
+        "artificial-intelligence/v0",
       ],
     },
     {
