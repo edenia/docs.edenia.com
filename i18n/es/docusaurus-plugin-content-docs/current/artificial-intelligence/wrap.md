@@ -1,16 +1,20 @@
 ---
 id: warp
-title: Warp CLI
+title: Warp Terminal
 sidebar_position: 4
+description: Warp es un emulador de terminal moderno potenciado por IA y Entorno de Desarrollo Agéntico que combina el poder tradicional de línea de comandos con asistencia IA inteligente y características de colaboración en equipo.
+keywords: [warp terminal, terminal IA, línea comandos inteligente, asistente terminal IA, terminal desarrollador, IA línea comandos, colaboración terminal, terminal moderno]
 ---
 
-# Warp – Terminal Agéntica / Entorno de Desarrollo Agéntico
+# Warp – Terminal Potenciada por IA y Entorno de Desarrollo Agéntico
 
-Warp es un emulador de terminal de nueva generación construido en **Rust** y disponible para **macOS, Linux y Windows**.  
-Desde su lanzamiento inicial en 2020, ha evolucionado hasta convertirse en un **Entorno de Desarrollo Agéntico (ADE)** que combina comodidad de terminal, inteligencia de IA y colaboración en equipo—todo en uno.  
+**Warp** es un emulador de terminal de nueva generación construido en **Rust** que ha evolucionado hasta convertirse en un **Entorno de Desarrollo Agéntico (ADE)** completo. Combina el poder tradicional del terminal con inteligencia de IA, características de colaboración en equipo y diseño UX moderno—transformando cómo los desarrolladores interactúan con la línea de comandos.
 
-Warp incluye **Warp AI** para sugerencias inteligentes, **Warp Drive** para compartir flujos de trabajo y conocimiento, y **Blocks** para una E/S navegable.  
-Sus funciones de IA se lanzaron en **abril de 2023** y ese mismo año se introdujo **Warp Drive** para flujos de trabajo.  
+**Disponibilidad de Plataforma:** macOS, Linux, Windows  
+**Fecha de Lanzamiento:** 2020  
+**Lanzamiento Características IA:** Abril 2023  
+**Sitio Web Oficial:** [warp.dev](https://warp.dev)  
+**Documentación:** [docs.warp.dev](https://docs.warp.dev)  
 
 ---
 

@@ -32,6 +32,11 @@ const siteConfig = {
   },
   //scripts: ['https://buttons.github.io/buttons.js','../../scripts/languageSelector.js'],
   themeConfig: {
+    docs: {
+      sidebar: {
+        hideable: true,
+      },
+    },
     image: "img/developer_guides_preview_image.png",
     navbar: {
       logo: {

@@ -2,8 +2,9 @@
 id: artificial-inteligence
 title: Artificial Intelligence AI
 sidebar_position: 1
+description: Comprehensive guide to AI technologies, tools, and best practices for developers. Explore AI coding assistants, development workflows, and implementation strategies.
+keywords: [artificial intelligence, AI tools, developer AI, coding assistants, AI development, machine learning, generative AI, AI programming tools]
 ---
-
 
 # Artificial Intelligence
 
@@ -76,9 +77,20 @@ Since 2020, the emergence of **foundation models** (like GPT, Claude, Gemini, LL
 
 ### Software Development
 
-- AI coding assistants (Claude Code, Cursor, Copilot, Windsurf, Warp).  
-- Automated testing, bug fixing, and CI/CD pipeline enhancements.  
-- Observability: AI analyzing logs and performance metrics.  
+- **AI Coding Assistants**: [Cursor IDE](./cursor), [Claude Code](./claude-code), [Windsurf IDE](./windsurf), [Warp Terminal](./warp)
+- **Application Builders**: [v0.app](./v0-app) for rapid prototyping and deployment
+- **Automated Testing**: Bug fixing and CI/CD pipeline enhancements
+- **Observability**: AI analyzing logs and performance metrics
+
+#### Featured Developer Tools
+
+| Tool | Type | Strengths | Best For |
+|------|------|-----------|----------|
+| **[Cursor](./cursor)** | AI-powered IDE | Familiar VS Code interface, strong privacy | Teams wanting VS Code + AI |
+| **[Claude Code](./claude-code)** | Terminal AI assistant | CLI-first, enterprise controls | DevOps and automation teams |
+| **[Windsurf](./windsurf)** | Agentic IDE | Flow state optimization, deep context | High-productivity development |
+| **[Warp](./warp)** | AI terminal | Modern terminal UX, collaboration | Terminal-focused workflows |
+| **[v0.app](./v0-app)** | App builder | Text-to-app generation | Rapid prototyping, MVPs |  
 
 ---
 

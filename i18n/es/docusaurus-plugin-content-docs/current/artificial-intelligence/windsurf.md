@@ -2,6 +2,8 @@
 id: windsurf
 title: Windsurf IDE
 sidebar_position: 5
+description: Windsurf es el primer IDE verdaderamente agéntico del mundo que mantiene a los desarrolladores en estado de flujo a través de comprensión profunda del proyecto, anticipación inteligente y ejecución de código autónoma.
+keywords: [windsurf IDE, IDE agéntico, editor código IA, programación estado flujo, agente cascade, entorno desarrollo IA, asistente codificación inteligente, programación autónoma]
 ---
 
 # Windsurf – IDE Agéntico

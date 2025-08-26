@@ -1,114 +1,323 @@
 ---
 id: warp
-title: Warp CLI
+title: Warp Terminal
 sidebar_position: 4
+description: Warp is a modern, AI-powered terminal emulator and Agentic Development Environment that combines traditional command-line power with intelligent AI assistance and team collaboration features.
+keywords: [warp terminal, AI terminal, intelligent command line, terminal AI assistant, developer terminal, command line AI, terminal collaboration, modern terminal]
 ---
 
-# Warp – Agentic Terminal / Agentic Development Environment
+# Warp – AI-Powered Terminal & Agentic Development Environment
 
-Warp is a next-generation terminal emulator built in Rust and available on macOS, Linux, and Windows. Since its initial release in 2020, it has evolved into a full Agentic Development Environment (ADE), combining terminal comfort, AI intelligence, and team collaboration—all in one.  
-Warp includes **Warp AI** for smart suggestions, **Warp Drive** for sharing workflows and knowledge, and **Blocks** for navigable I/O. It launched AI features in April 2023 and introduced Warp Drive for workflows the same year.
+**Warp** is a next-generation terminal emulator built in **Rust** that has evolved into a full **Agentic Development Environment (ADE)**. It combines traditional terminal power with AI intelligence, team collaboration features, and modern UX design—transforming how developers interact with the command line.
+
+**Platform Availability:** macOS, Linux, Windows  
+**Launch Date:** 2020  
+**AI Features Launch:** April 2023  
+**Official Website:** [warp.dev](https://warp.dev)  
+**Documentation:** [docs.warp.dev](https://docs.warp.dev)
 
 ---
 
-## Architecture and Technical Features
+## Overview
 
-### Terminal + AI Intelligence
+Warp reimagines the terminal experience by introducing modern interface paradigms, AI-powered assistance, and collaborative features while maintaining full compatibility with existing shells and command-line tools. It bridges the gap between traditional terminal efficiency and modern development needs.
 
-- **Warp AI**: Offers smart command suggestions, natural-language chat, AI-driven error explanations, and even autonomous "agentic" mode for multi-step tasks—while supporting interaction in REPLs or vim.
-- **Blocks**: Warps introduced an innovative interface where input and output are grouped into editable, searchable blocks for easy navigation, review, and sharing. 
-- **IDE-like Editing**: You can use mouse interactions, cursor-based selection, Vim keybindings, and smart completions directly within terminal lines. 
+### Key Differentiators
 
-### Warp Drive & Workflows
+- **Blocks Interface**: Revolutionary input/output organization system
+- **AI-Native Design**: Built-in intelligence for command suggestions and error resolution
+- **Team Collaboration**: Share workflows, sessions, and knowledge seamlessly
+- **Modern UX**: IDE-like features within a terminal environment
 
-- **Workflows & Notebooks**: Save reusable parameterized commands, build interactive runbooks, sync environment variables, and access them from any device or via the web. 
-- **Team Collaboration**: Features like Team Drive, session sharing, and block permalinks enable seamless teamwork and knowledge sharing.
+---
+
+## Core Features
+
+### Warp AI Intelligence
+- **Natural Language Commands**: Describe what you want in plain English
+- **Smart Completions**: Context-aware command suggestions
+- **Error Explanation**: AI-powered debugging and solution recommendations
+- **Agentic Mode**: Multi-step autonomous task execution
+
+### Innovative Interface Design
+- **Blocks System**: Input/output grouped into navigable, searchable blocks
+- **IDE-like Editing**: Mouse interactions, cursor selection, and smart completions
+- **Command Palette**: Quick access to features and commands
+- **Live Markdown**: Execute and render Markdown directly in terminal
+
+### Warp Drive & Collaboration
+- **Workflows & Notebooks**: Save and share parameterized command sequences
+- **Team Drive**: Centralized knowledge sharing across team members
+- **Session Sharing**: Real-time collaboration on terminal sessions
+- **Block Permalinks**: Share specific command outputs with persistent links
 
 ### Customization & Usability
-
-- Customize prompts, themes, cursor placement, transparency, and launch events; includes command palettes, search across history, live Markdown execution, and recovery of exit codes. 
-- Compatible with Zsh, Bash, Fish, PowerShell, WSL, and Git Bash. 
-
-### Security & Privacy
-
-- **Secret Redaction**, **Zero Data Retention**, **SSO/SAML**, and telemetry controls—Warp ensures that sensitive data remains protected, with policies for disabling AI and telemetry as needed. 
+- **Themes & Appearance**: Extensive visual customization options
+- **Shell Compatibility**: Works with Zsh, Bash, Fish, PowerShell, WSL
+- **Keyboard Shortcuts**: Vim keybindings and custom shortcuts
+- **Search & History**: Advanced search across command history
 
 ---
 
-## Use Cases
+## Technical Architecture
 
-### Auto-Assist via NLP in Terminal
+### Performance & Engineering
+- **Rust Foundation**: High-performance, memory-safe architecture
+- **GPU Acceleration**: Smooth rendering for large outputs
+- **Cross-Platform**: Native applications for all major platforms
+- **Shell Integration**: Deep integration without replacing existing shells
 
-Ask Warp AI in plain language—like “show open ports” or “describe this build failure”—and instantly get suggested commands or explanations right in your session. 
+### Security & Privacy Features
+- **Secret Redaction**: Automatic detection and hiding of sensitive data
+- **Zero Data Retention (ZDR)**: Optional data retention policies
+- **SSO/SAML Support**: Enterprise authentication integration
+- **Telemetry Controls**: Granular privacy and data collection settings
 
-### Build and Share Runbooks with Warp Drive
-
-Save repetitive setups as Workflows or Notebooks, with embedded variables—these runbooks can be accessed via the web by teammates or recalled in new sessions.
-
-### Agentic Mode for Autonomous Actions
-
-Warp 2.0 introduces agentic workflows—agents can be granted autonomy to complete multi-step tasks like fixing code, rolling back deployments, or parsing logs.
-
-### Seamless Collaboration with Shared Blocks
-
-Need to debug with a colleague? Share a specific input/output block via permalink, so they can see exactly what you're seeing.
-
-### Custom UX & AI Control
-
-Users have praised Warp for its AI integration—but there’s demand for refined controls. Some users mention needing more granular toggles to disable specific AI behaviors. 
+### AI Integration
+- **Multiple Model Support**: Integration with various AI providers
+- **Context Awareness**: Understanding of current project and environment
+- **Learning Capabilities**: Adapts to user patterns and preferences
+- **Offline Functionality**: Core features work without internet connection
 
 ---
 
-## Key Advantages
+## Use Cases & Applications
+
+### Development Workflow Automation
+**Scenario**: Streamline repetitive development tasks  
+**Implementation**:
+```bash
+# Ask Warp AI in natural language
+"show me processes using port 3000 and kill them if needed"
+
+# Warp AI suggests and executes:
+lsof -ti:3000 | xargs kill -9
+```
+
+### Knowledge Sharing & Documentation
+**Scenario**: Team onboarding and knowledge transfer  
+**Implementation**: Create Workflows for common setup procedures, deploy to Warp Drive, and share with team members for consistent execution.
+
+### Debugging & Troubleshooting
+**Scenario**: Complex error investigation  
+**Implementation**:
+```bash
+# Natural language query
+"analyze this error log and suggest fixes"
+
+# Warp AI provides:
+# 1. Error interpretation
+# 2. Possible causes
+# 3. Step-by-step resolution
+# 4. Prevention strategies
+```
+
+### Pair Programming & Collaboration
+**Scenario**: Remote debugging with team members  
+**Implementation**: Share specific terminal blocks via permalinks, allowing colleagues to see exact context and provide targeted assistance.
+
+---
+
+## Pros and Cons
+
+### Advantages
 
 | Feature | Benefit |
 |---------|---------|
-| **AI-enhanced terminal** | Combines command-line speed with AI intelligence |
-| **Blocks interface** | Cleaner, navigable I/O history |
-| **Warp Drive** | Shareable workflows & runbooks |
-| **Customization** | Themes, prompts, keybindings, transparency |
-| **Enterprise security** | SSO, telemetry controls, ZDR policies |
+| **Revolutionary UX** | Modern interface improves terminal usability |
+| **AI-Powered Assistance** | Reduces cognitive load and command memorization |
+| **Team Collaboration** | Seamless knowledge sharing and remote assistance |
+| **High Performance** | Rust-based architecture ensures speed and reliability |
+| **Enterprise Ready** | Security features suitable for corporate environments |
+
+### Limitations
+
+| Challenge | Impact |
+|-----------|---------|
+| **Learning Curve** | New interface paradigms require adaptation |
+| **AI Dependency** | Some features require internet connectivity |
+| **Resource Usage** | May consume more system resources than traditional terminals |
+| **Feature Complexity** | Rich feature set can overwhelm users initially |
 
 ---
 
+## Pricing & Plans
 
-## Limitations & Risks
+### Free Plan
+- **Core Terminal Features**: Full terminal functionality
+- **Basic AI**: Limited AI command suggestions
+- **Individual Workflows**: Personal automation capabilities
+- **Community Support**: Access to documentation and forums
 
-- **Opt-out model**: AI features are enabled by default, which some users find challenging—especially with limited granular settings.
-- **AI mistakes**: Like any agentic tool, misinterpretations or unexpected behavior can occur—best paired with review workflows.
-- **Learning curve**: Despite powerful defaults, mastering agentic mode, workflows, and context switches can take time.
+### Team Plan ($7/user/month)
+- **Unlimited AI**: Full access to AI features
+- **Team Drive**: Shared workflows and collaboration
+- **Priority Support**: Faster response times
+- **Advanced Analytics**: Usage insights and metrics
+
+### Enterprise Plan (Custom)
+- **SSO Integration**: Corporate authentication systems
+- **Advanced Security**: Enhanced privacy and compliance features
+- **Dedicated Support**: Direct access to engineering team
+- **Custom Deployments**: On-premise and hybrid options
 
 ---
 
-## Ethical & Operational Implications
+## Getting Started
 
-- **Productivity vs Autonomy**: Warp shifts terminal use from manual command entry to agentic workflows—redeploying developer time to architecture over typing.
-- **Data Privacy**: With AI deeply integrated, Warp’s privacy-first design is critical to maintain trust—especially when used in regulated environments.
-- **Governance of Agents**: Allowing agents to act autonomously heightens the need for audit trails and oversight.
+### Installation & Setup
+
+1. **Download**: Visit [warp.dev](https://warp.dev) and download for your platform
+2. **Account Creation**: Sign up for enhanced features and collaboration
+3. **Shell Configuration**: Warp automatically detects and configures your shell
+4. **AI Setup**: Enable AI features and configure preferences
+
+### Configuration Best Practices
+
+#### Initial Setup Checklist
+- [ ] Configure preferred shell (Zsh, Bash, Fish, etc.)
+- [ ] Set up themes and visual preferences
+- [ ] Enable AI features and set privacy preferences
+- [ ] Import existing shell configuration and aliases
+- [ ] Set up Warp Drive for workflow sharing
+
+#### Team Onboarding
+- [ ] Create team account and invite members
+- [ ] Establish shared workflow library
+- [ ] Define AI usage policies and guidelines
+- [ ] Set up SSO integration if applicable
+- [ ] Train team on collaboration features
+
+### Best Practices for Adoption
+
+#### Phase 1: Individual Usage (Week 1-2)
+- Familiarize with Blocks interface and navigation
+- Experiment with AI command suggestions
+- Create personal workflows for common tasks
+- Customize themes and keyboard shortcuts
+
+#### Phase 2: AI Integration (Week 3-4)
+- Practice natural language command queries
+- Use AI for error explanation and debugging
+- Explore agentic mode for complex tasks
+- Build more sophisticated personal workflows
+
+#### Phase 3: Team Collaboration (Month 2)
+- Share workflows through Warp Drive
+- Implement team standards and best practices
+- Use session sharing for pair programming
+- Measure productivity improvements and ROI
 
 ---
 
-## Practical Adoption Recommendations
+## Security & Compliance
 
-### Rolling Warp into your Workflow
+### Data Protection
+- **Local Processing**: Many features work without sending data externally
+- **Encryption**: All data transmission encrypted in transit
+- **Access Controls**: Granular permissions for team features
 
-- Start by enabling AI completions and Blocks. Use Warp Drive to save frequently used workflows. Gradually experiment with agent-enhanced workflows.
+### Enterprise Security
+- **Single Sign-On**: Integration with corporate identity providers
+- **Audit Logging**: Comprehensive tracking of user activities
+- **Compliance**: Meets industry standards for data protection
 
-### Configure Your AI Comfort Level
+### Privacy Controls
+- **Telemetry Settings**: Granular control over data collection
+- **AI Opt-out**: Ability to disable AI features entirely
+- **Secret Detection**: Automatic redaction of sensitive information
 
-- Visit Settings > AI to fine-tune or disable specific features like Active AI or natural language detection if you prefer a less “agentic” experience.
+---
 
-### Share Knowledge Responsibly
+## Advanced Features
 
-- Use Warp Drive to institutionalize common patterns as shared workflows or runbooks, ensuring consistency across teams.
+### Workflow Automation
+```bash
+# Create parameterized workflows
+warp-workflow create "deploy-app" \
+  --param environment \
+  --param version \
+  --steps "npm run build" "docker build -t app:${version}" "kubectl apply -f k8s/${environment}/"
+```
 
-### Measure Impact
+### AI-Powered Debugging
+```bash
+# Multi-step debugging assistance
+"My Node.js app is throwing EADDRINUSE errors, help me debug and fix it"
 
-- Track time saved in routine tasks, deployment ease, or debugging speed. Solicit developer feedback to gauge utility and comfort with AI assistance.
+# Warp AI automatically:
+# 1. Checks for processes using common ports
+# 2. Suggests port conflict resolution
+# 3. Provides prevention strategies
+# 4. Offers to implement fixes
+```
+
+### Team Knowledge Base
+- **Shared Runbooks**: Collaborative documentation within terminal
+- **Command Libraries**: Team-specific command collections
+- **Best Practices**: Integrated guidance and standards
+
+---
+
+## Integration Examples
+
+### Development Environment Setup
+```bash
+# Natural language setup
+"Set up a new React project with TypeScript, Tailwind, and testing configured"
+
+# Warp AI creates workflow:
+# 1. npx create-react-app my-app --template typescript
+# 2. cd my-app && npm install -D tailwindcss postcss autoprefixer
+# 3. npx tailwindcss init -p
+# 4. Configure testing environment
+# 5. Initialize git repository
+```
+
+### Deployment Automation
+```bash
+# Parameterized deployment workflow
+warp-workflow run "deploy-to-staging" \
+  --environment staging \
+  --version $(git rev-parse --short HEAD)
+```
+
+---
+
+## Community & Resources
+
+### Official Resources
+- **Documentation**: [docs.warp.dev](https://docs.warp.dev)
+- **GitHub**: [github.com/warpdotdev/warp](https://github.com/warpdotdev/warp)
+- **Discord**: [discord.gg/warp](https://discord.gg/warp)
+- **Blog**: [blog.warp.dev](https://blog.warp.dev)
+
+### Learning Resources
+- **Getting Started Guide**: Comprehensive onboarding documentation
+- **Video Tutorials**: Feature demonstrations and workflows
+- **Community Workflows**: Shared automation examples
+- **Best Practices**: User-generated tips and techniques
 
 ---
 
 ## Conclusion
 
-Warp turns the classic terminal into a full-fledged Agentic Development Environment—blending AI, collaboration, and elegant UX. For dev teams ready to level up workflows, share institutional knowledge, and let intelligent agents accelerate their productivity, Warp is not just a terminal—it’s the future of command-line development.
+Warp represents a fundamental reimagining of the terminal experience, bringing modern UX design, AI intelligence, and collaborative features to the command line. It successfully bridges the gap between traditional terminal power and contemporary development needs.
 
+**Warp is ideal for:**
+- Developers seeking to modernize their command-line workflows
+- Teams requiring enhanced collaboration and knowledge sharing
+- Organizations wanting to reduce command-line learning curves
+- Projects benefiting from AI-assisted development tasks
+
+**Consider alternatives if:**
+- Your workflow requires extensive terminal customization
+- Network connectivity limitations restrict AI feature usage
+- Team culture strongly favors traditional terminal approaches
+- Performance constraints require minimal resource usage
+
+Warp's combination of innovative interface design, intelligent AI assistance, and robust collaboration features makes it a compelling choice for development teams ready to embrace the future of terminal-based development. Its focus on user experience and team productivity positions it as a bridge between traditional command-line tools and modern development environments.
+
+---
+
+*Last updated: January 2025*
