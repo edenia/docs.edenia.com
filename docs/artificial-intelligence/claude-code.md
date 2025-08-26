@@ -2,152 +2,300 @@
 id: claude-code
 title: Claude Code
 sidebar_position: 3
+description: Claude Code is Anthropic's terminal-native AI coding assistant that integrates the full development workflow from reading issues to creating pull requests, all through command-line interfaces.
+keywords: [claude code, anthropic AI, terminal AI assistant, CLI development, automated coding, agentic programming, GitHub integration, AI code review]
 ---
 
 # Claude Code (Anthropic)
 
-Claude Code is **Anthropic**’s agentic coding tool that “lives” in the terminal, integrating the full development workflow: reading issues, generating changes, running tests, and opening pull requests (PRs) on GitHub/GitLab, all from the CLI. It started as an internal research project to give Anthropic engineers a native way to integrate Claude into their daily work and was publicly released in 2024–2025 with best practices and usage guides.  
+**Claude Code** is **Anthropic**'s agentic coding tool that "lives" in the terminal, integrating the full development workflow: reading issues, generating changes, running tests, and opening pull requests (PRs) on GitHub/GitLab, all from the CLI. It evolved from an internal research project to give Anthropic engineers a native way to integrate Claude into their daily work and was publicly released in 2024–2025.
 
-In August 2025, Anthropic added Claude Code to **Team** and **Enterprise** plans, with administrative controls (premium seat assignment, usage metrics, policies, and retention), marking its maturity for regulated corporate environments.  
-
----
-
-# Architecture and Technical Features
-
-## Mode and Philosophy
-
-- Unix-style "composable" CLI: can be chained with pipes and system tools.  
-  ```bash
-  tail -f app.log | claude -p "notify me if anomalies appear"
-  ```
-
-* Minimalist agent tools: a bash tool to run commands and a file editing tool applying string replacement edits; the model decides which command/edit to execute per session, without complex orchestration by default.
-
-## Integrations
-
-* **GitHub/GitLab**: read issues/PRs, create PRs, and run tests from the terminal.
-* **GitHub Actions**: with a simple `@claude` in PRs/issues, the agent analyzes changes, implements features, and fixes bugs; also includes an action for automated security reviews.
-* **Clouds**: can use the Anthropic API or be hosted via AWS Bedrock or Vertex AI (GCP) for enterprise requirements.
-
-## Configuration, Authentication, and Administration
-
-* OAuth via Anthropic Console (requires active billing).
-* In **Enterprise/Team**: panel for seat assignment, tool policies, selective retention management, and analytics on acceptance and suggestions.
-
-## Security, Privacy, and Retention
-
-* Zero Data Retention (ZDR) with API organizations: transcripts are not stored on Anthropic servers; local client can save sessions up to 30 days.
-* Enterprise data governance (SSO, RBAC, custom retention controls).
-* Note: some features (Files API) have different retention rules even with ZDR.
+**Platform Availability:** macOS, Linux, Windows (via WSL)  
+**Launch Date:** 2024  
+**Enterprise Release:** August 2025  
+**Official Website:** [claude.ai/code](https://claude.ai/code)  
+**Documentation:** [docs.anthropic.com/claude-code](https://docs.anthropic.com/claude-code)
 
 ---
 
-# Use Cases 
+## Overview
 
-### From Issue to PR in a Single Session (CLI)
+Claude Code represents a paradigm shift toward terminal-native AI development. Unlike IDE-based AI assistants, Claude Code operates entirely through command-line interfaces, embracing Unix philosophy with composable, pipeable tools that integrate seamlessly into existing developer workflows.
 
+### Key Differentiators
+
+- **Terminal-Native**: Designed for CLI-first development workflows
+- **Unix Composability**: Can be chained with pipes and system tools
+- **Minimalist Architecture**: Simple bash and file editing tools
+- **Enterprise Ready**: Full administrative controls and compliance features
+
+---
+
+## Core Features
+
+### CLI-First Development
+- **Composable Commands**: Unix-style tool chaining with pipes
+- **Session Management**: Persistent context across terminal sessions
+- **File Operations**: Direct editing through string replacement
+- **Command Execution**: Intelligent bash command generation and execution
+
+### Git Integration
+- **Issue Reading**: Automatic parsing of GitHub/GitLab issues
+- **Branch Management**: Intelligent branch creation and switching
+- **PR Creation**: Automated pull request generation with descriptions
+- **CI/CD Integration**: Test execution and deployment automation
+
+### Agentic Workflows
+- **Multi-Step Tasks**: Complex operations completed autonomously
+- **Context Preservation**: Maintains understanding across file operations
+- **Error Handling**: Automatic retry and error correction
+- **Documentation Generation**: CLAUDE.md integration for project guidance
+
+### Enterprise Security
+- **Zero Data Retention (ZDR)**: Optional data retention policies
+- **SOC 2 Compliance**: Enterprise-grade security standards
+- **RBAC Controls**: Role-based access management
+- **Audit Logging**: Comprehensive activity tracking
+
+---
+
+## Technical Architecture
+
+### Minimalist Tool Design
+Claude Code uses only two core tools:
+1. **Bash Tool**: Execute shell commands and system operations
+2. **File Edit Tool**: Apply string-based replacements to files
+
+This minimalist approach reduces complexity while maintaining powerful capabilities through intelligent tool combination.
+
+### Integration Capabilities
+
+#### Version Control Systems
+- **GitHub**: Issues, PRs, Actions, security reviews
+- **GitLab**: Merge requests, CI/CD pipelines
+- **Bitbucket**: Repository management and automation
+
+#### Cloud Platforms
+- **AWS Bedrock**: Enterprise deployment option
+- **Google Cloud Vertex AI**: Scalable AI infrastructure
+- **Anthropic API**: Direct Claude model access
+
+#### CI/CD Integration
+- **GitHub Actions**: Automated workflow triggers
+- **GitLab CI**: Pipeline integration and testing
+- **Jenkins**: Custom deployment automation
+
+---
+
+## Use Cases & Applications
+
+### End-to-End Development Workflows
+**Scenario**: Convert GitHub issue to deployed feature  
+**Implementation**:
 ```bash
 $ claude -p "Read issue #123, create a branch, implement the solution with TDD, run npm test, and open a PR with summary and checklist."
 ```
 
-Supports CC/PRs in GitHub/GitLab and test execution from the terminal.
+### Automated Security Reviews
+**Scenario**: Continuous security assessment  
+**Implementation**: GitHub Action triggered on each PR, applying security rules and commenting inline with mitigation recommendations.
 
-### Automated Security Review
-
-Claude Code Action triggered on each PR, applying rules and commenting inline with mitigation recommendations.
-
-### Observability and Log Response
-
+### Observability and Monitoring
+**Scenario**: Intelligent log analysis and incident response  
+**Implementation**:
 ```bash
 $ tail -f app.log | claude -p "if 5xx errors persist > 2 min, open an issue with attachments and config diff"
 ```
 
-### Onboarding and Understanding Large Codebases
-
-CLAUDE.md and hooks guide the agent: repo structure, conventions, objectives, quality criteria.
-
----
-
-# Key Advantages
-
-| Strength                                | Why It Matters                                  |
-| --------------------------------------- | ----------------------------------------------- |
-| **End-to-end in CLI**                   | Less context switching between editor, CLI, web |
-| **Minimalist tools (bash + file edit)** | Simpler, less fragile scaffolding               |
-| **Native GitHub/GitLab integration**    | Issues, PRs, Actions—including security         |
-| **Enterprise controls**                 | Premium seats, metrics, policies, retention     |
-| **Unix composability**                  | Chain commands & build custom flows             |
+### Codebase Onboarding
+**Scenario**: Understanding large, complex repositories  
+**Implementation**: CLAUDE.md files guide the agent through repo structure, conventions, objectives, and quality criteria.
 
 ---
 
-# Limitations and Risks
+## Pros and Cons
 
-* CLI-focused interface: adoption curve for teams used to graphical IDE agents.
-* Occasional contextual errors; requires clear prompts and updated CLAUDE.md.
-* Risk of hallucinations and unsafe changes; mitigated with PRs and automated tests.
-* Data governance: some APIs (Files) retain data; policies and secret exclusions must be configured.
+### Advantages
+
+| Feature | Benefit |
+|---------|---------|
+| **Terminal Integration** | Seamless fit into existing CLI workflows |
+| **Unix Composability** | Chain with existing tools and scripts |
+| **Minimal Overhead** | Simple architecture reduces failure points |
+| **Enterprise Controls** | Comprehensive admin and compliance features |
+| **Full Workflow Coverage** | Issue-to-deployment automation |
+
+### Limitations
+
+| Challenge | Impact |
+|-----------|---------|
+| **CLI Learning Curve** | May challenge teams accustomed to GUI tools |
+| **Context Management** | Requires well-structured prompts and documentation |
+| **Hallucination Risk** | Potential for incorrect changes without human oversight |
+| **Limited Visual Feedback** | No graphical interface for complex operations |
 
 ---
 
-# Ethical and Labor Implications
+## Pricing & Plans
 
-* **Productivity and displacement**: agents opening PRs and running tests increase speed but reconfigure tasks.
-* **Quality and security**: human-in-the-loop, automated tests, and secure coding policies required.
-* **Data governance and compliance**: retention controls, audit, and RBAC critical; Enterprise plan adds guarantees.
-* **Undesired behavior risks**: safeguards, monitoring, and clear usage policies needed.
+### Individual Plan
+- **Basic Usage**: Pay-per-use with Anthropic API
+- **Session Storage**: Up to 30 days local retention
+- **Standard Support**: Community and documentation
 
-References: WIRED, Anthropic, DevOps.com, New York Post
+### Team Plan
+- **Seat Management**: Administrative controls for team members
+- **Usage Analytics**: Detailed metrics on AI interactions
+- **Enhanced Support**: Priority technical assistance
+- **Policy Controls**: Granular feature and data policies
+
+### Enterprise Plan
+- **SSO Integration**: Corporate identity provider support
+- **Custom Retention**: Configurable data retention policies
+- **Dedicated Support**: Direct access to Anthropic engineers
+- **Compliance Features**: Advanced audit and governance tools
 
 ---
 
-# Practical Adoption Recommendations
+## Getting Started
 
-## Technical Playbook Design
+### Installation & Setup
 
-* Define **CLAUDE.md** (objectives, repo structure, code standards, permissions, QA criteria).
-* Start with low-risk flows: docs generation, simple refactors, lint/format, unit tests, automated security review.
-* Reproducible pipelines: wrap Claude Code commands in `make` or `npm scripts` and connect to CI.
+1. **Install CLI**: `npm install -g @anthropic/claude-code`
+2. **Authentication**: `claude auth login` with Anthropic account
+3. **Configuration**: Set up project-specific CLAUDE.md
+4. **Integration**: Connect GitHub/GitLab repositories
 
-## Security, Privacy, and Compliance
+### Project Configuration
 
-* Enable ZDR and retention policies; avoid uploading secrets; check exceptions (Files API).
-* Minimum permissions for repos and runners; RBAC/SSO in Enterprise.
-* Quality guardrails: TDD/autotests, CI gates, mandatory human reviews.
+#### CLAUDE.md Template
+```markdown
+# Project: Your App Name
 
-## Change Management
+## Objectives
+- Primary goals and success criteria
+- Key user workflows and requirements
 
-* 4–6 week pilot with 1–2 teams, metrics: PR time, acceptance rate, post-merge defects, test coverage.
-* Prompting and “agentic” repo training: examples, checklists, prompt templates.
-* Graduation criteria: expand to more teams when accepted/generated PR ratio and defects stabilize.
+## Architecture
+- Technology stack and frameworks
+- Database schema and API structure
+- Deployment and infrastructure notes
 
-## Ready-to-Copy Command Examples
+## Code Standards
+- Style guide and formatting rules
+- Testing requirements and coverage
+- Security and performance guidelines
 
-Generate automated i18n PR:
+## Workflow
+- Git branching strategy
+- PR review process
+- Deployment procedures
+```
 
+### Best Practices for Adoption
+
+#### Phase 1: Low-Risk Operations (Week 1-2)
+- Documentation generation and updates
+- Code formatting and linting
+- Simple unit test creation
+- Basic refactoring tasks
+
+#### Phase 2: Development Workflows (Week 3-4)
+- Issue-to-branch automation
+- Feature implementation with TDD
+- Automated PR creation
+- Security review integration
+
+#### Phase 3: Advanced Automation (Month 2)
+- Complex multi-file refactoring
+- CI/CD pipeline integration
+- Custom workflow development
+- Team policy implementation
+
+---
+
+## Security & Compliance
+
+### Data Protection
+- **Zero Data Retention**: Configure to avoid storing code on Anthropic servers
+- **Local Session Storage**: Code remains on developer machines
+- **Encryption**: All data encrypted in transit and at rest
+
+### Enterprise Governance
+- **Policy Engine**: Define allowed operations and restrictions
+- **Audit Trails**: Complete logging of all AI interactions
+- **Access Controls**: Fine-grained permissions and role management
+
+### Security Best Practices
+- **Secret Management**: Automatic detection and redaction
+- **Code Review**: Mandatory human approval for sensitive changes
+- **Test Requirements**: Automated testing before PR creation
+
+---
+
+## Integration Examples
+
+### Automated Internationalization
 ```bash
 $ claude -p "Search new strings in src/**/*.tsx, generate i18n/es.json, and open a PR for @lang-es with description and checklist."
 ```
 
-Static security review on each PR (via Action):
-
+### Security Review Automation
 ```bash
 $ @claude review this PR for SQL injection and XSS; suggest inline patches.
 ```
 
-Fix flaky test:
-
+### Flaky Test Resolution
 ```bash
 $ claude -p "Reproduce and fix flaky test 'User can checkout' in packages/cart, explain root cause, add regression test."
 ```
 
+### Continuous Deployment
+```bash
+$ claude -p "If all tests pass, deploy to staging and notify #dev-team with deployment summary"
+```
 
 ---
 
-# Conclusions
+## Community & Resources
 
-Claude Code excels when:
+### Official Resources
+- **Documentation**: [docs.anthropic.com/claude-code](https://docs.anthropic.com/claude-code)
+- **GitHub**: [github.com/anthropics/claude-code](https://github.com/anthropics/claude-code)
+- **Support**: [support.anthropic.com](https://support.anthropic.com)
+- **Status Page**: [status.anthropic.com](https://status.anthropic.com)
 
-* Operating from CLI with Unix composability and CI/CD automation, integrating GitHub/GitLab and Actions (including security).
-* IDE/UI-focused teams may prefer Copilot/Gemini/Windsurf/Cursor; automation-first, reproducible pipelines favor Claude Code.
-* Industry best practice: maintain PRs with human review, automated tests, and security policies.
+### Learning Resources
+- **Quick Start Guide**: Step-by-step setup instructions
+- **Example Workflows**: Common automation patterns
+- **Best Practices**: Community-driven guidelines
+- **Video Tutorials**: Feature demonstrations and use cases
 
+---
+
+## Conclusion
+
+Claude Code excels in environments that prioritize:
+
+- **Command-line workflows** with Unix composability
+- **Automation-first development** with reproducible pipelines
+- **Enterprise compliance** with comprehensive governance
+- **Full-cycle development** from issue to deployment
+
+**Claude Code is ideal for:**
+- Teams with strong CLI/DevOps culture
+- Organizations requiring enterprise-grade AI governance
+- Projects needing end-to-end automation
+- Developers comfortable with terminal-based workflows
+
+**Consider alternatives if:**
+- Your team prefers graphical IDE interfaces
+- Visual code editing is a primary requirement
+- Limited CLI experience within the development team
+- Real-time collaborative editing is essential
+
+Claude Code represents the future of terminal-native development, where AI agents seamlessly integrate into existing workflows while maintaining the power and flexibility that command-line tools provide. Its focus on composability, security, and enterprise readiness makes it a compelling choice for teams ready to embrace agentic development practices.
+
+---
+
+*Last updated: January 2025*

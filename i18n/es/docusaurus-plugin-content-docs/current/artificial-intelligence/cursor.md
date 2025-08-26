@@ -2,13 +2,19 @@
 id: cursor
 title: Cursor IDE
 sidebar_position: 2
+description: Cursor es un editor de código e IDE potenciado por IA basado en VS Code que ofrece autocompletado inteligente, edición en lenguaje natural y flujos de desarrollo agénticos para mejorar la productividad del desarrollador.
+keywords: [cursor IDE, editor de código IA, asistente de programación IA, fork VS Code, autocompletado inteligente, desarrollo agéntico, productividad desarrollador, generación código]
 ---
 
 # Cursor – Editor de Código Potenciado por IA
 
-Cursor es un **entorno de desarrollo integrado (IDE)** propietario con asistencia de IA, desarrollado por **Anysphere Inc.**. Es un fork de **Visual Studio Code** que añade potentes funciones basadas en inteligencia artificial: modo agente, programación en lenguaje natural, edición multilínea, indexación de la base de código, modos de privacidad y más—todo diseñado para aumentar drásticamente la productividad de los desarrolladores dentro de una interfaz familiar.  
+**Cursor** es un entorno de desarrollo integrado (IDE) propietario con asistencia de IA, desarrollado por **Anysphere Inc.**. Es un fork de **Visual Studio Code** que añade potentes funciones basadas en inteligencia artificial: modo agente, programación en lenguaje natural, edición multilínea, indexación de la base de código, modos de privacidad y más—todo diseñado para aumentar drásticamente la productividad de los desarrolladores dentro de una interfaz familiar.
 
-Cursor está disponible para **macOS, Windows y Linux**. Fue lanzado en **2023** y alcanzó su primera versión estable **1.0 en junio de 2025**.  
+**Disponibilidad de Plataforma:** macOS, Windows, Linux  
+**Fecha de Lanzamiento:** 2023  
+**Primera Versión Estable:** Junio 2025 (v1.0)  
+**Sitio Web Oficial:** [cursor.com](https://cursor.com)  
+**Documentación:** [docs.cursor.com](https://docs.cursor.com)  
 
 ---
 

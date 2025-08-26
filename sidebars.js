@@ -75,6 +75,7 @@ module.exports = {
         id: "artificial-intelligence/artificial-inteligence",
       },
       items: [
+        "artificial-intelligence/ai-tool-comparison",
         "artificial-intelligence/cursor",
         "artificial-intelligence/claude-code",
         "artificial-intelligence/warp",
