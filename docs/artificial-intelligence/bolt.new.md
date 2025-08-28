@@ -2,11 +2,18 @@
 id: bolt-new
 title: Bolt.new
 sidebar_position: 7
+description: Bolt.new is an AI-powered agentic development platform that allows you to generate, run, edit, and deploy full-stack applications directly from the browser without local setup.
+keywords: [bolt.new, AI agentic development, browser development platform, webcontainers, AI application generation, full-stack browser development, stackblitz]
 ---
 
 # Bolt.new – AI-Agent for Application Development
 
-**Bolt.new** is an AI-powered agentic development platform that allows you to generate, run, edit, and deploy full-stack applications directly from the browser—without local setup. Built on **StackBlitz’s WebContainers** technology, Bolt integrates AI models (such as Anthropic’s Claude) with a complete in-browser development environment.
+**Bolt.new** is an AI-powered agentic development platform that allows you to generate, run, edit, and deploy full-stack applications directly from the browser—without local setup. Built on **StackBlitz's WebContainers** technology, Bolt integrates AI models (such as Anthropic's Claude) with a complete in-browser development environment.
+
+**Platform Availability:** Web browser (Chrome, Firefox, Safari, Edge)  
+**Launch Date:** 2024  
+**Official Website:** [bolt.new](https://bolt.new)  
+**Documentation:** [docs.bolt.new](https://docs.bolt.new)  
 
 ---
 
@@ -17,7 +24,7 @@ sidebar_position: 7
 - Uses **WebContainers** to run Node.js, install npm packages, and manage servers entirely client-side.
 
 ### Complete Environment Control
-- The AI model doesn’t just generate code—it manages the entire project structure: file system, server, terminal, package manager, and browser console.
+- The AI model doesn't just generate code—it manages the entire project structure: file system, server, terminal, package manager, and browser console.
 
 ### Modern Integrations
 - Supports frameworks like React, Next.js, Tailwind CSS, Astro, Vite, Svelte, Vue, Remix, among others.  
@@ -32,7 +39,6 @@ sidebar_position: 7
 
 - Build **dashboards**, **landing pages**, **SaaS boards**, **CRMs**, or even mobile apps with Expo from a single prompt.  
 - Non-technical users have successfully created functional sites, including payment flows and API integrations. For example, a journalist and her daughter built and deployed an e-commerce site in just 6 hours using Bolt.
-
 
 ---
 
@@ -75,4 +81,8 @@ sidebar_position: 7
 
 ## Conclusion
 
-**Bolt.new** redefines modern web development by offering a unified experience—from idea to deployed application—with a single prompt. It’s ideal for rapid prototyping, non-technical teams, and agile creators. However, due to its deep autonomy, integrations, and generative capabilities, it requires governance, oversight, and robust security practices to ensure reliability in production environments.
+**Bolt.new** redefines modern web development by offering a unified experience—from idea to deployed application—with a single prompt. It's ideal for rapid prototyping, non-technical teams, and agile creators. However, due to its deep autonomy, integrations, and generative capabilities, it requires governance, oversight, and robust security practices to ensure reliability in production environments.
+
+---
+
+*Last updated: January 2025*

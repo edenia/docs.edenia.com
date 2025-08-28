@@ -1,51 +1,51 @@
 ---
-id: artificial-inteligence
-title: Inteligencia Artificial IA
-sidebar_label: Inteligencia Artificial IA
+id: artificial-intelligence
+title: Inteligencia Artificial (IA)
 sidebar_position: 1
+description: Guía completa de tecnologías de IA, herramientas y mejores prácticas para desarrolladores. Explora asistentes de programación con IA, flujos de trabajo de desarrollo y estrategias de implementación.
+keywords: [inteligencia artificial, herramientas de IA, IA para desarrolladores, asistentes de programación, desarrollo de IA, aprendizaje automático, IA generativa, herramientas de programación con IA]
 ---
 
 # Inteligencia Artificial
 
-Bienvenido a la sección de **Inteligencia Artificial (IA)**.  
-Este espacio contiene recursos, guías y documentación relacionados con las tecnologías de IA, su implementación y su impacto más amplio en la sociedad.  
+Bienvenido a la sección de **Inteligencia Artificial (IA)**. Este espacio contiene recursos, guías y documentación relacionados con las tecnologías de IA, su implementación y su impacto más amplio en la sociedad.  
 
-La IA es uno de los campos más transformadores de nuestro tiempo, moldeando industrias desde la salud hasta las finanzas, la educación, la seguridad y el trabajo creativo. Esta documentación busca proporcionar tanto conocimientos fundamentales como pautas prácticas para **comprender, construir y desplegar sistemas de IA de manera responsable**.  
+La IA es uno de los campos más transformadores de nuestro tiempo, moldeando industrias desde la salud hasta las finanzas, la educación, la seguridad y la creación artística. Esta documentación busca proporcionar tanto conocimientos fundamentales como pautas prácticas para comprender, construir y desplegar sistemas de IA de forma responsable.  
 
 ---
 
 # Contexto y Evolución
 
-La Inteligencia Artificial tiene sus raíces en la década de 1950, cuando pioneros como **Alan Turing, John McCarthy y Marvin Minsky** comenzaron a explorar si las máquinas podían simular aspectos de la inteligencia humana. Las primeras aproximaciones se centraron en la **lógica simbólica y los sistemas expertos**.  
+La Inteligencia Artificial tiene sus raíces en la década de 1950, cuando pioneros como **Alan Turing**, **John McCarthy** y **Marvin Minsky** comenzaron a explorar si las máquinas podían simular aspectos de la inteligencia humana. Las primeras investigaciones se enfocaron en la **lógica simbólica y los sistemas expertos**.  
 
-Desde la década de 1980, la IA se orientó hacia el **aprendizaje automático (Machine Learning)**, métodos estadísticos que aprenden a partir de datos. Los avances de la década de 2010, especialmente en **deep learning** y la disponibilidad de grandes volúmenes de datos y GPUs, impulsaron la era de la IA moderna: visión por computadora, procesamiento de lenguaje natural y aprendizaje por refuerzo aplicados en el mundo real.  
+A partir de los años 80, la IA se orientó hacia el **aprendizaje automático (machine learning)**: métodos estadísticos que aprenden de los datos. Los avances de la década de 2010, particularmente en **aprendizaje profundo (deep learning)** y el acceso a grandes volúmenes de datos y GPUs, marcaron la era de la IA moderna: visión por computadora, procesamiento de lenguaje natural y aprendizaje por refuerzo aplicados a casos reales.  
 
-A partir de 2020, la aparición de los **modelos fundacionales** (como GPT, Claude, Gemini, LLaMA, Mistral, DeepSeek, entre otros) definió la era “agéntica”: grandes modelos capaces de **razonar, planificar, programar e interactuar de manera autónoma** a través de plataformas.  
+Desde 2020, la aparición de los **modelos fundacionales** (como GPT, Claude, Gemini, LLaMA, Mistral, DeepSeek, etc.) definió la era “agéntica”: modelos capaces de razonar, planificar, programar e interactuar de manera autónoma en múltiples plataformas.  
 
 ---
 
 # Arquitectura y Características Técnicas
 
-## Paradigmas Fundamentales de la IA
+## Paradigmas Centrales de la IA
 
-- **Machine Learning (ML)**: Algoritmos que aprenden patrones a partir de datos (ej. regresión, árboles de decisión, clustering).  
-- **Deep Learning (DL)**: Redes neuronales de múltiples capas que impulsan avances en visión, voz y lenguaje.  
-- **Reinforcement Learning (RL)**: Entrenar agentes para tomar acciones en un entorno con recompensas y penalizaciones.  
-- **IA Generativa (GenAI)**: Modelos capaces de crear contenido nuevo—texto, imágenes, audio o código.  
-- **IA Simbólica**: Sistemas basados en reglas, útiles para razonamiento, lógica y toma de decisiones estructuradas.  
+- **Aprendizaje Automático (ML)**: Algoritmos que aprenden patrones a partir de datos (ej. regresión, árboles de decisión, clustering).  
+- **Aprendizaje Profundo (DL)**: Redes neuronales con múltiples capas que permiten avances en visión, voz y lenguaje.  
+- **Aprendizaje por Refuerzo (RL)**: Entrenamiento de agentes que actúan en un entorno con recompensas y penalizaciones.  
+- **IA Generativa (GenAI)**: Modelos capaces de producir nuevo contenido—texto, imágenes, audio o código.  
+- **IA Simbólica**: Sistemas basados en reglas, útiles para razonamiento lógico y toma de decisiones estructurada.  
 
 ## Herramientas y Frameworks
 
 - **Frameworks**: TensorFlow, PyTorch, JAX, Scikit-learn.  
 - **Librerías**: Hugging Face Transformers, LangChain, Haystack, OpenVINO.  
 - **Plataformas**: AWS Bedrock, GCP Vertex AI, Azure OpenAI, Anthropic Console, Vercel v0.  
-- **Despliegue**: Docker, Kubernetes, ONNX, APIs serverless de inferencia.  
+- **Despliegue**: Docker, Kubernetes, ONNX, APIs sin servidor.  
 
 ## Integración con Web3
 
-- **Smart contracts** que usan oráculos de IA para decisiones basadas en datos.  
-- **Cómputo descentralizado** para entrenar modelos en redes blockchain.  
-- **Proveniencia on-chain** de datos generados por IA (clave para auditorías).  
+- Contratos inteligentes que usan oráculos de IA para decisiones basadas en datos.  
+- Computación descentralizada para entrenar modelos en redes blockchain.  
+- Registro en cadena de datos generados por IA (clave para la trazabilidad y auditoría).  
 
 ---
 
@@ -54,109 +54,128 @@ A partir de 2020, la aparición de los **modelos fundacionales** (como GPT, Clau
 ### Salud
 
 - Diagnósticos asistidos por IA (detección de cáncer en imágenes, predicción de enfermedades).  
-- Medicina personalizada mediante análisis genómico.  
+- Medicina personalizada a través de análisis genómico.  
 - Optimización de recursos hospitalarios.  
 
 ### Finanzas
 
-- Detección de fraudes con ML basado en anomalías.  
+- Detección de fraudes mediante análisis de anomalías.  
 - Trading algorítmico con aprendizaje por refuerzo.  
 - Asistentes bancarios personalizados.  
 
 ### Educación
 
-- Plataformas de aprendizaje adaptativo que recomiendan rutas personalizadas.  
-- Tutores de IA (ej. **Khanmigo** de Khan Academy).  
-- Calificación automatizada y retroalimentación en redacción.  
+- Plataformas de aprendizaje adaptativo con rutas de estudio personalizadas.  
+- Tutores de IA (ej. Khanmigo de Khan Academy).  
+- Corrección automática de ensayos y retroalimentación en tareas.  
 
 ### Industrias Creativas
 
-- Generación de imágenes y videos para diseño, marketing y cine.  
-- Producción musical y de audio (voces o pistas generadas por IA).  
-- Desarrollo de videojuegos con NPCs y entornos impulsados por IA.  
+- Generación de imágenes/video para diseño, marketing y cine.  
+- Producción de música y audio (voz sintética, pistas de fondo).  
+- Videojuegos con NPCs y entornos dinámicos generados por IA.  
 
 ### Desarrollo de Software
 
-- Asistentes de programación (Claude Code, Cursor, Copilot, Windsurf, Warp).  
-- Testing automatizado, corrección de bugs y mejoras en pipelines CI/CD.  
-- Observabilidad: análisis inteligente de logs y métricas de rendimiento.  
+- **Asistentes de Programación con IA**: [Cursor IDE](./cursor.md), [Claude Code](./claude-code.md), [Windsurf IDE](./windsurf.md), [Terminal Warp](./warp.md)  
+- **Generadores de Aplicaciones**: [v0.app](./v0.md) para prototipado y despliegue rápido, [Bolt.new](./bolt.new.md) para desarrollo agéntico completo en navegador  
+- **Testing Automatizado**: Corrección de errores y mejoras en CI/CD  
+- **Observabilidad**: Análisis de logs y métricas de rendimiento con IA  
+
+#### Herramientas Destacadas para Desarrolladores
+
+| Herramienta | Tipo | Fortalezas | Ideal Para |
+|-------------|------|------------|------------|
+| **[Cursor](./cursor.md)** | IDE con IA | Experiencia similar a VS Code, fuerte privacidad | Equipos que quieran VS Code + IA |
+| **[Claude Code](./claude-code.md)** | Asistente en CLI | Orientado a terminal, controles empresariales | DevOps y equipos de automatización |
+| **[Windsurf](./windsurf.md)** | IDE agéntico | Optimización de flujo, comprensión profunda | Desarrollo de alta productividad |
+| **[Warp](./warp.md)** | Terminal con IA | UX moderna, colaboración | Flujos centrados en terminal |
+| **[v0.app](./v0.md)** | Generador de apps | De texto a aplicación funcional | Prototipos rápidos, MVPs |
+| **[Bolt.new](./bolt.new.md)** | Plataforma agéntica | Desarrollo completo en navegador, WebContainers | Desarrollo full-stack sin configuración local |
+
+### Modelos de IA
+
+Explora los modelos más avanzados y sus capacidades:
+
+- **[Modelos de IA](./models/)**: Guía completa de GPT-5, Claude, DeepSeek, Grok y más.  
+- **Comparación de Modelos**: Análisis detallado de fortalezas, casos de uso y recomendaciones.  
+- **Mejores Prácticas**: Guías para elegir y usar el modelo de IA adecuado según tus necesidades.  
 
 ---
 
 # Ventajas Clave
 
-| Ventaja                  | Por qué importa                          |
-|---------------------------|------------------------------------------|
-| **Automatización y velocidad** | Impulsa el descubrimiento e innovación |
-| **Productividad**         | Reduce tareas repetitivas                |
-| **Accesibilidad**         | Democratiza el conocimiento con NLIs     |
-| **Mejores decisiones**    | Ofrece insights predictivos y analítica  |
-| **Potencial económico**   | Permite startups y apps nativas de IA    |
+| Ventaja | Por qué importa |
+|---------|-----------------|
+| **Automatización y velocidad** | Acelera descubrimientos e innovación |
+| **Productividad** | Reduce tareas repetitivas |
+| **Accesibilidad** | Democratiza el acceso al conocimiento mediante interfaces de lenguaje natural |
+| **Mejores decisiones** | Ofrece análisis predictivo e insights |
+| **Potencial económico** | Impulsa startups y aplicaciones nativas de IA |
 
 ---
 
 # Limitaciones y Riesgos
 
-- **Sesgos y equidad**: La IA refleja sesgos de sus datos de entrenamiento.  
-- **Explicabilidad**: Muchos modelos son “cajas negras” con poca interpretabilidad.  
-- **Privacidad de datos**: Riesgo de fuga de información sensible si no se gestiona bien.  
-- **Energía y costo**: Los modelos grandes consumen enormes recursos computacionales.  
-- **Dependencia excesiva**: Riesgo de confiar ciegamente en salidas de IA.  
-- **Seguridad**: Ataques adversarios, envenenamiento de modelos y exfiltración de datos.  
+- **Sesgos y equidad**: la IA refleja los sesgos presentes en sus datos de entrenamiento.  
+- **Explicabilidad**: muchos modelos son “cajas negras” de difícil interpretación.  
+- **Privacidad de datos**: riesgo de filtración de información sensible si no se gestiona adecuadamente.  
+- **Energía y costo**: los modelos grandes consumen vastos recursos de cómputo.  
+- **Dependencia excesiva**: riesgo de confiar en salidas de IA sin revisión humana.  
+- **Seguridad**: vulnerabilidades como ataques adversarios, envenenamiento de modelos o exfiltración de datos.  
 
 ---
 
 # Implicaciones Éticas y Laborales
 
-- **Empleo y automatización**: La IA desplaza tareas repetitivas hacia roles de prompting, supervisión y decisión.  
-- **IA Responsable**: Se requiere equidad, transparencia, rendición de cuentas y supervisión humana.  
-- **Gobernanza de datos**: Retención, proveniencia, cumplimiento normativo (GDPR, CCPA, HIPAA).  
-- **Desigualdad global**: Riesgo de ampliar la brecha entre países con acceso a IA y los que no.  
-- **Riesgos de doble uso**: La IA generativa puede emplearse para desinformación, deepfakes o ciberataques.  
+- **Empleo y automatización**: la IA desplaza tareas repetitivas hacia funciones de supervisión y toma de decisiones.  
+- **IA Responsable**: requiere equidad, transparencia, rendición de cuentas y supervisión humana.  
+- **Gobernanza de datos**: retención, trazabilidad y cumplimiento normativo (GDPR, CCPA, HIPAA).  
+- **Desigualdad global**: riesgo de ampliar la brecha entre países con y sin acceso a IA.  
+- **Riesgos de doble uso**: generación de desinformación, deepfakes o ciberataques.  
 
 ---
 
 # Recomendaciones Prácticas de Adopción
 
-## Playbook Técnico
+## Guía Técnica
 
-- Empezar con **proyectos piloto de bajo riesgo**.  
-- Escoger modelos equilibrando precisión, costo e interpretabilidad.  
-- Construir monitoreo: seguimiento de drift, rendimiento y sesgo en producción.  
+- Empieza con proyectos piloto de bajo riesgo como prueba de concepto.  
+- Elige modelos adecuados según precisión, costo e interpretabilidad.  
+- Implementa monitoreo para medir deriva, sesgo y rendimiento en sistemas productivos.  
 
 ## Seguridad, Privacidad y Cumplimiento
 
-- Aplicar políticas de **Zero Data Retention (ZDR)** cuando sea posible.  
-- Encriptar datos en reposo y en tránsito.  
-- Definir políticas claras de retención y redacción.  
-- Usar **RBAC** (control de acceso basado en roles) y **SSO**.  
+- Aplica políticas de **Zero Data Retention** cuando sea posible.  
+- Cifra datos en tránsito y en reposo.  
+- Define políticas claras de retención y anonimización.  
+- Implementa **RBAC** (control de acceso basado en roles) y **SSO** (inicio de sesión único).  
 
 ## Gestión del Cambio
 
-- Capacitar equipos en **prompt engineering** y **uso responsable de IA**.  
-- Pilotos con KPIs claros (eficiencia, reducción de defectos, ahorro de costos).  
-- Escalar gradualmente una vez demostrado el ROI.  
+- Capacita a equipos en **prompt engineering** y uso responsable de IA.  
+- Realiza pilotos con KPIs claros (eficiencia, reducción de defectos, ahorro).  
+- Escala gradualmente tras validar el ROI.  
 
-## Buenas Prácticas para Prompting
+## Buenas Prácticas de Prompts
 
-- Usar prompts estructurados con ejemplos.  
-- Proveer contexto (ej. documentación de repos, datos del dominio).  
-- Definir límites: alcance, criterios de aceptación, guardrails.  
-- Iterar y refinar prompts para mejorar resultados.  
+- Usa prompts estructurados con ejemplos.  
+- Proporciona contexto (ej. documentación, datos específicos de dominio).  
+- Define límites: alcance, criterios de aceptación y guardrails.  
+- Itera y refina prompts según los resultados.  
 
 ---
 
 # Conclusión
 
-La Inteligencia Artificial es una **tecnología de propósito general** con impacto transformador. Funciona especialmente bien cuando:  
+La Inteligencia Artificial es una **tecnología de propósito general** con un impacto transformador. Es especialmente útil cuando:  
 
-- Se necesita **automatizar tareas repetitivas**.  
-- Se buscan **insights predictivos para decisiones estratégicas**.  
-- Se pretende integrar IA en **herramientas de desarrollo, flujos empresariales o sistemas Web3**.  
+- Se busca automatizar tareas repetitivas.  
+- Se requieren predicciones o análisis para la toma de decisiones.  
+- Se quiere integrar la IA en **herramientas de desarrollo, flujos de negocio o sistemas Web3**.  
 
-Adoptar IA de forma responsable requiere: **supervisión humana, políticas de seguridad, cumplimiento normativo y marcos éticos**.  
-Al combinar innovación técnica con buena gobernanza, las organizaciones pueden desbloquear los beneficios de la IA mientras mitigan sus riesgos.  
+Adoptar la IA de manera responsable requiere: **supervisión humana, políticas de seguridad, cumplimiento normativo y marcos éticos**. Al equilibrar la innovación con la gobernanza, las organizaciones pueden aprovechar sus beneficios mientras mitigan los riesgos.  
 
 ---
 
-*Esta sección seguirá evolucionando, añadiendo guías más profundas sobre ML, LLMs, ética y estrategias de integración.*  
+*Esta sección continuará evolucionando con guías más profundas sobre ML, LLMs, ética e integración estratégica.*  

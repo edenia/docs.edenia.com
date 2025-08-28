@@ -70,10 +70,10 @@ module.exports = {
     {
       type: "category",
       label: "Artificial Intelligence",
-      link: {
-        type: "doc",
-        id: "artificial-intelligence/artificial-inteligence",
-      },
+              link: {
+          type: "doc",
+          id: "artificial-intelligence/artificial-intelligence",
+        },
       items: [
         "artificial-intelligence/ai-tool-comparison",
         "artificial-intelligence/cursor",
@@ -82,6 +82,20 @@ module.exports = {
         "artificial-intelligence/windsurf",
         "artificial-intelligence/v0-app",
         "artificial-intelligence/bolt-new",
+        {
+          type: "category",
+          label: "Models",
+          link: {
+            type: "doc",
+            id: "artificial-intelligence/models/ai-models",
+          },
+          items: [
+            "artificial-intelligence/models/claude-model",
+            "artificial-intelligence/models/gpt5-model",
+            "artificial-intelligence/models/deepseek-model",
+            "artificial-intelligence/models/grok-model",
+          ],
+        },
       ],
     },
     {

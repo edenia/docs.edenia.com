@@ -1,6 +1,6 @@
 ---
 id: warp
-title: Warp Terminal
+title: Terminal Warp
 sidebar_position: 4
 description: Warp es un emulador de terminal moderno potenciado por IA y Entorno de Desarrollo Agéntico que combina el poder tradicional de línea de comandos con asistencia IA inteligente y características de colaboración en equipo.
 keywords: [warp terminal, terminal IA, línea comandos inteligente, asistente terminal IA, terminal desarrollador, IA línea comandos, colaboración terminal, terminal moderno]

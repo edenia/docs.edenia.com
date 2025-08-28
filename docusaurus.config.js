@@ -171,6 +171,7 @@ const siteConfig = {
     },
   },
   trailingSlash: false,
+  onBrokenLinks: 'ignore',
   presets: [
     [
       "@docusaurus/preset-classic",

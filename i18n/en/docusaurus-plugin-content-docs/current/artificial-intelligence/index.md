@@ -78,7 +78,7 @@ Since 2020, the emergence of **foundation models** (like GPT, Claude, Gemini, LL
 ### Software Development
 
 - **AI Coding Assistants**: [Cursor IDE](/docs/artificial-intelligence/cursor.md), [Claude Code](/docs/artificial-intelligence/claude-code.md), [Windsurf IDE](/docs/artificial-intelligence/windsurf.md), [Warp Terminal](/docs/artificial-intelligence/warp.md)
-- **Application Builders**: [v0.app](/docs/artificial-intelligence/v0.md) for rapid prototyping and deployment, [Bolt.new](/docs/artificial-intelligence/bolt.new.md) for complete agentic development in browser
+- **Application Builders**: [v0.app](/docs/artificial-intelligence/v0.md) for rapid prototyping and deployment
 - **Automated Testing**: Bug fixing and CI/CD pipeline enhancements
 - **Observability**: AI analyzing logs and performance metrics
 
@@ -91,7 +91,6 @@ Since 2020, the emergence of **foundation models** (like GPT, Claude, Gemini, LL
 | **[Windsurf](/docs/artificial-intelligence/windsurf.md)** | Agentic IDE | Flow state optimization, deep context | High-productivity development |
 | **[Warp](/docs/artificial-intelligence/warp.md)** | AI terminal | Modern terminal UX, collaboration | Terminal-focused workflows |
 | **[v0.app](/docs/artificial-intelligence/v0.md)** | App builder | Text-to-app generation | Rapid prototyping, MVPs |
-| **[Bolt.new](/docs/artificial-intelligence/bolt.new.md)** | Agentic platform | Complete browser development, WebContainers | Full-stack development without local setup |
 
 ### AI Models
 
