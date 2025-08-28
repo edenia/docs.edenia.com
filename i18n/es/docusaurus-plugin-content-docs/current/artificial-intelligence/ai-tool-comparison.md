@@ -8,7 +8,6 @@ keywords: [comparación herramientas IA, comparación asistentes codificación, 
 
 # Guía de Comparación de Herramientas IA para Desarrolladores
 
----
 
 ## Resumen
 

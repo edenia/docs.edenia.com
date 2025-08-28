@@ -41,7 +41,7 @@ Startup china pionera en modelos de IA de código abierto que rivalizan con cont
 - Arquitectura híbrida "thinking" y "non-thinking"
 - Licencias transparentes (MIT) y disponibles en Hugging Face
 
-### 🤖 [Grok (xAI)](/docs/artificial-intelligence/models/grok-model)
+### [Grok (xAI)](/docs/artificial-intelligence/models/grok-model)
 Chatbot conversacional avanzado desarrollado por xAI, fundada por Elon Musk, con integración en tiempo real con el ecosistema X y Tesla.
 
 **Características principales:**

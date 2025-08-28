@@ -70,10 +70,10 @@ module.exports = {
     {
       type: "category",
       label: "Artificial Intelligence",
-              link: {
-          type: "doc",
-          id: "artificial-intelligence/artificial-intelligence",
-        },
+      link: {
+        type: "doc",
+        id: "artificial-intelligence/artificial-intelligence",
+      },
       items: [
         "artificial-intelligence/ai-tool-comparison",
         "artificial-intelligence/cursor",
