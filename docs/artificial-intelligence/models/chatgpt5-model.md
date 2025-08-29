@@ -8,7 +8,9 @@ keywords: [GPT-5, OpenAI, ChatGPT, AI model, LLM, multimodal AI, reasoning model
 
 ## What is GPT-5?
 
-**GPT-5** is OpenAI’s flagship large language model family (LLM), released in **2025**. It unifies fast, lightweight models with deep-reasoning variants and offers multimodal understanding (text, code, image) with strong reliability for developer workflows. GPT-5 powers ChatGPT and is integrated across Microsoft products (e.g., Copilot).
+![OpenAI Logo](/img/artificial-intelligence/models/openai.svg)
+
+**GPT-5** is OpenAI's flagship large language model family (LLM), released in **2025**. It unifies fast, lightweight models with deep-reasoning variants and offers multimodal understanding (text, code, image) with strong reliability for developer workflows. GPT-5 powers ChatGPT and is integrated across Microsoft products (e.g., Copilot).
 
 ---
 

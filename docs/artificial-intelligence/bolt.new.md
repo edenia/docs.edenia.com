@@ -6,9 +6,11 @@ description: Bolt.new is an AI-powered agentic development platform that allows 
 keywords: [bolt.new, AI agentic development, browser development platform, webcontainers, AI application generation, full-stack browser development, stackblitz]
 ---
 
-# Bolt.new – AI-Agent for Application Development
+# Bolt.new – AI-Powered Full-Stack Development Platform
 
-**Bolt.new** is an AI-powered agentic development platform that allows you to generate, run, edit, and deploy full-stack applications directly from the browser—without local setup. Built on **StackBlitz's WebContainers** technology, Bolt integrates AI models (such as Anthropic's Claude) with a complete in-browser development environment.
+![Bolt.new Logo](/img/artificial-intelligence/tools/bolt.svg)
+
+**Bolt.new** is a revolutionary AI-powered development platform that enables developers to build, deploy, and manage full-stack applications entirely in the browser. It combines the power of AI agents with modern development tools to create a seamless development experience.
 
 **Platform Availability:** Web browser (Chrome, Firefox, Safari, Edge)  
 **Launch Date:** 2024  

@@ -8,7 +8,9 @@ keywords: [DeepSeek, DeepSeek AI, open source AI, coding AI, DeepSeek Coder, Chi
 
 ## What is DeepSeek?
 
-**DeepSeek** is a Chinese AI startup (founded **2023**, Hangzhou) building high-performance, largely open-source LLMs that compete with Western leaders at low cost. Flagship models include **R1** (reasoning), **V3/V3.1** (MoE), and **DeepSeek-Coder-V2** (coding).
+![DeepSeek Logo](/img/artificial-intelligence/models/deepseek.svg)
+
+**DeepSeek** is a Chinese AI company that has developed a series of open-source large language models (LLMs) designed to rival Western counterparts at a fraction of the cost. Their models are particularly strong in coding tasks and reasoning, making them popular among developers and researchers.
 
 ---
 

@@ -6,9 +6,11 @@ description: Warp is a modern, AI-powered terminal emulator and Agentic Developm
 keywords: [warp terminal, AI terminal, intelligent command line, terminal AI assistant, developer terminal, command line AI, terminal collaboration, modern terminal]
 ---
 
-# Warp – AI-Powered Terminal & Agentic Development Environment
+# Warp – AI-Powered Terminal for Modern Development
 
-**Warp** is a next-generation terminal emulator built in **Rust** that has evolved into a full **Agentic Development Environment (ADE)**. It combines traditional terminal power with AI intelligence, team collaboration features, and modern UX design—transforming how developers interact with the command line.
+![Warp Logo](/img/artificial-intelligence/tools/warp.svg)
+
+**Warp** is a modern, AI-powered terminal designed to make command-line development more intuitive and productive. It combines the power of traditional terminals with AI assistance, intelligent autocomplete, and a beautiful user interface.
 
 **Platform Availability:** macOS, Linux, Windows  
 **Launch Date:** 2020  

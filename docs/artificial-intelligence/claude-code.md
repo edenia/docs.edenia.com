@@ -6,9 +6,11 @@ description: Claude Code is Anthropic's terminal-native AI coding assistant that
 keywords: [claude code, anthropic AI, terminal AI assistant, CLI development, automated coding, agentic programming, GitHub integration, AI code review]
 ---
 
-# Claude Code (Anthropic)
+# Claude Code – AI-Powered Terminal Assistant
 
-**Claude Code** is **Anthropic**'s agentic coding tool that "lives" in the terminal, integrating the full development workflow: reading issues, generating changes, running tests, and opening pull requests (PRs) on GitHub/GitLab, all from the CLI. It evolved from an internal research project to give Anthropic engineers a native way to integrate Claude into their daily work and was publicly released in 2024–2025.
+![Claude Code Logo](/img/artificial-intelligence/tools/claude.svg)
+
+**Claude Code** is an AI-powered terminal assistant that helps developers write, debug, and optimize code directly from the command line. It integrates seamlessly with existing development workflows and provides intelligent code suggestions and explanations.
 
 **Platform Availability:** macOS, Linux, Windows (via WSL)  
 **Launch Date:** 2024  

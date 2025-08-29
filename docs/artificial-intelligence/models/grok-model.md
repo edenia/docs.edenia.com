@@ -8,7 +8,9 @@ keywords: [Grok, xAI, Elon Musk, real-time AI, X integration, Tesla AI, conversa
 
 ## What is Grok?
 
-**Grok** is a conversational AI model family by **xAI** (founded by Elon Musk). First released in **November 2023**, Grok emphasizes real-time information access, native tool use, and deployment across consumer products. The latest generation, **Grok 4** (2025), adds deeper reasoning modes and tighter integration with the X ecosystem.
+![Grok Logo](/img/artificial-intelligence/models/grok.svg)
+
+**Grok** is an advanced conversational AI chatbot developed by **xAI**, a company founded by Elon Musk. It's designed to be more engaging and informative than traditional chatbots, with real-time access to information and integration with the X (formerly Twitter) ecosystem.
 
 ---
 

@@ -8,7 +8,9 @@ keywords: [Gemini, Google AI, multimodal AI, Google DeepMind, Bard, Android AI, 
 
 ## What is Gemini?
 
-**Gemini** is Google's most advanced AI model family, launched in **2023** and continuously evolved through 2024-2025. Originally branded as Bard, Gemini is now deeply integrated across Google's ecosystem including Android, Chrome, Search, Gmail, and Google Workspace. It's built on multimodal architecture capable of understanding and generating text, images, audio, and video content.
+![Google Gemini Logo](/img/artificial-intelligence/models/gemini.svg)
+
+**Gemini** is Google's most advanced AI model family, designed to be multimodal from the ground up. It can understand and work with text, images, audio, and video simultaneously, making it one of the most versatile AI models available today.
 
 ---
 

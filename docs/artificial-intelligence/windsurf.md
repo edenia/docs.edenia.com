@@ -6,9 +6,11 @@ description: Windsurf is the world's first truly agentic IDE that maintains deve
 keywords: [windsurf IDE, agentic IDE, AI code editor, flow state programming, cascade agent, AI development environment, intelligent coding assistant, autonomous programming]
 ---
 
-# Windsurf – The World's First Agentic IDE
+# Windsurf – AI-Powered IDE for Flow State Development
 
-**Windsurf** is the world's first truly **agentic IDE**, designed to keep developers in a **flow state** by deeply understanding projects, anticipating developer intent, and executing intelligent actions autonomously—all within a clean, intuitive interface. Built by the team behind **Codeium** after reimagining VS Code as an AI-native editor.
+![Windsurf Logo](/img/artificial-intelligence/tools/windsurf.svg)
+
+**Windsurf** is an AI-powered integrated development environment (IDE) designed to help developers achieve and maintain a state of flow during coding. It combines intelligent code assistance with a distraction-free interface to maximize productivity and code quality.
 
 **Platform Availability:** macOS, Windows, Linux  
 **Launch Date:** 2024  

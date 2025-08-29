@@ -8,7 +8,9 @@ keywords: [Claude, Anthropic, Constitutional AI, AI model, LLM, coding assistant
 
 ## What is Claude?
 
-**Claude** is Anthropic’s family of large language models (LLMs), launched in **2023** and evolved through Claude 2, 3.x, and 4.x. It is built on the **Constitutional AI** safety framework and is known for strong coding, careful reasoning, and enterprise-aligned behavior. Latest flagship variants include **Claude Opus 4.1** with top coding performance.
+![Claude Logo](/img/artificial-intelligence/models/claude.svg)
+
+**Claude** is a family of large language models (LLMs) developed by **Anthropic**, an AI safety and research company. Built on the innovative **Constitutional AI** framework, Claude models are designed to be helpful, harmless, and honest while maintaining strong performance across various tasks.
 
 ---
 

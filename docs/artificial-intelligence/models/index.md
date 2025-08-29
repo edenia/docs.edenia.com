@@ -15,7 +15,10 @@ Welcome to the **Artificial Intelligence Models** section. Here you will find de
 ## Featured Models
 
 ### [GPT-5 (OpenAI)](/docs/artificial-intelligence/models/gpt5-model)
-OpenAI’s most advanced model, released in 2025, with multimodal capabilities for deep reasoning, code generation, and creative writing.
+
+![OpenAI Logo](/img/artificial-intelligence/models/openai.svg)
+
+OpenAI's most advanced model, released in 2025, with multimodal capabilities for deep reasoning, code generation, and creative writing.
 
 **Key features:**
 - Ultra-large context windows (up to 272,000 tokens)
@@ -24,6 +27,9 @@ OpenAI’s most advanced model, released in 2025, with multimodal capabilities f
 - Improvements in speed, accuracy, and reduced hallucinations
 
 ### [Claude (Anthropic)](/docs/artificial-intelligence/models/claude-model)
+
+![Claude Logo](/img/artificial-intelligence/models/claude.svg)
+
 Model family developed by Anthropic, built on the innovative **Constitutional AI** framework to align with human values and ethics.
 
 **Key features:**
@@ -33,6 +39,9 @@ Model family developed by Anthropic, built on the innovative **Constitutional AI
 - Integration with web search and browsing
 
 ### [DeepSeek (DeepSeek Inc.)](/docs/artificial-intelligence/models/deepseek-model)
+
+![DeepSeek Logo](/img/artificial-intelligence/models/deepseek.svg)
+
 Chinese startup pioneering open-source AI models that rival Western counterparts at a fraction of the cost.
 
 **Key features:**
@@ -42,6 +51,9 @@ Chinese startup pioneering open-source AI models that rival Western counterparts
 - Transparent licenses (MIT) and available on Hugging Face
 
 ### [Grok (xAI)](/docs/artificial-intelligence/models/grok-model)
+
+![Grok Logo](/img/artificial-intelligence/models/grok.svg)
+
 Advanced conversational chatbot developed by xAI, founded by Elon Musk, with real-time integration with the X ecosystem and Tesla.
 
 **Key features:**
@@ -51,7 +63,10 @@ Advanced conversational chatbot developed by xAI, founded by Elon Musk, with rea
 - Available in limited free mode on X Premium+
 
 ### [Gemini (Google)](/docs/artificial-intelligence/models/gemini-model)
-Google’s multimodal AI model family, deeply integrated across the Google ecosystem including Android, Chrome, and Google Workspace.
+
+![Google Gemini Logo](/img/artificial-intelligence/models/gemini.svg)
+
+Google's multimodal AI model family, deeply integrated across the Google ecosystem including Android, Chrome, and Google Workspace.
 
 **Key features:**
 - Native multimodal processing (text, images, audio, video)
