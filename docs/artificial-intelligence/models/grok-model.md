@@ -1,7 +1,9 @@
 ---
 id: grok-model
 title: Grok (xAI)
-sidebar_position: 11
+sidebar_position: 12
+description: Complete guide to Grok AI model by xAI, featuring real-time information access, X ecosystem integration, and advanced reasoning capabilities
+keywords: [Grok, xAI, Elon Musk, real-time AI, X integration, Tesla AI, conversational AI, reasoning AI, live data, social media AI]
 ---
 
 ## What is Grok?

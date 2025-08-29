@@ -2,6 +2,8 @@
 id: deepseek-model
 title: DeepSeek (DeepSeek Inc.)
 sidebar_position: 10
+description: Complete guide to DeepSeek AI models, featuring open-source architecture, specialized coding capabilities, and cost-effective performance
+keywords: [DeepSeek, DeepSeek AI, open source AI, coding AI, DeepSeek Coder, Chinese AI, cost-effective AI, R1 model, MoE architecture, programming assistant]
 ---
 
 ## What is DeepSeek?

@@ -2,6 +2,8 @@
 id: gpt5-model
 title: GPT-5 (OpenAI)
 sidebar_position: 9
+description: Guía completa de GPT-5, el modelo de lenguaje más avanzado de OpenAI con capacidades multimodales, razonamiento profundo e integración con Microsoft
+keywords: [GPT-5, OpenAI, ChatGPT, modelo IA, LLM, IA multimodal, modelo razonamiento, Microsoft Copilot, generación código, Azure OpenAI]
 ---
 
 ## ¿Qué es GPT-5?

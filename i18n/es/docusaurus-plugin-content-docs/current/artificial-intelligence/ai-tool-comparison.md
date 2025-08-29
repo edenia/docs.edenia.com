@@ -24,6 +24,7 @@ Esta guía de comparación integral ayuda a los equipos de desarrollo a evaluar 
 | **[Windsurf](./windsurf)** | IDE agéntico | Optimización estado de flujo | Equipos alta productividad | $15/mes | Escritorio |
 | **[Warp](./warp)** | Terminal IA | UX terminal moderna | Flujos centrados en terminal | $7/mes | Escritorio |
 | **[v0.app](./v0-app)** | Constructor de apps | Generación texto-a-app | Prototipado rápido | $20/mes | Web |
+| **[Bolt.new](./bolt.new.md)** | Plataforma agéntica | Full‑stack en navegador con WebContainers | Cero configuración, full‑stack rápido | Gratis | Web |
 
 ---
 
@@ -31,33 +32,33 @@ Esta guía de comparación integral ayuda a los equipos de desarrollo a evaluar 
 
 ### Entorno de Desarrollo
 
-| Característica | Cursor | Claude Code | Windsurf | Warp | v0.app |
-|----------------|--------|-------------|----------|------|--------|
-| **Tipo de Interfaz** | IDE basado en VS Code | Terminal/CLI | IDE nativo | Terminal | Basado en web |
-| **Curva de Aprendizaje** | Muy Fácil | Moderada | Fácil | Fácil | Muy Fácil |
-| **Edición de Código** | IDE completo | Editor texto + CLI | IDE completo | Basado en terminal | Código generado |
-| **Soporte Multi-archivo** | Excelente | Basado en CLI | Excelente | Limitado | A nivel proyecto |
-| **Ecosistema Extensiones** | Extensiones VS Code | Enfocado en CLI | Ecosistema creciente | Plugins terminal | No aplicable |
+| Característica | Cursor | Claude Code | Windsurf | Warp | v0.app | Bolt.new |
+|----------------|--------|-------------|----------|------|--------|---------|
+| **Tipo de Interfaz** | IDE basado en VS Code | Terminal/CLI | IDE nativo | Terminal | Basado en web | IDE web |
+| **Curva de Aprendizaje** | Muy Fácil | Moderada | Fácil | Fácil | Muy Fácil | Fácil |
+| **Edición de Código** | IDE completo | Editor texto + CLI | IDE completo | Basado en terminal | Código generado | Generado + editor en navegador |
+| **Soporte Multi-archivo** | Excelente | Basado en CLI | Excelente | Limitado | A nivel proyecto | A nivel proyecto |
+| **Ecosistema Extensiones** | Extensiones VS Code | Enfocado en CLI | Ecosistema creciente | Plugins terminal | No aplicable | Web (limitado) |
 
 ### Capacidades de IA
 
-| Característica | Cursor | Claude Code | Windsurf | Warp | v0.app |
-|----------------|--------|-------------|----------|------|--------|
-| **Autocompletado Código** | Avanzado | Básico | Supercompleto | Autocompletado comandos | No aplicable |
-| **Lenguaje Natural** | Modo agente | Prompts CLI | Agente Cascade | Descripción comandos | Descripción apps |
-| **Tareas Multi-paso** | Flujos agente | Ejecución autónoma | Tareas estado flujo | Automatización flujos | Generación apps completa |
-| **Conciencia Contexto** | Indexación base código | Comprensión proyecto | Conciencia repo profunda | Contexto sesión | Arquitectura apps |
-| **Manejo Errores** | Detección automática | Corrección errores CLI | Depuración inteligente | Explicación comandos | Auto-corrección bugs |
+| Característica | Cursor | Claude Code | Windsurf | Warp | v0.app | Bolt.new |
+|----------------|--------|-------------|----------|------|--------|---------|
+| **Autocompletado Código** | Avanzado | Básico | Supercompleto | Autocompletado comandos | No aplicable | Generación agéntica |
+| **Lenguaje Natural** | Modo agente | Prompts CLI | Agente Cascade | Descripción comandos | Descripción apps | Lenguaje natural a features |
+| **Tareas Multi-paso** | Flujos agente | Ejecución autónoma | Tareas estado flujo | Automatización flujos | Generación apps completa | Scaffold full‑stack |
+| **Conciencia Contexto** | Indexación base código | Comprensión proyecto | Conciencia repo profunda | Contexto sesión | Arquitectura apps | Contexto arquitectura proyecto |
+| **Manejo Errores** | Detección automática | Corrección errores CLI | Depuración inteligente | Explicación comandos | Auto-corrección bugs | Auto rebuild y sugerencias |
 
 ### Integración y Flujo de Trabajo
 
-| Característica | Cursor | Claude Code | Windsurf | Warp | v0.app |
-|----------------|--------|-------------|----------|------|--------|
-| **Integración Git** | Git VS Code | Git CLI nativo | Git integrado | Comandos Git | Control versiones |
-| **GitHub/GitLab** | Revisiones BugBot | Automatización issues/PR | Sincronización repositorio | Colaboración | Hooks despliegue |
-| **Integración CI/CD** | Servidores MCP | GitHub Actions | Herramientas despliegue | Compartir flujos | Despliegue Vercel |
-| **Colaboración Equipo** | Configs compartidas | Políticas equipo | Compartir tiempo real | Team Drive | Compartir proyectos |
-| **Servicios Externos** | Protocolo MCP | Integraciones API | Protocolo MCP | Conexiones servicios | Ecosistema Vercel |
+| Característica | Cursor | Claude Code | Windsurf | Warp | v0.app | Bolt.new |
+|----------------|--------|-------------|----------|------|--------|---------|
+| **Integración Git** | Git VS Code | Git CLI nativo | Git integrado | Comandos Git | Control versiones | Integración Git |
+| **GitHub/GitLab** | Revisiones BugBot | Automatización issues/PR | Sincronización repositorio | Colaboración | Hooks despliegue | Repos GitHub |
+| **Integración CI/CD** | Servidores MCP | GitHub Actions | Herramientas despliegue | Compartir flujos | Despliegue Vercel | Hooks Vercel |
+| **Colaboración Equipo** | Configs compartidas | Políticas equipo | Compartir tiempo real | Team Drive | Compartir proyectos | Compartir proyectos |
+| **Servicios Externos** | Protocolo MCP | Integraciones API | Protocolo MCP | Conexiones servicios | Ecosistema Vercel | WebContainers, conectores API |
 
 ### Enterprise y Seguridad
 
@@ -116,19 +117,19 @@ Esta guía de comparación integral ayuda a los equipos de desarrollo a evaluar 
 4. Integrar con pipelines CI/CD existentes
 
 ### Equipos Desarrollo Pequeños
-**Recomendado: [Cursor](./cursor)**
+**Recomendado: [Cursor](./cursor) o [Bolt.new](./bolt.new.md)**
 
 **Por qué:**
-- **Costo-efectivo**: Solución herramienta única
-- **Familiar**: Interfaz basada en VS Code
-- **Integral**: Cubre mayoría necesidades desarrollo
-- **Escalable**: Crece con equipo según necesidades
+- **Cursor**: IDE familiar basado en VS Code, controles privacidad, todo-en-uno
+- **Bolt.new**: IDE en navegador sin configuración, scaffolding full‑stack instantáneo con WebContainers
+- **Integral**: Juntos cubren la mayoría de flujos de desarrollo
+- **Escalable**: Comienza gratis y escala según necesidades
 
 **Estrategia de Implementación:**
-1. Comenzar con tier gratuito para evaluar ajuste
-2. Actualizar a planes Pro según aumente uso
-3. Implementar estándares codificación equipos
-4. Medir mejoras productividad
+1. Comenzar con Bolt.new para prototipado rápido y scaffolding
+2. Transicionar a Cursor para edición profunda y políticas equipo
+3. Establecer estándares de codificación
+4. Medir mejoras de productividad
 
 ### Flujos Diseño-a-Código
 **Recomendado: [Windsurf](./windsurf) + [v0.app](./v0-app)**
@@ -157,9 +158,9 @@ Esta guía de comparación integral ayuda a los equipos de desarrollo a evaluar 
 - **Equipos distribuidos**: Warp + herramientas colaboración
 
 #### Cultura Técnica
-- **Enfocado GUI**: Cursor o Windsurf
+- **Enfocado GUI**: Cursor, Windsurf o Bolt.new (IDE web)
 - **CLI-first**: Claude Code + Warp
-- **Flujos mixtos**: Cursor + Claude Code
+- **Flujos mixtos**: Cursor + Claude Code + Bolt.new
 - **Pesado en diseño**: Windsurf + v0.app
 
 #### Nivel de Experiencia
@@ -219,6 +220,7 @@ Esta guía de comparación integral ayuda a los equipos de desarrollo a evaluar 
 | **Windsurf** | Gratis | $15 | Personalizado | Uso Flow Actions |
 | **Warp** | Gratis | $7 | Personalizado | Características colaboración equipos |
 | **v0.app** | Gratis | $20 | $100 | Consumo créditos |
+| **Bolt.new** | Gratis | $25 | $30 | Limitaciones navegador, vendor lock‑in |
 
 ### Marco Cálculo ROI
 
@@ -321,11 +323,11 @@ La elección de herramientas desarrollo IA impacta significativamente la product
 
 - **Mayoría equipos**: Comenzar con **[Cursor](./cursor)** por su interfaz familiar y características integrales
 - **Equipos enfocados CLI**: Comenzar con **[Warp](./warp)** y agregar **[Claude Code](./claude-code)** para automatización
-- **Equipos alta velocidad**: Evaluar **[Windsurf](./windsurf)** para máximas ganancias productividad
+- **Equipos alta velocidad**: Evaluar **[Windsurf](./windsurf)** o **[Bolt.new](./bolt.new.md)** para desarrollo end‑to‑end rápido
 - **Necesidades prototipado rápido**: Incorporar **[v0.app](./v0-app)** para desarrollo MVP
 
 Recuerda que estas herramientas evolucionan rápidamente, y la elección óptima puede cambiar según crezca tu equipo y avance la tecnología. Mantente informado sobre actualizaciones y prepárate para adaptar tu toolchain según continúe madurando el panorama desarrollo IA.
 
 ---
 
-*Última actualización: Enero 2025*
+

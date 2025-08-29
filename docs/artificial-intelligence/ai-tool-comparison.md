@@ -23,6 +23,7 @@ This comprehensive comparison guide helps development teams evaluate and select 
 | **[Windsurf](./windsurf)** | Agentic IDE | Flow state optimization | High-productivity teams | $15/month | Desktop |
 | **[Warp](./warp)** | AI terminal | Modern terminal UX | Terminal-focused workflows | $7/month | Desktop |
 | **[v0.app](./v0-app)** | App builder | Text-to-app generation | Rapid prototyping | $20/month | Web |
+| **[Bolt.new](./bolt.new.md)** | Agentic platform | Browser-based full-stack with WebContainers | Zero-setup, rapid full-stack | Free | Web |
 
 ---
 
@@ -30,43 +31,43 @@ This comprehensive comparison guide helps development teams evaluate and select 
 
 ### Development Environment
 
-| Feature | Cursor | Claude Code | Windsurf | Warp | v0.app |
-|---------|--------|-------------|----------|------|--------|
-| **Interface Type** | VS Code-based IDE | Terminal/CLI | Native IDE | Terminal | Web-based |
-| **Learning Curve** | Very Easy | Moderate | Easy | Easy | Very Easy |
-| **Code Editing** | Full IDE | Text editor + CLI | Full IDE | Terminal-based | Generated code |
-| **Multi-file Support** | Excellent | CLI-based | Excellent | Limited | Project-wide |
-| **Extension Ecosystem** | VS Code extensions | CLI-focused | Growing ecosystem | Terminal plugins | Not applicable |
+| Feature | Cursor | Claude Code | Windsurf | Warp | v0.app | Bolt.new |
+|---------|--------|-------------|----------|------|--------|---------|
+| **Interface Type** | VS Code-based IDE | Terminal/CLI | Native IDE | Terminal | Web-based | Web-based IDE |
+| **Learning Curve** | Very Easy | Moderate | Easy | Easy | Very Easy | Easy |
+| **Code Editing** | Full IDE | Text editor + CLI | Full IDE | Terminal-based | Generated code | Generated + in-browser editor |
+| **Multi-file Support** | Excellent | CLI-based | Excellent | Limited | Project-wide | Project-wide |
+| **Extension Ecosystem** | VS Code extensions | CLI-focused | Growing ecosystem | Terminal plugins | Not applicable | Web-based (limited) |
 
 ### AI Capabilities
 
-| Feature | Cursor | Claude Code | Windsurf | Warp | v0.app |
-|---------|--------|-------------|----------|------|--------|
-| **Code Completion** | Advanced | Basic | Supercomplete | Command completion | Not applicable |
-| **Natural Language** | Agent mode | CLI prompts | Cascade agent | Command description | App description |
-| **Multi-step Tasks** | Agent workflows | Autonomous execution | Flow state tasks | Workflow automation | Full app generation |
-| **Context Awareness** | Codebase indexing | Project understanding | Deep repo awareness | Session context | App architecture |
-| **Error Handling** | Automatic detection | CLI error fixing | Intelligent debugging | Command explanation | Auto bug fixing |
+| Feature | Cursor | Claude Code | Windsurf | Warp | v0.app | Bolt.new |
+|---------|--------|-------------|----------|------|--------|---------|
+| **Code Completion** | Advanced | Basic | Supercomplete | Command completion | Not applicable | Agentic generation |
+| **Natural Language** | Agent mode | CLI prompts | Cascade agent | Command description | App description | Natural language to features |
+| **Multi-step Tasks** | Agent workflows | Autonomous execution | Flow state tasks | Workflow automation | Full app generation | Full-stack scaffolding |
+| **Context Awareness** | Codebase indexing | Project understanding | Deep repo awareness | Session context | App architecture | Project architecture context |
+| **Error Handling** | Automatic detection | CLI error fixing | Intelligent debugging | Command explanation | Auto bug fixing | Auto rebuild & fix suggestions |
 
 ### Integration & Workflow
 
-| Feature | Cursor | Claude Code | Windsurf | Warp | v0.app |
-|---------|--------|-------------|----------|------|--------|
-| **Git Integration** | ✅ VS Code git | ✅ Native CLI git | ✅ Built-in git | ✅ Git commands | ✅ Version control |
-| **GitHub/GitLab** | ✅ BugBot reviews | ✅ Issues/PR automation | ✅ Repository sync | ✅ Collaboration | ✅ Deployment hooks |
-| **CI/CD Integration** | ✅ MCP servers | ✅ GitHub Actions | ✅ Deployment tools | ✅ Workflow sharing | ✅ Vercel deployment |
-| **Team Collaboration** | ✅ Shared configs | ✅ Team policies | ✅ Real-time sharing | ✅ Team Drive | ✅ Project sharing |
-| **External Services** | ✅ MCP protocol | ✅ API integrations | ✅ MCP protocol | ✅ Service connections | ✅ Vercel ecosystem |
+| Feature | Cursor | Claude Code | Windsurf | Warp | v0.app | Bolt.new |
+|---------|--------|-------------|----------|------|--------|---------|
+| **Git Integration** | VS Code git | Native CLI git | Built-in git | Git commands | Version control | Git integration |
+| **GitHub/GitLab** | BugBot reviews | Issues/PR automation | Repository sync | Collaboration | Deployment hooks | GitHub repos |
+| **CI/CD Integration** | MCP servers | GitHub Actions | Deployment tools | Workflow sharing | Vercel deployment | Vercel deploy hooks |
+| **Team Collaboration** | Shared configs | Team policies | Real-time sharing | Team Drive | Project sharing | Project sharing |
+| **External Services** | MCP protocol | API integrations | MCP protocol | Service connections | Vercel ecosystem | WebContainers, API connectors |
 
 ### Enterprise & Security
 
-| Feature | Cursor | Claude Code | Windsurf | Warp | v0.app |
-|---------|--------|-------------|----------|------|--------|
-| **Privacy Mode** | ✅ Local processing | ✅ ZDR available | ✅ Local execution | ✅ Privacy controls | ⚠️ Cloud-based |
-| **Enterprise Admin** | ✅ Team management | ✅ Enterprise controls | ✅ Admin dashboard | ✅ Team policies | ✅ Organization management |
-| **SSO Integration** | ✅ Available | ✅ Enterprise feature | ✅ Supported | ✅ SAML/SSO | ✅ Team accounts |
-| **Compliance** | ✅ SOC 2 certified | ✅ Enterprise grade | ✅ Security focused | ✅ Data protection | ⚠️ Limited compliance |
-| **Audit Logging** | ✅ Usage tracking | ✅ Comprehensive logs | ✅ Activity monitoring | ✅ Team analytics | ✅ Usage metrics |
+| Feature | Cursor | Claude Code | Windsurf | Warp | v0.app | Bolt.new |
+|---------|--------|-------------|----------|------|--------|---------|
+| **Privacy Mode** | Local processing | ZDR available | Local execution | Privacy controls | Cloud-based | Cloud-based |
+| **Enterprise Admin** | Team management | Enterprise controls | Admin dashboard | Team policies |  Organization management | Team/Org projects |
+| **SSO Integration** | Available | Enterprise feature | Supported | SAML/SSO | Team accounts | Limited |
+| **Compliance** | SOC 2 certified | Enterprise grade | Security focused | Data protection | Limited compliance | Limited compliance |
+| **Audit Logging** | Usage tracking | Comprehensive logs | Activity monitoring |Team analytics | Usage metrics | Usage metrics |
 
 ---
 
@@ -115,18 +116,18 @@ This comprehensive comparison guide helps development teams evaluate and select 
 4. Integrate with existing CI/CD pipelines
 
 ### Small Development Teams
-**Recommended: [Cursor](./cursor)**
+**Recommended: [Cursor](./cursor) or [Bolt.new](./bolt.new.md)**
 
 **Why:**
-- **Cost-effective**: Single tool solution
-- **Familiar**: VS Code-based interface
-- **Comprehensive**: Covers most development needs
-- **Scalable**: Grow with team as needed
+- **Cursor**: Familiar VS Code-based IDE, strong privacy controls, all-in-one
+- **Bolt.new**: Zero-setup browser IDE, instant full‑stack scaffolding with WebContainers
+- **Comprehensive**: Together cover most development workflows
+- **Scalable**: Start free and scale as needed
 
 **Implementation Strategy:**
-1. Begin with free tier to evaluate fit
-2. Upgrade to Pro plans as usage increases
-3. Implement team coding standards
+1. Start with Bolt.new for rapid prototyping and scaffolding
+2. Transition to Cursor for deeper editing and team policies
+3. Establish team coding standards
 4. Measure productivity improvements
 
 ### Design-to-Code Workflows
@@ -156,9 +157,9 @@ This comprehensive comparison guide helps development teams evaluate and select 
 - **Distributed teams**: Warp + collaboration tools
 
 #### Technical Culture
-- **GUI-focused**: Cursor or Windsurf
+- **GUI-focused**: Cursor, Windsurf or Bolt.new (browser IDE)
 - **CLI-first**: Claude Code + Warp
-- **Mixed workflows**: Cursor + Claude Code
+- **Mixed workflows**: Cursor + Claude Code + Bolt.new
 - **Design-heavy**: Windsurf + v0.app
 
 #### Experience Level
@@ -218,6 +219,7 @@ This comprehensive comparison guide helps development teams evaluate and select 
 | **Windsurf** | Free | $15 | Custom | Flow Actions usage |
 | **Warp** | Free | $7 | Custom | Team collaboration features |
 | **v0.app** | Free | $20 | $100 | Credit consumption |
+| **Bolt.new** | Free | $— | $— | Browser limitations, vendor lock-in |
 
 ### ROI Calculation Framework
 
@@ -320,11 +322,10 @@ The choice of AI development tools significantly impacts team productivity, code
 
 - **Most teams**: Start with **[Cursor](./cursor)** for its familiar interface and comprehensive features
 - **CLI-focused teams**: Begin with **[Warp](./warp)** and add **[Claude Code](./claude-code)** for automation
-- **High-velocity teams**: Evaluate **[Windsurf](./windsurf)** for maximum productivity gains
+- **High-velocity teams**: Evaluate **[Windsurf](./windsurf)** or **[Bolt.new](./bolt.new.md)** for rapid end‑to‑end development
 - **Rapid prototyping needs**: Incorporate **[v0.app](./v0-app)** for MVP development
 
 Remember that these tools are rapidly evolving, and the optimal choice may change as your team grows and technology advances. Stay informed about updates and be prepared to adapt your toolchain as the AI development landscape continues to mature.
 
 ---
 
-*Last updated: January 2025*

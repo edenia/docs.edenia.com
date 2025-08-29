@@ -85,5 +85,4 @@ keywords: [bolt.new, desarrollo agéntico IA, plataforma desarrollo navegador, w
 
 ---
 
-*Última actualización: Enero 2025*
 

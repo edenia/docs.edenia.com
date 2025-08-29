@@ -2,6 +2,8 @@
 id: claude-model
 title: Claude (Anthropic)
 sidebar_position: 8
+description: Complete guide to Claude AI models by Anthropic, featuring Constitutional AI framework, advanced reasoning, and excellent coding capabilities
+keywords: [Claude, Anthropic, Constitutional AI, AI model, LLM, coding assistant, reasoning, enterprise AI, safety AI, Claude Opus]
 ---
 
 ## What is Claude?

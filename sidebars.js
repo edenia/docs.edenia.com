@@ -94,6 +94,7 @@ module.exports = {
             "artificial-intelligence/models/gpt5-model",
             "artificial-intelligence/models/deepseek-model",
             "artificial-intelligence/models/grok-model",
+            "artificial-intelligence/models/gemini-model",
           ],
         },
       ],

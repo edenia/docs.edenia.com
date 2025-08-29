@@ -14,7 +14,7 @@ Bienvenido a la sección de **Modelos de Inteligencia Artificial**. Aquí encont
 
 ## Modelos Destacados
 
-### [GPT-5 (OpenAI)](./gpt5-model)
+### [GPT-5 (OpenAI)](/docs/artificial-intelligence/models/gpt5-model)
 El modelo más avanzado de OpenAI, lanzado en 2025, con capacidades multimodales para razonamiento profundo, generación de código y escritura creativa.
 
 **Características principales:**
@@ -23,7 +23,7 @@ El modelo más avanzado de OpenAI, lanzado en 2025, con capacidades multimodales
 - Variantes: estándar, mini, nano, Thinking
 - Mejoras en velocidad, precisión y reducción de alucinaciones
 
-### [Claude (Anthropic)](./claude-model)
+### [Claude (Anthropic)](/docs/artificial-intelligence/models/claude-model)
 Familia de modelos desarrollados por Anthropic, construidos sobre el marco innovador de **Constitutional AI** para alinearse con valores humanos y ética.
 
 **Características principales:**
@@ -32,7 +32,7 @@ Familia de modelos desarrollados por Anthropic, construidos sobre el marco innov
 - Capacidades agenticas y de uso de herramientas
 - Integración con búsqueda web y navegación por internet
 
-### [DeepSeek (DeepSeek Inc.)](./deepseek-model)
+### [DeepSeek (DeepSeek Inc.)](/docs/artificial-intelligence/models/deepseek-model)
 Startup china pionera en modelos de IA de código abierto que rivalizan con contrapartes occidentales a una fracción del costo.
 
 **Características principales:**
@@ -41,7 +41,7 @@ Startup china pionera en modelos de IA de código abierto que rivalizan con cont
 - Arquitectura híbrida "thinking" y "non-thinking"
 - Licencias transparentes (MIT) y disponibles en Hugging Face
 
-### [Grok (xAI)](./grok-model)
+### [Grok (xAI)](/docs/artificial-intelligence/models/grok-model)
 Chatbot conversacional avanzado desarrollado por xAI, fundada por Elon Musk, con integración en tiempo real con el ecosistema X y Tesla.
 
 **Características principales:**
@@ -49,6 +49,15 @@ Chatbot conversacional avanzado desarrollado por xAI, fundada por Elon Musk, con
 - Modos avanzados como "Think" y "Big Brain"
 - Integración con X, Tesla y otros productos
 - Disponible en modo gratuito limitado en X Premium+
+
+### [Gemini (Google)](/docs/artificial-intelligence/models/gemini-model)
+Familia de modelos de IA multimodal de Google, profundamente integrada en el ecosistema de Google incluyendo Android, Chrome y Google Workspace.
+
+**Características principales:**
+- Procesamiento multimodal nativo (texto, imágenes, audio, video)
+- Ventanas de contexto hasta 2 millones de tokens
+- Integración profunda con servicios de Google
+- Variantes desde dispositivo (Nano) hasta nube (Pro)
 
 ---
 
@@ -60,8 +69,9 @@ Chatbot conversacional avanzado desarrollado por xAI, fundada por Elon Musk, con
 | **Claude (Opus 4.1)** | Anthropic | Cerrado | grande (variante) | Coding y refactor multi-archivo, razonamiento cauteloso | Latencia en modos profundos | Ingeniería compleja, flujos críticos |
 | **DeepSeek (R1/V3)** | DeepSeek Inc. | Abierto | hasta ~128K | Precio/rendimiento, Coder-V2, apertura | Gobernanza y datos en China | Prototipos, self-hosting, costo sensible |
 | **Grok 4** | xAI | Cerrado | ~128K | Datos en vivo, integraciones X/Tesla, herramientas nativas | Menos amplitud enterprise | Apps sociales, tiempo real, consumo |
+| **Gemini 1.5 Pro** | Google | Cerrado | hasta ~2M | Multimodal nativo, ecosistema Google, contexto ultra-largo | Menos diversidad de modelos | Apps multimodales, integración Google, documentos largos |
 
-Palabras clave: comparación de LLMs, modelos de IA para desarrolladores, Claude vs GPT-5, DeepSeek vs GPT-5, Grok vs GPT-5.
+
 
 ---
 
@@ -91,6 +101,12 @@ Palabras clave: comparación de LLMs, modelos de IA para desarrolladores, Claude
 - Integración con redes sociales
 - Tareas de razonamiento complejo
 
+### **Gemini**
+- Desarrollo de aplicaciones multimodales
+- Procesamiento de documentos largos
+- Integración con servicios de Google
+- Análisis de imágenes y video
+
 ---
 
 ## Recomendaciones de Uso
@@ -100,18 +116,21 @@ Palabras clave: comparación de LLMs, modelos de IA para desarrolladores, Claude
 - **Claude**: Refactorización y debugging avanzado
 - **DeepSeek**: Desarrollo multi-lenguaje y código abierto
 - **Grok**: Integración con APIs y herramientas en tiempo real
+- **Gemini**: Aplicaciones multimodales e integración con Google
 
 ### **Para Empresas**
 - **GPT-5**: Automatización de tareas complejas
 - **Claude**: Flujos de trabajo críticos y sensibles
 - **DeepSeek**: Soluciones costo-efectivas
 - **Grok**: Aplicaciones de usuario final integradas
+- **Gemini**: Procesamiento multimodal y ecosistema Google
 
 ### **Para Investigadores**
 - **GPT-5**: Análisis de datos extensos
 - **Claude**: Investigación ética y responsable
 - **DeepSeek**: Experimentación con modelos abiertos
 - **Grok**: Investigación en integración de sistemas
+- **Gemini**: Investigación multimodal y contextos largos
 
 ---
 
@@ -124,4 +143,3 @@ Palabras clave: comparación de LLMs, modelos de IA para desarrolladores, Claude
 
 ---
 
-*Esta sección continuará evolucionando con nuevos modelos y actualizaciones de capacidades.*

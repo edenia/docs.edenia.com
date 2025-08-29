@@ -85,4 +85,4 @@ keywords: [bolt.new, AI agentic development, browser development platform, webco
 
 ---
 
-*Last updated: January 2025*
+

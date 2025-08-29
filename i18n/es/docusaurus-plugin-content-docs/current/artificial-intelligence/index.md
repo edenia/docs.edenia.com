@@ -97,7 +97,7 @@ Desde 2020, la aparición de los **modelos fundacionales** (como GPT, Claude, Ge
 
 Explora los modelos más avanzados y sus capacidades:
 
-- **[Modelos de IA](./models/)**: Guía completa de GPT-5, Claude, DeepSeek, Grok y más.  
+- **[Modelos de IA](/docs/artificial-intelligence/models/)**: Guía completa de GPT-5, Claude, DeepSeek, Grok y más.
 - **Comparación de Modelos**: Análisis detallado de fortalezas, casos de uso y recomendaciones.  
 - **Mejores Prácticas**: Guías para elegir y usar el modelo de IA adecuado según tus necesidades.  
 
