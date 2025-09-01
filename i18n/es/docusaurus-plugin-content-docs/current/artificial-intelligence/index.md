@@ -77,8 +77,8 @@ Desde 2020, la aparición de los **modelos fundacionales** (como GPT, Claude, Ge
 
 ### Desarrollo de Software
 
-- **Asistentes de Programación con IA**: [Cursor IDE](./cursor.md), [Claude Code](./claude-code.md), [Windsurf IDE](./windsurf.md), [Terminal Warp](./warp.md)  
-- **Generadores de Aplicaciones**: [v0.app](./v0.md) para prototipado y despliegue rápido, [Bolt.new](./bolt.new.md) para desarrollo agéntico completo en navegador  
+- **Asistentes de Programación con IA**: [Cursor IDE](/docs/artificial-intelligence/cursor), [Claude Code](/docs/artificial-intelligence/claude-code), [Windsurf IDE](/docs/artificial-intelligence/windsurf), [Terminal Warp](/docs/artificial-intelligence/warp)  
+- **Generadores de Aplicaciones**: [v0.app](/docs/artificial-intelligence/v0-app) para prototipado y despliegue rápido, [Bolt.new](/docs/artificial-intelligence/bolt-new) para desarrollo agéntico completo en navegador  
 - **Testing Automatizado**: Corrección de errores y mejoras en CI/CD  
 - **Observabilidad**: Análisis de logs y métricas de rendimiento con IA  
 
@@ -86,12 +86,12 @@ Desde 2020, la aparición de los **modelos fundacionales** (como GPT, Claude, Ge
 
 | Herramienta | Tipo | Fortalezas | Ideal Para |
 |-------------|------|------------|------------|
-| **[Cursor](./cursor.md)** | IDE con IA | Experiencia similar a VS Code, fuerte privacidad | Equipos que quieran VS Code + IA |
-| **[Claude Code](./claude-code.md)** | Asistente en CLI | Orientado a terminal, controles empresariales | DevOps y equipos de automatización |
-| **[Windsurf](./windsurf.md)** | IDE agéntico | Optimización de flujo, comprensión profunda | Desarrollo de alta productividad |
-| **[Warp](./warp.md)** | Terminal con IA | UX moderna, colaboración | Flujos centrados en terminal |
-| **[v0.app](./v0.md)** | Generador de apps | De texto a aplicación funcional | Prototipos rápidos, MVPs |
-| **[Bolt.new](./bolt.new.md)** | Plataforma agéntica | Desarrollo completo en navegador, WebContainers | Desarrollo full-stack sin configuración local |
+| **[Cursor](/docs/artificial-intelligence/cursor)** | IDE con IA | Experiencia similar a VS Code, fuerte privacidad | Equipos que quieran VS Code + IA |
+| **[Claude Code](/docs/artificial-intelligence/claude-code)** | Asistente en CLI | Orientado a terminal, controles empresariales | DevOps y equipos de automatización |
+| **[Windsurf](/docs/artificial-intelligence/windsurf)** | IDE agéntico | Optimización de flujo, comprensión profunda | Desarrollo de alta productividad |
+| **[Warp](/docs/artificial-intelligence/warp)** | Terminal con IA | UX moderna, colaboración | Flujos centrados en terminal |
+| **[v0.app](/docs/artificial-intelligence/v0-app)** | Generador de apps | De texto a aplicación funcional | Prototipos rápidos, MVPs |
+| **[Bolt.new](/docs/artificial-intelligence/bolt-new)** | Plataforma agéntica | Desarrollo completo en navegador, WebContainers | Desarrollo full-stack sin configuración local |
 
 ### Modelos de IA
 

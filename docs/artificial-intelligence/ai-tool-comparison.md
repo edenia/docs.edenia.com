@@ -23,7 +23,7 @@ This comprehensive comparison guide helps development teams evaluate and select 
 | **[Windsurf](./windsurf)** | Agentic IDE | Flow state optimization | High-productivity teams | $15/month | Desktop |
 | **[Warp](./warp)** | AI terminal | Modern terminal UX | Terminal-focused workflows | $7/month | Desktop |
 | **[v0.app](./v0-app)** | App builder | Text-to-app generation | Rapid prototyping | $20/month | Web |
-| **[Bolt.new](./bolt.new.md)** | Agentic platform | Browser-based full-stack with WebContainers | Zero-setup, rapid full-stack | Free | Web |
+| **[Bolt.new](./bolt-new)** | Agentic platform | Browser-based full-stack with WebContainers | Zero-setup, rapid full-stack | Free | Web |
 
 ---
 
@@ -116,7 +116,7 @@ This comprehensive comparison guide helps development teams evaluate and select 
 4. Integrate with existing CI/CD pipelines
 
 ### Small Development Teams
-**Recommended: [Cursor](./cursor) or [Bolt.new](./bolt.new.md)**
+**Recommended: [Cursor](./cursor) or [Bolt.new](./bolt-new)**
 
 **Why:**
 - **Cursor**: Familiar VS Code-based IDE, strong privacy controls, all-in-one
@@ -322,7 +322,7 @@ The choice of AI development tools significantly impacts team productivity, code
 
 - **Most teams**: Start with **[Cursor](./cursor)** for its familiar interface and comprehensive features
 - **CLI-focused teams**: Begin with **[Warp](./warp)** and add **[Claude Code](./claude-code)** for automation
-- **High-velocity teams**: Evaluate **[Windsurf](./windsurf)** or **[Bolt.new](./bolt.new.md)** for rapid end‑to‑end development
+- **High-velocity teams**: Evaluate **[Windsurf](./windsurf)** or **[Bolt.new](./bolt-new)** for rapid end‑to‑end development
 - **Rapid prototyping needs**: Incorporate **[v0.app](./v0-app)** for MVP development
 
 Remember that these tools are rapidly evolving, and the optimal choice may change as your team grows and technology advances. Stay informed about updates and be prepared to adapt your toolchain as the AI development landscape continues to mature.

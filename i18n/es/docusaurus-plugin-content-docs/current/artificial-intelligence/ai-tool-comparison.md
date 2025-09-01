@@ -24,7 +24,7 @@ Esta guía de comparación integral ayuda a los equipos de desarrollo a evaluar 
 | **[Windsurf](./windsurf)** | IDE agéntico | Optimización estado de flujo | Equipos alta productividad | $15/mes | Escritorio |
 | **[Warp](./warp)** | Terminal IA | UX terminal moderna | Flujos centrados en terminal | $7/mes | Escritorio |
 | **[v0.app](./v0-app)** | Constructor de apps | Generación texto-a-app | Prototipado rápido | $20/mes | Web |
-| **[Bolt.new](./bolt.new.md)** | Plataforma agéntica | Full‑stack en navegador con WebContainers | Cero configuración, full‑stack rápido | Gratis | Web |
+| **[Bolt.new](./bolt-new)** | Plataforma agéntica | Full‑stack en navegador con WebContainers | Cero configuración, full‑stack rápido | Gratis | Web |
 
 ---
 
@@ -117,7 +117,7 @@ Esta guía de comparación integral ayuda a los equipos de desarrollo a evaluar 
 4. Integrar con pipelines CI/CD existentes
 
 ### Equipos Desarrollo Pequeños
-**Recomendado: [Cursor](./cursor) o [Bolt.new](./bolt.new.md)**
+**Recomendado: [Cursor](./cursor) o [Bolt.new](./bolt-new)**
 
 **Por qué:**
 - **Cursor**: IDE familiar basado en VS Code, controles privacidad, todo-en-uno
@@ -323,7 +323,7 @@ La elección de herramientas desarrollo IA impacta significativamente la product
 
 - **Mayoría equipos**: Comenzar con **[Cursor](./cursor)** por su interfaz familiar y características integrales
 - **Equipos enfocados CLI**: Comenzar con **[Warp](./warp)** y agregar **[Claude Code](./claude-code)** para automatización
-- **Equipos alta velocidad**: Evaluar **[Windsurf](./windsurf)** o **[Bolt.new](./bolt.new.md)** para desarrollo end‑to‑end rápido
+- **Equipos alta velocidad**: Evaluar **[Windsurf](./windsurf)** o **[Bolt.new](./bolt-new)** para desarrollo end‑to‑end rápido
 - **Necesidades prototipado rápido**: Incorporar **[v0.app](./v0-app)** para desarrollo MVP
 
 Recuerda que estas herramientas evolucionan rápidamente, y la elección óptima puede cambiar según crezca tu equipo y avance la tecnología. Mantente informado sobre actualizaciones y prepárate para adaptar tu toolchain según continúe madurando el panorama desarrollo IA.

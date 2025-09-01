@@ -26,6 +26,8 @@ OpenAI's most advanced model, released in 2025, with multimodal capabilities for
 - Variants: standard, mini, nano, Thinking
 - Improvements in speed, accuracy, and reduced hallucinations
 
+---
+
 ### [Claude (Anthropic)](/docs/artificial-intelligence/models/claude-model)
 
 <img src="/img/artificial-intelligence/models/claude.svg" alt="Claude Logo" class="ai-logo logo-claude" />
@@ -37,6 +39,8 @@ Model family developed by Anthropic, built on the innovative **Constitutional AI
 - Better performance in coding (74.5% on SWE-bench Verified)
 - Agentic capabilities and tool use
 - Integration with web search and browsing
+
+---
 
 ### [DeepSeek (DeepSeek Inc.)](/docs/artificial-intelligence/models/deepseek-model)
 
@@ -50,6 +54,8 @@ Chinese startup pioneering open-source AI models that rival Western counterparts
 - Hybrid "thinking" and "non-thinking" architecture
 - Transparent licenses (MIT) and available on Hugging Face
 
+---
+
 ### [Grok (xAI)](/docs/artificial-intelligence/models/grok-model)
 
 <img src="/img/artificial-intelligence/models/grok.svg" alt="Grok Logo" class="ai-logo logo-grok" />
@@ -61,6 +67,8 @@ Advanced conversational chatbot developed by xAI, founded by Elon Musk, with rea
 - Advanced modes like "Think" and "Big Brain"
 - Integration with X, Tesla and other products
 - Available in limited free mode on X Premium+
+
+---
 
 ### [Gemini (Google)](/docs/artificial-intelligence/models/gemini-model)
 
