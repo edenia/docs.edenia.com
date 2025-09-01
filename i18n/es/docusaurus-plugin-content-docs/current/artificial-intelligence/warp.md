@@ -60,7 +60,7 @@ Warp 2.0 introduce **workflows agénticos**: los agentes pueden recibir autonom�
 ### Colaboración Fluida con Bloques Compartidos
 ¿Necesitas depurar con un colega? Comparte un bloque específico de entrada/salida con un enlace permanente para que vea exactamente lo mismo que tú.  
 
-### ⚙️ UX Personalizada y Control de IA
+### UX Personalizada y Control de IA
 Los usuarios elogian la integración de IA en Warp, aunque también piden controles más granulares para activar o desactivar comportamientos específicos de IA.  
 
 ---

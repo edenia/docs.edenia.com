@@ -29,7 +29,7 @@ Lanzado por el equipo detrás de **Codeium**, que reimaginó VS Code como un edi
 - **Tab… Tab… Ship** ofrece autocompletado generativo con corrección de errores gracias a linters integrados.  
 - **Supercomplete** predice la intención a mayor nivel—generando funciones completas con docstrings precisos según el contexto.  
 
-### 👀 Vistas Previas en Vivo, Despliegue & Herramientas MCP
+### Vistas Previas en Vivo, Despliegue & Herramientas MCP
 
 - **Windsurf Previews** permite hacer clic en elementos de la interfaz en una vista previa dentro del IDE, refactorizar instantáneamente y desplegar—todo sin salir del editor.  
 - Compatible con despliegues en vivo mediante experiencia de un clic.  
