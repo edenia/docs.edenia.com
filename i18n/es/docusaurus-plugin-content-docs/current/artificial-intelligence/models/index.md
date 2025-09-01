@@ -16,7 +16,7 @@ Bienvenido a la sección de **Modelos de Inteligencia Artificial**. Aquí encont
 
 ### [GPT-5 (OpenAI)](/docs/artificial-intelligence/models/gpt5-model)
 
-![Logo OpenAI](/img/artificial-intelligence/models/openai.svg)
+<img src="/img/artificial-intelligence/models/openai.svg" alt="Logo OpenAI" class="ai-logo logo-openai" />
 
 El modelo más avanzado de OpenAI, lanzado en 2025, con capacidades multimodales para razonamiento profundo, generación de código y escritura creativa.
 
@@ -28,7 +28,7 @@ El modelo más avanzado de OpenAI, lanzado en 2025, con capacidades multimodales
 
 ### [Claude (Anthropic)](/docs/artificial-intelligence/models/claude-model)
 
-![Logo Claude](/img/artificial-intelligence/models/claude.svg)
+<img src="/img/artificial-intelligence/models/claude.svg" alt="Logo Claude" class="ai-logo logo-claude" />
 
 Familia de modelos desarrollados por Anthropic, construidos sobre el marco innovador de **Constitutional AI** para alinearse con valores humanos y ética.
 
@@ -40,7 +40,7 @@ Familia de modelos desarrollados por Anthropic, construidos sobre el marco innov
 
 ### [DeepSeek (DeepSeek Inc.)](/docs/artificial-intelligence/models/deepseek-model)
 
-![Logo DeepSeek](/img/artificial-intelligence/models/deepseek.svg)
+<img src="/img/artificial-intelligence/models/deepseek.svg" alt="Logo DeepSeek" class="ai-logo" />
 
 Startup china pionera en modelos de IA de código abierto que rivalizan con contrapartes occidentales a una fracción del costo.
 
@@ -52,7 +52,7 @@ Startup china pionera en modelos de IA de código abierto que rivalizan con cont
 
 ### [Grok (xAI)](/docs/artificial-intelligence/models/grok-model)
 
-![Logo Grok](/img/artificial-intelligence/models/grok.svg)
+<img src="/img/artificial-intelligence/models/grok.svg" alt="Logo Grok" class="ai-logo logo-grok" />
 
 Chatbot conversacional avanzado desarrollado por xAI, fundada por Elon Musk, con integración en tiempo real con el ecosistema X y Tesla.
 
@@ -64,7 +64,7 @@ Chatbot conversacional avanzado desarrollado por xAI, fundada por Elon Musk, con
 
 ### [Gemini (Google)](/docs/artificial-intelligence/models/gemini-model)
 
-![Logo Google Gemini](/img/artificial-intelligence/models/gemini.svg)
+<img src="/img/artificial-intelligence/models/gemini.svg" alt="Logo Google Gemini" class="ai-logo" />
 
 Familia de modelos de IA multimodal de Google, profundamente integrada en el ecosistema de Google incluyendo Android, Chrome y Google Workspace.
 

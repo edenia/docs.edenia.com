@@ -6,9 +6,10 @@ description: Guía completa de los modelos Claude de Anthropic, con marco Consti
 keywords: [Claude, Anthropic, Constitutional AI, modelo IA, LLM, asistente programación, razonamiento, IA empresarial, IA segura, Claude Opus]
 ---
 
-## ¿Qué es Claude?
 
-**Claude** es la familia de LLMs de Anthropic, lanzada en **2023** y evolucionada a través de las series 2.x, 3.x y 4.x. Se basa en **Constitutional AI** y es conocida por programación sólida, razonamiento cuidadoso y orientación enterprise. La variante insignia **Claude Opus 4.1** reporta rendimiento líder en coding.
+<img src="/img/artificial-intelligence/models/claude.svg" alt="Logo Claude" class="ai-logo logo-claude" />
+
+**Claude** es una familia de modelos de lenguaje (LLM) desarrollados por **Anthropic**, una empresa de investigación y seguridad de IA. Construidos sobre el marco innovador de **Constitutional AI**, los modelos Claude están diseñados para ser útiles, inofensivos y honestos mientras mantienen un rendimiento sólido en varias tareas.
 
 ---
 
@@ -61,7 +62,6 @@ keywords: [Claude, Anthropic, Constitutional AI, modelo IA, LLM, asistente progr
 - **Claude vs Grok**: Grok 4 se centra en integraciones en tiempo real con X/Tesla; Claude es más conservador y enterprise para equipos de software.  
 - **Claude vs Gemini**: Gemini lidera en multimodalidad Google-native; Claude suele ganar en análisis estructurado y código.
 
-Incluye keywords: modelos de IA para desarrolladores, comparación de LLMs, Claude vs GPT-5, Claude vs DeepSeek.
 
 ---
 

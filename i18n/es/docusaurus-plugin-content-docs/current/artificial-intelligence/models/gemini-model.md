@@ -6,9 +6,10 @@ description: Guía completa de los modelos Gemini de Google, con capacidades mul
 keywords: [Gemini, Google AI, IA multimodal, Google DeepMind, Bard, Android AI, contexto largo, Google Workspace, análisis imágenes, comprensión video]
 ---
 
-## ¿Qué es Gemini?
 
-**Gemini** es la familia de modelos de IA más avanzada de Google, lanzada en **2023** y evolucionada continuamente durante 2024-2025. Originalmente conocido como Bard, Gemini ahora está profundamente integrado en el ecosistema de Google, incluyendo Android, Chrome, Búsqueda, Gmail y Google Workspace. Está construido sobre una arquitectura multimodal capaz de entender y generar contenido de texto, imágenes, audio y video.
+<img src="/img/artificial-intelligence/models/gemini.svg" alt="Logo Google Gemini" class="ai-logo" />
+
+**Gemini** es la familia de modelos de IA más avanzada de Google, diseñada para ser multimodal desde su concepción. Puede entender y trabajar con texto, imágenes, audio y video simultáneamente, convirtiéndola en uno de los modelos de IA más versátiles disponibles hoy en día.
 
 ---
 
@@ -66,7 +67,6 @@ keywords: [Gemini, Google AI, IA multimodal, Google DeepMind, Bard, Android AI, 
 - **Gemini vs DeepSeek**: DeepSeek es código abierto y costo-efectivo; Gemini ofrece integración empresarial con Google y capacidades multimodales.  
 - **Gemini vs Grok**: Grok enfatiza datos sociales en tiempo real; Gemini proporciona comprensión multimodal integral y características empresariales.
 
-Incluir palabras clave: IA multimodal, integración ecosistema Google, IA contexto largo, Gemini vs GPT-5, Gemini vs Claude.
 
 ---
 

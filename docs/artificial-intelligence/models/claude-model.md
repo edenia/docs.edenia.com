@@ -6,9 +6,8 @@ description: Complete guide to Claude AI models by Anthropic, featuring Constitu
 keywords: [Claude, Anthropic, Constitutional AI, AI model, LLM, coding assistant, reasoning, enterprise AI, safety AI, Claude Opus]
 ---
 
-## What is Claude?
 
-![Claude Logo](/img/artificial-intelligence/models/claude.svg)
+<img src="/img/artificial-intelligence/models/claude.svg" alt="Claude Logo" class="ai-logo logo-claude" />
 
 **Claude** is a family of large language models (LLMs) developed by **Anthropic**, an AI safety and research company. Built on the innovative **Constitutional AI** framework, Claude models are designed to be helpful, harmless, and honest while maintaining strong performance across various tasks.
 
@@ -62,8 +61,6 @@ keywords: [Claude, Anthropic, Constitutional AI, AI model, LLM, coding assistant
 - **Claude vs DeepSeek**: DeepSeek is cost-efficient and open; Claude provides higher alignment guarantees and polished DX.  
 - **Claude vs Grok**: Grok 4 emphasizes real-time X/Tesla ecosystems; Claude is more conservative and enterprise-friendly for software teams.  
 - **Claude vs Gemini**: Gemini leads in native multimodality and Google integrations; Claude often wins for structured analysis and code.
-
-Include keywords: AI models for developers, LLMs comparison, Claude vs GPT-5, Claude vs DeepSeek.
 
 ---
 

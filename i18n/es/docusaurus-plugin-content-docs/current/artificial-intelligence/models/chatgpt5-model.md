@@ -6,7 +6,8 @@ description: Guía completa de GPT-5, el modelo de lenguaje más avanzado de Ope
 keywords: [GPT-5, OpenAI, ChatGPT, modelo IA, LLM, IA multimodal, modelo razonamiento, Microsoft Copilot, generación código, Azure OpenAI]
 ---
 
-## ¿Qué es GPT-5?
+
+<img src="/img/artificial-intelligence/models/openai.svg" alt="Logo OpenAI" class="ai-logo logo-openai" />
 
 **GPT-5** es la familia insignia de modelos de lenguaje (LLM) de OpenAI, lanzada en **2025**. Unifica modelos rápidos con variantes de razonamiento profundo y ofrece comprensión multimodal (texto, código, imagen) con alta confiabilidad para flujos de trabajo de desarrollo. Impulsa ChatGPT y se integra ampliamente en productos de Microsoft (p. ej., Copilot).
 
@@ -62,8 +63,6 @@ keywords: [GPT-5, OpenAI, ChatGPT, modelo IA, LLM, IA multimodal, modelo razonam
 - **DeepSeek vs GPT-5**: DeepSeek (R1/V3) ofrece opciones abiertas y de bajo costo con buen razonamiento/código. Elige GPT-5 para estabilidad enterprise, seguridad y cumplimiento gestionado.  
 - **Grok vs GPT-5**: Grok 4 enfatiza integraciones en tiempo real con X/Tesla; GPT-5 suele ser más sólido en tooling para desarrolladores y manejo de contexto.  
 - **Gemini vs GPT-5**: Gemini resalta en multimodalidad nativa y ecosistema Google; GPT-5 suele liderar en código e integraciones de terceros.
-
-Incluye keywords: comparación de LLMs, modelos de IA para desarrolladores, Claude vs GPT-5, DeepSeek vs GPT-5.
 
 ---
 

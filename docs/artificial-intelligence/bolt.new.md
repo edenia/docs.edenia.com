@@ -8,7 +8,7 @@ keywords: [bolt.new, AI agentic development, browser development platform, webco
 
 # Bolt.new – AI-Powered Full-Stack Development Platform
 
-![Bolt.new Logo](/img/artificial-intelligence/tools/bolt.svg)
+<img src="/img/artificial-intelligence/tools/bolt.svg" alt="Bolt.new Logo" class="ai-logo logo-bolt" />
 
 **Bolt.new** is a revolutionary AI-powered development platform that enables developers to build, deploy, and manage full-stack applications entirely in the browser. It combines the power of AI agents with modern development tools to create a seamless development experience.
 

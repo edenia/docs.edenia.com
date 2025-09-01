@@ -203,3 +203,42 @@ article > div > span.badge.badge--secondary {
 .icono{
   margin: 0%;
 }
+
+/* AI Logos - Adaptive to dark/light mode */
+.ai-logo {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  margin: 9px 0;
+  transition: filter 0.3s ease;
+}
+
+/* Adjust v0 logo size to match others */
+.ai-logo.logo-v0 {
+  width: 70px;
+  height: 70px;
+}
+
+/* Dark mode adaptations for specific logos */
+[data-theme="dark"] .ai-logo.logo-cursor,
+[data-theme="dark"] .ai-logo.logo-claude,
+[data-theme="dark"] .ai-logo.logo-warp,
+[data-theme="dark"] .ai-logo.logo-windsurf,
+[data-theme="dark"] .ai-logo.logo-v0,
+[data-theme="dark"] .ai-logo.logo-bolt,
+[data-theme="dark"] .ai-logo.logo-openai,
+[data-theme="dark"] .ai-logo.logo-grok {
+  filter: brightness(0) saturate(100%) invert(100%);
+}
+
+/* Light mode - keep original colors */
+[data-theme="light"] .ai-logo {
+  filter: none;
+}
+
+/* Background styles for logo containers */
+.ai-logo-container {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}

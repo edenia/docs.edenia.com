@@ -6,9 +6,10 @@ description: Guía completa de los modelos DeepSeek, con arquitectura de código
 keywords: [DeepSeek, DeepSeek AI, IA código abierto, IA programación, DeepSeek Coder, IA china, IA costo-efectiva, modelo R1, arquitectura MoE, asistente programación]
 ---
 
-## ¿Qué es DeepSeek?
 
-**DeepSeek** es una startup china (fundada en **2023**, Hangzhou) que construye LLMs de alto rendimiento y, en gran medida, de código abierto, compitiendo con líderes occidentales a bajo costo. Sus modelos insignia incluyen **R1** (razonamiento), **V3/V3.1** (MoE) y **DeepSeek-Coder-V2** (programación).
+<img src="/img/artificial-intelligence/models/deepseek.svg" alt="Logo DeepSeek" class="ai-logo" />
+
+**DeepSeek** es una empresa china de IA que ha desarrollado una serie de modelos de lenguaje (LLM) de código abierto diseñados para rivalizar con contrapartes occidentales a una fracción del costo. Sus modelos son particularmente fuertes en tareas de programación y razonamiento, lo que los hace populares entre desarrolladores e investigadores.
 
 ---
 
@@ -61,7 +62,6 @@ keywords: [DeepSeek, DeepSeek AI, IA código abierto, IA programación, DeepSeek
 - **DeepSeek vs Grok**: Grok se enfoca en integraciones en tiempo real con X/Tesla; DeepSeek es mejor para investigación abierta, asistentes de código y opciones self-hosted.  
 - **DeepSeek vs Gemini**: Gemini para multimodalidad nativa de Google; DeepSeek para alternativas abiertas con buen coding.
 
-Incluye keywords: comparación de LLMs, modelos de IA para desarrolladores, DeepSeek vs GPT-5, DeepSeek vs Claude.
 
 ---
 

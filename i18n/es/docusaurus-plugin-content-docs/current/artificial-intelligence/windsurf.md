@@ -6,9 +6,11 @@ description: Windsurf es el primer IDE verdaderamente agéntico del mundo que ma
 keywords: [windsurf IDE, IDE agéntico, editor código IA, programación estado flujo, agente cascade, entorno desarrollo IA, asistente codificación inteligente, programación autónoma]
 ---
 
-# Windsurf – IDE Agéntico
+# Windsurf – IDE Potenciado por IA para Desarrollo en Estado de Flujo
 
-**Windsurf** es el primer **IDE verdaderamente agéntico del mundo**, diseñado para mantener a los desarrolladores en un **estado de flujo** al comprender profundamente los proyectos, anticipar la intención y ejecutar acciones inteligentes—todo dentro de una interfaz limpia e intuitiva.  
+<img src="/img/artificial-intelligence/tools/windsurf.svg" alt="Logo Windsurf" class="ai-logo logo-windsurf" />
+
+**Windsurf** es un entorno de desarrollo integrado (IDE) potenciado por IA diseñado para ayudar a los desarrolladores a lograr y mantener un estado de flujo durante la programación. Combina asistencia de código inteligente con una interfaz libre de distracciones para maximizar la productividad y la calidad del código.  
 Está disponible para **macOS, Windows y Linux**. ([windsurf.com](https://windsurf.com/editor?utm_source=chatgpt.com))  
 
 Lanzado por el equipo detrás de **Codeium**, que reimaginó VS Code como un editor nativo de IA, Windsurf se ha convertido rápidamente en una **potencia de productividad**.  

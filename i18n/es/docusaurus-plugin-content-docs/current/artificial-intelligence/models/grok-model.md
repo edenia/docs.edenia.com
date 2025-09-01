@@ -6,9 +6,10 @@ description: Guía completa del modelo Grok de xAI, con acceso a información en
 keywords: [Grok, xAI, Elon Musk, IA tiempo real, integración X, Tesla AI, IA conversacional, IA razonamiento, datos vivo, IA redes sociales]
 ---
 
-## ¿Qué es Grok?
 
-**Grok** es una familia de modelos conversacionales de **xAI** (fundada por Elon Musk). Lanzado por primera vez en **noviembre de 2023**, Grok enfatiza acceso a información en tiempo real, uso nativo de herramientas e implementación en productos de consumo. La generación **Grok 4** (2025) suma modos de razonamiento más profundos e integración más estrecha con el ecosistema de X.
+<img src="/img/artificial-intelligence/models/grok.svg" alt="Logo Grok" class="ai-logo logo-grok" />
+
+**Grok** es un chatbot conversacional de IA avanzado desarrollado por **xAI**, una empresa fundada por Elon Musk. Está diseñado para ser más atractivo e informativo que los chatbots tradicionales, con acceso en tiempo real a la información e integración con el ecosistema X (anteriormente Twitter).
 
 ---
 
@@ -61,7 +62,6 @@ keywords: [Grok, xAI, Elon Musk, IA tiempo real, integración X, Tesla AI, IA co
 - **Grok vs DeepSeek**: DeepSeek prioriza costo/apertura y coding; Grok destaca en tiempo real y alcance de consumo.  
 - **Grok vs Gemini**: Gemini gana en multimodalidad Google-native; Grok se especializa en X/Tesla.
 
-Incluye keywords: modelos de IA para desarrolladores, comparación de LLMs, Grok vs GPT-5, Grok vs Claude, Grok vs DeepSeek.
 
 ---
 

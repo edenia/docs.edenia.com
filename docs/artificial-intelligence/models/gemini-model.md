@@ -6,9 +6,8 @@ description: Complete guide to Google Gemini AI models, featuring native multimo
 keywords: [Gemini, Google AI, multimodal AI, Google DeepMind, Bard, Android AI, long context, Google Workspace, image analysis, video understanding]
 ---
 
-## What is Gemini?
 
-![Google Gemini Logo](/img/artificial-intelligence/models/gemini.svg)
+<img src="/img/artificial-intelligence/models/gemini.svg" alt="Google Gemini Logo" class="ai-logo" />
 
 **Gemini** is Google's most advanced AI model family, designed to be multimodal from the ground up. It can understand and work with text, images, audio, and video simultaneously, making it one of the most versatile AI models available today.
 
@@ -68,7 +67,6 @@ keywords: [Gemini, Google AI, multimodal AI, Google DeepMind, Bard, Android AI, 
 - **Gemini vs DeepSeek**: DeepSeek is open-source and cost-effective; Gemini offers enterprise-grade Google integration and multimodal capabilities.  
 - **Gemini vs Grok**: Grok emphasizes real-time social data; Gemini provides comprehensive multimodal understanding and enterprise features.
 
-Include keywords: multimodal AI, Google ecosystem integration, long context AI, Gemini vs GPT-5, Gemini vs Claude.
 
 ---
 
