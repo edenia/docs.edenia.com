@@ -72,13 +72,31 @@ module.exports = {
       label: "Artificial Intelligence",
       link: {
         type: "doc",
-        id: "artificial-intelligence/artificial-inteligence",
+        id: "artificial-intelligence/artificial-intelligence",
       },
       items: [
+        "artificial-intelligence/ai-tool-comparison",
         "artificial-intelligence/cursor",
         "artificial-intelligence/claude-code",
         "artificial-intelligence/warp",
         "artificial-intelligence/windsurf",
+        "artificial-intelligence/v0-app",
+        "artificial-intelligence/bolt-new",
+        {
+          type: "category",
+          label: "Models",
+          link: {
+            type: "doc",
+            id: "artificial-intelligence/models/ai-models",
+          },
+          items: [
+            "artificial-intelligence/models/claude-model",
+            "artificial-intelligence/models/gpt5-model",
+            "artificial-intelligence/models/deepseek-model",
+            "artificial-intelligence/models/grok-model",
+            "artificial-intelligence/models/gemini-model",
+          ],
+        },
       ],
     },
     {

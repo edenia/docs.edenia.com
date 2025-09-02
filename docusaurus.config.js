@@ -32,6 +32,7 @@ const siteConfig = {
   },
   //scripts: ['https://buttons.github.io/buttons.js','../../scripts/languageSelector.js'],
   themeConfig: {
+   
     image: "img/developer_guides_preview_image.png",
     navbar: {
       logo: {
