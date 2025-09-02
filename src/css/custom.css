@@ -206,8 +206,7 @@ article > div > span.badge.badge--secondary {
 
 /* AI Logos - Adaptive to dark/light mode */
 .ai-logo {
-  width: 100px;
-  height: 100px;
+  height: 50px;
   display: inline-block;
   margin: 9px 0;
   transition: filter 0.3s ease;
