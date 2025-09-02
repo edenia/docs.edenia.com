@@ -1,12 +1,12 @@
 ---
 id: ai-tool-comparison
-title: Comparación de Herramientas IA para Desarrolladores
+title: Comparación de Herramientas IA
 sidebar_position: 7
 description: Comparación integral de herramientas de desarrollo IA incluyendo Cursor, Claude Code, Windsurf, Warp y v0.app para ayudar a los equipos a elegir los mejores asistentes de codificación IA para sus necesidades.
 keywords: [comparación herramientas IA, comparación asistentes codificación, herramientas IA desarrollador, Cursor vs Windsurf, Claude Code vs GitHub Copilot, entorno desarrollo IA]
 ---
 
-# Guía de Comparación de Herramientas IA para Desarrolladores
+# Comparación de Herramientas IA
 
 
 ## Resumen
