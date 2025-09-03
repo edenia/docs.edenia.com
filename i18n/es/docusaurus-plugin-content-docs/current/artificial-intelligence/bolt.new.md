@@ -6,7 +6,7 @@ description: Bolt.new es una plataforma de desarrollo agéntico potenciada por I
 keywords: [bolt.new, desarrollo agéntico IA, plataforma desarrollo navegador, webcontainers, generación aplicaciones IA, desarrollo full-stack navegador, stackblitz]
 ---
 
-# Bolt.new – Plataforma de Desarrollo Full-Stack Potenciada por IA
+# Bolt.new – Plataforma de Desarrollo Full-Stack
 
 <img src="/img/artificial-intelligence/tools/bolt.svg" alt="Logo Bolt.new" class="ai-logo logo-bolt" />
 

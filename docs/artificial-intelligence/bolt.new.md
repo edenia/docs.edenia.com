@@ -6,7 +6,7 @@ description: Bolt.new is an AI-powered agentic development platform that allows 
 keywords: [bolt.new, AI agentic development, browser development platform, webcontainers, AI application generation, full-stack browser development, stackblitz]
 ---
 
-# Bolt.new – AI-Powered Full-Stack Development Platform
+# Bolt.new – Full-Stack Development Platform
 
 <img src="/img/artificial-intelligence/tools/bolt.svg" alt="Bolt.new Logo" class="ai-logo logo-bolt" />
 

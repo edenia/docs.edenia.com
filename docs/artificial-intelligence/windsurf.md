@@ -6,7 +6,7 @@ description: Windsurf is the world's first truly agentic IDE that maintains deve
 keywords: [windsurf IDE, agentic IDE, AI code editor, flow state programming, cascade agent, AI development environment, intelligent coding assistant, autonomous programming]
 ---
 
-# Windsurf – AI-Powered IDE for Flow State Development
+# Windsurf – IDE for Flow State Development
 
 <img src="/img/artificial-intelligence/tools/windsurf.svg" alt="Windsurf Logo" class="ai-logo logo-windsurf" />
 
