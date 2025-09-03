@@ -226,7 +226,8 @@ article > div > span.badge.badge--secondary {
 [data-theme="dark"] .ai-logo.logo-v0,
 [data-theme="dark"] .ai-logo.logo-bolt,
 [data-theme="dark"] .ai-logo.logo-openai,
-[data-theme="dark"] .ai-logo.logo-grok {
+[data-theme="dark"] .ai-logo.logo-grok,
+[data-theme="dark"] .ai-logo.logo-mcp {
   filter: brightness(0) saturate(100%) invert(100%);
 }
 
