@@ -498,47 +498,6 @@ pip install mcp
 
 ---
 
-## Desarrollos Futuros
-
-### Hoja de Ruta
-
-- **Seguridad Mejorada**: Autenticación y cifrado avanzados
-- **Mejoras de Rendimiento**: Eficiencia optimizada del protocolo
-- **Capacidades Extendidas**: Nuevos tipos primitivos y características
-- **Crecimiento del Ecosistema**: Adopción de más herramientas y servicios
-
-### Contribuciones de la Comunidad
-
-- **Código Abierto**: Contribuir a la especificación MCP
-- **Desarrollo de Herramientas**: Crear nuevos servidores y clientes MCP
-- **Documentación**: Mejorar guías y ejemplos
-- **Pruebas**: Ayudar a validar implementaciones
-
----
-
-## Recursos y Documentación
-
-### Recursos Oficiales
-
-- **Especificación**: [Especificación del Protocolo MCP](https://spec.modelcontextprotocol.io)
-- **Documentación SDK**: [Documentos SDK MCP](https://github.com/modelcontextprotocol/sdk)
-- **Ejemplos**: [Repositorio de Ejemplos MCP](https://github.com/modelcontextprotocol/examples)
-
-### Recursos de la Comunidad
-
-- **Discusiones GitHub**: [Comunidad MCP](https://github.com/modelcontextprotocol/discussions)
-- **Discord**: [Servidor Discord MCP](https://discord.gg/mcp)
-- **Stack Overflow**: [Etiqueta MCP](https://stackoverflow.com/questions/tagged/model-context-protocol)
-
-### Materiales de Aprendizaje
-
-- **Tutoriales**: Guías de implementación paso a paso
-- **Cursos en Video**: Fundamentos de desarrollo MCP
-- **Talleres**: Sesiones prácticas de integración MCP
-- **Estudios de Caso**: Ejemplos de implementación del mundo real
-
----
-
 ## Conclusión
 
 El Protocolo de Contexto de Modelo representa un avance fundamental en la integración de sistemas de IA. Al proporcionar una interfaz estandarizada para la comunicación IA-herramientas, MCP permite:
