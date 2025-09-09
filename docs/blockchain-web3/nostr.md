@@ -2,6 +2,8 @@
 id: blockchain-web3-nostr
 title: Introduction to Nostr
 sidebar_position: 11
+description: Explore Nostr - a decentralized social protocol using cryptographic keys for censorship-resistant communication and social networking.
+keywords: [nostr protocol, decentralized social, censorship resistant, cryptographic identity, nostr relays, social networking, web3 social, decentralized communication]
 ---
 
 Nostr (Notes and Other Stuff Transmitted by Relays) is an open protocol designed for creating decentralized and censorship-resistant social networks. Unlike traditional platforms that rely on centralized servers, Nostr operates through a network of independent relays that transmit signed messages between users.

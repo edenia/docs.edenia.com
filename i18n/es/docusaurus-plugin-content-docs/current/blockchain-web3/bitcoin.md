@@ -2,6 +2,8 @@
 id: blockchain-web3-bitcoin
 title: Introducción a Bitcoin
 sidebar_position: 8
+description: Guía completa sobre Bitcoin - la primera criptomoneda, su tecnología blockchain, proceso de minería y su rol como oro digital en el sistema financiero.
+keywords: [bitcoin, criptomoneda, blockchain, oro digital, prueba de trabajo, satoshi nakamoto, BTC, minería bitcoin, moneda descentralizada]
 ---
 
 

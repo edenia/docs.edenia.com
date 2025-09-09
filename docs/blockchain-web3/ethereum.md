@@ -2,6 +2,8 @@
 id: blockchain-web3-ethereum
 title: Introduction to Ethereum
 sidebar_position: 3
+description: Master Ethereum blockchain - smart contracts, DApp development, EVM functionality, and the foundation of decentralized finance and Web3 applications.
+keywords: [ethereum, smart contracts, ethereum blockchain, DApp development, EVM, ether, ETH, decentralized applications, web3 platform]
 ---
 
 Ethereum is an open-source, blockchain-based platform known for its smart contract functionality. It enables the creation and execution of decentralized applications (DApps) and smart contracts directly on the blockchain, without intermediaries. Ethereum extends the original blockchain concept, pioneered by Bitcoin, to support more than just cryptocurrency transactions. It provides a platform for developers to build decentralized applications and deploy smart contracts.

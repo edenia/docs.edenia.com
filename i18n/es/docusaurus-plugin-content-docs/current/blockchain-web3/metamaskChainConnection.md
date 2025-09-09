@@ -2,6 +2,8 @@
 id: blockchain-web3-metamask
 title: Como configurar Metamask
 sidebar_position: 7
+description: Guía paso a paso para configurar la billetera MetaMask para múltiples redes blockchain incluyendo Ethereum, Polygon, BSC, Base y RWA.IO.
+keywords: [configuración metamask, configurar metamask, billetera blockchain, billetera ethereum, polygon metamask, BSC metamask, agregar red metamask, billetera web3]
 ---
 
 

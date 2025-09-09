@@ -2,6 +2,8 @@
 id: blockchain-web3-nimiq
 title: Introduction to Nimiq
 sidebar_position: 10
+description: Discover Nimiq blockchain - a browser-based cryptocurrency with instant payments, atomic swaps, and a focus on simplicity and accessibility.
+keywords: [nimiq blockchain, browser cryptocurrency, instant payments, atomic swaps, web3 browser, nimiq coin, decentralized payments, crypto accessibility]
 ---
 
 Nimiq is a blockchain protocol designed for simplicity, accessibility, and ease of use directly in the browser. It aims to make cryptocurrency adoption as seamless as possible by allowing users to interact with the blockchain without installing additional software. Nimiq focuses on fast transactions, eco-friendly consensus mechanisms, and user-friendly tools for both beginners and developers.

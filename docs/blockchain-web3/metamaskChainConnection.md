@@ -2,6 +2,8 @@
 id: blockchain-web3-metamask
 title: How-To Configure Metamask
 sidebar_position: 13
+description: Step-by-step guide to configure MetaMask wallet for multiple blockchain networks including Ethereum, Polygon, BSC, Base, and RWA.IO.
+keywords: [metamask configuration, metamask setup, blockchain wallet, ethereum wallet, polygon metamask, BSC metamask, add network metamask, web3 wallet]
 ---
 
 This guide provides the general steps to connect your **MetaMask** wallet to the following supported networks:

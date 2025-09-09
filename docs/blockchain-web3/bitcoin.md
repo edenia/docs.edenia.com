@@ -2,6 +2,8 @@
 id: blockchain-web3-bitcoin
 title: Introduction to Bitcoin
 sidebar_position: 8
+description: Comprehensive guide to Bitcoin - the first cryptocurrency, its blockchain technology, mining process, and role as digital gold in the financial system.
+keywords: [bitcoin, cryptocurrency, blockchain, digital gold, proof of work, satoshi nakamoto, BTC, bitcoin mining, decentralized currency]
 ---
 
 Bitcoin is the first and most widely recognized cryptocurrency, introduced in 2009 by an anonymous entity known as Satoshi Nakamoto. It operates on a decentralized peer-to-peer network, enabling secure and transparent transactions without intermediaries such as banks. Bitcoin’s blockchain records all transactions immutably, supported by a consensus mechanism called Proof of Work (PoW), which ensures network integrity through computational mining.

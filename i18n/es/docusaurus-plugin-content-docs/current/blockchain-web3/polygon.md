@@ -2,6 +2,8 @@
 id: blockchain-web3-polygon
 title: Introducción a Polygon
 sidebar_position: 4
+description: Descubre Polygon (MATIC) - solución de escalamiento Capa 2 de Ethereum con transacciones rápidas, bajo costo y conectividad multi-cadena para desarrollo DApp.
+keywords: [polygon blockchain, MATIC, ethereum capa 2, red polygon, solución escalamiento, multi-cadena, desarrollo polygon, blockchain capa 2]
 ---
 
 
