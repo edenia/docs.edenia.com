@@ -17,7 +17,6 @@
     "build:en": "docusaurus build --locale en",
     "build:es": "docusaurus build --locale es",
     "write-translations": "docusaurus write-translations",
-    "postbuild": "node scripts/generate-sitemap-index.js",
     "sitemap:generate": "node scripts/generate-sitemap-index.js"
   },
   "dependencies": {
