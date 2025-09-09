@@ -2,6 +2,8 @@
 id: blockchain-web3-rwa.io
 title: Introduction to RWA.IO
 sidebar_position: 14
+description: Learn about RWA.IO blockchain - the platform for tokenizing real-world assets with EVM compatibility, regulatory compliance, and institutional-grade security.
+keywords: [RWA.IO, real world assets, asset tokenization, RWA blockchain, tokenized assets, institutional blockchain, compliant tokenization, EVM compatible]
 ---
 
 RWA.IO is an Ethereum-compatible blockchain focused on the tokenization and management of Real World Assets (RWAs). Designed to bridge traditional finance with decentralized infrastructure, RWA.IO provides a secure, compliant, and scalable environment for issuing, trading, and managing digital representations of tangible assets such as real estate, commodities, bonds, and invoices.

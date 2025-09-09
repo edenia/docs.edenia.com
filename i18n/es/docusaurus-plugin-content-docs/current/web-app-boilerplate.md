@@ -2,6 +2,8 @@
 id: web-app-boilerplate
 title: Plantilla para Aplicación Web
 sidebar_label: Plantilla para Aplicación Web
+description: Plantilla de aplicación web para desarrolladores de software con React, Material-UI y autenticación blockchain EOSIO integrada.
+keywords: [plantilla webapp, boilerplate react, componentes material-ui, desarrollo web, plantilla web, eosio authenticator, aplicación react]
 ---
 
 ## Plantilla para Aplicación Web de React

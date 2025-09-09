@@ -1,7 +1,9 @@
 ---
 id: blockchain-web3-lightning
-title: Introdución a Lightning
+title: Introducción a Lightning Network
 sidebar_position: 9
+description: Aprende sobre Lightning Network - la solución de escalabilidad capa 2 de Bitcoin que permite transacciones instantáneas y de bajo costo mediante canales de pago.
+keywords: [lightning network, bitcoin capa 2, canales de pago, pagos instantáneos, escalabilidad bitcoin, transacciones fuera de cadena, micropagos, nodos lightning]
 ---
 
 

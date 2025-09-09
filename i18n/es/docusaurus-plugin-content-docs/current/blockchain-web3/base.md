@@ -2,6 +2,8 @@
 id: blockchain-web3-base
 title: Introducción a Base
 sidebar_position: 5
+description: Aprende sobre Base blockchain - la red Capa 2 de Ethereum de Coinbase con bajas tarifas, alto rendimiento y compatibilidad EVM completa para desarrollo DApp.
+keywords: [base blockchain, ethereum capa 2, coinbase base, escalamiento capa 2, compatible EVM, desarrollo DApp, optimism stack, red base]
 ---
 
 

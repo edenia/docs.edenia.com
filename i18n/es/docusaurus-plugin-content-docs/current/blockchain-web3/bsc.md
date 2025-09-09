@@ -2,6 +2,8 @@
 id: blockchain-web3-bsc
 title: Introducción a BSC
 sidebar_position: 6
+description: Explora Binance Smart Chain (BSC) - blockchain de alto rendimiento compatible con EVM con transacciones rápidas y bajas tarifas para aplicaciones DeFi y NFT.
+keywords: [binance smart chain, BSC, BNB chain, compatible EVM, blockchain DeFi, plataforma NFT, binance blockchain, contratos inteligentes]
 ---
 
 

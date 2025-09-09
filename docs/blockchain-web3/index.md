@@ -2,6 +2,8 @@
 id: blockchain-web3-index
 title: Blockchain and Web3
 sidebar_position: 2
+description: Comprehensive guide to Web3 and blockchain technology - decentralized applications, smart contracts, and the evolution of the internet.
+keywords: [web3, blockchain technology, decentralized applications, DApps, smart contracts, ethereum, decentralized web, cryptocurrency]
 ---
 
 Web3 represents the next evolution of the World Wide Web, offering a decentralized online ecosystem based on blockchain technology. Unlike its predecessors, Web3 emphasizes user privacy, data ownership, and decentralized applications (DApps) that operate on blockchain networks like Ethereum and Polygon. This paradigm shift towards decentralization enables more secure, transparent, and user-centric online experiences.

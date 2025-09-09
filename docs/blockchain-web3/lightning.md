@@ -1,7 +1,9 @@
 ---
 id: blockchain-web3-lightning
-title: Introduction to Lightning
+title: Introduction to Lightning Network
 sidebar_position: 9
+description: Learn about Lightning Network - Bitcoin's layer 2 scaling solution enabling instant, low-cost transactions through off-chain payment channels.
+keywords: [lightning network, bitcoin layer 2, payment channels, instant payments, bitcoin scalability, off-chain transactions, micropayments, lightning nodes]
 ---
 
 

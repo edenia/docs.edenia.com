@@ -2,6 +2,8 @@
 id: blockchain-web3-ethereum
 title: Introducción a Ethereum
 sidebar_position: 3
+description: Domina Ethereum blockchain - contratos inteligentes, desarrollo DApp, funcionalidad EVM y la base de finanzas descentralizadas y aplicaciones Web3.
+keywords: [ethereum, contratos inteligentes, ethereum blockchain, desarrollo DApp, EVM, ether, ETH, aplicaciones descentralizadas, plataforma web3]
 ---
 
 

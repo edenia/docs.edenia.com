@@ -2,6 +2,8 @@
 id: blockchain-web3-rwa.io
 title: Introducción a RWA.IO
 sidebar_position: 1
+description: Aprende sobre RWA.IO blockchain - plataforma para tokenizar activos del mundo real con compatibilidad EVM, cumplimiento regulatorio y seguridad institucional.
+keywords: [RWA.IO, activos mundo real, tokenización activos, blockchain RWA, activos tokenizados, blockchain institucional, tokenización regulada, compatible EVM]
 ---
 
 

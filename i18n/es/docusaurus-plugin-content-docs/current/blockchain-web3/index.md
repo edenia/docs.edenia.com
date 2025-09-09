@@ -2,6 +2,8 @@
 id: blockchain-web3-index
 title: Blockchain y Web3
 sidebar_position: 2
+description: Guía completa sobre Web3 y tecnología blockchain - aplicaciones descentralizadas, contratos inteligentes y la evolución de internet.
+keywords: [web3, tecnología blockchain, aplicaciones descentralizadas, DApps, contratos inteligentes, ethereum, web descentralizada, criptomoneda]
 ---
 
 
