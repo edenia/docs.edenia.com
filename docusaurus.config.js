@@ -17,29 +17,27 @@ const siteConfig = {
   projectName: "docs.edenia.com",
   organizationName: "edenia",
   favicon: "img/favicon/favicon.ico",
-  
-    i18n: {
-    defaultLocale: 'en',           // Idioma por defecto
-    locales: ['en', 'es'],     
+
+  i18n: {
+    defaultLocale: "en", // Idioma por defecto
+    locales: ["en", "es"],
     localeConfigs: {
-        en: {
-        label: 'English',    
+      en: {
+        label: "English",
       },
       es: {
-        label: 'Español',
+        label: "Español",
       },
     },
   },
   //scripts: ['https://buttons.github.io/buttons.js','../../scripts/languageSelector.js'],
   themeConfig: {
-   
     image: "img/developer_guides_preview_image.png",
     navbar: {
       logo: {
         alt: "Sistemas Edenia Logo",
         src: "/img/EdeniaLogo.png",
-        srcDark:
-          "/img/Edenia_Logo.svg",
+        srcDark: "/img/Edenia_Logo.svg",
       },
       items: [
         /*{
@@ -73,26 +71,23 @@ const siteConfig = {
           label: "Community",
           position: "left",
         },
-        { to: "https://edenia.com/", 
-          label: "Website", 
-          position: "left" 
-        },
-        { 
-          type: 'localeDropdown', 
-          position: 'right' 
+        { to: "https://edenia.com/", label: "Website", position: "left" },
+        {
+          type: "localeDropdown",
+          position: "right",
         },
         // {
         //   href: "https://docs.edenia.com/es/",
         //   label: "Español",
         //   position: "right",
         // },
-        { 
-          to: "search" 
+        {
+          to: "search",
         },
       ],
     },
     colorMode: {
-      defaultMode: 'dark',
+      defaultMode: "dark",
       disableSwitch: false,
       respectPrefersColorScheme: true,
     },
@@ -174,18 +169,17 @@ const siteConfig = {
         docs: {
           // Docs folder path relative to website dir.
           path: "./docs",
-          routeBasePath: 'docs',
+          routeBasePath: "docs",
           // Sidebars file relative to website dir.
-          editUrl:
-            "https://github.com/edenia/docs.edenia.com/tree/master/",
+          editUrl: "https://github.com/edenia/docs.edenia.com/tree/master/",
           sidebarPath: require.resolve("./sidebars.js"),
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
         },
         pages: {
-          path: 'src/pages',       // donde viven tus páginas React/MDX
-          routeBasePath: '/',      // las páginas se servirán en /
-          include: ['**/*.{js,jsx,ts,tsx,md,mdx}'],
+          path: "src/pages", // donde viven tus páginas React/MDX
+          routeBasePath: "/", // las páginas se servirán en /
+          include: ["**/*.{js,jsx,ts,tsx,md,mdx}"],
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -194,30 +188,33 @@ const siteConfig = {
           trackingID: "UA-173987-66",
         },
         sitemap: {
-          changefreq: 'weekly',
+          changefreq: "weekly",
           priority: 0.5,
-          ignorePatterns: ['/search/**', '**/tags/**'],
-          filename: 'sitemap.xml',
+          ignorePatterns: ["/search/**", "**/tags/**"],
+          filename: "sitemap.xml",
           createSitemapItems: async (params) => {
-            const {defaultCreateSitemapItems, ...rest} = params;
+            const { defaultCreateSitemapItems, ...rest } = params;
             const items = await defaultCreateSitemapItems(rest);
-            
+
             // Add hreflang attributes for multilingual SEO
             return items.map((item) => {
-              const isDefaultLocale = !item.url.includes('/es/');
-              const alternateUrl = isDefaultLocale 
-                ? `https://docs.edenia.com/es${item.url.replace('https://docs.edenia.com', '')}`
-                : item.url.replace('/es/', '/');
-                
+              const isDefaultLocale = !item.url.includes("/es/");
+              const alternateUrl = isDefaultLocale
+                ? `https://docs.edenia.com/es${item.url.replace(
+                    "https://docs.edenia.com",
+                    ""
+                  )}`
+                : item.url.replace("/es/", "/");
+
               return {
                 ...item,
                 links: [
                   {
-                    lang: isDefaultLocale ? 'en' : 'es',
+                    lang: isDefaultLocale ? "en" : "es",
                     url: item.url,
                   },
                   {
-                    lang: isDefaultLocale ? 'es' : 'en', 
+                    lang: isDefaultLocale ? "es" : "en",
                     url: alternateUrl,
                   },
                 ],

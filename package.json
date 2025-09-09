@@ -16,9 +16,7 @@
     "start:es": "docusaurus start --locale es",
     "build:en": "docusaurus build --locale en",
     "build:es": "docusaurus build --locale es",
-    "write-translations": "docusaurus write-translations",
-    "postbuild": "node scripts/generate-sitemap-index.js",
-    "sitemap:generate": "node scripts/generate-sitemap-index.js"
+    "write-translations": "docusaurus write-translations"
   },
   "dependencies": {
     "@algolia/client-search": "^5.12.0",
