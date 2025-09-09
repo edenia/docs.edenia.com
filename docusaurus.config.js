@@ -198,32 +198,6 @@ const siteConfig = {
           priority: 0.5,
           ignorePatterns: ['/search/**', '**/tags/**'],
           filename: 'sitemap.xml',
-          createSitemapItems: async (params) => {
-            const {defaultCreateSitemapItems, ...rest} = params;
-            const items = await defaultCreateSitemapItems(rest);
-            
-            // Add hreflang attributes for multilingual SEO
-            return items.map((item) => {
-              const isDefaultLocale = !item.url.includes('/es/');
-              const alternateUrl = isDefaultLocale 
-                ? `https://docs.edenia.com/es${item.url.replace('https://docs.edenia.com', '')}`
-                : item.url.replace('/es/', '/');
-                
-              return {
-                ...item,
-                links: [
-                  {
-                    lang: isDefaultLocale ? 'en' : 'es',
-                    url: item.url,
-                  },
-                  {
-                    lang: isDefaultLocale ? 'es' : 'en', 
-                    url: alternateUrl,
-                  },
-                ],
-              };
-            });
-          },
         },
       },
     ],
