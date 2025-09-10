@@ -30,9 +30,10 @@ const siteConfig = {
       },
     },
   },
+
   //scripts: ['https://buttons.github.io/buttons.js','../../scripts/languageSelector.js'],
   themeConfig: {
-    // Enhanced metadata for SEO and social sharing
+    // Essential metadata for SEO and social sharing
     metadata: [
       {
         name: "description",
@@ -59,7 +60,8 @@ const siteConfig = {
         content: "#1a1a1a"
       }
     ],
-    // Essential Open Graph metadata for social sharing
+    
+    // Open Graph metadata for social sharing
     openGraph: {
       type: "website",
       locale: "en_US",
@@ -73,12 +75,12 @@ const siteConfig = {
         height: 630,
         alt: "Edenia Web3 Development Documentation"
       },
-      // Essential properties for better social sharing
       imageWidth: 1200,
       imageHeight: 630,
       imageType: "image/png"
     },
-    // Essential Twitter Card metadata
+    
+    // Twitter Card metadata
     twitter: {
       card: "summary_large_image",
       site: "@EdeniaWeb3",
@@ -88,31 +90,10 @@ const siteConfig = {
       image: "https://docs.edenia.com/img/developer_guides_preview_image.png",
       imageAlt: "Edenia Web3 Development Documentation"
     },
-    // Additional SEO metadata
+    
+    // Global image for SEO
     image: "img/developer_guides_preview_image.png",
     
-    // Structured data for better SEO
-    structuredData: {
-      "@context": "https://schema.org",
-      "@type": "WebSite",
-      "name": "Edenia Web3 Development Documentation",
-      "description": "Comprehensive developer documentation for Web3, blockchain, and AI technologies",
-      "url": "https://docs.edenia.com",
-      "publisher": {
-        "@type": "Organization",
-        "name": "Edenia Web3 Development",
-        "url": "https://edenia.com",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://docs.edenia.com/img/Edenia_Logo.svg"
-        }
-      },
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": "https://docs.edenia.com/search?q={search_term_string}",
-        "query-input": "required name=search_term_string"
-      }
-    },
     navbar: {
       logo: {
         alt: "Sistemas Edenia Logo",
