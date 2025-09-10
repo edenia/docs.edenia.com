@@ -59,12 +59,12 @@ const siteConfig = {
         content: "#1a1a1a"
       }
     ],
-    // Open Graph metadata for social sharing
+    // Essential Open Graph metadata for social sharing
     openGraph: {
       type: "website",
       locale: "en_US",
       url: "https://docs.edenia.com",
-      siteName: "Edenia Web3 Development Documentation",
+      siteName: "Edenia Web3 Development",
       title: "Edenia Web3 Development - Developer Documentation",
       description: "Comprehensive developer documentation for Web3, blockchain, and AI technologies. Expert guides, tutorials, and best practices for modern development.",
       image: {
@@ -73,17 +73,20 @@ const siteConfig = {
         height: 630,
         alt: "Edenia Web3 Development Documentation"
       },
-      // Multilingual Open Graph support
-      alternateLocale: "es_ES"
+      // Essential properties for better social sharing
+      imageWidth: 1200,
+      imageHeight: 630,
+      imageType: "image/png"
     },
-    // Twitter Card metadata
+    // Essential Twitter Card metadata
     twitter: {
       card: "summary_large_image",
       site: "@EdeniaWeb3",
       creator: "@EdeniaWeb3",
       title: "Edenia Web3 Development - Developer Documentation",
       description: "Comprehensive developer documentation for Web3, blockchain, and AI technologies. Expert guides and tutorials.",
-      image: "https://docs.edenia.com/img/developer_guides_preview_image.png"
+      image: "https://docs.edenia.com/img/developer_guides_preview_image.png",
+      imageAlt: "Edenia Web3 Development Documentation"
     },
     // Additional SEO metadata
     image: "img/developer_guides_preview_image.png",
