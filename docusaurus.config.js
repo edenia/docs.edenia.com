@@ -289,7 +289,7 @@ const siteConfig = {
     [
       "@docusaurus/plugin-google-gtag",
       {
-        trackingID: "G-XXXXXXXXXX", // Replace with your GA4 Measurement ID
+        trackingID: "G-LQ520C8K0N", // Edenia GA4 Measurement ID
         anonymizeIP: true,
       }
     ]

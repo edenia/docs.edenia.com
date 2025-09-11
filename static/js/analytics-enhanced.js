@@ -79,7 +79,7 @@
     initGA4: function() {
       if (typeof gtag !== 'undefined') {
         // Configure cross-domain tracking
-        gtag('config', 'G-XXXXXXXXXX', {
+        gtag('config', 'G-LQ520C8K0N', {
           // Cross-domain tracking
           linker: {
             domains: ['edenia.com', 'docs.edenia.com']
