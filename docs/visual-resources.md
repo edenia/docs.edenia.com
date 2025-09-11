@@ -1,4 +1,7 @@
 ---
+
+# Visual Resources
+
 id: visual-resources
 title: Visual Resources
 sidebar_label: Visual Resources

@@ -1,4 +1,7 @@
 ---
+
+# What is a Boilerplate ?
+
 id: boilerplate
 title: What is a Boilerplate ?
 sidebar_label: Project Boilerplate

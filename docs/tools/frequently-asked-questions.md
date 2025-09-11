@@ -1,4 +1,7 @@
 ---
+
+# Frequently Asked Questions
+
 id: frequently-asked-questions
 title: Frequently Asked Questions 
 sidebar_label: FAQs

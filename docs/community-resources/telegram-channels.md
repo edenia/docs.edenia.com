@@ -1,4 +1,7 @@
 ---
+
+# EOS Costa Rica Telegram Channels
+
 id: telegram-channels
 title: EOS Costa Rica Telegram Channels
 sidebar_label: Telegram Channels

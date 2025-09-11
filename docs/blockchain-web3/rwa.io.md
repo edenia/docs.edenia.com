@@ -1,4 +1,7 @@
 ---
+
+# Introduction to RWA.IO
+
 id: blockchain-web3-rwa.io
 title: Introduction to RWA.IO
 sidebar_position: 14
@@ -10,7 +13,7 @@ RWA.IO is an Ethereum-compatible blockchain focused on the tokenization and mana
 
 🔗 [RWA.IO](https://www.rwa.io)
 
-### Key Features of RWA.IO
+## Key Features of RWA.IO
 
 - **EVM Compatibility:** Built on standard Ethereum tooling, allowing seamless deployment of Solidity smart contracts.
 - **Asset Tokenization:** Enables issuance and lifecycle management of tokenized RWAs with built-in compliance layers.

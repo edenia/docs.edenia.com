@@ -1,4 +1,7 @@
 ---
+
+# Open Source Contributing Guidelines
+
 id: open-source-guidelines
 title: Open Source Contributing Guidelines
 sidebar_label: Open Source Guidelines
@@ -193,7 +196,7 @@ Bug reports should contain the following information:
 
 We release the production software version using github tags following [Semver](http://semver.org), except the version roles have the semantic names, "Breaking.Feature.Fix" instead of "Major.Minor.Patch".
 
-#### Breaking.Feature.Fix
+### Breaking.Feature.Fix
 
 We don't decide what the version will be. The API changes decide. Version numbers are for computers, not people. Release names are for people.
 

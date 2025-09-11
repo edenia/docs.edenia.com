@@ -14,7 +14,7 @@ AI is one of the most transformative fields of our time, shaping industries from
 
 ---
 
-# Context and Evolution
+## Context and Evolution
 
 Artificial Intelligence has its roots in the 1950s, when early pioneers like Alan Turing, John McCarthy, and Marvin Minsky began exploring whether machines could simulate aspects of human intelligence. Early AI focused on **symbolic logic and expert systems**.  
 
@@ -24,7 +24,7 @@ Since 2020, the emergence of **foundation models** (like GPT, Claude, Gemini, LL
 
 ---
 
-# Architecture and Technical Features
+## Architecture and Technical Features
 
 ## Core Paradigms of AI
 
@@ -49,7 +49,7 @@ Since 2020, the emergence of **foundation models** (like GPT, Claude, Gemini, LL
 
 ---
 
-# Use Cases
+## Use Cases
 
 ### Healthcare
 
@@ -103,7 +103,7 @@ Explore the most advanced AI models and their capabilities:
 
 ---
 
-# Key Advantages
+## Key Advantages
 
 | Advantage | Why It Matters |
 |-----------|----------------|
@@ -115,7 +115,7 @@ Explore the most advanced AI models and their capabilities:
 
 ---
 
-# Limitations and Risks
+## Limitations and Risks
 
 - **Bias and fairness**: AI reflects biases in its training data.  
 - **Explainability**: Many models are “black boxes” with limited interpretability.  
@@ -126,7 +126,7 @@ Explore the most advanced AI models and their capabilities:
 
 ---
 
-# Ethical and Labor Implications
+## Ethical and Labor Implications
 
 - **Jobs & Automation**: AI shifts human work from repetitive execution to prompting, supervising, and decision-making.  
 - **Responsible AI**: Need for fairness, accountability, transparency, and human oversight.  
@@ -136,7 +136,7 @@ Explore the most advanced AI models and their capabilities:
 
 ---
 
-# Practical Adoption Recommendations
+## Practical Adoption Recommendations
 
 ## Technical Playbook
 
@@ -166,7 +166,7 @@ Explore the most advanced AI models and their capabilities:
 
 ---
 
-# Conclusion
+## Conclusion
 
 Artificial Intelligence is a **general-purpose technology** with transformative impact. It thrives in contexts where:  
 

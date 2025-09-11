@@ -1,4 +1,7 @@
 ---
+
+# Block Explorers
+
 id: block-explorers
 title: Block Explorers
 sidebar_label: Block Explorers

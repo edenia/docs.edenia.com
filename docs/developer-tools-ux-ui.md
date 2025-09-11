@@ -1,4 +1,7 @@
 ---
+
+# Tools for UX/UI Design
+
 id: developer-tools-ux-ui
 title: Tools for UX/UI Design
 sidebar_label: UX / UI Design

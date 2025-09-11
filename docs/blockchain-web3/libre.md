@@ -1,4 +1,7 @@
 ---
+
+# Introduction to Libre
+
 id: blockchain-web3-libre
 title: Introduction to Libre
 sidebar_position: 12
@@ -10,7 +13,7 @@ Its architecture supports interoperability with Ethereum and other EVM networks,
 
 🔗 [Libre](https://www.libre.org/)
 
-### Key Features of Libre
+## Key Features of Libre
 * **EVM Compatibility**: Fully supports Ethereum tools, smart contracts, and development frameworks.
 * **High Performance**: Optimized for fast block times and high transaction throughput.
 * **Low Fees**: Cost-effective transactions suitable for retail and institutional use.

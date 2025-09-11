@@ -1,4 +1,7 @@
 ---
+
+# Introduction to BSC
+
 id: blockchain-web3-bsc
 title: Introduction to BSC
 sidebar_position: 6
@@ -10,7 +13,7 @@ BSC (Binance Smart Chain) is a high-performance, EVM-compatible blockchain devel
 
 🔗 [BSC](https://www.bnbchain.org)
 
-### Key Features of BSC
+## Key Features of BSC
 
 - **High Throughput:** BSC supports fast block times (around 3 seconds) and high transaction capacity.
 - **EVM Compatibility:** Full support for Ethereum tools, smart contracts, and development frameworks.

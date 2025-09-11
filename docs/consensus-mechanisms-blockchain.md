@@ -1,4 +1,7 @@
 ---
+
+# Blockchain Consensus Mechanisms
+
 id: blockchain-consensus-mechanism
 title: Blockchain Consensus Mechanisms
 sidebar_label: Consensus Mechanisms

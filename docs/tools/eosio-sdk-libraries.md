@@ -1,4 +1,7 @@
 ---
+
+# EOSIO SDK Libraries
+
 id: eosio-sdk-libraries
 title: EOSIO SDK Libraries
 sidebar_label: EOSIO SDK Libraries

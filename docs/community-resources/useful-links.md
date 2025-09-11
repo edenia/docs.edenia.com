@@ -1,4 +1,7 @@
 ---
+
+# Edenia Community Links
+
 id: useful-links
 title: Edenia Community Links
 sidebar_label: Useful Links
@@ -22,6 +25,8 @@ Here is a list of helpful links related to the Edenia community.
 * [Learning EOSIO development (Telos, EOS and other blockchains)](https://theblockstalk.medium.com/learning-eosio-development-telos-eos-and-other-blockchains-94d384a8b09f) 
 * [EOSCommunity.org Forums](https://eoscommunity.org/)
 * [EOSIO Smart Contract Developer's Handbook](https://cc32d9.gitbook.io/eosio-smart-contract-developers-handbook)
+
+## Overview
 
 ### UX/UI
 

@@ -1,4 +1,7 @@
 ---
+
+# Introduction to Polygon
+
 id: blockchain-web3-polygon
 title: Introduction to Polygon
 sidebar_position: 4
@@ -10,7 +13,7 @@ Polygon, formerly known as Matic Network, is a protocol and a framework for buil
 
 🔗 [Polygon](https://polygon.technology)
 
-### Key Features of Polygon
+## Key Features of Polygon
 
 - **Scalability:** High throughput and scalable solutions thanks to Layer 2 sidechains.
 - **Ethereum Compatibility:** Seamless integration with Ethereum's existing tools, DApps, and infrastructure.

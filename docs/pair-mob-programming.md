@@ -1,4 +1,7 @@
 ---
+
+# Software Development in Pairs or Groups
+
 id: pair-mob-programming
 title: Software Development in Pairs or Groups
 sidebar_label: Pair or Mob Programming
