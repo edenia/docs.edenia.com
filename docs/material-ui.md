@@ -1,4 +1,7 @@
 ---
+
+# Material UI & Theme
+
 id: material-ui
 title: Material UI & Theme
 sidebar_label: Material UI Theme

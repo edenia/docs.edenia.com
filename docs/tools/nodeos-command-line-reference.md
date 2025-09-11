@@ -1,4 +1,7 @@
 ---
+
+# Nodeos Configuration Options
+
 id: nodeos-command-line-reference
 title: Nodeos Configuration Options
 sidebar_label: Nodeos Command Line Reference

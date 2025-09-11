@@ -1,4 +1,7 @@
 ---
+
+# IPFS (Interplanetary File System)
+
 id: interplanetary-file-system
 title: IPFS (Interplanetary File System)
 sidebar_label: IPFS (Interplanetary File System)

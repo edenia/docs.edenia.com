@@ -1,4 +1,7 @@
 ---
+
+# Introduction to Lightning Network
+
 id: blockchain-web3-lightning
 title: Introduction to Lightning Network
 sidebar_position: 9
@@ -12,7 +15,7 @@ Lightning Network is a second-layer payment protocol built on top of the Bitcoin
 
 🔗 [Lightning Network](https://lightning.network/)
 
-### Key Features of Lightning Network
+## Key Features of Lightning Network
 * **Instant Payments**: Transactions are completed in milliseconds, without waiting for confirmations on the main chain.
 * **Low Fees**: By operating off-chain, fees are much lower than traditional Bitcoin transactions.
 * **Scalability**: Can handle millions of transactions per second through interconnected payment channels.

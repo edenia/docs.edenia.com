@@ -1,4 +1,7 @@
 ---
+
+# Introduction to Ethereum
+
 id: blockchain-web3-ethereum
 title: Introduction to Ethereum
 sidebar_position: 3
@@ -10,7 +13,7 @@ Ethereum is an open-source, blockchain-based platform known for its smart contra
 
 🔗 [Ethereum](https://ethereum.org)
 
-### Key Features of Ethereum
+## Key Features of Ethereum
 
 - **Smart Contracts:** Self-executing contracts with the terms written into code, automating agreements.
 - **Ethereum Virtual Machine (EVM):** A powerful, sandboxed environment within each Ethereum node, executing contract bytecode.

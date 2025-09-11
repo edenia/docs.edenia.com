@@ -10,6 +10,8 @@ keywords: [eos, eosio, EOS, EOSIO, Smart Contract, Dapp, smart-contract, token, 
 
 A collection of open source EOS Smart Contracts.
 
+## Core Contracts
+
 ### EOSIO Contracts
 
 Smart contracts that provide some of the basic functions of the EOSIO blockchain.  

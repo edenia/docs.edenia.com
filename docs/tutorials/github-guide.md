@@ -1,4 +1,7 @@
 ---
+
+# GitHub Guide
+
 id: github-guide
 title: GitHub Guide 
 sidebar_label: GitHub Guide 

@@ -1,4 +1,7 @@
 ---
+
+# Social Media Guidelines
+
 id: social-media-guidelines
 title: Social Media Guidelines
 sidebar_label: Social Media Guidelines

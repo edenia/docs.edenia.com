@@ -1,4 +1,7 @@
 ---
+
+# Creating Smart Contracts to EOSIO
+
 id: hello-world-contract
 title: Creating Smart Contracts to EOSIO
 sidebar_label: Hello World Contract

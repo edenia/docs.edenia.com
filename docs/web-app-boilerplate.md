@@ -1,4 +1,7 @@
 ---
+
+# Web App Boilerplate
+
 id: web-app-boilerplate
 title: Web App Boilerplate
 sidebar_label: Webapp Boilerplate

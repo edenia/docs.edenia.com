@@ -1,4 +1,7 @@
 ---
+
+# Modern C++
+
 id: modern-cpp
 title: Modern C++
 sidebar_label: Modern C++

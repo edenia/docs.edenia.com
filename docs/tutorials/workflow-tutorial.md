@@ -1,4 +1,7 @@
 ---
+
+# Git workflow
+
 id: git-workflow-tutorial 
 title: Git workflow
 sidebar_label: Git Workflow

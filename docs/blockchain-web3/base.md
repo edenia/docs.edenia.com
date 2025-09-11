@@ -1,4 +1,7 @@
 ---
+
+# Introduction to Base
+
 id: blockchain-web3-base
 title: Introduction to Base
 sidebar_position: 5
@@ -10,7 +13,7 @@ Base is an Ethereum Layer 2 network built by Coinbase using the Optimism OP Stac
 
 🔗 [Base](https://base.org)
 
-### Key Features of Base
+## Key Features of Base
 
 - **Scalability:** Base significantly reduces transaction costs and increases throughput by leveraging optimistic rollup technology.
 - **Ethereum Compatibility:** Full EVM compatibility allows seamless integration with Ethereum tools, smart contracts, and DApps.

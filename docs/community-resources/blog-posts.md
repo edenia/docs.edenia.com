@@ -1,4 +1,7 @@
 ---
+
+# Edenia Blog
+
 id: blog-posts
 title: Edenia Blog
 sidebar_label: Blog Posts

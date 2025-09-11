@@ -1,4 +1,7 @@
 ---
+
+# Introduction to Bitcoin
+
 id: blockchain-web3-bitcoin
 title: Introduction to Bitcoin
 sidebar_position: 8
@@ -11,7 +14,7 @@ While initially designed as a digital alternative to cash, Bitcoin has evolved i
 
 🔗 [Bitcoin](https://bitcoin.org/en/)
 
-### Key Features of Bitcoin
+## Key Features of Bitcoin
 * **Decentralization**: No central authority controls Bitcoin; the network is maintained by thousands of nodes worldwide.
 * **Proof of Work Security**: Transactions are validated through mining, requiring computational effort and energy consumption.
 * **Limited Supply**: Capped at 21 million coins, ensuring scarcity and deflationary characteristics.

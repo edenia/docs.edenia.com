@@ -1,4 +1,7 @@
 ---
+
+# GraphQL
+
 id: graphql-tutorial
 title: GraphQL
 sidebar_label: GraphQL
