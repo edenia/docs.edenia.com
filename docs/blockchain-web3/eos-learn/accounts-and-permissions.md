@@ -1,4 +1,7 @@
 ---
+
+# Accounts And Permissions EOSIO
+
 id: accounts-and-permissions
 title: Accounts And Permissions EOSIO
 sidebar_label: Accounts And Permissions

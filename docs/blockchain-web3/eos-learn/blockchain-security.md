@@ -1,4 +1,7 @@
 ---
+
+# Blockchain Vulnerabilities
+
 id: blockchain-security
 title: Blockchain Vulnerabilities
 sidebar_label: Blockchain Security

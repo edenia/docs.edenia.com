@@ -1,4 +1,7 @@
 ---
+
+# Important Functions in EOSIO
+
 id: important-functions
 title: Important Functions in EOSIO
 sidebar_label: Important Functions

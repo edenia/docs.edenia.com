@@ -97,7 +97,32 @@ function processMissingH1Files() {
     'docs/tutorials/react-tutorial.md',
     'docs/tutorials/workflow-tutorial.md',
     'docs/visual-resources.md',
-    'docs/web-app-boilerplate.md'
+    'docs/web-app-boilerplate.md',
+    // Add missing files
+    'docs/artificial-intelligence/models/chatgpt5-model.md',
+    'docs/artificial-intelligence/models/claude-model.md',
+    'docs/artificial-intelligence/models/deepseek.md',
+    'docs/artificial-intelligence/models/gemini-model.md',
+    'docs/artificial-intelligence/models/grok-model.md',
+    'docs/blockchain-web3/eos-learn/accounts-and-permissions.md',
+    'docs/blockchain-web3/eos-learn/block-producer.md',
+    'docs/blockchain-web3/eos-learn/blockchain-security.md',
+    'docs/blockchain-web3/eos-learn/consensus-mechanism.md',
+    'docs/blockchain-web3/eos-learn/dapp-development.md',
+    'docs/blockchain-web3/eos-learn/demux-pattern.md',
+    'docs/blockchain-web3/eos-learn/eos-blockchain.md',
+    'docs/blockchain-web3/eos-learn/eos-network-foundation.md',
+    'docs/blockchain-web3/eos-learn/eosio-components.md',
+    'docs/blockchain-web3/eos-learn/eosio-protocol.md',
+    'docs/blockchain-web3/eos-learn/important-functions.md',
+    'docs/blockchain-web3/eos-learn/migration-to-mandel.md',
+    'docs/blockchain-web3/eos-learn/nft-on-eosio.mdx',
+    'docs/blockchain-web3/eos-learn/private-keys.md',
+    'docs/blockchain-web3/eos-learn/ricardian-contracts.md',
+    'docs/blockchain-web3/eos-learn/smart-contracts.md',
+    'docs/blockchain-web3/eos-learn/system-resources.md',
+    'docs/tools/readme-file-template-source-code.md',
+    'docs/tools/sample-nodeos-configs.md'
   ];
   
   const results = [];

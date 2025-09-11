@@ -10,6 +10,8 @@ keywords: [Blockchain Networks, EOSIO, EOS, EOS Costa Rica, eosio.io, EOSIO Cost
 
 The EOSIO ecosystem is composed of many public and private blockchains, each one with different governance models and aimed at different use cases and markets.
 
+## Public EOSIO Networks
+
 Below we included a list of some other well known public blockchains launched on EOSIO, we did not include any EOSIO private networks.
 
 - [EOS](https://bloks.io/): The first blockchain launched with the EOSIO protocol, also know as `mainnet`.

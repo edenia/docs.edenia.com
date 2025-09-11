@@ -1,4 +1,7 @@
 ---
+
+# Gemini (Google)
+
 id: gemini-model
 title: Gemini (Google)
 sidebar_position: 11

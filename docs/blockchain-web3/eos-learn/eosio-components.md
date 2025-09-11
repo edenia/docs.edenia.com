@@ -1,4 +1,7 @@
 ---
+
+# EOSIO Components
+
 id: eosio-components
 title: EOSIO Components
 sidebar_label: EOSIO Components

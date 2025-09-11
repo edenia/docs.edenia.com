@@ -1,4 +1,7 @@
 ---
+
+# EOSIO + Antelope Protocol
+
 id: eosio-protocol
 title: EOSIO + Antelope Protocol
 sidebar_label: EOSIO + Antelope Protocol

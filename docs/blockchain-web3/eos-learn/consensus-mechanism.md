@@ -1,4 +1,7 @@
 ---
+
+# DPoS Consensus Algorithm
+
 id: consensus-mechanism
 title: DPoS Consensus Algorithm
 sidebar_label: DPoS Consensus Algorithm

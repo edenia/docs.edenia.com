@@ -1,4 +1,7 @@
 ---
+
+# Claude (Anthropic)
+
 id: claude-model
 title: Claude (Anthropic)
 sidebar_position: 8

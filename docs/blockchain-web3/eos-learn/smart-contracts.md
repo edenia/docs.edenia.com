@@ -1,4 +1,7 @@
 ---
+
+# Smart Contracts
+
 id: smart-contract
 title: Smart Contracts
 sidebar_label: EOSIO Smart Contracts

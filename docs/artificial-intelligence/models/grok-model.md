@@ -1,4 +1,7 @@
 ---
+
+# Grok (xAI)
+
 id: grok-model
 title: Grok (xAI)
 sidebar_position: 12

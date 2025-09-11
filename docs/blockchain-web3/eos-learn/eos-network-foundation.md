@@ -1,4 +1,7 @@
 ---
+
+# EOS Network Foundation Blue Papers
+
 id: eos-network-foundation
 title: EOS Network Foundation Blue Papers
 sidebar_label: ENF Blue Papers

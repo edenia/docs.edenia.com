@@ -200,6 +200,8 @@ We release the production software version using github tags following [Semver](
 
 We don't decide what the version will be. The API changes decide. Version numbers are for computers, not people. Release names are for people.
 
+#### Version Components
+
 ##### Breaking
 
 Any breaking change, no matter how small increments the Breaking version number. Incrementing the Breaking version number has absolutely no relationship with issuing a release.

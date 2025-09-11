@@ -1,4 +1,7 @@
 ---
+
+# EOS Blockchain
+
 id: eos-blockchain
 title: EOS Blockchain
 sidebar_label: EOS Blockchain

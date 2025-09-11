@@ -1,4 +1,7 @@
 ---
+
+# What are Ricardian Contracts ?
+
 id: ricardian-contracts
 title: What are Ricardian Contracts ?
 sidebar_label: Ricardian Contracts

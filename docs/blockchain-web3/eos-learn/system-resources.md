@@ -1,4 +1,7 @@
 ---
+
+# EOSIO System Resources
+
 id: system-resources
 title: EOSIO System Resources
 sidebar_label: System Resources

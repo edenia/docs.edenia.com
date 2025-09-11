@@ -1,4 +1,7 @@
 ---
+
+# Demux architecture pattern
+
 id: demux-pattern
 title: Demux architecture pattern
 sidebar_label: Demux Pattern

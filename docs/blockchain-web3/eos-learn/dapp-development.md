@@ -1,4 +1,7 @@
 ---
+
+# Dapp Development
+
 id: dapp-development
 title: Dapp Development
 sidebar_label: Dapp Development

@@ -1,4 +1,7 @@
 ---
+
+# Migration from EOSIO to Mandel
+
 id: migration-to-mandel
 title: Migration from EOSIO to Mandel
 sidebar_label: Migration from EOSIO to Mandel

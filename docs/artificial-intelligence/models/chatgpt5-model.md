@@ -1,4 +1,7 @@
 ---
+
+# GPT-5 (OpenAI)
+
 id: gpt5-model
 title: GPT-5 (OpenAI)
 sidebar_position: 9

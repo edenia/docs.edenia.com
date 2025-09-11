@@ -1,4 +1,7 @@
 ---
+
+# DeepSeek (DeepSeek Inc.)
+
 id: deepseek-model
 title: DeepSeek (DeepSeek Inc.)
 sidebar_position: 10

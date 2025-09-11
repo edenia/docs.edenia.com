@@ -1,4 +1,7 @@
 ---
+
+# Block Producer
+
 id: block-producers
 title: Block Producer
 sidebar_label: Block Producer
