@@ -245,9 +245,6 @@ const siteConfig = {
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
-        googleAnalytics: {
-          trackingID: "UA-173987-66",
-        },
         sitemap: {
           changefreq: "weekly",
           priority: 0.5,
@@ -287,6 +284,22 @@ const siteConfig = {
     ],
   ],
 
-  scripts: [],
+  // Google Analytics GA4 Plugin Configuration - Enhanced
+  plugins: [
+    [
+      "@docusaurus/plugin-google-gtag",
+      {
+        trackingID: "G-XXXXXXXXXX", // Replace with your GA4 Measurement ID
+        anonymizeIP: true,
+      }
+    ]
+  ],
+
+  scripts: [
+    {
+      src: "/js/analytics-enhanced.js",
+      async: true,
+    },
+  ],
 };
 module.exports = siteConfig;
