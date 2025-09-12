@@ -45,7 +45,7 @@ const siteConfig = {
       },
       {
         name: "author",
-        content: "Edenia Web3 Development"
+        content: "Sistemas Edenia Web3 Development"
       },
       {
         name: "robots",
@@ -66,14 +66,14 @@ const siteConfig = {
       type: "website",
       locale: "en_US",
       url: "https://docs.edenia.com",
-      siteName: "Edenia Web3 Development",
-      title: "Edenia Web3 Development - Developer Documentation",
+      siteName: "Sistemas Edenia Web3 Development",
+      title: "Sistemas Edenia Web3 Development - Developer Documentation",
       description: "Comprehensive developer documentation for Web3, blockchain, and AI technologies. Expert guides, tutorials, and best practices for modern development.",
       image: {
         url: "https://docs.edenia.com/img/developer_guides_preview_image.png",
         width: 1200,
         height: 630,
-        alt: "Edenia Web3 Development Documentation"
+        alt: "Sistemas Edenia Web3 Development Documentation"
       },
       imageWidth: 1200,
       imageHeight: 630,
@@ -85,7 +85,7 @@ const siteConfig = {
       card: "summary_large_image",
       site: "@EdeniaWeb3",
       creator: "@EdeniaWeb3",
-      title: "Edenia Web3 Development - Developer Documentation",
+      title: "Sistemas Edenia Web3 Development - Developer Documentation",
       description: "Comprehensive developer documentation for Web3, blockchain, and AI technologies. Expert guides and tutorials.",
       image: "https://docs.edenia.com/img/developer_guides_preview_image.png",
       imageAlt: "Edenia Web3 Development Documentation"
