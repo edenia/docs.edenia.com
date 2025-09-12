@@ -30,9 +30,70 @@ const siteConfig = {
       },
     },
   },
+
   //scripts: ['https://buttons.github.io/buttons.js','../../scripts/languageSelector.js'],
   themeConfig: {
+    // Essential metadata for SEO and social sharing
+    metadata: [
+      {
+        name: "description",
+        content: "Comprehensive developer documentation for Web3, blockchain, and AI technologies. Learn EOSIO, Antelope, smart contracts, and modern development practices with Edenia's expert guides and tutorials."
+      },
+      {
+        name: "keywords",
+        content: "Web3, blockchain, EOSIO, Antelope, smart contracts, developer documentation, AI, artificial intelligence, tutorials, guides, Edenia, Costa Rica"
+      },
+      {
+        name: "author",
+        content: "Sistemas Edenia Web3 Development"
+      },
+      {
+        name: "robots",
+        content: "index, follow"
+      },
+      {
+        name: "viewport",
+        content: "width=device-width, initial-scale=1.0"
+      },
+      {
+        name: "theme-color",
+        content: "#1a1a1a"
+      }
+    ],
+    
+    // Open Graph metadata for social sharing
+    openGraph: {
+      type: "website",
+      locale: "en_US",
+      url: "https://docs.edenia.com",
+      siteName: "Sistemas Edenia Web3 Development",
+      title: "Sistemas Edenia Web3 Development - Developer Documentation",
+      description: "Comprehensive developer documentation for Web3, blockchain, and AI technologies. Expert guides, tutorials, and best practices for modern development.",
+      image: {
+        url: "https://docs.edenia.com/img/developer_guides_preview_image.png",
+        width: 1200,
+        height: 630,
+        alt: "Sistemas Edenia Web3 Development Documentation"
+      },
+      imageWidth: 1200,
+      imageHeight: 630,
+      imageType: "image/png"
+    },
+    
+    // Twitter Card metadata
+    twitter: {
+      card: "summary_large_image",
+      site: "@EdeniaWeb3",
+      creator: "@EdeniaWeb3",
+      title: "Sistemas Edenia Web3 Development - Developer Documentation",
+      description: "Comprehensive developer documentation for Web3, blockchain, and AI technologies. Expert guides and tutorials.",
+      image: "https://docs.edenia.com/img/developer_guides_preview_image.png",
+      imageAlt: "Edenia Web3 Development Documentation"
+    },
+    
+    // Global image for SEO
     image: "img/developer_guides_preview_image.png",
+    
     navbar: {
       logo: {
         alt: "Sistemas Edenia Logo",
@@ -184,9 +245,6 @@ const siteConfig = {
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
-        googleAnalytics: {
-          trackingID: "UA-173987-66",
-        },
         sitemap: {
           changefreq: "weekly",
           priority: 0.5,
@@ -226,6 +284,22 @@ const siteConfig = {
     ],
   ],
 
-  scripts: [],
+  // Google Analytics GA4 Plugin Configuration - Enhanced
+  plugins: [
+    [
+      "@docusaurus/plugin-google-gtag",
+      {
+        trackingID: "G-LQ520C8K0N", // Edenia GA4 Measurement ID
+        anonymizeIP: true,
+      }
+    ]
+  ],
+
+  scripts: [
+    {
+      src: "/js/analytics-enhanced.js",
+      async: true,
+    },
+  ],
 };
 module.exports = siteConfig;
