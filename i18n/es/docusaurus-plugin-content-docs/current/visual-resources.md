@@ -6,6 +6,9 @@ description: Guías de redes sociales para los desarrolladores de software EOS C
 keywords: [redes sociales EOS, guías, desarrollo, software, EOS, EOS Costa Rica]
 ---
 
+# Recursos Visuales
+
+
 ## EOS Costa Rica
 
 ### Horizontal

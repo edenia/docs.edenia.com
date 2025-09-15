@@ -9,6 +9,9 @@ description: Description of demux pattern
 keywords: [demux, backend architectural pattern, demux pattern, demux architecture pattern, EOSIO, EOS Costa Rica]
 ---
 
+# Demux architecture pattern
+
+
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## Demux pattern

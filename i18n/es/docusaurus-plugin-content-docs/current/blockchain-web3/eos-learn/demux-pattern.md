@@ -6,6 +6,9 @@ description: Descripción del patrón demux
 keywords: [demux, patrón arquitectónico backend, patrón demux, patrón de arquitectura demux, EOSIO, EOS Costa Rica]
 ---
 
+# Patrón arquitectónico Demux
+
+
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## Patrón Demux

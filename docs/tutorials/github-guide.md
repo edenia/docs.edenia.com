@@ -8,6 +8,9 @@ sidebar_label: GitHub Guide
 description: Definition and usage of version control system GitHub
 keywords: [ GitHub, Git, What is GitHub, How GitHub Works, How to use GitHub, What is GitHub for]
 ---
+
+# GitHub Guide
+
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 [GitHub](https://docs.github.com/en) is a project management system in the cloud that allows developers to store and have code version control. This platform allows you to work collaboratively with other people around the world, track jobs, and manage projects. [Learn more about GitHub](https://www.howtogeek.com/180167/htg-explains-what-is-github-and-what-do-geeks-use-it-for/).

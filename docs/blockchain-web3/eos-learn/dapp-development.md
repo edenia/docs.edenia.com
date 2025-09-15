@@ -9,6 +9,9 @@ description: Definition and explanation of Dapp Development with different frame
 keywords: [ Dapp Development, Decentralized Applications, How Create a Dapp, Blockchain Application Development, EOS, Web3, What is Dapp Development for]
 ---
 
+# Dapp Development
+
+
 ## Why EOS was Designed to Decentralized Apps
 
 <figure className="video_container">

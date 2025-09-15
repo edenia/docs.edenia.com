@@ -9,6 +9,9 @@ description: Step-by-step guide to configure MetaMask wallet for multiple blockc
 keywords: [metamask configuration, metamask setup, blockchain wallet, ethereum wallet, polygon metamask, BSC metamask, add network metamask, web3 wallet]
 ---
 
+# How-To Configure Metamask
+
+
 This guide provides the general steps to connect your **MetaMask** wallet to the following supported networks:
 
 - RWA.IO

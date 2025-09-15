@@ -8,6 +8,9 @@ sidebar_position: 12
 description: Explore Libre blockchain - an EVM-compatible platform for scalable DeFi and real-world asset tokenization with low fees and regulatory compliance.
 keywords: [libre blockchain, EVM compatible, DeFi platform, RWA tokenization, real world assets, blockchain finance, libre network, web3 development]
 ---
+
+# Introduction to Libre
+
 Libre is a high-performance, EVM-compatible blockchain designed for scalable decentralized finance (DeFi) applications and real-world asset (RWA) tokenization. Built with a focus on low fees, fast transactions, and regulatory compliance, Libre provides a secure and developer-friendly environment for creating financial products that bridge traditional and blockchain-based markets.
 Its architecture supports interoperability with Ethereum and other EVM networks, making it an attractive choice for institutions and innovators in Web3.
 

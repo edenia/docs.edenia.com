@@ -9,6 +9,9 @@ description: Creating Hello World Contract to EOSIO blockchain
 keywords: [Contract, Smart Contracts, Create Contract, How Create a Smart Contract, What is a Smart Contract, EOS, EOS Costa Rica]
 ---
 
+# Creating Smart Contracts to EOSIO
+
+
 We explain by example how to create an account and a `Hello World` contract to upload to a EOS.IO based blockchain. For this example, we based on the resources published by [Block.one to share with the community](https://developers.eos.io/).
 
 ## Get your Private Keys

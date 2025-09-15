@@ -6,6 +6,9 @@ description: Valores de la cultura ingenieril que se llevan acabo en EOS Costa R
 keywords: [cultura, cultura ingenieril, EOS, EOS Costa Rica]
 ---
 
+# Cultura Ingenieril
+
+
 Somos una startup de rápido crecimiento con ingenieros realmente talentosos que aman el código abierto y los principios ágiles.
 
 Nuestros valores se reflejan en la forma en que desarrollamos software.

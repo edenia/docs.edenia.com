@@ -6,6 +6,9 @@ description: Algoritmo de Consenso DPoS para redes blockchain basadas en protoco
 keywords: [algoritmos de consenso, blockchain, eosio, Delegated Proof of Stake, DPoS, Mecanismo de Consenso, Qué es un mecanismo de consenso, Para qué es un algoritmo de consenso, Proof of Stake ]
 ---
 
+# Algoritmo de Consenso DPoS
+
+
 El mecanismo de consenso asegura que cada nuevo bloque que se agrega al Blockchain sea la única versión de la verdad acordada por todos los nodos en la red. Por lo tanto, un algoritmo de consenso tiene como objetivo encontrar un acuerdo común que sea una aceptado por toda la red.
 
 Un Algoritmo de consenso es un proceso en Ciencias de la Computación usado para lograr acuerdo en un sólo valor de datos entre procesos o sistemas distribuidos.

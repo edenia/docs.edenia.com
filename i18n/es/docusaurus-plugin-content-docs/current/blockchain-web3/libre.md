@@ -3,12 +3,15 @@ id: blockchain-web3-libre
 title: Introducción a Libre
 sidebar_position: 11
 ---
+
+# Introducción a Libre
+
 Libre es una blockchain de alto rendimiento compatible con EVM, diseñada para aplicaciones DeFi escalables y tokenización de activos del mundo real (RWA). Construida con un enfoque en bajas comisiones, transacciones rápidas y cumplimiento regulatorio, Libre ofrece un entorno seguro y amigable para desarrolladores que buscan crear productos financieros que conecten los mercados tradicionales con los basados en blockchain.
 Su arquitectura admite interoperabilidad con Ethereum y otras redes EVM, lo que la convierte en una opción atractiva para instituciones e innovadores en Web3.
 
 🔗 [Libre](https://www.libre.org/)
 
-### Características Clave de Libre
+## Características Clave de Libre
 Compatibilidad con EVM: Soporte completo para herramientas, contratos inteligentes y marcos de desarrollo de Ethereum.
 
 * **Alto Rendimiento**: Optimizada para tiempos de bloque rápidos y alto rendimiento de transacciones.

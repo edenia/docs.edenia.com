@@ -197,25 +197,25 @@ Cursor integrates with external services through MCP servers:
 
 ### Vercel Deployment Workflow
 ```bash
-# Natural language command in Cursor
+## Natural language command in Cursor
 "Deploy this Next.js app to Vercel with production optimizations"
 
-# Cursor Agent actions:
-# 1. Optimizes build configuration
-# 2. Sets up environment variables
-# 3. Configures deployment settings
-# 4. Triggers deployment
-# 5. Provides live URL
+## Cursor Agent actions:
+## 1. Optimizes build configuration
+## 2. Sets up environment variables
+## 3. Configures deployment settings
+## 4. Triggers deployment
+## 5. Provides live URL
 ```
 
 ### GitHub PR Review
 ```bash
-# BugBot automatically:
-# 1. Analyzes code changes
-# 2. Identifies potential issues
-# 3. Suggests improvements
-# 4. Provides "Fix in Cursor" links
-# 5. Updates PR with review comments
+## BugBot automatically:
+## 1. Analyzes code changes
+## 2. Identifies potential issues
+## 3. Suggests improvements
+## 4. Provides "Fix in Cursor" links
+## 5. Updates PR with review comments
 ```
 
 ---

@@ -6,11 +6,14 @@ description: Descubre Nimiq blockchain - una criptomoneda basada en navegador co
 keywords: [nimiq blockchain, criptomoneda navegador, pagos instantáneos, intercambios atómicos, web3 navegador, nimiq coin, pagos descentralizados, accesibilidad cripto]
 ---
 
+# Introducción a Nimiq
+
+
 Nimiq es un protocolo blockchain diseñado para la simplicidad, accesibilidad y facilidad de uso directamente desde el navegador. Su objetivo es hacer que la adopción de criptomonedas sea lo más sencilla posible, permitiendo a los usuarios interactuar con la blockchain sin necesidad de instalar software adicional. Nimiq se enfoca en transacciones rápidas, mecanismos de consenso ecológicos y herramientas amigables para usuarios y desarrolladores.
 
 🔗 [Nimiq](https://www.nimiq.com/)
 
-### Características Clave de Nimiq
+## Características Clave de Nimiq
 * **Nativo en el Navegador**: Funciona directamente en navegadores modernos sin instalaciones adicionales.
 * **Amigable para el Usuario**: Creación de carteras y envío de transacciones simplificados para una adopción masiva.
 * **Transacciones Rápidas**: Diseñado para liquidación rápida y baja latencia.

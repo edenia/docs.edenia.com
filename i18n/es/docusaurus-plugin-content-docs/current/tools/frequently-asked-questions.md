@@ -6,6 +6,9 @@ description: Preguntas frecuentes de desarrolladores blockchain EOSIO
 keywords: [FAQ, Preguntas Frecuentes, Blockchain, Dessarrolladores, EOS, EOSIO]
 ---
 
+# Preguntas Frecuentes de Desarrolladores
+
+
 
 En EOS Costa Rica nos interesan las dudas de nuestros ingenieros.
 

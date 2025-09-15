@@ -6,6 +6,9 @@ description: Definición, uso y funcionalidades de GraphQL
 keywords: [GraphQL, Aprender GraphQL, Qué es GraphQL, Cómo funciona GraphQL, Queries y Mutations, GraphQL en EOSIO, GraphQL en Ethereum, GraphQL en Cardano]
 ---
 
+# GraphQL
+
+
 [GraphQL](https://graphql.org/) es un lenguaje de consulta para su API y un tiempo de ejecución del lado del servidor para ejecutar consultas mediante el uso de un sistema de tipos que defina para sus datos. GraphQL no está vinculado a ninguna base de datos o motor de almacenamiento específico y, en cambio, está respaldado por su código y datos existentes.
 
 ## Consultas y Mutaciones

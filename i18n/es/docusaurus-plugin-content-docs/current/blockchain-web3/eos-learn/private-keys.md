@@ -6,6 +6,9 @@ description: Manejo de Llaves Privadas en blockchain
 keywords: [llaves privadas, blockchain, eosio, EOS, EOS Costa Rica, manejo de llaves privadas, Qué es una llave privada, Para qué es una llave privada]
 ---
 
+# Manejo de Llaves Privadas
+
+
 ## Crear Cuenta en el Blockchain Público
 
 En la mayoría de las billeteras puede generar nuevas llaves para EOSIO, en esta guía crearemos claves en el terminal. Ejecutemos el comando `cleos` para generar las claves criptográficas necesarias para crear una cuenta. Para crear una cuenta en Jungle Testnet.

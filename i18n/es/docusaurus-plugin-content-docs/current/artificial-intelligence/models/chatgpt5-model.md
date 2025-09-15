@@ -6,6 +6,9 @@ description: Guía completa de GPT-5, el modelo de lenguaje más avanzado de Ope
 keywords: [GPT-5, OpenAI, ChatGPT, modelo IA, LLM, IA multimodal, modelo razonamiento, Microsoft Copilot, generación código, Azure OpenAI]
 ---
 
+# GPT-5 (OpenAI)
+
+
 
 <img src="/img/artificial-intelligence/models/openai.svg" alt="Logo OpenAI" class="ai-logo logo-openai" />
 

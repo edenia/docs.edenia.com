@@ -9,6 +9,9 @@ description: EOSIO Components, explaining how it works with different components
 keywords: [EOSIO Components, eosio, eosio.io, EOS Costa Rica, Components EOSIO, Blockchain Components, React js, react, React Components]
 ---
 
+# EOSIO Components
+
+
 ## Nodeos
 
 [Nodeos](https://developers.eos.io/manuals/eos/latest/nodeos/index) is the core service daemon that runs on every EOSIO node it can be configured with plugins to run a node. It also, connects to and syncs data with other nodes in the net via P2P.It can be configured to process:

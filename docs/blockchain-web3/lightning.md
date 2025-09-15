@@ -9,6 +9,9 @@ description: Learn about Lightning Network - Bitcoin's layer 2 scaling solution 
 keywords: [lightning network, bitcoin layer 2, payment channels, instant payments, bitcoin scalability, off-chain transactions, micropayments, lightning nodes]
 ---
 
+# Introduction to Lightning Network
+
+
 
 
 Lightning Network is a second-layer payment protocol built on top of the Bitcoin blockchain. It is designed to enable fast, low-cost transactions by creating off-chain payment channels between users. These channels allow for instant and scalable transfers without congesting the main Bitcoin network. Lightning aims to solve Bitcoin’s scalability issues while maintaining the security and decentralization of the base layer.

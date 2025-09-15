@@ -6,12 +6,15 @@ description: Aprende sobre Base blockchain - la red Capa 2 de Ethereum de Coinba
 keywords: [base blockchain, ethereum capa 2, coinbase base, escalamiento capa 2, compatible EVM, desarrollo DApp, optimism stack, red base]
 ---
 
+# Introducción a Base
+
+
 
 Base es una red de Capa 2 de Ethereum construida por Coinbase utilizando el Optimism OP Stack. Está diseñada para proporcionar un entorno seguro, escalable y de bajo costo para aplicaciones descentralizadas (DApps), manteniendo al mismo tiempo plena compatibilidad con el ecosistema de Ethereum. Como parte del plan general de escalamiento de Ethereum, Base contribuye a un internet modular y multi-cadena al extender las capacidades de Ethereum con transacciones más rápidas y económicas.
 
 🔗 [Base](https://base.org)
 
-### Características Clave de Base
+## Características Clave de Base
 
 * **Escalabilidad:** Base reduce significativamente los costos de transacción e incrementa el rendimiento utilizando tecnología de *optimistic rollup*.
 * **Compatibilidad con Ethereum:** Total compatibilidad con EVM que permite una integración fluida con herramientas de Ethereum, contratos inteligentes y DApps.

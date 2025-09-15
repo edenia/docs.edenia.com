@@ -9,6 +9,9 @@ description: Handling private keys in blockchain
 keywords: [ private keys, keys, EOSIO, EOS, EOS Costa Rica, What is a private key, What is a private key for]
 ---
 
+# Private Keys
+
+
 ## Create an Account in the Public Blockchain
 
 In most wallets you can generate new eosio keys, for this guide we will create keys in the terminal. let's execute the command `cleos` to generate the cryptographic keys required to create an account.

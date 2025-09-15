@@ -6,6 +6,9 @@ description: Diferencias entre la red actual EOSIO y Mandel.
 keywords: [ EOSIO, Mandel, Migración, EOSIO a Mandel, Migracion a Mandel, Cuál es la diferencia entre EOSIO Y Mandel, fractally, ƒractally ]
 ---
 
+# Migración de EOSIO a Mandel
+
+
 ## Descontento con Block One
 
 En el año 2021, la [comunidad EOS](https://eoscommunity.org/) se sentía decepcionada por el compromiso de [Block One](https://block.one/) con ellos debido a la falta de inversión y acción por parte de B1 en el apoyo a la blockchain EOS. Por lo que, mediante un consenso mayoritario de los nodos productores de bloques, la comunidad afirma que la empresa ya no actúa en el mejor interés de la red y detuvieron los pagos continuos que recibía la empresa destinados a mantenimiento.

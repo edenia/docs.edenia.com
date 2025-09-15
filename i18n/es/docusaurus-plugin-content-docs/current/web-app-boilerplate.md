@@ -6,6 +6,9 @@ description: Plantilla de aplicación web para desarrolladores de software con R
 keywords: [plantilla webapp, boilerplate react, componentes material-ui, desarrollo web, plantilla web, eosio authenticator, aplicación react]
 ---
 
+# Plantilla para Aplicación Web
+
+
 ## Plantilla para Aplicación Web de React
 
 Plantilla para aplicaciones eb de React incorporando UAL para autenticadores EOSIO (wallets)

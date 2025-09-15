@@ -6,6 +6,9 @@ description: Definiciones y explicaciones de contratos ricardianos.
 keywords: [Contrato ricardiano, contratos blockchain, eos, eosio, Cómo crear un contrato Ricardiano, HTML de Contrato Ricardiano, Contrato Ricardiano React]
 ---
 
+# ¿ Qué son los Contratos Ricardianos ?
+
+
 ## ¿Qué son los contratos ricardianos?
 Son documentos digitales que definen los términos y condiciones entre los involucrados en el contrato, estos están firmados y verificados criptográficamente y pueden ser leídos tanto por humanos como por sistemas informáticos.
 

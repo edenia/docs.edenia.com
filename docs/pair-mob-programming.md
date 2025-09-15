@@ -8,6 +8,9 @@ sidebar_label: Pair or Mob Programming
 description: Pair programming and mob programming as a group.
 keywords:  [ Programming in pairs, Pair Programming, What is Pair Programming, How to Apply Pair Programming]
 ---
+
+# Software Development in Pairs or Groups
+
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 The development of new software is not a simple process, depending on the size of the program, a large number of possible junctures, functions and problematic issues must be taken into account.

@@ -6,7 +6,10 @@ description: Lista de comando para el uso de Cleos
 keywords: [Comandos Cleos, cleos, comandos, EOS, Costa Rica, Qué es cleos]
 ---
 
-### Comando Cleos 
+# Comandos Cleos
+
+
+## Comando Cleos 
 
 Ver referencia completa de comandos en el siguiente enlace a [Documentación Cleos](https://developers.eos.io/manuals/eos/latest/cleos/index)
 

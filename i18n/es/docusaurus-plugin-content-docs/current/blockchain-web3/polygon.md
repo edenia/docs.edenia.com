@@ -6,6 +6,9 @@ description: Descubre Polygon (MATIC) - solución de escalamiento Capa 2 de Ethe
 keywords: [polygon blockchain, MATIC, ethereum capa 2, red polygon, solución escalamiento, multi-cadena, desarrollo polygon, blockchain capa 2]
 ---
 
+# Introducción a Polygon
+
+
 
 Polygon, anteriormente conocido como Matic Network, es un protocolo y un marco para construir y conectar redes blockchain compatibles con Ethereum. Proporciona soluciones escalables sobre Ethereum, apoyando un ecosistema multi-cadena de Ethereum. Polygon transforma a Ethereum en un sistema multi-cadena completo, comúnmente llamado el “Internet de las Blockchains”. Este sistema multi-cadena es similar a otros como Polkadot, Cosmos o Avalanche, pero con las ventajas adicionales de la seguridad, el ecosistema vibrante y la apertura de Ethereum.
 
@@ -13,7 +16,7 @@ Polygon, anteriormente conocido como Matic Network, es un protocolo y un marco p
 
 ---
 
-### Características Clave de Polygon
+## Características Clave de Polygon
 
 * **Escalabilidad:** Alto rendimiento y soluciones escalables gracias a cadenas laterales de Capa 2 (*Layer 2*).
 * **Compatibilidad con Ethereum:** Integración fluida con herramientas, DApps e infraestructura existentes en Ethereum.

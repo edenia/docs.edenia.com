@@ -5,6 +5,9 @@ sidebar_label: Seguridad Blockchain
 description: Consideraciones de Seguridad que para Aplicaciones Blockchain
 keywords: [seguridad, blockchain, eosio, eos, EOS, Vulnerabilidades Blockchain, ¿Riesgo de Seguridad en blockchain?]
 ---
+
+# Vulnerabilidades del Blockchain
+
 ## Explotando Vulnerabilidades en Blockchain
 
 El blockchain es un conjunto de tecnologías emergentes que se presentan como alternativas a sistemas centralizados. Un ejemplo notable es que buscan reemplazar los tradicionales sistemas bancarios por medio del uso de criptomonedas sin un control centralizado, como el caso del conocido Bitcoin. También tienen otras aplicaciones importantes, como en la trazabilidad de bienes, el control de la corrupción, e incluso los sistemas democráticos. Algunas de estas capacidades se implementan por medio de "contratos inteligentes", básicamente software que se ejecute sobre las blockchain.

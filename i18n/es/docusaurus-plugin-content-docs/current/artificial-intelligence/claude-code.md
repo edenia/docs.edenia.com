@@ -20,7 +20,7 @@ keywords: [claude code, anthropic IA, asistente terminal IA, desarrollo CLI, cod
 
 ---
 
-# Arquitectura y Características Técnicas
+## Arquitectura y Características Técnicas
 
 ## Modo y Filosofía
 
@@ -52,7 +52,7 @@ keywords: [claude code, anthropic IA, asistente terminal IA, desarrollo CLI, cod
 
 ---
 
-# Casos de Uso
+## Casos de Uso
 
 ### Del Issue al PR en una sola sesión (CLI)
 ```bash
@@ -76,7 +76,7 @@ El archivo CLAUDE.md y hooks guían al agente: estructura del repo, convenciones
 
 ---
 
-# Ventajas Clave
+## Ventajas Clave
 
 | Fortaleza                            | Por qué importa                                  |
 | ------------------------------------ | ------------------------------------------------ |
@@ -87,7 +87,7 @@ El archivo CLAUDE.md y hooks guían al agente: estructura del repo, convenciones
 | **Componibilidad Unix**              | Encadenar comandos y construir flujos propios    |
 
 ---
-# Limitaciones y Riesgos
+## Limitaciones y Riesgos
 
 *Interfaz centrada en CLI: curva de adopción para equipos acostumbrados a IDEs gráficos.
 *Errores contextuales ocasionales; requiere prompts claros y un CLAUDE.md actualizado.
@@ -96,7 +96,7 @@ El archivo CLAUDE.md y hooks guían al agente: estructura del repo, convenciones
 
 ---
 
-# Implicaciones Éticas y Laborales
+## Implicaciones Éticas y Laborales
 
 * **Productividad y desplazamiento**: agentes que abren PRs y ejecutan pruebas aumentan la velocidad, pero reconfiguran tareas.
 * **Calidad y seguridad:** es necesario mantener el human-in-the-loop, pruebas automatizadas y políticas de secure coding.
@@ -107,7 +107,7 @@ Referencias: WIRED, Anthropic, DevOps.com, New York Post
 
 ---
 
-# Recomendaciones Prácticas de Adopción
+## Recomendaciones Prácticas de Adopción
 
 ## Diseño del Playbook Técnico
 
@@ -145,7 +145,7 @@ $ claude -p "Reproduce y corrige el test flaky 'User can checkout' en packages/c
 ```
 ---
 
-# Conclusiones
+## Conclusiones
 
 Claude Code sobresale cuando:
 

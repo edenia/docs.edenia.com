@@ -9,6 +9,9 @@ description: Accounts And Permissions for accounts on EOSIO
 keywords: [Accounts And Permissions, EOS Costa Rica, Accounts, Permissions, Permissions EOSIO, Blockchain, Blockchain EOSIO, What are the Accounts and Permissions for EOSIO]
 ---
 
+# Accounts And Permissions EOSIO
+
+
 ## Accounts
 
 An **account** on EOSIO is a legible name for humans that get stored on the blockchain. An account can belong to an individual or group of individuals depending on the permissions configuration. An account is required in order to execute any transaction on the blockchain.

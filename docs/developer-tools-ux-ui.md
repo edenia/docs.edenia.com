@@ -9,6 +9,9 @@ description: Tools to design and develop user interfaces UX/UI
 keywords: [UX, UI, Design, Design Tools, Tools, Tools for UX/UI, What is UI, EOS, EOS Costa Rica, Why UX/UI ]
 ---
 
+# Tools for UX/UI Design
+
+
 ## Figma
 
 ### What is Figma?

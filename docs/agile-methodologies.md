@@ -8,6 +8,9 @@ sidebar_label: Agile Methodologies
 description: Agile Methodologies for handling the development of new open source applications
 keywords: [ What are Agile Methodologies, Scrum, Canvan, Daily Stand up]
 ---
+
+# Agile Methodologies
+
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## What are Agile Methodologies ?

@@ -6,13 +6,16 @@ description: Explora Nostr - protocolo social descentralizado usando claves crip
 keywords: [protocolo nostr, social descentralizado, resistente censura, identidad criptográfica, relays nostr, redes sociales, web3 social, comunicación descentralizada]
 ---
 
+# Introducción a Nostr
+
+
 Nostr (Notes and Other Stuff Transmitted by Relays) es un protocolo abierto diseñado para crear redes sociales descentralizadas y resistentes a la censura. A diferencia de las plataformas tradicionales que dependen de servidores centralizados, Nostr funciona a través de una red de relays independientes que transmiten mensajes firmados entre usuarios.
 Su simplicidad, resiliencia y resistencia a la censura lo convierten en un estándar emergente para la comunicación descentralizada, compatible con una amplia variedad de aplicaciones, clientes y casos de uso.
 
 🔗 [Nostr](https://nostr.com/)
 
 
-### Características Clave de Nostr
+## Características Clave de Nostr
 * **Descentralización**: No existe un servidor central; cualquiera puede ejecutar un relay o un cliente.
 * **Resistencia a la Censura**: Los mensajes se firman con claves criptográficas y no pueden ser modificados por los relays.
 * **Interoperabilidad**: Funciona con múltiples aplicaciones y clientes que implementan el protocolo.

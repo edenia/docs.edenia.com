@@ -6,6 +6,9 @@ description: Opciones para la respectiva configuración de Nodeos
 keywords: [ configuracion nodeos, opciones nodeos, nodeos, EOS, EOS Costa Rica, Configurar Nodeos]
 ---
 
+# Opciones de Configuración de Nodeos
+
+
 ## Opciones de la Aplicación Nodeos:
 
 ### Opciones de Configuración para eosio::chain_plugin:

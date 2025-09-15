@@ -9,6 +9,9 @@ description: Concepts, definitions, funtionalities from Docker
 keywords: [ Docker, Learn Docker, What is Docker, How Docker Works, How to use Docker, What is Docker for?]
 ---
 
+# Docker
+
+
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 Docker is a tool that allows you to quickly create, test, and deploy applications. The idea behind Docker is to create “containers” that are lightweight and portable so that applications can run on any machine with Docker installed, regardless of the operating system.

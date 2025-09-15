@@ -6,6 +6,9 @@ description: Redes blockchain que se encuentran desarrolladas con el protocolo d
 keywords: [Redes blockchain basadas en EOSIO, Blockchain, EOSIO, EOS, EOS Costa Rica]
 ---
 
+# Redes Blockchain EOSIO
+
+
 ## Redes Blockchain
 
 El ecosistema EOSIO está compuesto por muchas cadenas de bloques públicas y privadas diferentes, cada una con una gobernanza diferente y cada una dirigida a diferentes casos de uso y mercados.

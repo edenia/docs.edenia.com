@@ -5,6 +5,9 @@ sidebar_label: Programación en Parejas o Grupos
 description: Una forma de trabajar en parejas o grupos llamada pair programming para asegurar que los trabajos se realicen bien de forma colaborativa.
 keywords: [programación en parejas, grupos, pair programming, desarrollo pair programming, software, EOS, EOS Costa Rica, Qué es pair programming, Cómo aplicar pair programming]
 ---
+
+# Programación en Parejas o Grupos (Pair Programming)
+
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 

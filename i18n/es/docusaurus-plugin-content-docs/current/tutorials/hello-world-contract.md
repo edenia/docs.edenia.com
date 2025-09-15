@@ -6,6 +6,9 @@ description: Creando contrato hola mundo para la blockchain EOSIO
 keywords: [contrato, crear contrato, eosio, blockchain, EOS, Qué es un contrato inteligente, Qué es un contrato inteligente]
 ---
 
+# Creando Contrato para EOSIO
+
+
 Explicamos con ejemplos cómo crear una cuenta y un contrato `Hello World` para subir a una blockchain basada en EOS.IO. Para este ejemplo, nos basamos en recursos publicados por [Block.one para compartir con la comunidad](https://developers.eos.io/).
 
 ## Obtenga sus Llaves Privadas

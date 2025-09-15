@@ -6,6 +6,9 @@ description: Podcasts de la comunidad Edenia
 keywords: [Podcasts, Comunidad, Comunidad EOS, EOS, EOS Costa Rica]
 ---
 
+# Edenia Podcasts
+
+
 ## EOSIO
 
 https://www.youtube.com/channel/UCbc7vIgwb-sPSckU0FbWmRg

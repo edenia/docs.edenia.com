@@ -9,6 +9,9 @@ description: Engineering culture values and practices what we do in the EOS comm
 keywords: [EOSIO, EOS, EOS Costa Rica, eosio.io, What is the EOS Costa Rica Engineering Culture, Engineering Culture, Engineering Culture EOS]
 ---
 
+# Engineering Culture
+
+
 We are a fast paced startup with really talented engineers who love open source and agile principles. 
 
 Our values are reflected in the way we build software. 

@@ -6,6 +6,9 @@ description: Funciones Importantes en EOSIO
 keywords: [funciones importantes, EOSIO, EOS, EOS Costa Rica, Funciones EOSIO]
 ---
 
+# Funciones Importantes en EOSIO
+
+
 ## Cuenta Privilegiada EOSIO
 
 Esta cuenta tiene acceso ilimitado a los recursos de CPU, NET y RAM que representan la máxima autoridad de la red que puede ejecutar funciones privilegiadas.

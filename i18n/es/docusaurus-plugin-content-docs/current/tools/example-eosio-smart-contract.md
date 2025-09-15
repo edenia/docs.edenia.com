@@ -10,7 +10,7 @@ keywords: [eos, eosio, EOS, EOSIO, Contrato Inteligente, Dapp, contrato-intelige
 
 Una colección de contratos inteligentes EOS de código abierto.
 
-### EOSIO Contracts
+## EOSIO Contracts
 
 Contratos inteligentes que proporcionan algunas de las funciones básicas de la blockchain EOSIO.  
 https://github.com/EOSIO/EOSIO.contracts

@@ -6,6 +6,9 @@ description: Glosario de terminos relevantes para el desarrollo de aplicaciones 
 keywords: [glosario, terminos, relevantes, EOS, EOS Costa Rica]
 ---
 
+# Glosario
+
+
 Lista de términos necesarios para comprender un poco mas los contenidos presentes en esta guía. 
 
 ## **A**

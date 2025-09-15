@@ -6,6 +6,9 @@ description: Definición y explicaciones con temas relacionados a los mecanismos
 keywords: [Algoritmo de Consenso, Mecanismos de Consenso, DPoS, POS, POW, Proof of Work, Delegated Proof of Stake, Proof of Stake, Protocolos Blockchain]
 ---
 
+# Algoritmos de Consenso Blockchain
+
+
 Es importante tener conocimiento sobre cuales han sido los mecanismos de consenso utilizados por las distintas redes blockchain para mantener la seguridad e integridad dentro de la red, asi como los beneficios y las redes que aun la conforman.
 
 ## Proof of Work (PoW)

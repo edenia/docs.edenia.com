@@ -6,6 +6,9 @@ description: Guía completa sobre Bitcoin - la primera criptomoneda, su tecnolog
 keywords: [bitcoin, criptomoneda, blockchain, oro digital, prueba de trabajo, satoshi nakamoto, BTC, minería bitcoin, moneda descentralizada]
 ---
 
+# Introducción a Bitcoin
+
+
 
 
 Bitcoin es la primera y más reconocida criptomoneda, introducida en 2009 por una entidad anónima conocida como Satoshi Nakamoto. Funciona en una red descentralizada peer-to-peer, permitiendo transacciones seguras y transparentes sin intermediarios como bancos. La blockchain de Bitcoin registra todas las transacciones de forma inmutable, respaldada por un mecanismo de consenso llamado Prueba de Trabajo (Proof of Work - PoW), que garantiza la integridad de la red mediante minería computacional.
@@ -13,7 +16,7 @@ Aunque fue concebido inicialmente como una alternativa digital al efectivo, Bitc
 
 🔗 [Bitcoin](https://bitcoin.org/en/)
 
-### Características Clave de Bitcoin
+## Características Clave de Bitcoin
 
 * **Descentralización**: Ninguna autoridad central controla Bitcoin; la red es mantenida por miles de nodos en todo el mundo.
 * **Seguridad mediante Proof of Work**: Las transacciones se validan a través de la minería, que requiere esfuerzo computacional y consumo de energía.

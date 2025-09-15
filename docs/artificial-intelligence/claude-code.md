@@ -172,7 +172,7 @@ $ tail -f app.log | claude -p "if 5xx errors persist > 2 min, open an issue with
 
 #### CLAUDE.md Template
 ```markdown
-# Project: Your App Name
+## Project: Your App Name
 
 ## Objectives
 - Primary goals and success criteria

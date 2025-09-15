@@ -9,6 +9,9 @@ description: Material UI & Theme for handling the theme of different projects
 keywords: [Material UI, Theme, Material UI Theme, styles, css, color palette, EOS, EOS Costa Rica]
 ---
 
+# Material UI & Theme
+
+
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## Logo and Visual Assets

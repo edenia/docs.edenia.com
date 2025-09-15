@@ -9,6 +9,9 @@ description: Research papers conducted by the EOS Network Foundation
 keywords: [Blue Papers EOS, ENF Research, blue-papers-eos, eos-network-foundation-research]
 ---
 
+# EOS Network Foundation Blue Papers
+
+
 The EOS Network Foundation, also known as ENF (EOS Network Foundation) is a non-profit foundation, has created a series of "Blue Papers" on the main issues or doubts of the community and the respective actions to be taken in such situations. In this section we will see in a quick and concise way some of them:
 
 ## API+

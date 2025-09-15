@@ -9,6 +9,9 @@ description: Frequently asked questions EOS Costa Rica
 keywords: [ EOS Costa Rica, EOS, FAQ, Frequently Asked Questions, EOSIO questions ]
 ---
 
+# Frequently Asked Questions
+
+
 
 At Sistemas Edenia we are interested in the doubts of our engineers.
 

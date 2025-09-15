@@ -9,6 +9,9 @@ description: EOS Blockchain, explaining how it works and how to use it.
 keywords: [EOS Blockchain, blockchain, eos, EOSIO, mainnet, EOS Costa Rica, What is blockchain]
 ---
 
+# EOS Blockchain
+
+
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## EOS vs ETH

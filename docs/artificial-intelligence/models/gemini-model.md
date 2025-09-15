@@ -9,6 +9,9 @@ description: Complete guide to Google Gemini AI models, featuring native multimo
 keywords: [Gemini, Google AI, multimodal AI, Google DeepMind, Bard, Android AI, long context, Google Workspace, image analysis, video understanding]
 ---
 
+# Gemini (Google)
+
+
 
 <img src="/img/artificial-intelligence/models/gemini.svg" alt="Google Gemini Logo" class="ai-logo" />
 

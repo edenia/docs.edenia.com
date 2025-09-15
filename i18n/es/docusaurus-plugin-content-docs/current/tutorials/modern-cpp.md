@@ -6,6 +6,9 @@ description: C++ Moderno nuevas características y funcionalidades
 keywords: [C++, C++ Moderno, C++, Aprender C++, Qué es C++, Cómo aprender C++, Qué es C++, Cómo funciona C++]
 ---
 
+# C++ Moderno
+
+
 
 ## Bienvenido a C++
 

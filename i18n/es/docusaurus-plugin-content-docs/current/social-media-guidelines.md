@@ -6,6 +6,9 @@ description: Guías de redes sociales para los desarrolladores de software EOS C
 keywords: [redes sociales EOS, guías, desarrollo, software, EOS, EOS Costa Rica]
 ---
 
+# Guías para Redes Sociales
+
+
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 Este sitio muestra las diferentes redes sociales con las que cuenta Edenia, así como algunas recomendaciones sobre cómo interactuar con nosotros a través de ellas.

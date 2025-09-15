@@ -9,6 +9,9 @@ description: Comprehensive guide to GPT-5, OpenAI's most advanced language model
 keywords: [GPT-5, OpenAI, ChatGPT, AI model, LLM, multimodal AI, reasoning model, Microsoft Copilot, code generation, Azure OpenAI]
 ---
 
+# GPT-5 (OpenAI)
+
+
 
 <img src="/img/artificial-intelligence/models/openai.svg" alt="OpenAI Logo" class="ai-logo logo-openai" />
 

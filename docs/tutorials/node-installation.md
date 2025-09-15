@@ -41,18 +41,18 @@ Now, let's write down some code into that files:
 agent-name = testproducer
 
 # PLUGINS
-# Required to process and aggregate chain data on an EOSIO node.
+## Required to process and aggregate chain data on an EOSIO node.
 plugin = eosio::chain_plugin
-# Exposes functionality to the RPC API interface
+## Exposes functionality to the RPC API interface
 plugin = eosio::chain_api_plugin
-# Required to enable any RPC API functionality provided by a nodeos or keosd instance.
+## Required to enable any RPC API functionality provided by a nodeos or keosd instance.
 plugin = eosio::http_plugin
-# Loads functionality required for a node to produce blocks.
+## Loads functionality required for a node to produce blocks.
 plugin = eosio::producer_plugin
-# Exposes a number of endpoints for the producer_plugin to the RPC API interface
+## Exposes a number of endpoints for the producer_plugin to the RPC API interface
 plugin = eosio::producer_api_plugin
 
-# CHAIN 
+## CHAIN 
 chain-state-db-size-mb = 16384
 reversible-blocks-db-size-mb = 512
 contracts-console = true
@@ -63,10 +63,10 @@ pause-on-startup = false
 max-irreversible-block-age = -1
 txn-reference-block-lag = 0
 
-# BLOCK PRODUCER
+## BLOCK PRODUCER
 producer-name = testproducer
 
-# PEERING NETWORK
+## PEERING NETWORK
 p2p-server-address =  TESTPRODUCER_IP:9876     # CHANGE THIS ACCORDING TO THE NODE IP
 p2p-listen-endpoint = 0.0.0.0:9876
 p2p-max-nodes-per-host = 150
@@ -79,7 +79,7 @@ p2p-peer-address = SEED_NODE_IP:SEED_NODE_PORT
 p2p-peer-address = PEER1_NODE_IP:PEER1_NODE_PORT
 p2p-peer-address = PEER2_NODE_IP:PEER2_NODE_PORT
 p2p-peer-address = API_NODE_IP:API_NODE_PORT
-# You can continue adding peer nodes here
+## You can continue adding peer nodes here
 ```
 
 > Note that above there are items that need to be replaced with their corresponding values.
@@ -225,7 +225,7 @@ If you are seeking to setup a node on Jungle Testnet, you can go to [EOS Jungle 
 ### Configure Kylin Testnet Node
 To configure a node in the Kylin Testnet, please go to [CryptoKylin-Testnet](https://github.com/cryptokylin/CryptoKylin-Testnet) repo and follow instructions there.
 
-# References
+## References
 - [Snapshot Related Info](https://developers.eos.io/search?query=snapshot).
 - [Cryptolions Testnet Auto-Installer script](http://monitor.jungletestnet.io/#register).
 - [CryptoKylin-Testnet Github repo](https://github.com/cryptokylin/CryptoKylin-Testnet)

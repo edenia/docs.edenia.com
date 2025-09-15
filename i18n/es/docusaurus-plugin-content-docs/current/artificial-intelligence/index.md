@@ -14,7 +14,7 @@ La IA es uno de los campos más transformadores de nuestro tiempo, moldeando ind
 
 ---
 
-# Contexto y Evolución
+## Contexto y Evolución
 
 La Inteligencia Artificial tiene sus raíces en la década de 1950, cuando pioneros como **Alan Turing**, **John McCarthy** y **Marvin Minsky** comenzaron a explorar si las máquinas podían simular aspectos de la inteligencia humana. Las primeras investigaciones se enfocaron en la **lógica simbólica y los sistemas expertos**.  
 
@@ -24,7 +24,7 @@ Desde 2020, la aparición de los **modelos fundacionales** (como GPT, Claude, Ge
 
 ---
 
-# Arquitectura y Características Técnicas
+## Arquitectura y Características Técnicas
 
 ## Paradigmas Centrales de la IA
 
@@ -49,7 +49,7 @@ Desde 2020, la aparición de los **modelos fundacionales** (como GPT, Claude, Ge
 
 ---
 
-# Casos de Uso
+## Casos de Uso
 
 ### Salud
 
@@ -103,7 +103,7 @@ Explora los modelos más avanzados y sus capacidades:
 
 ---
 
-# Ventajas Clave
+## Ventajas Clave
 
 | Ventaja | Por qué importa |
 |---------|-----------------|
@@ -115,7 +115,7 @@ Explora los modelos más avanzados y sus capacidades:
 
 ---
 
-# Limitaciones y Riesgos
+## Limitaciones y Riesgos
 
 - **Sesgos y equidad**: la IA refleja los sesgos presentes en sus datos de entrenamiento.  
 - **Explicabilidad**: muchos modelos son “cajas negras” de difícil interpretación.  
@@ -126,7 +126,7 @@ Explora los modelos más avanzados y sus capacidades:
 
 ---
 
-# Implicaciones Éticas y Laborales
+## Implicaciones Éticas y Laborales
 
 - **Empleo y automatización**: la IA desplaza tareas repetitivas hacia funciones de supervisión y toma de decisiones.  
 - **IA Responsable**: requiere equidad, transparencia, rendición de cuentas y supervisión humana.  
@@ -136,7 +136,7 @@ Explora los modelos más avanzados y sus capacidades:
 
 ---
 
-# Recomendaciones Prácticas de Adopción
+## Recomendaciones Prácticas de Adopción
 
 ## Guía Técnica
 
@@ -166,7 +166,7 @@ Explora los modelos más avanzados y sus capacidades:
 
 ---
 
-# Conclusión
+## Conclusión
 
 La Inteligencia Artificial es una **tecnología de propósito general** con un impacto transformador. Es especialmente útil cuando:  
 

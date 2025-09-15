@@ -6,6 +6,9 @@ description: Componentes EOSIO, explicacion de como funciona la cadena de bloque
 keywords: [componentes-eosio, Componentes EOSIO, blockchain, eos, eosio, eosio.io, EOS, EOS Costa Rica]
 ---
 
+# Componentes EOSIO
+
+
 ## Nodeos
 
 [Nodeos](https://developers.eos.io/manuals/eos/latest/nodeos/index) es el daemon de servicio central que se ejecuta en cada nodo de EOSIO, puede ser configurado con plugins para ejecutar un nodo. Además, se conecta y sincroniza datos con otros nodos de la red a través de P2P. Puede ser configurado para procesar:

@@ -9,6 +9,9 @@ description: Useful links for the Edenia community
 keywords: [Edenia Community Links, Edenia Developer Resources, EOSIO]
 ---
 
+# Edenia Community Links
+
+
 Here is a list of helpful links related to the Edenia community.
 
 * [EOSIO for Developers](https://eos.io/for-developers/)

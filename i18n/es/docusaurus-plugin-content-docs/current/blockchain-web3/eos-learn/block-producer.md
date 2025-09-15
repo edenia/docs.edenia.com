@@ -7,6 +7,9 @@ description: Definición de un Productor de Bloques (BP) en EOSIO
 keywords: [Block Producer, Productor de Bloques, Como ser un Block Producer, EOSIO, EOS, BP, Que es un Productor de Bloques]
 ---
 
+# Productor de Bloques
+
+
 ## ¿Qué es un productor de bloques?
 
 Los productores de bloques proveen la infraestructura requerida para procesar las transacciones. Algunos productores de bloques operan con sus propios equipos físicos, mientras otros proveen servicios utilizando servicios en la nube de terceros.

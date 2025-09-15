@@ -9,6 +9,9 @@ description: Telegram Channels of EOS Costa Rica community
 keywords: [Edenia Telegram Channels, EOS, EOS Costa Rica, eosio.io, What is the Edenia Telegram Channels?, Telegram Edenia Community]
 ---
 
+# EOS Costa Rica Telegram Channels
+
+
 Telegram channels are an ideal tool to spread messages to large numbers of people. The following is a list of the most relevant channels of the EOS Costa Rica community, in which content is shared that can be very useful.
 
 ## EOS Costa Rica General Community

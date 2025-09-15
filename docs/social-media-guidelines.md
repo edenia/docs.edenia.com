@@ -9,6 +9,9 @@ description: Social Media Guidelines for software developers EOS Costa Rica
 keywords: [ Social Media Guidelines, guidelines for developer, Social networks guidelines, Social networks EOS]
 ---
 
+# Social Media Guidelines
+
+
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 This site shows the different social networks in which you can follow the company as well as some recommendations on how to interact with us through them.

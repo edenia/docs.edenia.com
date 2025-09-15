@@ -6,6 +6,9 @@ description: EOS Costa Rica - Metodología de vuelos
 keywords: [EOS, Costa Rica, Metodología de vuelos, grooming, Qué es Metodología de vuelos, Para qué sirve la metodología de vuelos]
 ---
 
+# Metodología de Vuelos
+
+
 ## Agilidad en Edenia
 
 En Edenia nos esforzamos por ser innovadores no solo con nuestras soluciones de software sino también con nuestros procesos, estamos en constante evolución y mejorando la forma en que nuestro equipo está organizado para mejorar nuestro entorno de trabajo y optimizar la forma en que entregamos resultados.

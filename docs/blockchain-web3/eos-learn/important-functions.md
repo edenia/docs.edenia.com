@@ -9,6 +9,9 @@ description: Important Functions in EOSIO Blockchain
 keywords: [ important functions, Functions EOSIO, Functions Blockchain, EOS, EOS Costa Rica, Intrinsic functions , smart contract actions]
 ---
 
+# Important Functions in EOSIO
+
+
 ## EOSIO Privileged Account
 
 This account has unlimited access to CPU, NET, and RAM resources representing the highest authority of the network which can execute privileged functions.

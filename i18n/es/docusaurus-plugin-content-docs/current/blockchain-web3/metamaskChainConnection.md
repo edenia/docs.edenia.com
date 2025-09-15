@@ -6,6 +6,9 @@ description: Guía paso a paso para configurar la billetera MetaMask para múlti
 keywords: [configuración metamask, configurar metamask, billetera blockchain, billetera ethereum, polygon metamask, BSC metamask, agregar red metamask, billetera web3]
 ---
 
+# Como configurar Metamask
+
+
 
 
 Esta guía proporciona los pasos generales para conectar tu billetera **MetaMask** a las siguientes redes compatibles:

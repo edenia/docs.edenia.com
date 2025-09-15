@@ -6,6 +6,9 @@ description: Pautas para el manejo de proyectos de código abierto en EOS Costa 
 keywords: [pautas para codigo abierto, código abierto, proyectos, EOS, EOS Costa Rica, Proyectos de código abierto]
 ---
 
+# Pautas para Código Abierto
+
+
 ## Proceso de Desarrollo
 
 Utilizamos un estilo de tablero Kanban para priorizar nuestro trabajo. Por ejemplo, puedes mirar [EOS rate project board](https://github.com/eoscostarica/eos-rate/projects/1).
@@ -186,11 +189,11 @@ Los reportes de bug deben contener la siguiente información:
 
 Lanzamos el software para producción usando las etiquetas de GitHub [Semver](http://semver.org), excepto que la versión tiene nombres semánticos, por ejemplo "Breaking.Feature.Fix" en lugar de "Major.Minor.Patch".
 
-#### Breaking.Feature.Fix
+### Breaking.Feature.Fix
 
 No decidimos cuál será la versión. Los cambios en el API deciden. Los números en la versión son para computadoras, no para personas. Los nombres en los lanzamientos son para las personas.
 
-##### Breaking
+#### Breaking
 
 Cualquier "breaking change", no importa cuán pequeño, incrementa el número de la versión. Incrementar la versión no tiene relación con emitir un lanzamiento.
 

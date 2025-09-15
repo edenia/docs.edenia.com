@@ -8,6 +8,9 @@ sidebar_label: Blockchain Security
 description: Dangerous vulnerabilities in the blockchain ecosystem.
 keywords: [blockchain, security, vulnerabilities, Security Risks in the Blockchain Ecosystem, EOSIO, EOS, EOS Costa Rica, eosio.io, What is Security, What is the Blockchain Security]
 ---
+
+# Blockchain Vulnerabilities
+
 ## Exploiting vulnerabilities in Blockchain
 
 Blockchain is a set of emerging technologies that are presented as alternatives to centralized systems. A notable example is that they seek to replace traditional banking systems through the use of cryptocurrencies without centralized control, as in the case of the well-known Bitcoin. They also have other important applications, such as in the traceability of assets, the control of corruption, and even democratic systems. Some of these capabilities are implemented through "smart contracts", basically software that runs on blockchains.

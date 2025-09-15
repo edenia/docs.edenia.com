@@ -6,6 +6,9 @@ description: Enlaces Útiles de la Comunidad Edenia
 keywords: [Enlaces Útiles, Enlaces Comunidad, Comunidad, Comunidad Edenia, EOS, EOS Costa Rica]
 ---
 
+# Enlaces Comunidad Edenia
+
+
 Aquí hay una lista de enlaces útiles relacionados con la comunidad Edenia.
 
 * [EOSIO para Desarrolladores](https://eos.io/for-developers/)

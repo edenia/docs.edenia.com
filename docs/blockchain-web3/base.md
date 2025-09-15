@@ -9,6 +9,9 @@ description: Learn about Base blockchain - Coinbase's Ethereum Layer 2 network o
 keywords: [base blockchain, ethereum layer 2, coinbase base, layer 2 scaling, EVM compatible, DApp development, optimism stack, base network]
 ---
 
+# Introduction to Base
+
+
 Base is an Ethereum Layer 2 network built by Coinbase using the Optimism OP Stack. It is designed to provide a secure, scalable, and low-cost environment for decentralized applications (DApps) while maintaining full compatibility with the Ethereum ecosystem. As part of the broader Ethereum scaling roadmap, Base contributes to a modular, multi-chain internet by extending Ethereum’s capabilities with faster and cheaper transactions.
 
 🔗 [Base](https://base.org)

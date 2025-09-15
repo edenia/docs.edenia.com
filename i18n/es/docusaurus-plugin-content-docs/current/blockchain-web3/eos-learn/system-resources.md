@@ -6,6 +6,9 @@ description: Uso de recursos del blockchain de EOSIO
 keywords: [uso de recursos, recursos EOSIO, eosio, eos, EOS, EOS Costa Rica]
 ---
 
+# Uso de Recursos EOSIO
+
+
 ## Tipos de Recursos
 
 Las cuentas podrán utilizar los siguientes recursos en la red:

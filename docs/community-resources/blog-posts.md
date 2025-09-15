@@ -9,6 +9,9 @@ description: Blog posts of Edenia community
 keywords: [Edenia Blog, EOS, EOS Costa Rica, eosio.io, Blog Posts Edenia Community]
 ---
 
+# Edenia Blog
+
+
 ## What is Blockchain?
 
 Blockchain technology offers improved security, transparency, privacy, traceability and efficiency for companies and organizations.

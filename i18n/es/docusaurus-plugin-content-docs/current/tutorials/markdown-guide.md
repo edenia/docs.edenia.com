@@ -7,6 +7,9 @@ keywords: [markdown, guía, Qué es Markdown, Cómo se usa Markdown, markdown Gu
 Cómo escribir en formato Markdown, Qué se puede hacer con Markdown, Qué es Markdown y para qué sirve]
 ---
 
+# Guía Markdown
+
+
 ## ¿Qué es Markdown y para qué sirve?
 
 Markdown es un lenguaje de marcado ligero que se puede usar para agregar elementos de formato a documentos de texto sin formato.

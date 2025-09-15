@@ -9,6 +9,9 @@ description: Difference between the EOS mainnet and the EOSIO blockchain protoco
 keywords: [EOSIO, EOS, EOS Costa Rica, eosio.io, What is Mandel, Migration to Mandel, ƒractally, factally, What is the difference between EOSIO and Mandel]
 ---
 
+# Migration from EOSIO to Mandel
+
+
 ## Dissatisfaction with Block One
 
 In 2021, the [EOS Community](https://eoscommunity.org/) felt disappointed about the commitment of [Block One](https://block.one/) with the them because of the lack of investment and action on behalf of B1 in supporting in the EOS blockchain. For these reasons, through a super-majority consensus of Block Producers, the community affirms that the company doesn't act in the interest of the community and were stop the payment that the company receives for the network maintenance.

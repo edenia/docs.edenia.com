@@ -20,7 +20,7 @@ keywords: [cursor IDE, editor de código IA, asistente de programación IA, fork
 
 ---
 
-# Arquitectura y Características Técnicas
+## Arquitectura y Características Técnicas
 
 ## Capacidades Principales
 
@@ -44,7 +44,7 @@ keywords: [cursor IDE, editor de código IA, asistente de programación IA, fork
 
 ---
 
-# Integraciones y Extensibilidad
+## Integraciones y Extensibilidad
 
 - **Soporte para MCP (Model Context Protocol)**: Cursor puede conectarse a servidores MCP externos como **Vercel** para manejar despliegues, consultar documentación, inspeccionar logs y más—todo desde el editor.  
 
@@ -52,7 +52,7 @@ keywords: [cursor IDE, editor de código IA, asistente de programación IA, fork
 
 ---
 
-# Casos de Uso
+## Casos de Uso
 
 ### Ediciones Agénticas a Nivel de Proyecto
 En Modo Agente puedes decir:  
@@ -73,7 +73,7 @@ Un usuario pidió a Cursor crear una landing page en **HTML/CSS con Bootstrap**.
 
 ---
 
-# Ventajas Clave
+## Ventajas Clave
 
 | Característica                    | Beneficio                                           |
 |-----------------------------------|-----------------------------------------------------|
@@ -85,7 +85,7 @@ Un usuario pidió a Cursor crear una landing page en **HTML/CSS con Bootstrap**.
 
 ---
 
-# Limitaciones y Riesgos
+## Limitaciones y Riesgos
 
 - **Complejidad y sensibilidad al prompt** → Las funciones agénticas requieren prompts claros; instrucciones mal redactadas pueden generar resultados erróneos.  
 - **Costo y comportamiento del modelo** → Algunos usuarios reportan problemas de optimización o costos más altos frente a alternativas como Copilot.  
@@ -93,7 +93,7 @@ Un usuario pidió a Cursor crear una landing page en **HTML/CSS con Bootstrap**.
 
 ---
 
-# Implicaciones Éticas y Operativas
+## Implicaciones Éticas y Operativas
 
 - **Transformación de flujos de trabajo** → Cursor acelera la programación, pero también cambia roles: más prompting y revisión, menos tipeo manual.  
 - **Privacidad** → El diseño basado en inferencia cifrada protege la confidencialidad del código.  
@@ -101,7 +101,7 @@ Un usuario pidió a Cursor crear una landing page en **HTML/CSS con Bootstrap**.
 
 ---
 
-# Recomendaciones Prácticas de Adopción
+## Recomendaciones Prácticas de Adopción
 
 ## Primeros Pasos con Cursor
 - Empezar con **autocompletado Tab**, ediciones multilínea y Modo Agente en tareas definidas (ej. refactors simples).  
@@ -120,7 +120,7 @@ Un usuario pidió a Cursor crear una landing page en **HTML/CSS con Bootstrap**.
 
 ---
 
-# Conclusión
+## Conclusión
 
 Cursor lleva la **productividad potenciada por IA** al flujo de trabajo de un editor moderno y familiar.  
 - Programación en lenguaje natural  

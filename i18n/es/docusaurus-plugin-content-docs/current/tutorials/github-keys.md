@@ -6,6 +6,9 @@ description: "Llaves SSH para acceder a los repositorios de GitHub"
 keywords: [github, ssh, ssh-key, ssh-keygen, generar ssh key github, git key, extensión de la llave privada en git, ssh key github, Qué es SSH, Qué son las llaves SSH]
 ---
 
+# Llaves de GitHub
+
+
 ## ¿Por qué necesitamos Llaves de GitHub?
 
 Definamos primero a GitHub como un sistema de control de versiones distribuidas en línea basado en un navegador para aquellos desarrolladores de software que utilizan el sistema de control de revisiones Git. Git utiliza la autenticación de clave pública SSH y no una autenticación por contraseña.  Cada usuario del sistema tiene que generar una clave.

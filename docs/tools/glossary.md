@@ -9,6 +9,9 @@ description: Glossary of relevant terms for develop EOS applications
 keywords: [ Glossary, Relevant Terms, EOS, EOS Costa Rica]
 ---
 
+# Glossary
+
+
 List of terms necessary to understand the contents of this guide.
 
 ## **A**

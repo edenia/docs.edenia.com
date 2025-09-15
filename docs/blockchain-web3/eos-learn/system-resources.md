@@ -9,6 +9,9 @@ description: Use of EOSIO System Resources
 keywords: [EOSIO, System Resources, EOS, EOS Costa Rica, eosio.io, What is System Resources, What is the EOSIO System Resources, Blockchain Resources]
 ---
 
+# EOSIO System Resources
+
+
 ## Type of Resources
 
 The accounts will be able to use the following resources in the network:

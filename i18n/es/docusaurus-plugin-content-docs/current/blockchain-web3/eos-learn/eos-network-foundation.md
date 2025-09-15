@@ -6,6 +6,9 @@ description: Investigaciones realizadas por la Fundación Red EOS
 keywords: [Blue Papers EOS, Investigación ENF, EOS Network Foundation, Publicaciones ENF]
 ---
 
+# Blue Papers Fundación Red EOS (ENF)
+
+
 La fundación de la Red EOS también conocida por sus siglas en ingles como ENF (EOS Network Foundation) es una fundación sin fines de lucro, han creado una serie de documentos "Blue Papers" sobre los principales temas o dudas de la comunidad y de las respectivas acciones a tomar ante dichas situaciones. En esta sección veremos de manera concisa y rápida algunos de ellos:
 
 ## API+

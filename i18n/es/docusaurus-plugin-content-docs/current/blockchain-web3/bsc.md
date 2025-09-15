@@ -6,12 +6,15 @@ description: Explora Binance Smart Chain (BSC) - blockchain de alto rendimiento 
 keywords: [binance smart chain, BSC, BNB chain, compatible EVM, blockchain DeFi, plataforma NFT, binance blockchain, contratos inteligentes]
 ---
 
+# Introducción a BSC
+
+
 
 BSC (Binance Smart Chain) es una blockchain de alto rendimiento compatible con EVM, desarrollada por Binance. Ofrece un entorno rápido y de bajo costo para aplicaciones descentralizadas (DApps) y contratos inteligentes, manteniendo la compatibilidad con el ecosistema de Ethereum. BSC forma parte de una arquitectura de doble cadena junto con Binance Chain, lo que permite a los usuarios transferir activos sin inconvenientes entre blockchains para mayor flexibilidad.
 
 🔗 [BSC](https://www.bnbchain.org)
 
-### Características Clave de BSC
+## Características Clave de BSC
 
 * **Alto Rendimiento:** BSC admite tiempos de bloque rápidos (alrededor de 3 segundos) y alta capacidad de transacciones.
 * **Compatibilidad con EVM:** Soporte completo para herramientas de Ethereum, contratos inteligentes y marcos de desarrollo.

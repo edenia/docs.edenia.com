@@ -9,6 +9,9 @@ description: Complete guide to DeepSeek AI models, featuring open-source archite
 keywords: [DeepSeek, DeepSeek AI, open source AI, coding AI, DeepSeek Coder, Chinese AI, cost-effective AI, R1 model, MoE architecture, programming assistant]
 ---
 
+# DeepSeek (DeepSeek Inc.)
+
+
 
 <img src="/img/artificial-intelligence/models/deepseek.svg" alt="DeepSeek Logo" class="ai-logo" />
 

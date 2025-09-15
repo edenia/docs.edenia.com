@@ -6,12 +6,15 @@ description: Domina Ethereum blockchain - contratos inteligentes, desarrollo DAp
 keywords: [ethereum, contratos inteligentes, ethereum blockchain, desarrollo DApp, EVM, ether, ETH, aplicaciones descentralizadas, plataforma web3]
 ---
 
+# Introducción a Ethereum
+
+
 
 Ethereum es una plataforma de código abierto basada en blockchain, conocida por su funcionalidad de contratos inteligentes. Permite la creación y ejecución de aplicaciones descentralizadas (DApps) y contratos inteligentes directamente en la blockchain, sin intermediarios. Ethereum amplía el concepto original de blockchain, iniciado por Bitcoin, para admitir más que solo transacciones de criptomonedas. Proporciona una plataforma para que los desarrolladores construyan aplicaciones descentralizadas y desplieguen contratos inteligentes.
 
 🔗 [Ethereum](https://ethereum.org)
 
-### Características Clave de Ethereum
+## Características Clave de Ethereum
 
 * **Contratos Inteligentes:** Contratos autoejecutables con los términos escritos en código, que automatizan acuerdos.
 * **Ethereum Virtual Machine (EVM):** Un entorno potente y aislado dentro de cada nodo de Ethereum, que ejecuta el bytecode de los contratos.

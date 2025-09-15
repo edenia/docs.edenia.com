@@ -6,6 +6,9 @@ description: Guía completa de los modelos DeepSeek, con arquitectura de código
 keywords: [DeepSeek, DeepSeek AI, IA código abierto, IA programación, DeepSeek Coder, IA china, IA costo-efectiva, modelo R1, arquitectura MoE, asistente programación]
 ---
 
+# DeepSeek (DeepSeek Inc.)
+
+
 
 <img src="/img/artificial-intelligence/models/deepseek.svg" alt="Logo DeepSeek" class="ai-logo" />
 

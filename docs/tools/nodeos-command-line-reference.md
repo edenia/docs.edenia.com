@@ -9,6 +9,9 @@ description: Options to configure the nodeos.
 keywords: [ Nodeos Command Line Reference, Nodeos, EOS, EOS Costa Rica, What is Nodeos, Nodeos Configuration Options, Nodeos Configuration ]
 ---
 
+# Nodeos Configuration Options
+
+
 ## Nodeos Application Options:
 
 ### Config Options for eosio::chain_plugin:

@@ -6,6 +6,9 @@ description: Publicaciones de blog de Edenia
 keywords: [Publicaciones, Blog, Comunidad, Comunidad Edenia, EOS, EOS Costa Rica]
 ---
 
+# Blogs Edenia
+
+
 ## ¿Qué es Blockchain?
 
 La tecnología Blockchain ofrece seguridad, transparencia, privacidad, trazabilidad y eficiencia mejoradas para empresas y organizaciones.

@@ -9,6 +9,9 @@ description: Explanation of the EOSIO + Antelope protocol, how it works and how 
 keywords: [EOSIO Protocol, EOSIO, EOS, Antelope, Blockchain Protocol, What is the EOSIO protocol]
 ---
 
+# EOSIO + Antelope Protocol
+
+
 ## What is EOSIO? 
 
 EOSIO is open-source software that enables the launching of highly configurable blockchain networks on which developers and entrepreneurs can run highly performant blockchain applications. [EOSIO](https://eos.io/) was created in 2018 by [Block One](https://block.one/) (B1). 

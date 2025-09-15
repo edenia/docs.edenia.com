@@ -6,6 +6,9 @@ description: Cuentas y Permisos para el uso de EOSIO
 keywords: [cuentas permisos, Cuentas y Permisos, cuentas, permisos, EOSIO, EOS, EOS Costa Rica, Para qué son los permisos EOSIO]
 ---
 
+# Cuentas y Permisos de EOSIO
+
+
 ## Cuentas
 
 Una **cuenta** en EOSIO es un nombre legible para humanos que se almacena en la cadena de bloques. Puede ser propiedad de un individuo o grupo de individuos dependiendo de la configuración de los permisos. Se requiere una cuenta para transferir o enviar cualquier transacción válida a la cadena de bloques.

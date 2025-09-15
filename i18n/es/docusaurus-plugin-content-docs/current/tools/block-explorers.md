@@ -6,6 +6,9 @@ description: Exploradores de bloques para distintos tipos de bloques
 keywords: [explorador de bloques, explorador, Bloks.io, EOSX, EOSQ, EOS Flare, EOS Network Monitor, EOS Tracker, EOS Spark, Vote Tracker, EOSDAC Explorer]
 ---
 
+# Exploradores de Bloques
+
+
 Un explorador de bloques es un programa o sitio web accesible a través de un navegador que permite a un usuario buscar y navegar por los bloques de una cadena de bloques, sus contenidos y sus detalles relevantes.
 
 ## Bloks.io

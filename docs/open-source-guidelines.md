@@ -9,6 +9,9 @@ description: Guidelines for contributing to open source projects
 keywords: [Open Source, Contributing, Guidelines, Open Source Contributing Guidelines, open source, open source guidelines, Open Source Projects]
 ---
 
+# Open Source Contributing Guidelines
+
+
 ## Development Process
 
 We use a Kanban-style board to prioritize the work. For example the [EOS rate project board](https://github.com/eoscostarica/eos-rate/projects/1).

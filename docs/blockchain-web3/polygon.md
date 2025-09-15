@@ -9,6 +9,9 @@ description: Discover Polygon (MATIC) - Ethereum's Layer 2 scaling solution offe
 keywords: [polygon blockchain, MATIC, ethereum layer 2, polygon network, scaling solution, multi-chain, polygon development, layer 2 blockchain]
 ---
 
+# Introduction to Polygon
+
+
 Polygon, formerly known as Matic Network, is a protocol and a framework for building and connecting Ethereum-compatible blockchainGoerli networks. It provides scalable solutions on Ethereum, supporting a multi-chain Ethereum ecosystem. Polygon transforms Ethereum into a full-fledged multi-chain system, often referred to as the “Internet of Blockchains.” This multi-chain system is akin to other ones such as Polkadot, Cosmos, Avalanche, etc., but with the added benefits of Ethereum's security, vibrant ecosystem, and openness.
 
 🔗 [Polygon](https://polygon.technology)

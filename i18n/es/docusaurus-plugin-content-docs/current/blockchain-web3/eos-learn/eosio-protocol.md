@@ -6,6 +6,9 @@ description: Qué es EOSIO y Antelope como funciona el protocolo blockchain y co
 keywords: [eosio, antelope, eos, blockchain, protocolo, Qué es un protocolo blockchain, Para qué sirve EOSIO]
 ---
 
+# Protocolo Blockchain EOSIO y Antelope
+
+
 ## ¿Qué es EOSIO? 
 
 EOSIO es software de código abierto que permite lanzar redes blockchain altamente configurables sobre las cuales desarrolladores y emprendedores pueden correr aplicaciones blockchain de alto rendimiento. [EOSIO](https://eos.io/) fue creado en el 2018 por la empresa [Block One](https://block.one/) (B1). 

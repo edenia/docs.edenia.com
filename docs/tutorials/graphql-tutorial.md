@@ -9,6 +9,9 @@ description: Definition, usage, and funtionalities of GraphQL
 keywords: [graphql, graphql definition, graphql usage, graphql functionality, GraphQL, GraphQL Definition, GraphQL Usage, GraphQL Functionality, How GraphQL Works, What is GraphQL, Queries and Mutations]
 ---
 
+# GraphQL
+
+
 ## Introduction
 
 [GraphQL](https://graphql.org/) is a query language for your API, and a server-side runtime for executing queries by using a type system you define for your data. GraphQL isn't tied to any specific database or storage engine and is instead backed by your existing code and data.

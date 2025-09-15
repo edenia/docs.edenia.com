@@ -6,6 +6,9 @@ description: Desarrollo de Dapps con distintos frameworks y herramientas
 keywords: [desarrollo de Dapps, dapps, EOS, Aplicaciones Descentralizadas, EOSIO, Qué es Dapps, Para qué sirve Dapps]
 ---
 
+# Desarrollo de Dapps
+
+
 ## EOSIO para el Desarrollo de Aplicaciones Descentralizadas (dApps)
 
 <figure className="video_container">

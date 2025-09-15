@@ -9,6 +9,9 @@ description: Flight Methodology - EOS Costa Rica
 keywords: [EOS, Flight Methodology, EOS Costa Rica, Grooming, What is Flight Methodology, What is Flight Methodology For]
 ---
 
+# Flight Methodology
+
+
 ## Agile Methodologies at Edenia
 
 At Edenia we strive to be innovative not just with our software solutions but with our processes as well, we are constantly evolving and improving the way our team is organized to better our work environment and optimize how we deliver results
