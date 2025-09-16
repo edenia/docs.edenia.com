@@ -79,7 +79,7 @@ More on:
 ### **Así es como se Vería**
 
 <div style={{  textAlign: "center" }}>
-    <img alt="Como se despliega el resultado final en LinkedIn" src={ useBaseUrl("/img/redes-sociales/LinkedResultado.webp") } loading="lazy"/>
+    <img alt="Vista previa del perfil de LinkedIn mostrando sección de experiencia profesional completa con información de la empresa Edenia, descripción del puesto y experiencia en desarrollo blockchain" src={ useBaseUrl("/img/redes-sociales/LinkedResultado.webp") } loading="lazy"/>
 </div>
 
 
@@ -100,7 +100,7 @@ More on:
 1. Incluya su **puesto**, el nombre de la **companía**, su **locación**, y su **linkedin**.
 
 <div style={{  textAlign: "center" }}>
-    <img alt="Formulario para agregar la información personal en GitHub" src={ useBaseUrl("/img/redes-sociales/GithubEstado.webp") } loading="lazy"/>
+    <img alt="Formulario de configuración de perfil GitHub mostrando campos para información personal, puesto de trabajo, empresa y ubicación" src={ useBaseUrl("/img/redes-sociales/GithubEstado.webp") } loading="lazy"/>
 </div>
 
 
@@ -114,7 +114,7 @@ More on:
 
 ### **Así es como se Vería**
 <div style={{  textAlign: "center" }}>
-    <img alt="Como se muestra el resultado final en GitHub" src={ useBaseUrl("/img/redes-sociales/GitHubResultado.webp") } loading="lazy"/>
+    <img alt="Vista previa del perfil de GitHub mostrando información personal completa con puesto en Edenia, descripción de empresa blockchain y detalles de contacto" src={ useBaseUrl("/img/redes-sociales/GitHubResultado.webp") } loading="lazy"/>
 </div>
 
 

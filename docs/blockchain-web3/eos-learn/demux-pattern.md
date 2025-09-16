@@ -68,7 +68,7 @@ Like [Flux](https://facebook.github.io/flux/docs/in-depth-overview.html#structur
 ### Demux Data Flow Diagram
 
 <div style={{  textAlign: "center" }}>
-    <img alt="Demux Data Flow Diagram" title="Demux Patern Diagram" 
+    <img alt="Demux architectural pattern data flow diagram showing DAPP frontend, blockchain transactions, Action Watcher, Action Reader, Action Handler, Updaters, Effects, and database interactions" title="Demux Pattern Data Flow Architecture" 
     src={ useBaseUrl( '/img/diagrams/demux-pattern.webp' )} loading="lazy"/> 
 </div>
 

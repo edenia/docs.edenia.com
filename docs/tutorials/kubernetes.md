@@ -29,7 +29,7 @@ There are two main roles, "master" and "node". The master is in charge of managi
 
 ## Kubernetes Architecture Diagram
 
-![Diagram of Kubernetes Architecture](https://user-images.githubusercontent.com/5632966/107062957-724c5c00-679f-11eb-88f0-fb4b884785ab.png)
+![Kubernetes cluster architecture diagram showing master node with API server, scheduler, and controller manager connected to worker nodes with pods, kubelet, and kube-proxy components](https://user-images.githubusercontent.com/5632966/107062957-724c5c00-679f-11eb-88f0-fb4b884785ab.png)
 
 ## Key Concepts in k8s
 

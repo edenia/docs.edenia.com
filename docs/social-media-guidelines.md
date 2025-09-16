@@ -42,7 +42,7 @@ Please follow these directions to align our LinkedIn profiles. We prepare this b
 Be sure to check the box to **update your headline**.
 
 <div style={{  textAlign: "center" }}>
-    <img alt="Form to edit the experience in LinkedIn" style={{ width:"70%" }} src={ useBaseUrl("/img/social-media/LinkedExperiencia.webp") } />
+    <img alt="LinkedIn experience form interface showing fields for job title, company name, location and employment dates with update headline checkbox" style={{ width:"70%" }} src={ useBaseUrl("/img/social-media/LinkedExperiencia.webp") } />
 </div>
 
 
@@ -50,7 +50,7 @@ Be sure to check the box to **update your headline**.
 specialization.
 
 <div style={{  textAlign: "center" }}>
-    <img alt="Form to add the experience description in LinkedIn" src={ useBaseUrl("/img/social-media/LinkedDescripcion.webp") } />
+    <img alt="LinkedIn job description form showing text area for professional experience details, skills, and company information" src={ useBaseUrl("/img/social-media/LinkedDescripcion.webp") } />
 </div>
 
 
@@ -81,7 +81,7 @@ More on:
 ### **This is how it would look**
 
 <div style={{  textAlign: "center" }}>
-    <img alt="How the final result is shown on LinkedIn" src={  useBaseUrl("/img/social-media/LinkedResultado.webp") } />
+    <img alt="LinkedIn profile preview showing completed professional experience section with Edenia company information, job description, and blockchain development expertise" src={  useBaseUrl("/img/social-media/LinkedResultado.webp") } />
 </div>
 
 

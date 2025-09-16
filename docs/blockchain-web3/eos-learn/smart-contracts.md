@@ -23,20 +23,20 @@ Digital Scarcity's [github repo](https://github.com/digital-scarcity/equiprental
 
 ### Process Steps
 Here are the general steps to developing a Smart Contract.
-![Diagram with the steps to develop a smart contract](/img/contracts/steps.webp "Steps")
+![Smart contract development workflow diagram showing 7 key steps from requirements analysis to deployment and testing](/img/contracts/steps.webp "Smart Contract Development Steps")
 
 
 ### Data Model
 Define the data that will be persisted in the Smart Contract.
-![Logical Data Model Diagram](/img/contracts/datamodel.webp "Data Model")
+![Equipment rental smart contract data model showing entities, relationships, and table structures for equipment, users, and rental transactions](/img/contracts/datamodel.webp "Smart Contract Data Model")
 
 ### Actions
 Define the actions, or state changes, that must exist in your Smart Contract.
-![Use Case Diagram](/img/contracts/actions.webp "Actions")
+![Smart contract actions use case diagram illustrating user interactions, equipment registration, rental processes, and payment workflows](/img/contracts/actions.webp "Smart Contract Actions")
 
 ### Pre- and Post- Conditions
 Define the actions, or state changes, that must exist in your Smart Contract.
-![Diagram with the pre and post conditions](/img/contracts/prepostconditions.webp "Pre and Post Conditions")
+![Smart contract validation diagram showing pre-conditions, action execution flow, and post-conditions for secure transaction processing](/img/contracts/prepostconditions.webp "Smart Contract Pre and Post Conditions")
 
 
 ## Open Source Smart Contracts 

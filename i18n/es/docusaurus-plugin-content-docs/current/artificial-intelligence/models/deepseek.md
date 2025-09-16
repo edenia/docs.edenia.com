@@ -10,7 +10,7 @@ keywords: [DeepSeek, DeepSeek AI, IA código abierto, IA programación, DeepSeek
 
 
 
-<img src="/img/artificial-intelligence/models/deepseek.svg" alt="Logo DeepSeek" class="ai-logo" />
+<img src="/img/artificial-intelligence/models/deepseek.svg" alt="Logo de DeepSeek Inc. representando modelos de IA de código abierto y tecnología de lenguaje costo-efectiva" class="ai-logo" />
 
 **DeepSeek** es una empresa china de IA que ha desarrollado una serie de modelos de lenguaje (LLM) de código abierto diseñados para rivalizar con contrapartes occidentales a una fracción del costo. Sus modelos son particularmente fuertes en tareas de programación y razonamiento, lo que los hace populares entre desarrolladores e investigadores.
 

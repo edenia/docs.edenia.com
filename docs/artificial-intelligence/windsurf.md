@@ -8,7 +8,7 @@ keywords: [windsurf IDE, agentic IDE, AI code editor, flow state programming, ca
 
 # Windsurf – IDE for Flow State Development
 
-<img src="/img/artificial-intelligence/tools/windsurf.svg" alt="Windsurf Logo" class="ai-logo logo-windsurf" />
+<img src="/img/artificial-intelligence/tools/windsurf.svg" alt="Windsurf IDE logo representing agentic development environment and flow state programming platform" class="ai-logo logo-windsurf" />
 
 **Windsurf** is an AI-powered integrated development environment (IDE) designed to help developers achieve and maintain a state of flow during coding. It combines intelligent code assistance with a distraction-free interface to maximize productivity and code quality.
 

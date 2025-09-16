@@ -1,11 +1,11 @@
 # Sistemas Edenia Developer Guides
-![](https://img.shields.io/github/license/eoscostarica/guias.eoscostarica.io) ![](https://img.shields.io/badge/code%20style-standard-brightgreen.svg) ![](https://img.shields.io/badge/%E2%9C%93-collaborative_etiquette-brightgreen.svg) ![](https://img.shields.io/twitter/follow/eoscostarica.svg?style=social&logo=twitter) ![](https://img.shields.io/github/forks/eoscostarica/guias.eoscostarica.io?style=social)
+![GitHub license](https://img.shields.io/github/license/eoscostarica/guias.eoscostarica.io) ![Code style standard](https://img.shields.io/badge/code%20style-standard-brightgreen.svg) ![Collaborative etiquette](https://img.shields.io/badge/%E2%9C%93-collaborative_etiquette-brightgreen.svg) ![Twitter followers](https://img.shields.io/twitter/follow/eoscostarica.svg?style=social&logo=twitter) ![GitHub forks](https://img.shields.io/github/forks/eoscostarica/guias.eoscostarica.io?style=social)
 
 
 
 Sistemas Edenia Developers Documentation Site.
 
-![Guide front page](static/img/docs-pageNew.png)
+![Sistemas Edenia Developer Hub homepage showcasing documentation sections for Web3, blockchain, AI, and developer resources](static/img/docs-pageNew.png)
 
 ## About the Project
 

@@ -8,7 +8,7 @@ keywords: [windsurf IDE, IDE agéntico, editor código IA, programación estado 
 
 # Windsurf – IDE Potenciado por IA
 
-<img src="/img/artificial-intelligence/tools/windsurf.svg" alt="Logo Windsurf" class="ai-logo logo-windsurf" />
+<img src="/img/artificial-intelligence/tools/windsurf.svg" alt="Logo de Windsurf IDE representando entorno de desarrollo agéntico y plataforma de programación en estado de flujo" class="ai-logo logo-windsurf" />
 
 **Windsurf** es un entorno de desarrollo integrado (IDE) potenciado por IA diseñado para ayudar a los desarrolladores a lograr y mantener un estado de flujo durante la programación. Combina asistencia de código inteligente con una interfaz libre de distracciones para maximizar la productividad y la calidad del código.  
 Está disponible para **macOS, Windows y Linux**. ([windsurf.com](https://windsurf.com/editor?utm_source=chatgpt.com))  

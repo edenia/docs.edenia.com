@@ -58,7 +58,7 @@ More information [about private keys](https://docs.edenia.com/docs/blockchain-we
 
 ## Getting Started
 
-![A cleos diagram](/img/diagrams/cleos.webp)
+![Cleos architecture diagram showing command-line interface, connection with nodeos, blockchain interaction, and EOSIO transaction flow components](/img/diagrams/cleos.webp)
 
 ### Windows Installation
 

@@ -15,9 +15,9 @@ En este [Repositorio de Recursos Gráficos](https://github.com/eoscostarica/desi
 
 ## Paleta de Colores
 
-![Color Scheme Primary](/img/OSS_screnshots/EOSCR_Color_Scheme_Primary.webp)
+![Esquema de colores primarios de EOS Costa Rica mostrando paleta de azules y tonos principales para interfaces de usuario](/img/OSS_screnshots/EOSCR_Color_Scheme_Primary.webp)
 
-![Color Scheme Segundary](/img/OSS_screnshots/EOSCR_Color_Scheme_Secondary.webp)
+![Esquema de colores secundarios de EOS Costa Rica mostrando paleta de grises, verdes y tonos complementarios para diseño de interfaces](/img/OSS_screnshots/EOSCR_Color_Scheme_Secondary.webp)
 
 Para ver una guía completa de los colores, puede visitar la [Paleta de Colores](https://github.com/eoscostarica/eoscr-mui-library/blob/master/exports/Color_Scheme.pdf)
 

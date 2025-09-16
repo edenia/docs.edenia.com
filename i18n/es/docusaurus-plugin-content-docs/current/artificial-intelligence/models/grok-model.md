@@ -10,7 +10,7 @@ keywords: [Grok, xAI, Elon Musk, IA tiempo real, integración X, Tesla AI, IA co
 
 
 
-<img src="/img/artificial-intelligence/models/grok.svg" alt="Logo Grok" class="ai-logo logo-grok" />
+<img src="/img/artificial-intelligence/models/grok.svg" alt="Logo de xAI Grok representando IA conversacional de Elon Musk con acceso a información en tiempo real" class="ai-logo logo-grok" />
 
 **Grok** es un chatbot conversacional de IA avanzado desarrollado por **xAI**, una empresa fundada por Elon Musk. Está diseñado para ser más atractivo e informativo que los chatbots tradicionales, con acceso en tiempo real a la información e integración con el ecosistema X (anteriormente Twitter).
 

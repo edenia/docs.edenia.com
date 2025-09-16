@@ -116,4 +116,4 @@ The Full-Stack Boilerplate contains both the client and server software. We have
 
 ### Full-Stack Diagram
 
-![full-stack-boilerplate](https://user-images.githubusercontent.com/5632966/106770009-2cf32780-6603-11eb-98dd-c1a6a9aa8451.png)
+![Diagrama de arquitectura del boilerplate full-stack mostrando estructura de frontend React, backend Node.js, base de datos PostgreSQL y servicios blockchain](https://user-images.githubusercontent.com/5632966/106770009-2cf32780-6603-11eb-98dd-c1a6a9aa8451.png)

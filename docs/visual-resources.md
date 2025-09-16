@@ -27,7 +27,7 @@ keywords: [ Visual Resources, Components, Material to develop]
       }}
     >
       <img
-        alt="EOS Costa Rica logo horizontal white color with transparent background"
+        alt="Logo horizontal de EOS Costa Rica en color blanco con fondo transparente para uso en fondos oscuros"
         style={{}}
         src="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/byw-horizontal-transparent-white.png"
       />
@@ -36,7 +36,7 @@ keywords: [ Visual Resources, Components, Material to develop]
   <div style={{ float: "left", width: "50%"}}>
     <div style={{ margin: "auto", padding: 50, width: "80%" }}>
       <img 
-      alt="EOS Costa Rica logo horizontal black color with transparent background"
+      alt="Logo horizontal de EOS Costa Rica en color negro con fondo transparente para uso en fondos claros"
       src="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/byw-horizontal-transparent.png" />
     </div>
   </div>
@@ -64,14 +64,14 @@ keywords: [ Visual Resources, Components, Material to develop]
   <div style={{ float: "left", width: "50%", backgroundColor: "black" }}>
     <div style={{ margin: "auto", padding: 50, width: "50%" }}>
       <img 
-      alt="EOS Costa Rica logo vertical white color with transparent background"
+      alt="Logo vertical de EOS Costa Rica en color blanco con fondo transparente para uso en fondos oscuros"
       src="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/byw-vertical-transparent-white.png" />
     </div>
   </div>
   <div style={{ float: "left", width: "50%" }}>
     <div style={{ margin: "auto", padding: 50, width: "50%" }}>
       <img 
-      alt="EOS Costa Rica logo vertical black color with transparent background"
+      alt="Logo vertical de EOS Costa Rica en color negro con fondo transparente para uso en fondos claros"
       src="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/byw-vertical-transparent-black.png" />
     </div>
   </div>
@@ -98,7 +98,7 @@ keywords: [ Visual Resources, Components, Material to develop]
 <div>
   <div style={{ float: "left", width: "50%", padding: 50 }}>
     <img
-      alt="EOS Costa Rica logo horizontal full color with transparent background"
+      alt="Logo horizontal de EOS Costa Rica a color completo con fondo transparente mostrando identidad visual corporativa"
       style={{ align: "center" }}
       src="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/fullColor-horizontal-transparent-white.png"
       loading="lazy"
@@ -107,7 +107,7 @@ keywords: [ Visual Resources, Components, Material to develop]
   <div style={{ float: "left", width: "50%", padding: 50 }}>
     <div style={{ margin: "auto", width: "40%" }}>
       <img
-        alt="EOS Costa Rica logo vertical full color with transparent background"
+        alt="Logo vertical de EOS Costa Rica a color completo con fondo transparente mostrando identidad visual corporativa"
         style={{ maxHeight: 350 }}
         src="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/fullColor-vertiall-transparent-white.png"
         loading="lazy"
@@ -139,13 +139,13 @@ keywords: [ Visual Resources, Components, Material to develop]
 <div>
   <div style={{ float: "left", width: "50%", padding: 50 }}>
     <img 
-    alt="EOS Rate logo horizontal with transparent background"
+    alt="Logo horizontal de EOS Rate con fondo transparente para plataforma de evaluación de productores de bloques"
     src="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosrate/eosrate--horizontal-solid-transparent-overlight.png" loading="lazy"/>
   </div>
   <div style={{ float: "left", width: "50%", padding: 50 }}>
     <div style={{ margin: "auto", width: "80%" }}>
       <img 
-      alt="EOS Rate logo vertical with transparent background"
+      alt="Logo vertical de EOS Rate con fondo transparente para plataforma de evaluación de productores de bloques"
       src="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosrate/eosrate--vertical-solid-transparent-overlight.png" loading="lazy"/>
     </div>
   </div>
@@ -180,7 +180,7 @@ keywords: [ Visual Resources, Components, Material to develop]
     }}
   >
     <img
-      alt="EOS Local logo white color with transparent background"
+      alt="Logo de EOS Local en color blanco con fondo transparente para red local de desarrollo EOSIO"
       style={{ backgroundColor: "black" }}
       src="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eoslocal/eos-Local-forDarkBg.png"
       loading="lazy"
@@ -188,7 +188,7 @@ keywords: [ Visual Resources, Components, Material to develop]
   </div>
   <div style={{ float: "left", width: "50%", padding: 50 }}>
     <img
-     alt="EOS Local logo full color with transparent background"
+     alt="Logo de EOS Local a color completo con fondo transparente para red local de desarrollo EOSIO"
      src="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eoslocal/eos-Local-forlightBg.png" loading="lazy"/>
   </div>
 </div>
@@ -225,7 +225,7 @@ keywords: [ Visual Resources, Components, Material to develop]
     }}
   >
     <img
-      alt="Lifebank logo white color with transparent background"
+      alt="Logo de Lifebank en color blanco con fondo transparente para plataforma de donación de sangre blockchain"
       style={{ backgroundColor: "black" }}
       src="https://raw.githubusercontent.com/eoscostarica/lifebank/master/docs/logos/1-Overblack-lifebank-logo-v1-may25-2020-01.svg"
       loading="lazy"
@@ -233,7 +233,7 @@ keywords: [ Visual Resources, Components, Material to develop]
   </div>
   <div style={{ float: "left", width: "50%", padding: 50 }}>
     <img 
-    alt="Lifebank logo full color with transparent background"
+    alt="Logo de Lifebank a color completo con fondo transparente para plataforma de donación de sangre blockchain"
     src="https://raw.githubusercontent.com/eoscostarica/lifebank/master/docs/logos/2-OverWhite-lifebank-logo-v1-may25-2020-01.svg" loading="lazy"/>
   </div>
 </div>
@@ -259,12 +259,12 @@ keywords: [ Visual Resources, Components, Material to develop]
 <div>
   <div style={{ float: "left", width: "50%", padding: 50 }}>
     <img 
-    alt="Lifebank logo black color with transparent background"
+    alt="Logo de Lifebank en color negro con fondo transparente para plataforma de donación de sangre blockchain"
     src="https://raw.githubusercontent.com/eoscostarica/lifebank/master/docs/logos/3-byw-OverWhite--lifebank-logo-v1-may25-2020-01.svg" loading="lazy"/>
   </div>
   <div style={{ float: "left", width: "50%", padding: 50 }}>
     <img 
-    alt="Lifebank logo red color with transparent background"
+    alt="Logo de Lifebank en color rojo con fondo transparente para plataforma de donación de sangre blockchain"
     src="https://raw.githubusercontent.com/eoscostarica/lifebank/master/docs/logos/4-singleColor-OverWhite--lifebank-logo-v1-may25-2020-01.svg" loading="lazy"/>
   </div>
 </div>

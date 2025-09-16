@@ -13,7 +13,7 @@ keywords: [Claude, Anthropic, Constitutional AI, AI model, LLM, coding assistant
 
 
 
-<img src="/img/artificial-intelligence/models/claude.svg" alt="Claude Logo" class="ai-logo logo-claude" />
+<img src="/img/artificial-intelligence/models/claude.svg" alt="Anthropic Claude AI logo representing Constitutional AI and ethical language models" class="ai-logo logo-claude" />
 
 **Claude** is a family of large language models (LLMs) developed by **Anthropic**, an AI safety and research company. Built on the innovative **Constitutional AI** framework, Claude models are designed to be helpful, harmless, and honest while maintaining strong performance across various tasks.
 

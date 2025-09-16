@@ -22,22 +22,22 @@ Escasez Digital [github repo](https://github.com/digital-scarcity/equiprental) t
 ### Pasos del Proceso
 
 Aquí se pueden ver los pasos generales para desarrollar un Contrato Inteligente.
-![Diagrama con los pasos para desarrollar un contrato inteligente](/img/contracts/steps.webp "Pasos")
+![Diagrama de flujo de trabajo para desarrollo de contratos inteligentes mostrando 7 pasos clave desde análisis de requisitos hasta despliegue y pruebas](/img/contracts/steps.webp "Pasos para Desarrollar Contratos Inteligentes")
 
 ### Modelo de Datos
 
 Define la información que persistirá en el Contrato Inteligente.
-![Modelo lógico de datos](/img/contracts/datamodel.webp "Modelo de Datos")
+![Modelo de datos del contrato inteligente de alquiler de equipos mostrando entidades, relaciones y estructuras de tablas para equipos, usuarios y transacciones de alquiler](/img/contracts/datamodel.webp "Modelo de Datos del Contrato Inteligente")
 
 ### Acciones
 
 Define las acciones o el estado de cambio que deben existir en el Contrato Inteligente.
-![Diagrama de caso de uso](/img/contracts/actions.webp "Acciones")
+![Diagrama de casos de uso de acciones del contrato inteligente ilustrando interacciones de usuarios, registro de equipos, procesos de alquiler y flujos de pago](/img/contracts/actions.webp "Acciones del Contrato Inteligente")
 
 ### Pre- y Post- Condiciones
 
 Define las acciones o el estado de cambios que deben existir en tu Contrato Inteligente.
-![Diagrama con las pre y post condiciones](/img/contracts/prepostconditions.webp "Pre y Post Condiciones")
+![Diagrama de validación del contrato inteligente mostrando pre-condiciones, flujo de ejecución de acciones y post-condiciones para procesamiento seguro de transacciones](/img/contracts/prepostconditions.webp "Pre y Post Condiciones del Contrato Inteligente")
 
 ## Contratos Inteligentes de Código Abierto
 

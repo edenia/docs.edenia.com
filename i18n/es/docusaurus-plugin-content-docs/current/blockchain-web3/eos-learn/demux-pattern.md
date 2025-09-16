@@ -65,7 +65,7 @@ Así como [Flux](https://facebook.github.io/flux/docs/in-depth-overview.html#str
 ### Diagrama del flujo de datos de demux
 
 <div style={{  textAlign: "center" }}>
-    <img alt="Diagrama del flujo de datos de demux" title="Diagrama del patrón Demux" 
+    <img alt="Diagrama del patrón arquitectónico demux mostrando flujo de datos con frontend DAPP, transacciones blockchain, Action Watcher, Action Reader, Action Handler, Updaters, Effects e interacciones con base de datos" title="Arquitectura del Flujo de Datos del Patrón Demux" 
     src={ useBaseUrl( '/img/diagramas/demux-pattern.webp' )} loading="lazy"/> 
 </div>
 

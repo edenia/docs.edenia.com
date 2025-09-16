@@ -8,7 +8,7 @@ keywords: [MCP, Model Context Protocol, AI integration, Anthropic, Claude, AI to
 
 # Model Context Protocol (MCP)
 
-<img src="/img/artificial-intelligence/tools/mcp.svg" alt="MCP Logo" class="ai-logo logo-mcp" />
+<img src="/img/artificial-intelligence/tools/mcp.svg" alt="Model Context Protocol (MCP) logo representing Anthropic's open standard for AI system integration" class="ai-logo logo-mcp" />
 
 **Model Context Protocol (MCP)** is an open standard developed by **Anthropic** to standardize the integration of artificial intelligence systems, particularly large language models (LLMs), with external tools, systems, and data sources. Introduced in **November 2024**, MCP provides a universal interface for reading files, executing functions, and handling contextual prompts, facilitating seamless communication between AI models and various applications.
 

@@ -66,11 +66,11 @@ Improve collaboration between all stakeholders from planning through delivery an
 
 ## CI Systems - Examples
 
-![CI_System_image](https://user-images.githubusercontent.com/5632966/106228974-2f442480-61b2-11eb-9ceb-6d47ef5acb67.png 'Devops')
+![Continuous Integration system architecture diagram showing code repository, build server, automated testing, and deployment pipeline workflow](https://user-images.githubusercontent.com/5632966/106228974-2f442480-61b2-11eb-9ceb-6d47ef5acb67.png 'CI System Architecture')
 
 ## CD Systems - Examples
 
-![CD_System_image](https://user-images.githubusercontent.com/5632966/105532713-d0ae1080-5cb0-11eb-8d8b-5d3751b7df37.png '')
+![Continuous Deployment system workflow diagram illustrating automated code delivery from development through staging to production environments](https://user-images.githubusercontent.com/5632966/105532713-d0ae1080-5cb0-11eb-8d8b-5d3751b7df37.png 'CD System Workflow')
 
 * * *
 

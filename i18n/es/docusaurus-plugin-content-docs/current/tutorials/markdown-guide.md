@@ -45,7 +45,7 @@ Estas aplicaciones de Markdown utilizan un procesador Markdown también conocido
 
 **Ejemplo**
 
-![Diagrama de los pasos que se realizan para transformar un archivo Markdown a uno HTML](https://mdg.imgix.net/assets/images/markdown-flowchart.png?auto=format&fit=clip&q=40&w=1080)
+![Diagrama de flujo del proceso de transformación de Markdown mostrando los pasos para convertir un archivo Markdown en HTML usando procesadores y renderizadores](https://mdg.imgix.net/assets/images/markdown-flowchart.png?auto=format&fit=clip&q=40&w=1080)
 
 * * *
 
@@ -187,11 +187,11 @@ Otro texto
 ### **Imágenes**
 
 ``` markdown title="Sintaxis"
-![](https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/fullColor-horizontal-transparent-white.png)
+![Logo horizontal de EOS Costa Rica a color completo con fondo transparente](https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/fullColor-horizontal-transparent-white.png)
 ```
 **Ejemplo:**  
 
-![Como Markdown despliega la imagen de ejemplo](https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/fullColor-horizontal-transparent-white.png)
+![Ejemplo de cómo Markdown renderiza y despliega la imagen del logo de EOS Costa Rica en formato horizontal](https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/fullColor-horizontal-transparent-white.png)
 
 * * * 
 

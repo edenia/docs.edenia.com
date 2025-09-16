@@ -39,9 +39,18 @@ class Carousel {
 }
 
 const imagesList = [
-  { background: "/img/cards-icons/Hero-1.webp" },
-  { background: "/img/cards-icons/Hero-2.webp" },
-  { background: "/img/cards-icons/Hero-3.webp" },
+  { 
+    background: "/img/cards-icons/Hero-1.webp",
+    alt: "Web3 developer workspace with blockchain code and smart contracts on multiple screens"
+  },
+  { 
+    background: "/img/cards-icons/Hero-2.webp",
+    alt: "AI development environment showing machine learning models and artificial intelligence frameworks"
+  },
+  { 
+    background: "/img/cards-icons/Hero-3.webp",
+    alt: "Modern software development setup with documentation, tutorials, and development tools"
+  },
 ];
 
 const HeroSection = () => {
@@ -68,11 +77,11 @@ const HeroSection = () => {
 
   return (
     <Box className="carouselContainer">
-      {imagesList.map(({ background }, index) => (
+      {imagesList.map(({ background, alt }, index) => (
         <Box key={background} className="mySlides fade">
           <Box className="numberImagetext">{index + 1} / 3</Box>
           <img
-            alt={background}
+            alt={alt}
             src={useBaseUrl(background)}
             width="100%"
             className="imgHero"
@@ -114,36 +123,42 @@ const startResourceList = [
     body: "General guidelines for open source development.",
     href: "/docs/open-source-guidelines",
     img: "/img/cards-icons/menu_book.svg",
+    alt: "Open book icon representing developer guidelines and documentation"
   },
   {
     title: "Blockchain & Web3",
     body: "Resources and information on Blockchain and Web3.",
     href: "/docs/blockchain-web3",
     img: "/img/cards-icons/blockchain_icon.svg",
+    alt: "Blockchain network icon showing connected blocks representing Web3 technology"
   },
   {
     title: "Artificial Intelligence",
     body: "Resources and information on Artificial Intelligence.",
     href: "/docs/artificial-intelligence",
     img: "/img/cards-icons/artificial_intelligence_icon.svg",
+    alt: "AI brain icon representing artificial intelligence and machine learning concepts"
   },
   {
     title: "Tutorials",
     body: "Support information needed to perform the installation and execution of processes.",
     href: "docs/tutorials/markdown-guide",
     img: "/img/cards-icons/school.svg",
+    alt: "School building icon representing educational tutorials and learning resources"
   },
   {
     title: "Tools",
     body: "Set of useful tools for the learning process.",
     href: "docs/tools/glossary",
     img: "/img/cards-icons/build.svg",
+    alt: "Tools icon representing developer utilities and software development tools"
   },
   {
     title: "Community",
     body: "Links to sites of interest related to the Edenia community.",
     href: "docs/community-resources/telegram-channels",
     img: "/img/cards-icons/groups.svg",
+    alt: "Group of people icon representing community resources and collaboration"
   },
 ];
 
@@ -185,7 +200,7 @@ const StartResourceSection = () => {
         alignItems="center"
         spacing={smDown ? 1 : 3}
       >
-        {startResourceList.map(({ title, body, href, img }, idx) => (
+        {startResourceList.map(({ title, body, href, img, alt }, idx) => (
           <Grid
             key={title}
             item
@@ -206,7 +221,7 @@ const StartResourceSection = () => {
               >
                 <img
                   src={useBaseUrl(img)}
-                  alt={title}
+                  alt={alt}
                   loading="lazy"
                   className={`imgHero ${color === "dark" && "cardImgColor"}`}
                 />
@@ -252,18 +267,21 @@ const articlesList = [
     body: "Learn more about our history, team and projects we carry out.",
     href: "https://medium.com/@eoscostarica/get-to-know-eos-costa-rica-f91f5b0bb7c4",
     img: "/img/cards-icons/blog1.webp",
+    alt: "EOS Costa Rica team collaboration workspace showcasing blockchain development and Web3 innovation"
   },
   {
     title: "You Should Participate in an Open-Source Project",
     body: "We show some important aspects for which it should be dealt with in open source projects.",
     href: "https://medium.com/@eoscostarica/you-should-participate-in-an-open-source-project-c259f8759d41",
     img: "/img/cards-icons/blog2.webp",
+    alt: "Open source collaboration illustration with developers contributing code to community projects"
   },
   {
     title: "What Is Blockchain?",
     body: "We explain, with examples, what a blockchain is and how it works.",
     href: "https://medium.com/@eoscostarica/what-is-blockchain-an-introduction-9535ed3e6005",
     img: "/img/cards-icons/blog3.webp",
+    alt: "Blockchain network visualization showing interconnected blocks and distributed ledger technology"
   },
 ];
 
@@ -291,7 +309,7 @@ const ArticleSection = () => {
         alignItems="center"
         spacing={smDown ? 1 : 3}
       >
-        {articlesList.map(({ title, body, href, img }, idx) => (
+        {articlesList.map(({ title, body, href, img, alt }, idx) => (
           <Grid
             key={title}
             item
@@ -310,7 +328,7 @@ const ArticleSection = () => {
               <Box
                 component="img"
                 src={useBaseUrl(img)}
-                alt={title}
+                alt={alt}
                 width="100%"
                 className="cardArticleImg"
               />

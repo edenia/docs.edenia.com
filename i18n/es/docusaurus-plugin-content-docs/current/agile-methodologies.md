@@ -25,7 +25,7 @@ Para aclarar cómo surgió Agilidad Moderna, aquí hay un fragmento del sitio we
 Los métodos de Agilidad Moderna se definen mediante cuatro principios rectores:
 
 <div style={{  textAlign: "center" }}>
-<img alt="Modern Agile Image" src={useBaseUrl('img/ModernAgile.webp')} loading="lazy"/>
+<img alt="Diagrama del marco Modern Agile mostrando cuatro principios clave: Hacer a las Personas Increíbles, Hacer de la Seguridad un Prerrequisito, Experimentar y Aprender Rápidamente, y Entregar Valor Continuamente" src={useBaseUrl('img/ModernAgile.webp')} loading="lazy"/>
 </div>
 
 ## ¿Tipos de Metodologías Ágiles?

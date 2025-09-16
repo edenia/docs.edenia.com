@@ -8,7 +8,7 @@ keywords: [cursor IDE, AI code editor, AI programming assistant, VS Code fork, i
 
 # Cursor – AI-Powered Code Editor
 
-<img src="/img/artificial-intelligence/tools/cursor.svg" alt="Cursor Logo" class="ai-logo logo-cursor" />
+<img src="/img/artificial-intelligence/tools/cursor.svg" alt="Cursor IDE logo representing AI-powered code editor and VS Code-based development environment" class="ai-logo logo-cursor" />
 
 **Cursor** is a proprietary AI-assisted integrated development environment (IDE) built by **Anysphere Inc.** It's a fork of **Visual Studio Code** with powerful AI features—agent mode, natural-language coding, multi-line editing, codebase indexing, privacy modes, and more—designed to dramatically boost developer productivity within a familiar interface.
 

@@ -57,7 +57,7 @@ Más información sobre [llaves privadas](https://docs.edenia.com/es/docs/aprend
 
 ## Empecemos
 
-![Diagrama de cleos](/img/diagrams/cleos.webp)
+![Diagrama de arquitectura de cleos mostrando interfaz de línea de comandos, conexión con nodeos, interacción con blockchain y flujo de transacciones EOSIO](/img/diagrams/cleos.webp)
 
 ### Instalación en Windows
 

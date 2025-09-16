@@ -63,11 +63,11 @@ Mejorar la colaboración entre todas las partes interesadas desde la planificaci
 
 ## CI Systems - Ejemplos
 
-![imagen_CI_System](https://user-images.githubusercontent.com/5632966/106228974-2f442480-61b2-11eb-9ceb-6d47ef5acb67.png)
+![Diagrama de arquitectura del sistema de Integración Continua mostrando repositorio de código, servidor de construcción, pruebas automatizadas y flujo de despliegue](https://user-images.githubusercontent.com/5632966/106228974-2f442480-61b2-11eb-9ceb-6d47ef5acb67.png)
 
 ## CD Systems - Ejemplos
 
-![imagen_CD_System](https://user-images.githubusercontent.com/5632966/105532713-d0ae1080-5cb0-11eb-8d8b-5d3751b7df37.png)
+![Diagrama de flujo de trabajo del sistema de Despliegue Continuo ilustrando entrega automatizada de código desde desarrollo a través de staging hasta entornos de producción](https://user-images.githubusercontent.com/5632966/105532713-d0ae1080-5cb0-11eb-8d8b-5d3751b7df37.png)
 
 * * *
 

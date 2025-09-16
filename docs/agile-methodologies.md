@@ -28,7 +28,7 @@ To clarify how Modern Agile came to be here’s a snippet from the website: Over
 Modern Agile methods are defined by four guiding principles:
 
 <div style={{  textAlign: "center" }}>
-<img alt="Modern Agile Image"   src={ useBaseUrl( 'img/ModernAgile.webp' )} loading="lazy"/>
+<img alt="Modern Agile framework diagram showing four key principles: Make People Awesome, Make Safety a Prerequisite, Experiment and Learn Rapidly, and Deliver Value Continuously"   src={ useBaseUrl( 'img/ModernAgile.webp' )} loading="lazy"/>
 </div>
 
 

@@ -10,7 +10,7 @@ keywords: [Gemini, Google AI, IA multimodal, Google DeepMind, Bard, Android AI, 
 
 
 
-<img src="/img/artificial-intelligence/models/gemini.svg" alt="Logo Google Gemini" class="ai-logo" />
+<img src="/img/artificial-intelligence/models/gemini.svg" alt="Logo de Google Gemini AI representando inteligencia artificial multimodal y tecnología de Google DeepMind" class="ai-logo" />
 
 **Gemini** es la familia de modelos de IA más avanzada de Google, diseñada para ser multimodal desde su concepción. Puede entender y trabajar con texto, imágenes, audio y video simultáneamente, convirtiéndola en uno de los modelos de IA más versátiles disponibles hoy en día.
 

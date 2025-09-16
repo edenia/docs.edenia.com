@@ -10,7 +10,7 @@ const DisplayImages = ({ projectData }) => {
                     <Grid container key={i} alignItems="center" justifyContent="center">
                         <a href={logo.link}>
                             <img className="logo" src={useBaseUrl(logo.image)}
-                                loading="lazy" alt={projectData.name + " logo"} />
+                                loading="lazy" alt={`${projectData.name} official logo and brand identity`} />
                         </a>
                     </Grid>
                 ))
@@ -21,13 +21,13 @@ const DisplayImages = ({ projectData }) => {
                             <a href={image.link} id={i}>
                                 <img className={image.class ?? ""} src={useBaseUrl(image.image)}
                                     loading="lazy" height="60%"
-                                    alt={projectData.name + " screenshot preview " + (i + 1)} />
+                                    alt={`${projectData.name} application interface screenshot showing main features and functionality`} />
                             </a>
                             <a href={projectData.href} className="lightbox" id={image.id}>
                                 Probando
 
                                 <img className="box-img" src={useBaseUrl(image.image)}
-                                    loading="lazy" alt={projectData.name + " screenshot fullsize " + (i + 1)} />
+                                    loading="lazy" alt={`${projectData.name} detailed application screenshot in full size view`} />
                             </a>
                         </Grid>
                     ))

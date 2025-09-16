@@ -47,7 +47,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 <br/>
 
 <p style={{ align: "center" }}>
-  <img alt="Network Comparisons" title="Network Comparisons" src={ useBaseUrl( '/img/eos-blockchain/eos-network.webp' )} width="100%" />
+  <img alt="EOS blockchain network comparison chart showing performance metrics, transaction speeds, and scalability features compared to other blockchain networks" title="EOS Network Performance Comparison" src={ useBaseUrl( '/img/eos-blockchain/eos-network.webp' )} width="100%" />
   <br />
 </p>
 
@@ -95,7 +95,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <br/>
 <p style={{ align: "center" }}>
-  <img alt="EOS Application Stack" src={ useBaseUrl( '/img/eos-blockchain/eos-application-stack.webp' )} width="100%" />
+  <img alt="EOS application stack diagram showing infrastructure layers, blockchain services, development tools, and decentralized applications architecture" src={ useBaseUrl( '/img/eos-blockchain/eos-application-stack.webp' )} width="100%" />
   <br />
   <small>
     <b>Source:</b>steemit.com/eos/@eosio/introducing-eos-io-application-stack

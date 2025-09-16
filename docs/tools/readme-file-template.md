@@ -24,7 +24,7 @@ README is a file that brings a little description about the whole project, which
 
 It's simple and can sound easy and yes, It does, but the impact that a Gif or Image can produce is significant. The viewer acquires the needed information to get interested in the project. For example:
 
-![Life bank](/img/life-bank.webp)
+![Lifebank web application showing blood donation interface with interactive map and donation centers](/img/life-bank.webp)
 
 ## About the Project
 

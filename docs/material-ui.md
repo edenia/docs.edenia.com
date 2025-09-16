@@ -20,15 +20,15 @@ In this [Repository of Graphic Design Assets](https://github.com/eoscostarica/de
 
 ## Color Palette
 
-![Color Scheme Primary](/img/OSS_screnshots/EOSCR_Color_Scheme_Primary.webp)
+![Esquema de colores primarios de EOS Costa Rica mostrando paleta de azules y tonos principales para interfaces de usuario](/img/OSS_screnshots/EOSCR_Color_Scheme_Primary.webp)
 
-![Color Scheme Segundary](/img/OSS_screnshots/EOSCR_Color_Scheme_Secondary.webp)
+![Esquema de colores secundarios de EOS Costa Rica mostrando paleta de grises, verdes y tonos complementarios para diseño de interfaces](/img/OSS_screnshots/EOSCR_Color_Scheme_Secondary.webp)
 
 To see a complete guide to the colors, you can visit [Color Scheme](https://github.com/eoscostarica/eoscr-mui-library/blob/master/exports/Color_Scheme.pdf)
 
 ## Typography
 
-![Typography preview](/img/OSS_screnshots/EOSCR_Typography_Scale.webp)
+![Vista previa de la escala tipográfica de EOS Costa Rica mostrando tamaños de fuente, pesos y jerarquía para sistema de diseño](/img/OSS_screnshots/EOSCR_Typography_Scale.webp)
 
 For a complete guide to font sizes and shapes, you can visit [Typography Scale](https://github.com/eoscostarica/eoscr-mui-library/blob/master/exports/Typography_Scale.pdf)
 

@@ -116,7 +116,7 @@ const siteConfig = {
     
     navbar: {
       logo: {
-        alt: "Sistemas Edenia Logo",
+        alt: "Sistemas Edenia Developer Hub - Web3 and AI documentation portal",
         src: "/img/EdeniaLogo.png",
         srcDark: "/img/Edenia_Logo.svg",
       },
@@ -174,7 +174,7 @@ const siteConfig = {
     },
     footer: {
       logo: {
-        alt: "Sistemas Edenia Logo",
+        alt: "Sistemas Edenia official company logo - Web3 and AI development experts in Costa Rica",
         src: "/img/Edenia_Logo.svg",
         href: "https://docs.edenia.com/",
       },

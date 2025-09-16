@@ -16,7 +16,7 @@ Bienvenido a la sección de **Modelos de Inteligencia Artificial**. Aquí encont
 
 ### [GPT-5 (OpenAI)](/docs/artificial-intelligence/models/gpt5-model)
 
-<img src="/img/artificial-intelligence/models/openai.svg" alt="Logo OpenAI" class="ai-logo logo-openai" />
+<img src="/img/artificial-intelligence/models/openai.svg" alt="Logo de OpenAI representando GPT-5 y tecnología avanzada de modelos de lenguaje" class="ai-logo logo-openai" />
 
 El modelo más avanzado de OpenAI, lanzado en 2025, con capacidades multimodales para razonamiento profundo, generación de código y escritura creativa.
 
@@ -30,7 +30,7 @@ El modelo más avanzado de OpenAI, lanzado en 2025, con capacidades multimodales
 
 ### [Claude (Anthropic)](/docs/artificial-intelligence/models/claude-model)
 
-<img src="/img/artificial-intelligence/models/claude.svg" alt="Logo Claude" class="ai-logo logo-claude" />
+<img src="/img/artificial-intelligence/models/claude.svg" alt="Logo de Anthropic Claude AI representando Constitutional AI y modelos de lenguaje éticos" class="ai-logo logo-claude" />
 
 Familia de modelos desarrollados por Anthropic, construidos sobre el marco innovador de **Constitutional AI** para alinearse con valores humanos y ética.
 
@@ -44,7 +44,7 @@ Familia de modelos desarrollados por Anthropic, construidos sobre el marco innov
 
 ### [DeepSeek (DeepSeek Inc.)](/docs/artificial-intelligence/models/deepseek-model)
 
-<img src="/img/artificial-intelligence/models/deepseek.svg" alt="Logo DeepSeek" class="ai-logo" />
+<img src="/img/artificial-intelligence/models/deepseek.svg" alt="Logo de DeepSeek Inc. representando modelos de IA de código abierto y tecnología de lenguaje costo-efectiva" class="ai-logo" />
 
 Startup china pionera en modelos de IA de código abierto que rivalizan con contrapartes occidentales a una fracción del costo.
 
@@ -58,7 +58,7 @@ Startup china pionera en modelos de IA de código abierto que rivalizan con cont
 
 ### [Grok (xAI)](/docs/artificial-intelligence/models/grok-model)
 
-<img src="/img/artificial-intelligence/models/grok.svg" alt="Logo Grok" class="ai-logo logo-grok" />
+<img src="/img/artificial-intelligence/models/grok.svg" alt="Logo de xAI Grok representando IA conversacional de Elon Musk con acceso a información en tiempo real" class="ai-logo logo-grok" />
 
 Chatbot conversacional avanzado desarrollado por xAI, fundada por Elon Musk, con integración en tiempo real con el ecosistema X y Tesla.
 
@@ -72,7 +72,7 @@ Chatbot conversacional avanzado desarrollado por xAI, fundada por Elon Musk, con
 
 ### [Gemini (Google)](/docs/artificial-intelligence/models/gemini-model)
 
-<img src="/img/artificial-intelligence/models/gemini.svg" alt="Logo Google Gemini" class="ai-logo" />
+<img src="/img/artificial-intelligence/models/gemini.svg" alt="Logo de Google Gemini AI representando inteligencia artificial multimodal y tecnología de Google DeepMind" class="ai-logo" />
 
 Familia de modelos de IA multimodal de Google, profundamente integrada en el ecosistema de Google incluyendo Android, Chrome y Google Workspace.
 

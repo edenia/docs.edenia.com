@@ -8,7 +8,7 @@ keywords: [warp terminal, AI terminal, intelligent command line, terminal AI ass
 
 # Warp – AI Terminal for Modern Development
 
-<img src="/img/artificial-intelligence/tools/warp.svg" alt="Warp Logo" class="ai-logo logo-warp" />
+<img src="/img/artificial-intelligence/tools/warp.svg" alt="Warp Terminal logo representing AI-powered modern terminal and command-line development environment" class="ai-logo logo-warp" />
 
 **Warp** is a modern, AI-powered terminal designed to make command-line development more intuitive and productive. It combines the power of traditional terminals with AI assistance, intelligent autocomplete, and a beautiful user interface.
 

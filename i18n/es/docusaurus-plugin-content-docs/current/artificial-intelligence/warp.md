@@ -8,7 +8,7 @@ keywords: [warp terminal, terminal IA, línea comandos inteligente, asistente te
 
 # Warp – Terminal Potenciado por IA 
 
-<img src="/img/artificial-intelligence/tools/warp.svg" alt="Logo Warp" class="ai-logo logo-warp" />
+<img src="/img/artificial-intelligence/tools/warp.svg" alt="Logo de Warp Terminal representando terminal moderno potenciado por IA y entorno de desarrollo de línea de comandos" class="ai-logo logo-warp" />
 
 **Warp** es un terminal moderno potenciado por IA diseñado para hacer que el desarrollo en línea de comandos sea más intuitivo y productivo. Combina el poder de los terminales tradicionales con asistencia de IA, autocompletado inteligente y una hermosa interfaz de usuario.
 

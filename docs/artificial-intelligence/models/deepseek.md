@@ -13,7 +13,7 @@ keywords: [DeepSeek, DeepSeek AI, open source AI, coding AI, DeepSeek Coder, Chi
 
 
 
-<img src="/img/artificial-intelligence/models/deepseek.svg" alt="DeepSeek Logo" class="ai-logo" />
+<img src="/img/artificial-intelligence/models/deepseek.svg" alt="DeepSeek Inc. logo representing open-source AI models and cost-effective language technology" class="ai-logo" />
 
 **DeepSeek** is a Chinese AI company that has developed a series of open-source large language models (LLMs) designed to rival Western counterparts at a fraction of the cost. Their models are particularly strong in coding tasks and reasoning, making them popular among developers and researchers.
 

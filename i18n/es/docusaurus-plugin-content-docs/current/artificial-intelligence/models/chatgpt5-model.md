@@ -10,7 +10,7 @@ keywords: [GPT-5, OpenAI, ChatGPT, modelo IA, LLM, IA multimodal, modelo razonam
 
 
 
-<img src="/img/artificial-intelligence/models/openai.svg" alt="Logo OpenAI" class="ai-logo logo-openai" />
+<img src="/img/artificial-intelligence/models/openai.svg" alt="Logo de OpenAI representando el modelo GPT-5 y tecnología avanzada de inteligencia artificial" class="ai-logo logo-openai" />
 
 **GPT-5** es la familia insignia de modelos de lenguaje (LLM) de OpenAI, lanzada en **2025**. Unifica modelos rápidos con variantes de razonamiento profundo y ofrece comprensión multimodal (texto, código, imagen) con alta confiabilidad para flujos de trabajo de desarrollo. Impulsa ChatGPT y se integra ampliamente en productos de Microsoft (p. ej., Copilot).
 

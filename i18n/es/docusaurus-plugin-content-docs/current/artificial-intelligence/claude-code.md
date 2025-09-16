@@ -8,7 +8,7 @@ keywords: [claude code, anthropic IA, asistente terminal IA, desarrollo CLI, cod
 
 # Claude Code – Asistente IA de Terminal
 
-<img src="/img/artificial-intelligence/tools/claude.svg" alt="Logo Claude Code" class="ai-logo logo-claude" />
+<img src="/img/artificial-intelligence/tools/claude.svg" alt="Logo de Claude Code representando asistente de terminal IA de Anthropic y herramienta de desarrollo de línea de comandos" class="ai-logo logo-claude" />
 
 **Claude Code** es un asistente de terminal potenciado por IA que ayuda a los desarrolladores a escribir, depurar y optimizar código directamente desde la línea de comandos. Se integra perfectamente con flujos de trabajo de desarrollo existentes y proporciona sugerencias de código inteligentes y explicaciones.
 
