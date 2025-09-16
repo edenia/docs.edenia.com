@@ -92,6 +92,7 @@ Desde 2020, la aparición de los **modelos fundacionales** (como GPT, Claude, Ge
 | **[Warp](/docs/artificial-intelligence/warp)** | Terminal con IA | UX moderna, colaboración | Flujos centrados en terminal |
 | **[v0.app](/docs/artificial-intelligence/v0-app)** | Generador de apps | De texto a aplicación funcional | Prototipos rápidos, MVPs |
 | **[Bolt.new](/docs/artificial-intelligence/bolt-new)** | Plataforma agéntica | Desarrollo completo en navegador, WebContainers | Desarrollo full-stack sin configuración local |
+| **[Devin.ai](/docs/artificial-intelligence/devin)** | Ingeniero IA autónomo | Desarrollo autónomo end-to-end, refactorización a gran escala | Proyectos de ingeniería complejos, migraciones de código |
 
 ### Modelos de IA
 

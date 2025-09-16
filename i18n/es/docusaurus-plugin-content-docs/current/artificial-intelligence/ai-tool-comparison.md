@@ -25,6 +25,7 @@ Esta guía de comparación integral ayuda a los equipos de desarrollo a evaluar 
 | **[Warp](./warp)** | Terminal IA | UX terminal moderna | Flujos centrados en terminal | $7/mes | Escritorio |
 | **[v0.app](./v0-app)** | Constructor de apps | Generación texto-a-app | Prototipado rápido | $20/mes | Web |
 | **[Bolt.new](./bolt-new)** | Plataforma agéntica | Full‑stack en navegador con WebContainers | Cero configuración, full‑stack rápido | Gratis | Web |
+| **[Devin.ai](./devin)** | Ingeniero IA autónomo | Desarrollo autónomo end-to-end | Proyectos de ingeniería complejos | $500/mes | Web/API |
 
 ---
 
@@ -32,18 +33,18 @@ Esta guía de comparación integral ayuda a los equipos de desarrollo a evaluar 
 
 ### Entorno de Desarrollo
 
-| Característica | Cursor | Claude Code | Windsurf | Warp | v0.app | Bolt.new |
-|----------------|--------|-------------|----------|------|--------|---------|
-| **Tipo de Interfaz** | IDE basado en VS Code | Terminal/CLI | IDE nativo | Terminal | Basado en web | IDE web |
-| **Curva de Aprendizaje** | Muy Fácil | Moderada | Fácil | Fácil | Muy Fácil | Fácil |
-| **Edición de Código** | IDE completo | Editor texto + CLI | IDE completo | Basado en terminal | Código generado | Generado + editor en navegador |
-| **Soporte Multi-archivo** | Excelente | Basado en CLI | Excelente | Limitado | A nivel proyecto | A nivel proyecto |
-| **Ecosistema Extensiones** | Extensiones VS Code | Enfocado en CLI | Ecosistema creciente | Plugins terminal | No aplicable | Web (limitado) |
+| Característica | Cursor | Claude Code | Windsurf | Warp | v0.app | Bolt.new | Devin.ai |
+|----------------|--------|-------------|----------|------|--------|---------|----------|
+| **Tipo de Interfaz** | IDE basado en VS Code | Terminal/CLI | IDE nativo | Terminal | Basado en web | IDE web | Dashboard web + API |
+| **Curva de Aprendizaje** | Muy Fácil | Moderada | Fácil | Fácil | Muy Fácil | Fácil | Moderada |
+| **Edición de Código** | IDE completo | Editor texto + CLI | IDE completo | Basado en terminal | Código generado | Generado + editor en navegador | Generación autónoma |
+| **Soporte Multi-archivo** | Excelente | Basado en CLI | Excelente | Limitado | A nivel proyecto | A nivel proyecto | Excelente |
+| **Ecosistema Extensiones** | Extensiones VS Code | Enfocado en CLI | Ecosistema creciente | Plugins terminal | No aplicable | Web (limitado) | Integraciones API |
 
 ### Capacidades de IA
 
-| Característica | Cursor | Claude Code | Windsurf | Warp | v0.app | Bolt.new |
-|----------------|--------|-------------|----------|------|--------|---------|
+| Característica | Cursor | Claude Code | Windsurf | Warp | v0.app | Bolt.new | Devin.ai |
+|----------------|--------|-------------|----------|------|--------|---------|----------|
 | **Autocompletado Código** | Avanzado | Básico | Supercompleto | Autocompletado comandos | No aplicable | Generación agéntica |
 | **Lenguaje Natural** | Modo agente | Prompts CLI | Agente Cascade | Descripción comandos | Descripción apps | Lenguaje natural a features |
 | **Tareas Multi-paso** | Flujos agente | Ejecución autónoma | Tareas estado flujo | Automatización flujos | Generación apps completa | Scaffold full‑stack |
@@ -52,8 +53,8 @@ Esta guía de comparación integral ayuda a los equipos de desarrollo a evaluar 
 
 ### Integración y Flujo de Trabajo
 
-| Característica | Cursor | Claude Code | Windsurf | Warp | v0.app | Bolt.new |
-|----------------|--------|-------------|----------|------|--------|---------|
+| Característica | Cursor | Claude Code | Windsurf | Warp | v0.app | Bolt.new | Devin.ai |
+|----------------|--------|-------------|----------|------|--------|---------|----------|
 | **Integración Git** | Git VS Code | Git CLI nativo | Git integrado | Comandos Git | Control versiones | Integración Git |
 | **GitHub/GitLab** | Revisiones BugBot | Automatización issues/PR | Sincronización repositorio | Colaboración | Hooks despliegue | Repos GitHub |
 | **Integración CI/CD** | Servidores MCP | GitHub Actions | Herramientas despliegue | Compartir flujos | Despliegue Vercel | Hooks Vercel |

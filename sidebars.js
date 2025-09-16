@@ -82,6 +82,7 @@ module.exports = {
         "artificial-intelligence/windsurf",
         "artificial-intelligence/v0-app",
         "artificial-intelligence/bolt-new",
+        "artificial-intelligence/devin",
         "artificial-intelligence/mcp",
         {
           type: "category",

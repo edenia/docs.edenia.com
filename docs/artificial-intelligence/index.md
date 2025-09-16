@@ -92,6 +92,7 @@ Since 2020, the emergence of **foundation models** (like GPT, Claude, Gemini, LL
 | **[Warp](/docs/artificial-intelligence/warp)** | AI terminal | Modern terminal UX, collaboration | Terminal-focused workflows |
 | **[v0.app](/docs/artificial-intelligence/v0-app)** | App builder | Text-to-app generation | Rapid prototyping, MVPs |
 | **[Bolt.new](/docs/artificial-intelligence/bolt-new)** | Agentic platform | Complete browser development, WebContainers | Full-stack development without local setup |
+| **[Devin.ai](/docs/artificial-intelligence/devin)** | Autonomous AI engineer | End-to-end autonomous development, large-scale refactoring | Complex engineering projects, code migrations |
 
 ### AI Models
 
