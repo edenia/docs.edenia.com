@@ -9,8 +9,8 @@
 // site configuration options.
 
 const siteConfig = {
-  title: "Sistemas Edenia Web3 Development",
-  tagline: "Developer Documentation for Sistemas Edenia Web3 Development",
+  title: "Sistemas Edenia Developer Hub | Web3 & AI Documentation",
+  tagline: "Build the future with Web3 and AI - Expert guides, tutorials, and best practices",
   url: "https://docs.edenia.com",
   baseUrl: "/", // Base URL for your project */
   // Used for publishing and more
@@ -31,7 +31,7 @@ const siteConfig = {
       },
       es: {
         label: "Español",
-        htmlLang: "es",
+        htmlLang: "es-CR",
         direction: "ltr",
         calendar: "gregory",
         path: "es",
@@ -45,15 +45,15 @@ const siteConfig = {
     metadata: [
       {
         name: "description",
-        content: "Comprehensive developer documentation for Web3, blockchain, and AI technologies. Learn EOSIO, Antelope, smart contracts, and modern development practices with Edenia's expert guides and tutorials."
+        content: "Official developer documentation for Sistemas Edenia. Master Web3, blockchain and AI development with production-ready code examples, in-depth tutorials, and expert guidance from Costa Rica's leading Web3 development team."
       },
       {
         name: "keywords",
-        content: "Web3, blockchain, EOSIO, Antelope, smart contracts, developer documentation, AI, artificial intelligence, tutorials, guides, Edenia, Costa Rica"
+        content: "Sistemas Edenia, Web3 development, blockchain documentation, smart contracts, AI development, artificial intelligence, developer guides, Costa Rica tech, decentralized apps, dApps, DeFi, technical documentation"
       },
       {
         name: "author",
-        content: "Sistemas Edenia Web3 Development"
+        content: "Sistemas Edenia"
       },
       {
         name: "robots",
@@ -66,6 +66,24 @@ const siteConfig = {
       {
         name: "theme-color",
         content: "#1a1a1a"
+      },
+      // Additional SEO metadata
+      {
+        property: "og:locale:alternate",
+        content: "es_CR"
+      },
+      // Schema.org hints
+      {
+        name: "application-name",
+        content: "Sistemas Edenia Developer Hub"
+      },
+      {
+        name: "apple-mobile-web-app-title",
+        content: "Edenia Dev Hub"
+      },
+      {
+        name: "generator",
+        content: "Docusaurus v2"
       }
     ],
     
@@ -74,14 +92,14 @@ const siteConfig = {
       type: "website",
       locale: "en_US",
       url: "https://docs.edenia.com",
-      siteName: "Sistemas Edenia Web3 Development",
-      title: "Sistemas Edenia Web3 Development - Developer Documentation",
-      description: "Comprehensive developer documentation for Web3, blockchain, and AI technologies. Expert guides, tutorials, and best practices for modern development.",
+      siteName: "Sistemas Edenia Developer Hub",
+      title: "Sistemas Edenia Developer Hub | Web3 & AI Documentation",
+      description: "Start building with Sistemas Edenia's comprehensive developer documentation. Access production-ready code, expert tutorials, and best practices for Web3, blockchain, and AI development.",
       image: {
         url: "https://docs.edenia.com/img/developer_guides_preview_image.png",
         width: 1200,
         height: 630,
-        alt: "Sistemas Edenia Web3 Development - Developer Documentation"
+        alt: "Sistemas Edenia Documentation"
       },
       imageWidth: 1200,
       imageHeight: 630,
@@ -93,8 +111,8 @@ const siteConfig = {
       card: "summary_large_image",
       site: "@EdeniaWeb3",
       creator: "@EdeniaWeb3",
-      title: "Sistemas Edenia Web3 Development - Developer Documentation",
-      description: "Comprehensive developer documentation for Web3, blockchain, and AI technologies. Expert guides and tutorials.",
+      title: "Sistemas Edenia Developer Hub | Web3 & AI Docs",
+      description: "Build cutting-edge Web3 and AI applications with @EdeniaWeb3. Access expert guides, code examples, and join our developer community 🚀",
       image: "https://docs.edenia.com/img/developer_guides_preview_image.png",
       imageAlt: "Sistemas Edenia Web3 Development Documentation"
     },
@@ -187,10 +205,6 @@ const siteConfig = {
         {
           title: "Community",
           items: [
-            // {
-            //   label: "Meetup",
-            //   href: "https://www.meetup.com/es/EOS-Costa-Rica/",
-            // },
             {
               label: "Telegram channels",
               href: "https://t.me/eoscr",
@@ -219,7 +233,7 @@ const siteConfig = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} <a title="Edenia Web3 Development" href="https://edenia.com" target="_blank">EDENIA</a>`, // You can also put own HTML here.
+      copyright: `Copyright © ${new Date().getFullYear()} <a title="Sistemas Edenia Internacional S.A." href="https://edenia.com" target="_blank">EDENIA</a>`, // You can also put own HTML here.
     },
     //Algolia integration
     algolia: {
@@ -252,9 +266,6 @@ const siteConfig = {
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
-        },
-        googleAnalytics: {
-          trackingID: "UA-173987-66",
         },
         sitemap: {
           changefreq: "weekly",
