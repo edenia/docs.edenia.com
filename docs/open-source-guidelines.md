@@ -25,7 +25,7 @@ Periodically we move the new Issues to the `To Do` column and manually and give 
 When you start working on a task you must manually move it to `In Progress` column.
 
 We use GitHub flow https://guides.github.com/introduction/flow/ to request code changes.
-We develop on `master` and `release` using tags with semver versioning.
+We develop on `master` and `release` using tags with semver versioning. This aligns with our [engineering culture](/docs/engineering-culture) and [agile methodologies](/docs/agile-methodologies).
 
 <img src="/img/github-flow.webp" width="958" height="241" className="centerImg" alt="GitHub Flow workflow diagram showing development process with master branch, feature branches, pull requests, and deployment pipeline for open source projects" />
 
@@ -71,7 +71,7 @@ feat/new-feature-123
 * Make well scoped `atomic` pull requests. 1 PR per feature of bug fix.
 * Link the `issue` on the `pull request` description for cross references between code and issues.
 
-We only support support **squash merge** of the `pull requests` as a best practice for ensure the `master` log is maintained clean and relevant, without requiring the pull request to be rebased. This strategy requires that all pull request made are `atomic`, in other words they solve one thing only.  One pull request per feature, bug fix or documentation update.
+We only support support **squash merge** of the `pull requests` as a best practice for ensure the `master` log is maintained clean and relevant, without requiring the pull request to be rebased. This strategy requires that all pull request made are `atomic`, in other words they solve one thing only.  One pull request per feature, bug fix or documentation update. This approach supports our [pair programming practices](/docs/pair-mob-programming) and [DevOps workflows](/docs/devops).
 
 ## Commit Message Guidelines
 
@@ -235,4 +235,4 @@ This is a work in progress, we are going to probably want to use Netifly and Tra
 
 ## Pre-commit Hooks
 
-We use pre-commit hooks to ensure that both the code standards and commit message conventions are met.
+We use pre-commit hooks to ensure that both the code standards and commit message conventions are met. Learn more about our [developer tools](/docs/developer-tools) and [DevOps practices](/docs/devops) that support code quality automation.

@@ -43,9 +43,9 @@ Since 2020, the emergence of **foundation models** (like GPT, Claude, Gemini, LL
 
 ## Integration with Web3
 
-- Smart contracts that use AI oracles to make data-driven decisions.  
-- Decentralized compute for training models across blockchain networks.  
-- On-chain provenance of AI-generated data (important for auditability).  
+- Smart contracts that use AI oracles to make data-driven decisions. Learn about [smart contract development](/docs/blockchain-web3/eos-learn/smart-contract).
+- Decentralized compute for training models across blockchain networks. Explore our [blockchain and Web3 resources](/docs/blockchain-web3).
+- On-chain provenance of AI-generated data (important for auditability). See our [EOSIO Protocol guide](/docs/blockchain-web3/eos-learn/eosio-protocol).  
 
 ---
 
@@ -140,9 +140,9 @@ Explore the most advanced AI models and their capabilities:
 
 ## Technical Playbook
 
-- Start small: Proof of concept projects in low-risk areas.  
-- Choose the right models: balance between accuracy, cost, and interpretability.  
-- Build monitoring: track drift, performance, and bias in deployed systems.  
+- Start small: Proof of concept projects in low-risk areas. Follow our [agile methodologies](/docs/agile-methodologies) for iterative development.
+- Choose the right models: balance between accuracy, cost, and interpretability. See our [AI models comparison](/docs/artificial-intelligence/models/).
+- Build monitoring: track drift, performance, and bias in deployed systems. Use our [DevOps practices](/docs/devops) for AI system deployment.  
 
 ## Security, Privacy, and Compliance
 
@@ -153,9 +153,9 @@ Explore the most advanced AI models and their capabilities:
 
 ##  Change Management
 
-- Train teams in **prompt engineering** and **responsible AI use**.  
-- Pilot AI with clear KPIs (efficiency gains, defect reduction, cost savings).  
-- Expand adoption gradually once ROI is proven.  
+- Train teams in **prompt engineering** and **responsible AI use**. Our [engineering culture](/docs/engineering-culture) supports continuous learning.
+- Pilot AI with clear KPIs (efficiency gains, defect reduction, cost savings). Apply our [agile methodologies](/docs/agile-methodologies) for AI project management.
+- Expand adoption gradually once ROI is proven. Use [pair programming practices](/docs/pair-mob-programming) to share AI knowledge.  
 
 ##  Best Practices for Prompting
 
@@ -174,7 +174,7 @@ Artificial Intelligence is a **general-purpose technology** with transformative 
 - You want predictive insights for decision-making.  
 - You aim to integrate AI into **developer tools, business workflows, or Web3 systems**.  
 
-Adopting AI responsibly requires: **human oversight, security policies, compliance, and ethical frameworks**. By combining technical innovation with governance, organizations can unlock AI’s benefits while mitigating risks.  
+Adopting AI responsibly requires: **human oversight, security policies, compliance, and ethical frameworks**. By combining technical innovation with governance, organizations can unlock AI's benefits while mitigating risks. Learn more about our [engineering culture](/docs/engineering-culture) and [open source guidelines](/docs/open-source-guidelines) that support responsible AI development.  
 
 ---
 

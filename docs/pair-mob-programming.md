@@ -127,3 +127,10 @@ organizational culture.
 >- Linkedin: [alvarado.lj.1](https://www.linkedin.com/in/alvaradolj1/)
 >- Telegram: https://t.me/joinchat/JWCCqxZZe7tk7ITpztxTsw  
 >- Youtube: [Kata Collective](https://www.youtube.com/channel/UC8elsb71RJlP9mG6aQgTc_A)
+
+## Related Resources
+
+- **Development Culture**: Learn about our [engineering culture](/docs/engineering-culture) and [agile methodologies](/docs/agile-methodologies)
+- **Code Quality**: Explore our [open source guidelines](/docs/open-source-guidelines) and [developer tools](/docs/developer-tools)
+- **AI-Powered Development**: Check our [AI tools](/docs/artificial-intelligence) like [Cursor IDE](/docs/artificial-intelligence/cursor) for enhanced pair programming
+- **Project Setup**: See our [project boilerplates](/docs/boilerplate) and [DevOps practices](/docs/devops)

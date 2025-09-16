@@ -41,19 +41,19 @@ Estamos en constante mejora y evolución; siempre buscamos formas más efectivas
 
 ### Salud y bienestar
 
-Las personas saludables y felices rinden mejor. Fomentamos el ejercicio, las artes, el buen descanso y el tiempo alejado de la computadora para recargar energías y evitar el agotamiento. Organizamos retiros de trabajo en la playa periódicamente con un programa llamado [EOSurf](https://eosurf.com/).
+Las personas saludables y felices rinden mejor. Fomentamos el ejercicio, las artes, el buen descanso y el tiempo alejado de la computadora para recargar energías y evitar el agotamiento. Organizamos retiros de trabajo en la playa periódicamente con un programa llamado [EOSurf](https://eosurf.com/). Nuestras [metodologías ágiles](/es/docs/agile-methodologies) y [prácticas de programación en pareja](/es/docs/pair-mob-programming) hacen que estas colaboraciones remotas sean altamente efectivas.
 
 ### Automatización de tareas repetitivas
 
-La automatización está en lo más alto de nuestras prioridades: desde el scaffolding hasta la optimización de código, pruebas, despliegues y entrega.
+La automatización está en lo más alto de nuestras prioridades: desde el scaffolding hasta la optimización de código, pruebas, despliegues y entrega. Nuestras [prácticas de DevOps](/es/docs/devops) y [herramientas para desarrolladores](/es/docs/developer-tools) apoyan este enfoque de automatización primero.
 
 ### Proyectos de código abierto
 
-Promovemos la participación en proyectos de código abierto que utilizamos, así como liberar nuestros propios proyectos y herramientas.
+Promovemos la participación en proyectos de código abierto que utilizamos, así como liberar nuestros propios proyectos y herramientas. Conoce más sobre nuestras [directrices de código abierto](/es/docs/open-source-guidelines) y explora nuestros [proyectos de código abierto](/es/docs/open-source-projects).
 
 ### Agilidad ligera
 
-Trabajamos con una metodología ágil y ligera para entregar la mayor cantidad de valor lo más rápido posible. Mantenemos lo que funciona mejor y descartamos reglas rígidas que pueden ser más problemáticas que útiles. Valoramos los principios ágiles por encima de las prácticas.
+Trabajamos con una metodología ágil y ligera para entregar la mayor cantidad de valor lo más rápido posible. Mantenemos lo que funciona mejor y descartamos reglas rígidas que pueden ser más problemáticas que útiles. Valoramos los principios ágiles por encima de las prácticas. Explora nuestra guía completa de [metodologías ágiles](/es/docs/agile-methodologies) y [metodología Flight](/es/docs/flight-methodology).
 
 ### Participación en comunidades locales de desarrollo
 
@@ -65,11 +65,11 @@ Un grupo de mentes diversas y diferentes produce soluciones más creativas, ya q
 
 ### Revisiones de código entre pares
 
-La programación en pareja y las revisiones de código entre pares son fundamentales en nuestro proceso de desarrollo; creemos que es una de las mejores formas de mejorar la calidad y compartir conocimientos. Seguimos GitHub Flow para el desarrollo de todas las aplicaciones.
+La programación en pareja y las revisiones de código entre pares son fundamentales en nuestro proceso de desarrollo; creemos que es una de las mejores formas de mejorar la calidad y compartir conocimientos. Seguimos GitHub Flow para el desarrollo de todas las aplicaciones. Aprende más sobre nuestras [prácticas de programación en pareja y en grupo](/es/docs/pair-mob-programming) y [herramientas para desarrolladores](/es/docs/developer-tools).
 
 ### Integración continua
 
-La integración continua nos permite detectar problemas de forma temprana, reducir costos y entregar software robusto con mayor rapidez.
+La integración continua nos permite detectar problemas de forma temprana, reducir costos y entregar software robusto con mayor rapidez. Conoce nuestras [prácticas de DevOps](/es/docs/devops) y explora nuestras [herramientas para desarrolladores](/es/docs/developer-tools) que habilitan flujos de trabajo CI/CD eficientes.
 
 ### Retrospectivas
 
@@ -77,4 +77,4 @@ Siempre que algo sale mal no buscamos culpables; preferimos realizar una reunió
 
 ### Libertad para trabajar desde donde quieras
 
-Somos un equipo completamente distribuido; en el siglo XXI no es necesario perder tiempo en atascos para desarrollar software. Nos reunimos en persona de vez en cuando cuando es necesario analizar, diseñar la arquitectura y coordinar el trabajo. En nuestro blog [Consejos para trabajar desde casa](https://medium.com/@eoscostarica/consejos-para-trabajar-desde-la-casa-2f176270a5e1) puedes ver recomendaciones para ser altamente productivo trabajando desde casa.
+Somos un equipo completamente distribuido; en el siglo XXI no es necesario perder tiempo en atascos para desarrollar software. Nos reunimos en persona de vez en cuando cuando es necesario analizar, diseñar la arquitectura y coordinar el trabajo. En nuestro blog [Consejos para trabajar desde casa](https://medium.com/@eoscostarica/consejos-para-trabajar-desde-la-casa-2f176270a5e1) puedes ver recomendaciones para ser altamente productivo trabajando desde casa. Nuestras [directrices para redes sociales](/es/docs/social-media-guidelines) también proporcionan información sobre nuestra cultura de comunicación.

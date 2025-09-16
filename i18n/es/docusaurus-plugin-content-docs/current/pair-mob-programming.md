@@ -12,7 +12,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 
 El desarrollo de un software nuevo no es un proceso sencillo, dependiendo del tamaño del programa, se deberá tener en cuenta una gran cantidad de posibles coyunturas, funciones y cuestiones problemáticas.  
-De ahí que en estos últimos años se hayan ido desarrollando otros métodos de trabajo más modernos que permiten programar con mayor eficiencia y generar un código libre de errores.
+De ahí que en estos últimos años se hayan ido desarrollando otros métodos de trabajo más modernos que permiten programar con mayor eficiencia y generar un código libre de errores. Estos métodos se integran perfectamente con nuestra [cultura ingenieril](/es/docs/engineering-culture) y [metodologías ágiles](/es/docs/agile-methodologies).
 
 
 ## Pair Programming
@@ -115,6 +115,13 @@ cultura de la organización.
 - Reclutamiento.
 - Diseño (Servicio, UX, Producción).
 - Deuda tecnológica y refactorización.
+
+## Recursos Relacionados
+
+- **Cultura de Desarrollo**: Conoce nuestra [cultura ingenieril](/es/docs/engineering-culture) y [metodologías ágiles](/es/docs/agile-methodologies)
+- **Calidad de Código**: Explora nuestras [directrices de código abierto](/es/docs/open-source-guidelines) y [herramientas para desarrolladores](/es/docs/developer-tools)
+- **Desarrollo Potenciado por IA**: Revisa nuestras [herramientas de IA](/es/docs/artificial-intelligence) como [Cursor IDE](/es/docs/artificial-intelligence/cursor) para programación en pareja mejorada
+- **Configuración de Proyectos**: Ve nuestros [boilerplates de proyecto](/es/docs/boilerplate) y [prácticas de DevOps](/es/docs/devops)
 
 >Información brindada por:
 >**Julian Alvarado**

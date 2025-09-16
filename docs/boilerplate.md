@@ -14,7 +14,7 @@ keywords: [Boilerplate, Project Boilerplate, EOSIO, EOS, EOS Costa Rica, eosio.i
 
 ## Boilerplate definition?
 
-A boilerplate is a framework or template for the development of a project. It is a project structure already defined in advance that serves to streamline the organization and development of the software. Accelerates the integration of solutions and formats that serve to drive the development of a new project to production.
+A boilerplate is a framework or template for the development of a project. It is a project structure already defined in advance that serves to streamline the organization and development of the software. Accelerates the integration of solutions and formats that serve to drive the development of a new project to production. Our boilerplates align with our [engineering culture](/docs/engineering-culture) and [DevOps practices](/docs/devops).
 
 At EOS Costa Rica we have created three boilerplate repositories: ** Front-End Boilerplate **, ** Back-End Boilerplate ** and ** Full-Stack Boilerplate**.
 
@@ -46,7 +46,7 @@ At EOS Costa Rica we have created three boilerplate repositories: ** Front-End B
 
 "Front-end" refers to the user interface and in the context of a web application is the application that runs in the user's web browser.
 
-We use [React JS](https://docs.edenia.com/docs/tutorials/react-tutorial), a JavaScript library for building high-performance and component-based user interfaces that facilitates the development of user interfaces. complex user with predictable code and easy to debug.
+We use [React JS](/docs/tutorials/react-tutorial), a JavaScript library for building high-performance and component-based user interfaces that facilitates the development of user interfaces. complex user with predictable code and easy to debug. Learn more about our [developer tools](/docs/developer-tools) and [Material-UI guidelines](/docs/material-ui).
 
 ### Front-End Tech Stack
 
@@ -87,26 +87,26 @@ The Hasura console gives you user interface tools that speed up your data modeli
 
 The Hasura GraphQL engine allows you to do anything you would normally do with Postgres by providing GraphQL on top of native Postgres constructs.
 
-Get more information at [Hasura](https://docs.edenia.com/docs/developer-tools/#hasura).
+Get more information at [Hasura](/docs/developer-tools#hasura) and explore our [developer tools guide](/docs/developer-tools).
 
 ### HTTP API (HAPI)
 
 hapi.js (commonly known as hapi) is short for HTTP API. It is a rich framework for creating applications and services. It was originally designed for rapid development of RESTful API services using JavaScript, but has since grown into a complete web application framework with out-of-the-box features, input validation, authentication, caching, and more recently, support. for real-time applications with web socket support.
 
-Get more information at [hapi](https://docs.edenia.com/docs/developer-tools/#hapi).
+Get more information at [HAPI](/docs/developer-tools#hapi) and our comprehensive [developer tools guide](/docs/developer-tools).
 
 ### EOSIO
 
 EOSIO is a third generation blockchain that will achieve the goal of providing an immutable, permanent, traceable and verifiable record of all activity in container warehouses. These data will be public and may be consumed by any external third party.
 
-Get more information at [EOSIO components](https://docs.edenia.com/docs/blockchain-web3/eos-learn/eosio-components).
+Get more information at [EOSIO components](/docs/blockchain-web3/eos-learn/eosio-components) and explore our [blockchain and Web3 resources](/docs/blockchain-web3). You can also check our [EOSIO tutorials](/docs/tutorials/hello-world-contract).
 
 ### PostgresDB
 
 *"PostgreSQL is a powerful open source object relational database system with over 30 years of active development that has earned it a solid reputation for reliability, robustness and performance"*.
 
 PostgreSQL comes with many features intended to help developers build applications, administrators protect data integrity and create fault tolerant environments, and manage their data no matter how large or small the data set is.
-Get more information at [PostgresDB](https://docs.edenia.com/docs/developer-tools#postgresdb).
+Get more information at [PostgresDB](/docs/developer-tools#postgresdb) and our [developer tools guide](/docs/developer-tools). For containerized development, see our [Docker tutorial](/docs/tutorials/docker).
 
 ## Full-Stack Boilerplate
 

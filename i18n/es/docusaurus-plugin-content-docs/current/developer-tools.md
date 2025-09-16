@@ -76,7 +76,7 @@ Aquí hay algunas razones por las que usamos EOSIO:
 
 ### Instalación de EOSIO 
 
-Tenemos una guía para que te inicies en el mundo EOSIO, visita [Componentes EOSIO](https://docs.edenia.com/es/docs/aprender-eosio/componentes-eosio).
+Tenemos una guía para que te inicies en el mundo EOSIO, visita nuestra [guía de Componentes EOSIO](/es/docs/blockchain-web3/eos-learn/eosio-components). También puedes revisar nuestros [tutoriales de EOSIO](/es/docs/tutorials/hello-world-contract) y [herramientas de desarrollo](/es/docs/tools/command-line).
 
 * * *
 

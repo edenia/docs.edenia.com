@@ -12,7 +12,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## ¿Qué son las Metodologías Ágiles?
 
-Estas son metodologías de trabajo que permiten la adaptación a las circunstancias de los proyectos y reducen los procesos de documentación. Generalmente se usan en proyectos que no tienen un alcance definido con certeza, lo que los hace muy propensos al cambio. En estas metodologías, las entregas de productos funcionales en un tiempo corto (2 a 4 semanas) permiten que el proceso de cambios y corrección de errores sea rápido y no tenga un costo muy alto para el proyecto en general.
+Estas son metodologías de trabajo que permiten la adaptación a las circunstancias de los proyectos y reducen los procesos de documentación. Generalmente se usan en proyectos que no tienen un alcance definido con certeza, lo que los hace muy propensos al cambio. En estas metodologías, las entregas de productos funcionales en un tiempo corto (2 a 4 semanas) permiten que el proceso de cambios y corrección de errores sea rápido y no tenga un costo muy alto para el proyecto en general. Estas metodologías se alinean con nuestra [cultura ingenieril](/es/docs/engineering-culture) y [metodología Flight](/es/docs/flight-methodology).
 
 ### Agilidad Moderna
 
@@ -168,4 +168,11 @@ La demo no debería ocupar demasiado tiempo de un equipo Scrum. Asegurarse de qu
 1. **Cuenta una historia:** Este es uno de los factores más importantes para una gran demo y también el más pasado por alto. Dada la naturaleza estructurada de las historias ágiles y épicas, es fácil caer en la trampa de enumerar simplemente el trabajo realizado. Esto no es necesariamente malo, pero es poco probable que entusiasme a las partes interesadas no técnicas.  
 2. **Deja que los desarrolladores se luzcan:** Siempre que sea posible, permite que los desarrolladores presenten su propio trabajo, lo que ayuda a generar confianza, moral y sentido de pertenencia. Un buen compromiso puede ser tener un orador organizador con un desarrollador “invitado” diferente cada semana.  
 3. **Establece expectativas:** Establecer expectativas y proporcionar contexto es fundamental para una demo exitosa.  
-4. **Elementos de acción:** Enumera todas las historias completadas en tu agenda, elimina las que no deban demostrarse, organiza las restantes en escenarios o temas, decide si los desarrolladores ayudarán con partes de la demo y mantén las expectativas y el contexto a lo largo de toda la presentación.  
+4. **Elementos de acción:** Enumera todas las historias completadas en tu agenda, elimina las que no deban demostrarse, organiza las restantes en escenarios o temas, decide si los desarrolladores ayudarán con partes de la demo y mantén las expectativas y el contexto a lo largo de toda la presentación.
+
+## Recursos Relacionados
+
+- **Metodologías**: Explora nuestra [metodología Flight](/es/docs/flight-methodology) y [cultura ingenieril](/es/docs/engineering-culture)
+- **Prácticas de Desarrollo**: Aprende sobre [programación en pareja](/es/docs/pair-mob-programming) y [directrices de código abierto](/es/docs/open-source-guidelines)
+- **Herramientas y Automatización**: Revisa nuestras [prácticas de DevOps](/es/docs/devops) y [herramientas para desarrolladores](/es/docs/developer-tools)
+- **Gestión de Proyectos**: Ve nuestros [boilerplates de proyecto](/es/docs/boilerplate) y [tutoriales](/es/docs/tutorials/markdown-guide)  

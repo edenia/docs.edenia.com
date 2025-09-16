@@ -11,6 +11,9 @@ keywords: [ Visual Resources, Components, Material to develop]
 
 # Visual Resources
 
+This page provides access to logos, visual assets, and brand resources for Edenia projects. These resources are used in our [Material-UI theme](/docs/material-ui) and [project boilerplates](/docs/boilerplate). Check our [social media guidelines](/docs/social-media-guidelines) for brand usage guidelines.
+
+For more design assets, visit our [Repository of Graphic Design Assets](https://github.com/eoscostarica/design-assets).
 
 ## EOS Costa Rica
 

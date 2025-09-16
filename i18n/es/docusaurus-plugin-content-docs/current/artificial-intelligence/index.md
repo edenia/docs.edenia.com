@@ -43,9 +43,9 @@ Desde 2020, la aparición de los **modelos fundacionales** (como GPT, Claude, Ge
 
 ## Integración con Web3
 
-- Contratos inteligentes que usan oráculos de IA para decisiones basadas en datos.  
-- Computación descentralizada para entrenar modelos en redes blockchain.  
-- Registro en cadena de datos generados por IA (clave para la trazabilidad y auditoría).  
+- Contratos inteligentes que usan oráculos de IA para decisiones basadas en datos. Aprende sobre [desarrollo de contratos inteligentes](/es/docs/blockchain-web3/eos-learn/smart-contract).
+- Computación descentralizada para entrenar modelos en redes blockchain. Explora nuestros [recursos de blockchain y Web3](/es/docs/blockchain-web3).
+- Registro en cadena de datos generados por IA (clave para la trazabilidad y auditoría). Ve nuestra [guía del Protocolo EOSIO](/es/docs/blockchain-web3/eos-learn/eosio-protocol).  
 
 ---
 

@@ -16,7 +16,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 This site shows the different social networks in which you can follow the company as well as some recommendations on how to interact with us through them.
 
-Be respectful, mind your language, and keep it professional when representing the company or talking about related topics to blockchain/crypto.
+Be respectful, mind your language, and keep it professional when representing the company or talking about related topics to blockchain/crypto. These guidelines align with our [engineering culture](/docs/engineering-culture) and [open source guidelines](/docs/open-source-guidelines). For brand assets, see our [visual resources](/docs/visual-resources).
 
 ## **Objective:**
 >Our potential clients or new talents could be found on LinkedIn, X, Telegram, and other social media.Therefore, it is highly important for Edenia that all the representatives will be recognized as part of the company in social media.

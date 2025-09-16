@@ -60,7 +60,7 @@ Axios is a very popular JavaScript library you can use to perform HTTP requests,
 
 ### What is EOSIO?
 
-EOSIO is open-source software that enables launching highly configurable blockchain networks on which developers and entrepreneurs can highly run performant blockchain applications. For more depth information about EOSIO visit [Learn EOS](https://docs.edenia.com/docs/blockchain-web3/eos-learn/eosio-protocol).
+EOSIO is open-source software that enables launching highly configurable blockchain networks on which developers and entrepreneurs can highly run performant blockchain applications. For more depth information about EOSIO visit our comprehensive [EOSIO Protocol guide](/docs/blockchain-web3/eos-learn/eosio-protocol). Also explore our [blockchain and Web3 resources](/docs/blockchain-web3) and [EOSIO development tools](/docs/tools/eosio-sdk-libraries).
 
 ### Why we use EOSIO?
 
@@ -78,7 +78,7 @@ Here are some reasons why we use EOSIO:
 
 ### EOSIO Installation
 
-We have a guide for you to start in the EOSIO world, visit [EOSIO Components](https://docs.edenia.com/docs/blockchain-web3/eos-learn/eosio-components).
+We have a guide for you to start in the EOSIO world, visit our [EOSIO Components guide](/docs/blockchain-web3/eos-learn/eosio-components). You can also check our [EOSIO tutorials](/docs/tutorials/hello-world-contract) and [development tools](/docs/tools/command-line).
 
 * * *
 
@@ -135,7 +135,7 @@ JavaScript is not a strongly typed language, this might create some problems for
 
 ### React JS Installation
 
-For installation instructions go to our React JS Tutorial.
+For installation instructions go to our [React JS Tutorial](/docs/tutorials/react-tutorial). You can also explore our [web app boilerplate](/docs/boilerplate) and [Material-UI guidelines](/docs/material-ui).
 
 [React GitHub](https://github.com/facebook/react)
 
@@ -231,7 +231,7 @@ PostgreSQL is a powerful open source object relational database system that uses
 
 ### PostgresDB Installation 
 
-[PostgresDB Installation](https://www.2ndquadrant.com/en/blog/pginstaller-install-postgresql/)
+[PostgresDB Installation](https://www.2ndquadrant.com/en/blog/pginstaller-install-postgresql/). For containerized development, check our [Docker tutorial](/docs/tutorials/docker) and [DevOps practices](/docs/devops).
 
 [PostgresDB GitHub](https://github.com/postgres/postgres)
 

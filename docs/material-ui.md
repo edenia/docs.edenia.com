@@ -34,7 +34,7 @@ For a complete guide to font sizes and shapes, you can visit [Typography Scale](
 
 ## Material UI theme
 
-We have our own `Material Design` Library to facilitate the development of new applications.
+We have our own `Material Design` Library to facilitate the development of new applications. This library is used in our [project boilerplates](/docs/boilerplate) and [React tutorials](/docs/tutorials/react-tutorial). You can also explore our [visual resources](/docs/visual-resources) and [developer tools](/docs/developer-tools).
 
 ### Zeplin
 

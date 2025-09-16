@@ -14,7 +14,7 @@ keywords: [DevOps, What is DevOps for, EOS, EOS Costa Rica, Why DevOps ]
 
 DevOps is the practice & culture of applying lean manufacturing principles to the IT Value stream to increase software velocity, reduce waste, & improve quality with an emphasis on leveraging *people, processes, & tools.*
 
-It focuses on unifying Development & IT Operations through the principles of flow, feedback, & experimentation.
+It focuses on unifying Development & IT Operations through the principles of flow, feedback, & experimentation. This aligns with our [engineering culture](/docs/engineering-culture) and supports our [agile methodologies](/docs/agile-methodologies).
 
 <figure
   className="video_container">
@@ -50,9 +50,9 @@ In 2012, Puppet Labs “state of DevOps report” benchmarked 4,039 IT orgs usin
 
 DevOps principles are applied to and assisted by the following 3 Key areas all working together:
 
-- **People** - DevOps relies on strong people & a strong culture of experimentation, learning, collaboration, and shared goals between Development, QA & IT Operations.
-- **Processes** – DevOps builds further upon Lean Agile, applying concepts of lean manufacturing to IT value streams.
-- **Tools** – DevOps relies on enhanced tools & technologies, including automation, telemetry, & collaboration tools.
+- **People** - DevOps relies on strong people & a strong culture of experimentation, learning, collaboration, and shared goals between Development, QA & IT Operations. Learn about our [engineering culture](/docs/engineering-culture) and [pair programming practices](/docs/pair-mob-programming).
+- **Processes** – DevOps builds further upon Lean Agile, applying concepts of lean manufacturing to IT value streams. Explore our [agile methodologies](/docs/agile-methodologies) and [open source guidelines](/docs/open-source-guidelines).
+- **Tools** – DevOps relies on enhanced tools & technologies, including automation, telemetry, & collaboration tools. Check our [developer tools](/docs/developer-tools) and [project boilerplates](/docs/boilerplate).
 
 ## What is the goal of DevOps?
 
@@ -126,7 +126,7 @@ Terraform is an infrastructure software as code, developed by HashiCorp. It enab
 
 Docker is an open source project that automates the deployment of applications within software containers, providing an additional layer of abstraction and application virtualization automation across multiple operating systems.
 
-[Learn more about Docker](/docs/tutorials/docker)
+[Learn more about Docker](/docs/tutorials/docker) and explore our [Kubernetes tutorial](/docs/tutorials/kubernetes). You can also check our [project boilerplates](/docs/boilerplate) that use containerization.
 
 <figure 
   className="video_container">

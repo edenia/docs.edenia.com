@@ -175,4 +175,11 @@ The sprint demo shouldn’t take up too much of a Scrum team’s time. Ensuring 
 1. **Tell a story:** This is one of the most important factors for a great demo, and also the most overlooked. Given the structured nature of Agile stories and epics, it’s easy to fall into the trap of simply enumerating the work that you’ve done. This isn’t necessarily bad, but it’s unlikely to excite non-technical stakeholders.
 2. **Let developers brag:** Whenever possible, it’s great to allow developers to present their own work, which helps to build confidence, morale, and a sense of ownership. A good compromise can be to have one organizing speaker with a different “guest” developer showing off their work each week.
 3. **Set expectations:** Setting expectations and providing context are critical for a successful demo. 
-4. **Action items:** List all completed stories in your agenda, weed out any stories that shouldn’t be demoed, organize the remaining stories roughly into scenarios or topics, decide whether to have developers help give parts of the demo and always set expectations and give context throughout the demo.
+4. **Action items:** List all completed stories in your agenda, weed out any stories that shouldn't be demoed, organize the remaining stories roughly into scenarios or topics, decide whether to have developers help give parts of the demo and always set expectations and give context throughout the demo.
+
+## Related Resources
+
+- **Methodologies**: Explore our [Flight methodology](/docs/flight-methodology) and [engineering culture](/docs/engineering-culture)
+- **Development Practices**: Learn about [pair programming](/docs/pair-mob-programming) and [open source guidelines](/docs/open-source-guidelines)
+- **Tools & Automation**: Check our [DevOps practices](/docs/devops) and [developer tools](/docs/developer-tools)
+- **Project Management**: See our [project boilerplates](/docs/boilerplate) and [tutorials](/docs/tutorials/markdown-guide)

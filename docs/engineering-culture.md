@@ -46,19 +46,19 @@ We are constantly improving and evolving, we are always looking for better and m
 
 Healthy, happy people perform better. We encourage exercising, arts, good rest and time away from the computer to recharge and avoid burnout.
 
-We organize work-aways at the beach periodically with a program called [EOSurf](https://eosurf.com/).
+We organize work-aways at the beach periodically with a program called [EOSurf](https://eosurf.com/). Our [agile methodologies](/docs/agile-methodologies) and [pair programming practices](/docs/pair-mob-programming) make these remote collaborations highly effective.
 
 ### Automation of Repetitive Tasks
 
-Automation is at the top of our priorities, everything from scaffolding to code optimization, testing, deploy and delivery.
+Automation is at the top of our priorities, everything from scaffolding to code optimization, testing, deploy and delivery. Our [DevOps practices](/docs/devops) and [developer tools](/docs/developer-tools) support this automation-first approach.
 
-### Open Source Projects
+### Open Source Projects
 
-We promote participation in open source projects we use as well as open sourcing our projects and tooling.
+We promote participation in open source projects we use as well as open sourcing our projects and tooling. Learn more about our [open source guidelines](/docs/open-source-guidelines) and explore our [open source projects](/docs/open-source-projects).
 
 ### Lightweight Agility
 
-We work with an lean agile methodology to deliver the highest amount of value as fast as possible. We keep what works best and discard rigid rules that can be more trouble than they're worth. We value agile principles over practices.
+We work with an lean agile methodology to deliver the highest amount of value as fast as possible. We keep what works best and discard rigid rules that can be more trouble than they're worth. We value agile principles over practices. Explore our comprehensive guide to [agile methodologies](/docs/agile-methodologies) and [Flight methodology](/docs/flight-methodology).
 
 ### Participation in the Local Development Communities
 
@@ -70,11 +70,11 @@ A group of different and diverse minds produce more creative solutions as every 
 
 ### Peer Code-Reviews
 
-Pair programming and peer code reviews are core to our development process, we believe it is one of the best ways to improve quality and spread knowledge. We follow Github Flow for developing all applications.
+Pair programming and peer code reviews are core to our development process, we believe it is one of the best ways to improve quality and spread knowledge. We follow Github Flow for developing all applications. Learn more about our [pair and mob programming practices](/docs/pair-mob-programming) and [developer tools](/docs/developer-tools).
 
 ### Continuous Integration
 
-Continuous integration allows us to detect problems early reducing costs and help us deliver robust software more rapidly.
+Continuous integration allows us to detect problems early reducing costs and help us deliver robust software more rapidly. Learn about our [DevOps practices](/docs/devops) and explore our [developer tools](/docs/developer-tools) that enable efficient CI/CD workflows.
 
 ### Retrospectives
 
@@ -84,4 +84,4 @@ Whenever something goes wrong we don't point fingers or blame, rather we prefer 
 
 We are fully distributed team, in the 21st century there's no real need to be stuck in traffic jams and lose time of your life moving from one place to another to work on software development. We meet in person from time to time when required to analyze, architect and coordinate work.
 
-In our blog [Tips for working from home](https://medium.com/@eoscostarica/consejos-para-trabajar-desde-la-casa-2f176270a5e1) you can see some recommendations to be highly productive working from home.
+In our blog [Tips for working from home](https://medium.com/@eoscostarica/consejos-para-trabajar-desde-la-casa-2f176270a5e1) you can see some recommendations to be highly productive working from home. Our [social media guidelines](/docs/social-media-guidelines) also provide insights into our communication culture.

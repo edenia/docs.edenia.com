@@ -10,7 +10,7 @@ keywords: [boilerplate, boilerplates, Qué es un Boilerplate, Para qué sirve un
 
 ## ¿Qué es un Boilerplate?
 
-Un boilerplate es un marco o plantilla para el desarrollo de un proyecto. Es una estructura de proyecto ya definida de antemano que sirve para agilizar la organización y el desarrollo del software. Acelera la integración de soluciones y formatos que sirven para conducir el desarrollo de un nuevo proyecto a la producción.
+Un boilerplate es un marco o plantilla para el desarrollo de un proyecto. Es una estructura de proyecto ya definida de antemano que sirve para agilizar la organización y el desarrollo del software. Acelera la integración de soluciones y formatos que sirven para conducir el desarrollo de un nuevo proyecto a la producción. Nuestros boilerplates se alinean con nuestra [cultura ingenieril](/es/docs/engineering-culture) y [prácticas de DevOps](/es/docs/devops).
 
 En EOS Costa Rica hemos creado tres repositorios boilerplate: **Front-End Boilerplate**, **Back-End Boilerplate** y **Full-Stack Boilerplate**.
 
