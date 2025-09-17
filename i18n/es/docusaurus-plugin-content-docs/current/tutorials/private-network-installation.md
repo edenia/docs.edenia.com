@@ -185,40 +185,40 @@ executed transaction: 2150ed87e4564cd3fe98ccdea841dc9ff67351f9315b6384084e8572a3
 ```
 Ahora que se ha desplegado la versión antigua de los contratos, también es necesario activar las características especiales que se recomiendan para las redes basadas en el protocolo EOSIO. Para activar estas características, ejecute los siguientes comandos:
 ```bash
-## GET_SENDER
+# GET_SENDER
 cleos push action eosio activate '["f0af56d2c5a48d60a4a5b5c903edfb7db3a736a94ed589d0b797df33ff9d3e1d"]' -p eosio
 
-## FORWARD_SETCODE
+# FORWARD_SETCODE
 cleos push action eosio activate '["2652f5f96006294109b3dd0bbde63693f55324af452b799ee137a81a905eed25"]' -p eosio
 
-## ONLY_BILL_FIRST_AUTHORIZER
+# ONLY_BILL_FIRST_AUTHORIZER
 cleos push action eosio activate '["8ba52fe7a3956c5cd3a656a3174b931d3bb2abb45578befc59f283ecd816a405"]' -p eosio
 
-## RESTRICT_ACTION_TO_SELF
+# RESTRICT_ACTION_TO_SELF
 cleos push action eosio activate '["ad9e3d8f650687709fd68f4b90b41f7d825a365b02c23a636cef88ac2ac00c43"]' -p eosio
 
-## DISALLOW_EMPTY_PRODUCER_SCHEDULE
+# DISALLOW_EMPTY_PRODUCER_SCHEDULE
 cleos push action eosio activate '["68dcaa34c0517d19666e6b33add67351d8c5f69e999ca1e37931bc410a297428"]' -p eosio
 
- # FIX_LINKAUTH_RESTRICTION
+# FIX_LINKAUTH_RESTRICTION
 cleos push action eosio activate '["e0fb64b1085cc5538970158d05a009c24e276fb94e1a0bf6a528b48fbc4ff526"]' -p eosio
 
- # REPLACE_DEFERRED
+# REPLACE_DEFERRED
 cleos push action eosio activate '["ef43112c6543b88db2283a2e077278c315ae2c84719a8b25f25cc88565fbea99"]' -p eosio
 
-## NO_DUPLICATE_DEFERRED_ID
+# NO_DUPLICATE_DEFERRED_ID
 cleos push action eosio activate '["4a90c00d55454dc5b059055ca213579c6ea856967712a56017487886a4d4cc0f"]' -p eosio
 
-## ONLY_LINK_TO_EXISTING_PERMISSION
+# ONLY_LINK_TO_EXISTING_PERMISSION
 cleos push action eosio activate '["1a99a59d87e06e09ec5b028a9cbb7749b4a5ad8819004365d02dc4379a8b7241"]' -p eosio
 
-## RAM_RESTRICTIONS
+# RAM_RESTRICTIONS
 cleos push action eosio activate '["4e7bf348da00a945489b2a681749eb56f5de00b900014e137ddae39f48f69d67"]' -p eosio
 
-## WEBAUTHN_KEY
+# WEBAUTHN_KEY
 cleos push action eosio activate '["4fca8bd82bbd181e714e283f83e1b45d95ca5af40fb89ad3977b653c448f78c2"]' -p eosio
 
-## WTMSIG_BLOCK_SIGNATURES
+# WTMSIG_BLOCK_SIGNATURES
 cleos push action eosio activate '["299dcb6af692324b899b39f16d5a530a33062804e41f09dc97e9f156b4476707"]' -p eosio
 ```
 ### Desplegar la Última Versión de los Contratos
@@ -250,13 +250,13 @@ Una vez creados los archivos, copie el contenido del fragmento de código en cad
 ```bash
 agent-name = productor1 # CAMBIAR ESTO DE ACUERDO AL NOMBRE DEL NODO
 
-## PLUGINS
+# PLUGINS
 plugin = eosio::chain_plugin
 plugin = eosio::chain_api_plugin
 plugin = eosio::http_plugin
 plugin = eosio::producer_plugin
 plugin = eosio::producer_api_plugin
-## CHAIN 
+# CHAIN 
 chain-state-db-size-mb = 16384
 reversible-blocks-db-size-mb = 512
 contracts-console = true
@@ -267,10 +267,10 @@ pause-on-startup = false
 max-irreversible-block-age = -1
 txn-reference-block-lag = 0
 
-## BLOCK PRODUCER
+# BLOCK PRODUCER
 producer-name = productor1 # CAMBIAR ESTO DE ACUERDO AL SERVIDOR
 
-## PEERING NETWORK
+# PEERING NETWORK
 p2p-server-address =  IP_PRODUCTOR1:9876     # CAMBIAR ESTO DE ACUERDO A LA IP DEL SERVIDOR
 p2p-listen-endpoint = 0.0.0.0:9876
 p2p-max-nodes-per-host = 150
@@ -443,30 +443,30 @@ Ahora copie el contenido del fragmento de código en el archivo correspondiente:
 ```bash
 agent-name = nodo-api
 
-## PLUGINS
+# PLUGINS
 plugin = eosio::chain_plugin
 plugin = eosio::chain_api_plugin
 plugin = eosio::http_plugin
 plugin = eosio::producer_plugin
 plugin = eosio::producer_api_plugin
-## HTTP
+# HTTP
 access-control-allow-origin = *
 http-validate-host = false
 verbose-http-errors = true
 http-server-address = 0.0.0.0:80
 
-## SSL
+# SSL
 #https-server-address = 0.0.0.0:443
 #https-certificate-chain-file = ./ssl/domain.crt
 #https-private-key-file = ./ssl/domain.priv.key
 
-## CHAIN 
+# CHAIN 
 chain-state-db-size-mb = 16384
 reversible-blocks-db-size-mb = 512
 abi-serializer-max-time-ms = 2000	
 contracts-console = true
 
-## PEERING NETWORK
+# PEERING NETWORK
 p2p-listen-endpoint = 0.0.0.0:9876
 p2p-server-address =  IP_NODO_API:9876
 p2p-max-nodes-per-host = 150
@@ -567,21 +567,21 @@ $ touch start.sh
 Ahora copie el contenido del fragmento de código en el archivo correspondiente:
 ### `config.ini`
 ```bash
-## EOSIO Testnet SEED NODE Config file
-## https://eoscostarica.io
+# EOSIO Testnet SEED NODE Config file
+# https://eoscostarica.io
 
 agent-name = nodo-semilla
 
-## PLUGINS
+# PLUGINS
 plugin = eosio::chain_plugin
 
-## CHAIN 
+# CHAIN 
 chain-state-db-size-mb = 16384
 reversible-blocks-db-size-mb = 512
 contracts-console = true
 abi-serializer-max-time-ms = 2000
 
-## PEERING NETWORK
+# PEERING NETWORK
 p2p-listen-endpoint = 0.0.0.0:9876
 p2p-server-address = IP_NODO_SEMILLA:9876
 

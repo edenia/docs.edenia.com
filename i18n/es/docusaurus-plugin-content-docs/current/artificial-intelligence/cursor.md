@@ -20,8 +20,6 @@ keywords: [cursor IDE, editor de código IA, asistente de programación IA, fork
 
 ---
 
-## Arquitectura y Características Técnicas
-
 ## Capacidades Principales
 
 - **Autocompletado con IA ("Tab, Tab, Tab")**: Predice y completa las próximas ediciones (incluso en múltiples líneas), permitiendo aceptarlas rápidamente con tabulaciones.  
@@ -71,6 +69,19 @@ Agrega un servidor MCP de Vercel mediante archivo de configuración o interfaz y
 ### Creación de Landing Page con Cursor + Vercel
 Un usuario pidió a Cursor crear una landing page en **HTML/CSS con Bootstrap**. Cursor generó `index.html`, `style.css`, creó un favicon SVG a través de un prompt y permitió el despliegue directo en Vercel—todo gestionado sin salir del IDE.  
 
+### Flujo de Despliegue en Vercel
+```bash
+# Comando en lenguaje natural en Cursor
+"Despliega esta app Next.js en Vercel con optimizaciones de producción"
+
+# Acciones del Agente Cursor:
+# 1. Optimiza la configuración de build
+# 2. Configura variables de entorno
+# 3. Configura ajustes de despliegue
+# 4. Ejecuta el despliegue
+# 5. Proporciona URL en vivo
+```
+
 ---
 
 ## Ventajas Clave
@@ -103,19 +114,19 @@ Un usuario pidió a Cursor crear una landing page en **HTML/CSS con Bootstrap**.
 
 ## Recomendaciones Prácticas de Adopción
 
-## Primeros Pasos con Cursor
+### Primeros Pasos con Cursor
 - Empezar con **autocompletado Tab**, ediciones multilínea y Modo Agente en tareas definidas (ej. refactors simples).  
 - Activar **Modo Privado** y entender las políticas de manejo de datos.  
 
-## Capas de Integraciones MCP
+### Capas de Integraciones MCP
 - Agregar gradualmente servidores como **Vercel** para despliegues o consultas de logs.  
-- Usar prompts agénticos como *“muéstrame los logs de despliegue”*.  
+- Usar prompts agénticos como *"muéstrame los logs de despliegue"*.  
 
-## Humano en el Bucle
+### Humano en el Bucle
 - Usar **BugBot** para revisión de PR, pero validar todas las sugerencias.  
 - Revisar cuidadosamente ediciones en múltiples archivos antes de hacer merge.  
 
-## Medir Resultados
+### Medir Resultados
 - Monitorear cambios en **tiempo de entrega de PR, número de bugs y satisfacción del equipo**.  
 
 ---

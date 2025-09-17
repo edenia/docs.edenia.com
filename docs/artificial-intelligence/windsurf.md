@@ -237,42 +237,42 @@ Windsurf represents a paradigm shift in integrated development environments, mov
 
 ### Multi-File Feature Development
 ```bash
-## High-level feature request
+# High-level feature request
 "Add user authentication with JWT tokens, including login/logout components, middleware, and database models"
 
-## Cascade agent automatically:
-## 1. Creates authentication service
-## 2. Implements login/logout React components
-## 3. Adds JWT middleware
-## 4. Creates database schema
-## 5. Writes comprehensive tests
-## 6. Updates routing and navigation
+# Cascade agent automatically:
+# 1. Creates authentication service
+# 2. Implements login/logout React components
+# 3. Adds JWT middleware
+# 4. Creates database schema
+# 5. Writes comprehensive tests
+# 6. Updates routing and navigation
 ```
 
 ### Intelligent Code Migration
 ```bash
-## Complex refactoring request
+# Complex refactoring request
 "Migrate from Redux to Zustand state management"
 
-## Cascade agent handles:
-## 1. Analysis of current Redux usage
-## 2. Creation of Zustand stores
-## 3. Component migration to new state management
-## 4. Testing migration and validation
-## 5. Cleanup of deprecated Redux code
+# Cascade agent handles:
+# 1. Analysis of current Redux usage
+# 2. Creation of Zustand stores
+# 3. Component migration to new state management
+# 4. Testing migration and validation
+# 5. Cleanup of deprecated Redux code
 ```
 
 ### Cross-Service Integration
 ```bash
-## Using MCP for external service integration
+# Using MCP for external service integration
 "Integrate Stripe payments with user dashboard"
 
-## Through MCP connections:
-## 1. Accesses Stripe API documentation
-## 2. Creates payment components
-## 3. Implements backend payment processing
-## 4. Adds webhook handling
-## 5. Creates admin dashboard features
+# Through MCP connections:
+# 1. Accesses Stripe API documentation
+# 2. Creates payment components
+# 3. Implements backend payment processing
+# 4. Adds webhook handling
+# 5. Creates admin dashboard features
 ```
 
 ---

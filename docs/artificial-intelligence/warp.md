@@ -89,10 +89,10 @@ Warp reimagines the terminal experience by introducing modern interface paradigm
 **Scenario**: Streamline repetitive development tasks  
 **Implementation**:
 ```bash
-## Ask Warp AI in natural language
+# Ask Warp AI in natural language
 "show me processes using port 3000 and kill them if needed"
 
-## Warp AI suggests and executes:
+# Warp AI suggests and executes:
 lsof -ti:3000 | xargs kill -9
 ```
 
@@ -104,14 +104,14 @@ lsof -ti:3000 | xargs kill -9
 **Scenario**: Complex error investigation  
 **Implementation**:
 ```bash
-## Natural language query
+# Natural language query
 "analyze this error log and suggest fixes"
 
-## Warp AI provides:
-## 1. Error interpretation
-## 2. Possible causes
-## 3. Step-by-step resolution
-## 4. Prevention strategies
+# Warp AI provides:
+# 1. Error interpretation
+# 2. Possible causes
+# 3. Step-by-step resolution
+# 4. Prevention strategies
 ```
 
 ### Pair Programming & Collaboration
@@ -235,7 +235,7 @@ lsof -ti:3000 | xargs kill -9
 
 ### Workflow Automation
 ```bash
-## Create parameterized workflows
+# Create parameterized workflows
 warp-workflow create "deploy-app" \
   --param environment \
   --param version \
@@ -244,14 +244,14 @@ warp-workflow create "deploy-app" \
 
 ### AI-Powered Debugging
 ```bash
-## Multi-step debugging assistance
+# Multi-step debugging assistance
 "My Node.js app is throwing EADDRINUSE errors, help me debug and fix it"
 
-## Warp AI automatically:
-## 1. Checks for processes using common ports
-## 2. Suggests port conflict resolution
-## 3. Provides prevention strategies
-## 4. Offers to implement fixes
+# Warp AI automatically:
+# 1. Checks for processes using common ports
+# 2. Suggests port conflict resolution
+# 3. Provides prevention strategies
+# 4. Offers to implement fixes
 ```
 
 ### Team Knowledge Base
@@ -265,20 +265,20 @@ warp-workflow create "deploy-app" \
 
 ### Development Environment Setup
 ```bash
-## Natural language setup
+# Natural language setup
 "Set up a new React project with TypeScript, Tailwind, and testing configured"
 
-## Warp AI creates workflow:
-## 1. npx create-react-app my-app --template typescript
-## 2. cd my-app && npm install -D tailwindcss postcss autoprefixer
-## 3. npx tailwindcss init -p
-## 4. Configure testing environment
-## 5. Initialize git repository
+# Warp AI creates workflow:
+# 1. npx create-react-app my-app --template typescript
+# 2. cd my-app && npm install -D tailwindcss postcss autoprefixer
+# 3. npx tailwindcss init -p
+# 4. Configure testing environment
+# 5. Initialize git repository
 ```
 
 ### Deployment Automation
 ```bash
-## Parameterized deployment workflow
+# Parameterized deployment workflow
 warp-workflow run "deploy-to-staging" \
   --environment staging \
   --version $(git rev-parse --short HEAD)
