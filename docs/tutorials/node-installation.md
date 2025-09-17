@@ -41,15 +41,15 @@ Now, let's write down some code into that files:
 agent-name = testproducer
 
 # PLUGINS
-## Required to process and aggregate chain data on an EOSIO node.
+# Required to process and aggregate chain data on an EOSIO node.
 plugin = eosio::chain_plugin
-## Exposes functionality to the RPC API interface
+# Exposes functionality to the RPC API interface
 plugin = eosio::chain_api_plugin
-## Required to enable any RPC API functionality provided by a nodeos or keosd instance.
+# Required to enable any RPC API functionality provided by a nodeos or keosd instance.
 plugin = eosio::http_plugin
-## Loads functionality required for a node to produce blocks.
+# Loads functionality required for a node to produce blocks.
 plugin = eosio::producer_plugin
-## Exposes a number of endpoints for the producer_plugin to the RPC API interface
+# Exposes a number of endpoints for the producer_plugin to the RPC API interface
 plugin = eosio::producer_api_plugin
 
 ## CHAIN 
@@ -79,7 +79,7 @@ p2p-peer-address = SEED_NODE_IP:SEED_NODE_PORT
 p2p-peer-address = PEER1_NODE_IP:PEER1_NODE_PORT
 p2p-peer-address = PEER2_NODE_IP:PEER2_NODE_PORT
 p2p-peer-address = API_NODE_IP:API_NODE_PORT
-## You can continue adding peer nodes here
+# You can continue adding peer nodes here
 ```
 
 > Note that above there are items that need to be replaced with their corresponding values.
