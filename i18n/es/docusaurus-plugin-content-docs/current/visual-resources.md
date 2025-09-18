@@ -9,7 +9,7 @@ keywords: [redes sociales EOS, guías, desarrollo, software, EOS, EOS Costa Rica
 # Recursos Visuales
 
 
-## EOS Costa Rica
+# EOS Costa Rica
 
 ### Horizontal
 
@@ -126,7 +126,7 @@ keywords: [redes sociales EOS, guías, desarrollo, software, EOS, EOS Costa Rica
 
 * * * 
 
-## EOS Rate
+# EOS Rate
 
 <div>
   <div style={{ float: "left", width: "50%", padding: 50 }}>

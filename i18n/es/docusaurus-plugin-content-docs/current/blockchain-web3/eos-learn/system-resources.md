@@ -58,7 +58,7 @@ El productor de bloques ejecutará todas las acciones dentro de la transacción 
 
 Si las acciones realizadas por el contrato inteligente implican algún tipo de almacenamiento de datos, el contrato inteligente puede elegir usar los recursos de RAM de cualquiera de las cuentas de autorización de transacciones o usar los recursos de RAM de la cuenta del contrato inteligente.
 
-## CPU y NET como Recursos Elásticos
+# CPU y NET como Recursos Elásticos
 
 El `resource limit manager` de una cadena de bloques basada en EOSIO es la parte del protocolo que realiza un seguimiento de la cantidad de recursos de red disponibles en cualquier momento y cuántos recursos está usando cada cuenta.
 

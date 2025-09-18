@@ -157,7 +157,7 @@ MCP is built around **three fundamental primitives** that MCP servers provide to
 
 ---
 
-## MCP Relationships with AI Models
+# MCP Relationships with AI Models
 
 MCP has been adopted by major AI providers, enhancing the interoperability and capabilities of various AI models:
 
@@ -190,7 +190,7 @@ MCP has been adopted by major AI providers, enhancing the interoperability and c
 
 ---
 
-## MCP Relationships with AI Development Tools
+# MCP Relationships with AI Development Tools
 
 ### IDEs and Editors
 

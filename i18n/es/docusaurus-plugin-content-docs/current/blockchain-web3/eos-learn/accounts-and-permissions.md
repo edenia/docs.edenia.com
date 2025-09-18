@@ -62,7 +62,7 @@ La librería [Universal Authenticator Library (UAL)](https://github.com/EOSIO/un
 - [UAL for MEET.ONE](https://github.com/meet-one/ual-meetone)
 - [UAL for Anchor](https://github.com/greymass/ual-anchor)
 
-## KEOSD
+# KEOSD
 
 En la distribución de EOSIO viene incluido un cliente CLI llamado [cleos](https://developers.eos.io/manuals/eos/latest/cleos/index) que interactúa con un cliente llamado [keosd](https://developers.eos.io/manuals/eos/latest/keosd/index) que proporciona un servicio de billetera seguro y un punto final API para aplicaciones que requieren integración de back-end con un proveedor de firmas digitales.
 

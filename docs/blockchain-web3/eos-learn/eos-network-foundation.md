@@ -14,7 +14,7 @@ keywords: [Blue Papers EOS, ENF Research, blue-papers-eos, eos-network-foundatio
 
 The EOS Network Foundation, also known as ENF (EOS Network Foundation) is a non-profit foundation, has created a series of "Blue Papers" on the main issues or doubts of the community and the respective actions to be taken in such situations. In this section we will see in a quick and concise way some of them:
 
-## API+
+# API+
 
 Being a blockchain that is required to be read and written by several users at the same time, a lot is expected from the APIs by the developers, due to this and added to the fact that depending on its functionality it can directly affect in an economic way to the users, they become a crucial section for the operation/growth of the network.
 
@@ -84,7 +84,7 @@ This topic is being addressed by a large group of developers with little or no t
 
 To learn more about this topic, you can see it in the following link [Audit+ Blue Paper](https://drive.google.com/file/d/1hQsN-_4DN5Lj9iDih0N41r8-ZeEpFRlr/view?usp=sharing) with availability to download if desired.
 
-## EVM+
+# EVM+
 
 This topic is born as one of the many measures by the community for the growth of the same, aiming the development of a bridge with Ethereum, as its name suggests EVM+ (Ethereum Virtual Machine) is the group in charge of the development of ETH compatibility with EOS, so that contracts developed in Solidity (ETH) can be launched on the EOSIO network allowing you to launch your apps 100 times faster and 1000 times cheaper.
 

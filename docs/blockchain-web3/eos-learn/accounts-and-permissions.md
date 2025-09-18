@@ -65,11 +65,11 @@ The [Universal Authenticator Library (UAL)](https://github.com/EOSIO/universal-a
 * [UAL for MEET.ONE](https://github.com/meet-one/ual-meetone)
 * [UAL for Anchor](https://github.com/greymass/ual-anchor)
 
-## KEOSD
+# KEOSD
 
 In the EOSIO's distribution comes included a CLI client called [cleos](https://developers.eos.io/manuals/eos/latest/cleos/index) that interacts with lite client called [keosd](https://developers.eos.io/manuals/eos/latest/keosd/index) which provides a secure wallet service and API endpoint for applications that require back-end integration with a signature provider.
 
-## EOSIO Permissions
+# EOSIO Permissions
 
 EOSIO's permissions make it possible to strengthen account security to the point where the loss or theft of keys is nothing more than minor inconveniences. This weekly EOS episode covers what EOSIO permissions are on a conceptual level and the trend towards strong interconnected account networks.
 

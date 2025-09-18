@@ -63,13 +63,13 @@ Python-based EOS smart-contract development & testing framework.
 
 https://github.com/tokenika/eosfactory
 
-## EOSIO DApp Boilerplate
+# EOSIO DApp Boilerplate
 
 This boilerplate provides a very quick way to get started with application development on the EOSIO platform. It's an opinionated selection of technologies that will allow you to build performant and scalable EOSIO dApps.
 
 https://github.com/eoscostarica/eos-dapp-boilerplate 
 
-## EOSIO Developers Portal
+# EOSIO Developers Portal
 
 https://developers.eos.io/
 

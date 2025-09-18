@@ -18,23 +18,23 @@ A block explorer is a program or website accessible through a compatible browser
 
 https://bloks.io/
 
-## EOSX
+# EOSX
 
 https://www.eosx.io/
 
-## EOS Flare
+# EOS Flare
 
 https://eosflare.io/
 
-## EOS Network Monitor
+# EOS Network Monitor
 
 https://eosnetworkmonitor.io/
 
-## EOS Tracker
+# EOS Tracker
 
 https://eostracker.io/
 
-## EOS Spark
+# EOS Spark
 
 https://eospark.com/
 
@@ -42,6 +42,6 @@ https://eospark.com/
 
 https://park.io/
 
-## EOSDAC Explorer
+# EOSDAC Explorer
 
 https://explorer.eosdac.io

@@ -54,7 +54,7 @@ _If you want to the boilerplate using UAL login integration, please make sure th
 
 - **GitHub** : https://github.com/eoscostarica/webapp-boilerplate
 
-## EOSCR React Components
+# EOSCR React Components
 A collection of React Components for EOSIO
 
 ### GitHub Repository

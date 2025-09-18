@@ -9,7 +9,7 @@ keywords: [desarrollo de Dapps, dapps, EOS, Aplicaciones Descentralizadas, EOSIO
 # Desarrollo de Dapps
 
 
-## EOSIO para el Desarrollo de Aplicaciones Descentralizadas (dApps)
+# EOSIO para el Desarrollo de Aplicaciones Descentralizadas (dApps)
 
 <figure className="video_container">
   <iframe 
@@ -91,7 +91,7 @@ https://github.com/eoscostarica/eos-dapp-boilerplate
 
 https://developers.eos.io/
 
-## IPFS Almacenamiento Descentralizado - IPFS
+# IPFS Almacenamiento Descentralizado - IPFS
 
 <figure className="video_container">
   <iframe 

@@ -21,7 +21,7 @@ After the fallout with B1, the EOS founder Daniel Larimer indicates that it’s 
 Also, the [EOS Network Foundation](https://eosnetwork.com/) (ENF) emerged as a new alternative to direct network funds into furthering the development of the EOSIO protocol and EOS mainnet.
 The EOS Network Foundation's vision is to build a decentralized future where no sacrifice the community, cooperation, or consensus, making easy innovation through the union and empowerment of the developers around the world.
 
-## EOSIO vs Mandel
+# EOSIO vs Mandel
 
 The EOS community didn't want to include all the code from the latest versions of the protocol because some of the added features didn't align with the interests of the community, so it was decided to start from EOSIO 2.0.13 using only some of the new features from EOSIO 2.1.0 and EOSIO 2.2.0.
 

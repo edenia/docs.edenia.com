@@ -15,27 +15,27 @@ Un explorador de bloques es un programa o sitio web accesible a través de un na
 
 https://bloks.io/
 
-## EOSX
+# EOSX
 
 https://www.eosx.io/
 
-## EOSQ
+# EOSQ
 
 https://eosq.app/
 
-## EOS Flare
+# EOS Flare
 
 https://eosflare.io/
 
-## EOS Network Monitor
+# EOS Network Monitor
 
 https://eosnetworkmonitor.io/
 
-## EOS Tracker 
+# EOS Tracker 
 
 https://eostracker.io/
 
-## EOS Spark
+# EOS Spark
 
 https://eospark.com/
 
@@ -43,6 +43,6 @@ https://eospark.com/
 
 https://park.io/
 
-## EOSDAC Explorer
+# EOSDAC Explorer
 
 https://explorer.eosdac.io

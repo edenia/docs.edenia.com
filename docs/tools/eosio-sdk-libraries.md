@@ -12,7 +12,7 @@ keywords: [ libraries, SDK, EOSIO, EOS, Blockchain, EOS, EOS Costa Rica]
 # EOSIO SDK Libraries
 
 
-## SDKs for EOSIO
+# SDKs for EOSIO
 
 APIs for integrating with EOSIO blockchains.
 

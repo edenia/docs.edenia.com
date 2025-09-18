@@ -6,7 +6,7 @@ description: EOSIO Node Installation
 keywords: [ Node Installation, EOSIO Nodes, How to create a node, How to Install a Node, Install Nodes]
 ---
 
-## A Producer Node Setup
+# A Producer Node Setup
 On EOSIO, a producing node and other types of nodes are defined and differentiated by enabling specific [Nodeos Plugins](https://developers.eos.io/manuals/eos/latest/nodeos/plugins/index). For example, to define a non-producing node, you need to except `producer_plugin`. This posibility of customization allows to expose one or more services publicly or privately by enabling one or more of those plugins.
 
 If you are trying to set up a "Full Node", you may find [Setting Up a Full EOS Node](https://eoscommunity.org/t/where-is-the-best-guide-on-setting-up-a-full-eos-node/621) helpful.
@@ -52,7 +52,7 @@ plugin = eosio::producer_plugin
 ## Exposes a number of endpoints for the producer_plugin to the RPC API interface
 plugin = eosio::producer_api_plugin
 
-## CHAIN 
+# CHAIN 
 chain-state-db-size-mb = 16384
 reversible-blocks-db-size-mb = 512
 contracts-console = true
@@ -63,10 +63,10 @@ pause-on-startup = false
 max-irreversible-block-age = -1
 txn-reference-block-lag = 0
 
-## BLOCK PRODUCER
+# BLOCK PRODUCER
 producer-name = testproducer
 
-## PEERING NETWORK
+# PEERING NETWORK
 p2p-server-address =  TESTPRODUCER_IP:9876     # CHANGE THIS ACCORDING TO THE NODE IP
 p2p-listen-endpoint = 0.0.0.0:9876
 p2p-max-nodes-per-host = 150
@@ -79,7 +79,7 @@ p2p-peer-address = SEED_NODE_IP:SEED_NODE_PORT
 p2p-peer-address = PEER1_NODE_IP:PEER1_NODE_PORT
 p2p-peer-address = PEER2_NODE_IP:PEER2_NODE_PORT
 p2p-peer-address = API_NODE_IP:API_NODE_PORT
-## You can continue adding peer nodes here
+# You can continue adding peer nodes here
 ```
 
 > Note that above there are items that need to be replaced with their corresponding values.

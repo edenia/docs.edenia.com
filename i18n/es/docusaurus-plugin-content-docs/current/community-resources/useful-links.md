@@ -24,7 +24,7 @@ Aquí hay una lista de enlaces útiles relacionados con la comunidad Edenia.
 * [Foro EOSCommunity.org](https://eoscommunity.org/)
 * [Manual del desarrollador de Contratos Inteligentes EOSIO](https://cc32d9.gitbook.io/eosio-smart-contract-developers-handbook)
 
-## UX/UI
+# UX/UI
 
 * [Material Design](https://material.io/)
 * [Página de Figma](https://www.figma.com/ui-design-tool/)

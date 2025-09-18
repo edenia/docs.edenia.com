@@ -34,7 +34,7 @@ The characteristics of EOS were highly customized by the community through **sys
 
 As well as there are other blockchains developed with EOSIO such as LACChain, Proton, Telos, and WAX, among others. Take a look at the following [EOSIO network list](https://docs.edenia.com/docs/community-resources/eosio-networks). There are also multiple private networks currently using EOSIO.
 
-## EOSIO / Antelope Protocol
+# EOSIO / Antelope Protocol
 
 Some innovative features of EOSIO and Antelope include:
 

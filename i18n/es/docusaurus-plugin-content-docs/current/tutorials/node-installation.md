@@ -43,7 +43,7 @@ Ahora, escribamos algo de código en esos archivos:
 ```ini
 agent-name = testproducer
 
-## PLUGINS
+# PLUGINS
 ## Necesario para procesar y agregar datos de la cadena en un nodo EOSIO.
 plugin = eosio::chain_plugin
 ## Expone la funcionalidad a la interfaz RPC API
@@ -55,7 +55,7 @@ plugin = eosio::producer_plugin
 ## Expone una serie de endpoints para el producer_plugin a la interfaz RPC API.
 plugin = eosio::producer_api_plugin
 
-## CHAIN 
+# CHAIN 
 chain-state-db-size-mb = 16384
 reversible-blocks-db-size-mb = 512
 contracts-console = true
@@ -66,10 +66,10 @@ pause-on-startup = false
 max-irreversible-block-age = -1
 txn-reference-block-lag = 0
 
-## BLOCK PRODUCER
+# BLOCK PRODUCER
 producer-name = testproducer
 
-## PEERING NETWORK
+# PEERING NETWORK
 p2p-server-address =  TESTPRODUCER_IP:9876     # CAMBIAR ESTO SEGUN IP DEL NODO
 p2p-listen-endpoint = 0.0.0.0:9876
 p2p-max-nodes-per-host = 150

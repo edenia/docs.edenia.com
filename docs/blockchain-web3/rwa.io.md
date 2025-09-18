@@ -29,7 +29,7 @@ RWA.IO complements Ethereum by bringing real-world financial instruments on-chai
 
 ---
 
-## RWA.IO Wallets
+# RWA.IO Wallets
 
 Wallets are essential for interacting with the RWA.IO network. They enable users to store, transfer, and interact with tokenized assets through smart contracts and compliant applications.
 
@@ -58,7 +58,7 @@ RWA.IO uses gas fees to compensate validators for executing smart contracts and 
 
 ---
 
-## RWA.IO Test Environment
+# RWA.IO Test Environment
 
 RWA.IO provides an active and maintained testnet environment to simulate asset tokenization workflows before mainnet deployment. It is built using the same architecture as the mainnet and supports all EVM tools.
 

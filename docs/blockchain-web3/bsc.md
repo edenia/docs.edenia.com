@@ -29,7 +29,7 @@ BSC complements Ethereum by offering an alternative platform for high-frequency,
 
 ---
 
-## BSC Wallets
+# BSC Wallets
 
 Wallets are essential for interacting with the BSC network. They enable users to manage assets, sign transactions, and access applications running on BSC.
 
@@ -58,7 +58,7 @@ BSC uses gas fees to pay validators for processing transactions and securing the
 
 ---
 
-## BSC Testnets: BSC Sepolia Testnet
+# BSC Testnets: BSC Sepolia Testnet
 
 The **BSC Sepolia Testnet** is the current official testing environment for Binance Smart Chain. It replaces the deprecated **Chapel Testnet** and provides a secure and modern environment for testing and deploying smart contracts before launching them on the BSC mainnet.
 

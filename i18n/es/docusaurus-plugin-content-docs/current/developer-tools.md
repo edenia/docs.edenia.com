@@ -54,7 +54,7 @@ Axios es una biblioteca de JavaScript muy popular que se puede usar para realiza
 
 * * *
 
-## EOSIO
+# EOSIO
 
 ### ¿Qué es EOSIO?
 
@@ -141,7 +141,7 @@ Para obtener instrucciones de instalación, consulte nuestro Tutorial de React J
 
 * * *
 
-## HAPI
+# HAPI
 
 ### ¿Qué es HAPI?
 
@@ -188,7 +188,7 @@ El motor GraphQL de Hasura es un servidor GraphQL ultra rápido que le brinda AP
 
 * * *
 
-## HTTPie
+# HTTPie
 
 ### ¿Qué es HTTPie?
 
@@ -284,7 +284,7 @@ width="100%" height="315" src="https://www.youtube.com/embed/xyx9K_j_HXg"  frame
 
 * * *
 
-## IPFS
+# IPFS
 
 <p align="left">
 	<a href="https://ipfs.io/">

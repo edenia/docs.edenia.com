@@ -19,7 +19,7 @@ También, la [EOS Network Foundation](https://eosnetwork.com/) (ENF) surgió com
 
 La visión de la EOS Network Foundation es construir un futuro descentralizado que no sacrifique ni a la comunidad, cooperación o consenso, facilitando la innovación mediante la unión y empoderamiento de desarrolladores alrededor del mundo.
 
-## EOSIO vs Mandel
+# EOSIO vs Mandel
 
 La comunidad de EOS no quería que se incluya todo el código de versiones más recientes del protocolo, por motivo de que algunas de las funciones agregadas no se alineaban con los intereses de la comunidad, entonces, se decide partir de la versión de EOSIO 2.0.13 utilizando solo algunas de las funciones nuevas de EOSIO 2.1.0 y EOSIO 2.2.0.
 

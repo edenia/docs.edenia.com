@@ -14,7 +14,7 @@ keywords: [EOS Blockchain, blockchain, eos, EOSIO, mainnet, EOS Costa Rica, What
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-## EOS vs ETH
+# EOS vs ETH
 
 <figure className="video_container">
   <iframe
@@ -53,7 +53,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 * * *
 
-## EOS Storage
+# EOS Storage
 
 [EOS.IO Storage White Paper](https://steemit.com/eos/@eosio/eos-io-storage-white-paper-now-available)
 

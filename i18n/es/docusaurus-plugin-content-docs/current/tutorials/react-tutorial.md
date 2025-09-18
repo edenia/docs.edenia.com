@@ -47,7 +47,7 @@ Es importante para el desarrollo de un buen proyecto la organización de los dif
 
 Es importante seguir los estándares de JavaScript, es recomendado utilizar la librería [ESLint](https://eslint.org/) para ayudarte a seguir estos [estándares de JavaScript](https://standardjs.com/rules.html).
 
-## DOM Virtual
+# DOM Virtual
 
 **Modelo en Objetos para la Representación de Documentos** (Document Object Model por sus siglas en ingles) es esencialmente una interfaz de plataforma que proporciona un conjunto estándar de objetos para representar documentos HTML, XHTML y XML.​ Un modelo estándar sobre cómo pueden combinarse dichos objetos, y una interfaz estándar para acceder a ellos y manipularlos.
 

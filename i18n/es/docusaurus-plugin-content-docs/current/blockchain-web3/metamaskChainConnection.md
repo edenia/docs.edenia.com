@@ -44,7 +44,7 @@ Para agregar una nueva red blockchain a MetaMask:
 
 ---
 
-## RWA.IO
+# RWA.IO
 
 ### Red Principal (Mainnet)
 

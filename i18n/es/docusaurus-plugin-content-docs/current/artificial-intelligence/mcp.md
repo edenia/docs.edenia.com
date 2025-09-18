@@ -451,10 +451,10 @@ const result = await client.request(
 ### Instalación
 
 ```bash
-## SDK Node.js
+# SDK Node.js
 npm install @modelcontextprotocol/sdk
 
-## SDK Python
+# SDK Python
 pip install mcp
 ```
 

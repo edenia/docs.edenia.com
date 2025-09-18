@@ -12,7 +12,7 @@ keywords: [ Visual Resources, Components, Material to develop]
 # Visual Resources
 
 
-## EOS Costa Rica
+# EOS Costa Rica
 
 ### Horizontal
 
@@ -134,7 +134,7 @@ keywords: [ Visual Resources, Components, Material to develop]
 
 * * * 
 
-## EOS Rate
+# EOS Rate
 
 <div>
   <div style={{ float: "left", width: "50%", padding: 50 }}>

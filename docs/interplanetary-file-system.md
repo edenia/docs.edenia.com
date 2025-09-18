@@ -63,7 +63,7 @@ Some of the disadvantages of using IPFS are:
 - It is still in the process of improvement and development.
 - Being new technology and paradigm it may be difficult to use for some people.
 
-## IPFS Use Cases
+# IPFS Use Cases
 
 Currently there are several cases of use of systems in which companies have decided to innovate using this new technology. This is due to the large number of benefits offered by this system, some companies that use this technology are: [Audius](https://audius.co/), a platform that uses IPFS technology to store your data in a decentralized way where the artist can see who listens to their music so they have total control over it, another well-known company that is starting to use this technology to manage their files is [Netflix](https://www.netflix.com/).
 

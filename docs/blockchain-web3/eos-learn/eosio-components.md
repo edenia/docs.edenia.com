@@ -48,7 +48,7 @@ $ cleos wallet create -n mywallet --to-console
 
 For more information, visit our guide [Command Line](https://docs.edenia.com/docs/tools/command-line)
 
-## EOSIO.CDT
+# EOSIO.CDT
 
 [EOSIO.CDT](https://developers.eos.io/manuals/eosio.cdt/latest/index) or **Contract Development Toolkit** is a toolchain for WebAssembly(WASM) with tools to facilitate smart contracts development. C++ to WASM compiler and [**Application Binary Interface**](https://developers.eos.io/manuals/eosio.cdt/latest/best-practices/abi/understanding-abi-files) (ABI) generator set of C/C++ libraries for smart contracts development.
 

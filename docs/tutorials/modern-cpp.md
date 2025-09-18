@@ -67,7 +67,7 @@ keywords: [modern c++, modern c++ new features, modern c++ new functions, C++, C
 
 * * *
 
-## STL Algorithms in Less Than an Hour
+# STL Algorithms in Less Than an Hour
 
 <figure className="video_container">
   <iframe width="100%" height="315" src="https://www.youtube.com/embed/2olsGf6JIkU" frameBorder="0" allowFullScreen loading="lazy">
@@ -115,7 +115,7 @@ https://www.youtube.com/watch?v=QGcVXgEVMJg&list=PLiWEEi8ezRkXoi4nJcPzyPlbXhnSA2
 
 * * *
 
-## CPPCon Videos
+# CPPCon Videos
 
 https://www.youtube.com/user/CppCon/videos
 

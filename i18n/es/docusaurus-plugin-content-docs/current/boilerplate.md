@@ -14,13 +14,13 @@ Un boilerplate es un marco o plantilla para el desarrollo de un proyecto. Es una
 
 En EOS Costa Rica hemos creado tres repositorios boilerplate: **Front-End Boilerplate**, **Back-End Boilerplate** y **Full-Stack Boilerplate**.
 
-## EOS Boilerplates 
+# EOS Boilerplates 
 
 - [Full Stack Boilerplate](https://github.com/eoscostarica/full-stack-boilerplate)
 - [Front End](https://github.com/eoscostarica/backend-boilerplate)
 - [Back End](https://github.com/eoscostarica/backend-boilerplate)
 
-## WAX Boilerplates 
+# WAX Boilerplates 
 
 - [WAX WebApp](https://github.com/edenia/wax-webapp-boilerplate)
 - [Wax Full Stack Boilerplate](https://github.com/edenia/wax-full-stack-boilerplate)

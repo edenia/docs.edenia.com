@@ -12,7 +12,7 @@ keywords: [Edenia Podcasts, EOS, EOS Costa Rica, eosio.io, What is the Edenia Po
 # Edenia Podcasts
 
 
-## EOSIO
+# EOSIO
 
 https://www.youtube.com/channel/UCbc7vIgwb-sPSckU0FbWmRg
 
@@ -40,7 +40,7 @@ https://www.youtube.com/channel/UCphVYR2CHULYHf59ZSQMEag
 
 https://www.youtube.com/channel/UC6SxkB3kM4uNs_yIU0Lqo_w
 
-## EOS Voter 
+# EOS Voter 
 
 https://open.spotify.com/show/7aa00qzbKFjX1PTugmn4vn
 
@@ -48,19 +48,19 @@ https://open.spotify.com/show/7aa00qzbKFjX1PTugmn4vn
 
 https://www.youtube.com/channel/UCnXofUeO5w1dO9JGWWDdqPQ
 
-## SVK Crypto
+# SVK Crypto
 
 https://www.youtube.com/channel/UCuyr4l0-6Gkw7kW80lUwHLQ
 
-## EOS Canada
+# EOS Canada
 
 https://www.youtube.com/channel/UCoTHlEOVdeN9NOc5b5C1-vQ
 
-## EOS Detroit
+# EOS Detroit
 
 https://www.youtube.com/channel/UCnbdh6f2U54_18YEe89xpnA
 
-## EOS Weekly
+# EOS Weekly
 
 https://www.youtube.com/channel/UCR9iyxumPn7n14nbBocfCMQ
 

@@ -14,7 +14,7 @@ keywords: [Edenia Telegram Channels, EOS, EOS Costa Rica, eosio.io, What is the 
 
 Telegram channels are an ideal tool to spread messages to large numbers of people. The following is a list of the most relevant channels of the EOS Costa Rica community, in which content is shared that can be very useful.
 
-## EOS Costa Rica General Community
+# EOS Costa Rica General Community
 
 - [EOS](https://t.me/EOSproject)
 - [EOIO Gov](https://t.me/EOSGov)
@@ -32,7 +32,7 @@ Telegram channels are an ideal tool to spread messages to large numbers of peopl
 - [EOS Opportunities](https://t.me/eos_opportunities)
 - [Jungle Testnet](https://t.me/jungletestnet)
 
-## EOS Costa Rica Community
+# EOS Costa Rica Community
 
 - [LAChhain EOSIO](https://t.me/lacchaineosio)
 - [EOS Surf](https://t.me/eosbeach)

@@ -56,7 +56,7 @@ Axios is a very popular JavaScript library you can use to perform HTTP requests,
 
 * * *
 
-## EOSIO
+# EOSIO
 
 ### What is EOSIO?
 
@@ -141,7 +141,7 @@ For installation instructions go to our React JS Tutorial.
 
 * * *
 
-## HAPI
+# HAPI
 
 ### What is HAPI?
 
@@ -187,7 +187,7 @@ Hasura's GraphQL engine is an ultrafast GraphQL server that gives you real-time,
 
 * * *
 
-## HTTPie
+# HTTPie
 
 ### What is HTTPie?
 
@@ -283,7 +283,7 @@ width="100%" height="315" src="https://www.youtube.com/embed/xyx9K_j_HXg" frameB
 
 * * *
 
-## IPFS
+# IPFS
 
 <p align="left">
 	<a href="https://ipfs.io/">
