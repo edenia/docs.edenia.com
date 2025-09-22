@@ -128,19 +128,19 @@ function getMetadataForLocale(locale) {
       ogDescription: "Start building with Sistemas Edenia's comprehensive developer documentation. Access production-ready code, expert tutorials, and best practices for Web3, blockchain, and AI development.",
       ogLocale: "en_US",
       siteName: "Sistemas Edenia Developer Hub",
-      twitterTitle: "Sistemas Edenia Developer Hub | Web3 & AI Documentation",
-      twitterDescription: "Start building with Sistemas Edenia's comprehensive developer documentation. Access production-ready code, expert tutorials, and best practices for Web3, blockchain, and AI development."
+      twitterTitle: "Sistemas Edenia Developer Hub | Web3 & AI Docs",
+      twitterDescription: "Build cutting-edge Web3 and AI applications with @EdeniaWeb3. Access expert guides, code examples, and join our developer community"
     },
     es: {
-      description: "Documentación oficial para desarrolladores de Sistemas Edenia. Domina el desarrollo de Web3, blockchain e IA con ejemplos de código listos para producción, tutoriales detallados y orientación experta del equipo líder de desarrollo Web3 de Costa Rica.",
+      description: "Documentación oficial para desarrolladores de Sistemas Edenia. Domina el desarrollo de Web3, el blockchain e IA con ejemplos de código listos para producción, tutoriales detallados y orientación experta del equipo líder de desarrollo Web3 de Costa Rica.",
       keywords: "Sistemas Edenia, desarrollo Web3, documentación blockchain, contratos inteligentes, desarrollo IA, inteligencia artificial, guías para desarrolladores, tecnología Costa Rica, aplicaciones descentralizadas, dApps, DeFi, documentación técnica",
       author: "Sistemas Edenia",
       ogTitle: "Sistemas Edenia Developer Hub | Documentación Web3 e IA",
-      ogDescription: "Comienza a desarrollar con la documentación completa para desarrolladores de Sistemas Edenia. Accede a código listo para producción, tutoriales expertos y mejores prácticas para desarrollo Web3, blockchain e IA.",
-      ogLocale: "es_ES",
+      ogDescription: "Comienza a desarrollar con la documentación completa para desarrolladores de Sistemas Edenia. Accede a código listo para producción, tutoriales expertos y mejores prácticas para desarrollo Web3, el blockchain e IA.",
+      ogLocale: "es_CR",
       siteName: "Sistemas Edenia Developer Hub",
       twitterTitle: "Sistemas Edenia Developer Hub | Documentación Web3 e IA",
-      twitterDescription: "Comienza a desarrollar con la documentación completa para desarrolladores de Sistemas Edenia. Accede a código listo para producción, tutoriales expertos y mejores prácticas para desarrollo Web3, blockchain e IA."
+      twitterDescription: "Desarrolla aplicaciones Web3 e IA de vanguardia con @EdeniaWeb3. Accede a guías expertas, ejemplos de código y únete a nuestra comunidad de desarrolladores"
     }
   };
   
