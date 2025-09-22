@@ -80,13 +80,13 @@ Specify where were the project developed, in case someone else wants to make a c
 ### Getting Started
 Give the needed instruction to run the project locally, for example:
 
-#### **Prerequisites**
+### **Prerequisites**
 
 `
 yarn
 `
 
-#### **Installation**
+### **Installation**
 
 1. Clone the repository
 

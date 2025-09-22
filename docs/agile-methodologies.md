@@ -93,7 +93,7 @@ This agreement defines the sprint backlog and is based on the team’s velocity 
 
 - **Scrum Master:** Typically facilitates sprint planning in order to ensure that the discussion is effective and that there is agreement to the sprint goal and that the appropriate product backlog items are included in the sprint backlog.
 
-#### Planning Steps
+### Planning Steps
 
 1. Discuss any new information that may impact the plan.
 2. Confirm any currently known issues and concerns and record as appropriate.
@@ -113,7 +113,7 @@ Backlog grooming, also referred to as backlog refinement or story time, is a rec
 
 <iframe width="100%" height="350" src="https://www.youtube.com/embed/UpEBfS9SZGM" frameBorder="0" allow="true" allowFullScreen loading="lazy"></iframe>
 
-#### Who is involved?
+### Who is involved?
 
 - **Product Owner:** Is tasked with facilitating backlog refinement sessions. However, that doesn’t mean they are solely responsible for holding backlog grooming sessions.
 - **Team Members:** These events are meant to be collaborative. That means the entire cross-functional team should be represented at refinement sessions.

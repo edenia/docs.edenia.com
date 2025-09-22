@@ -190,15 +190,15 @@ Lanzamos el software para producción usando las etiquetas de GitHub [Semver](ht
 
 No decidimos cuál será la versión. Los cambios en el API deciden. Los números en la versión son para computadoras, no para personas. Los nombres en los lanzamientos son para las personas.
 
-##### Breaking
+### Breaking
 
 Cualquier "breaking change", no importa cuán pequeño, incrementa el número de la versión. Incrementar la versión no tiene relación con emitir un lanzamiento.
 
-##### Característica (Feature)
+### Característica (Feature)
 
 Cuando una nueva característica es añadida, esto puede ser tan pequeña como propiedad pública, o tan larga como módulo siendo expuesto.
 
-##### Fix
+### Fix
 
 Cuando una característica documentada no se comporta como está documentada, o cuando un problema de seguridad es descubierto y arreglado sin alterar el comportamiento documentado.
 

@@ -197,15 +197,15 @@ We release the production software version using github tags following [Semver](
 
 We don't decide what the version will be. The API changes decide. Version numbers are for computers, not people. Release names are for people.
 
-##### Breaking
+### Breaking
 
 Any breaking change, no matter how small increments the Breaking version number. Incrementing the Breaking version number has absolutely no relationship with issuing a release.
 
-##### Feature
+### Feature
 
 When any new feature is added. This could be as small as a new public property, or as large as a new module contract being exposed.
 
-##### Fix
+### Fix
 
 When a documented feature does not behave as documented, or when a security issue is discovered and fixed without altering documented behavior.
 

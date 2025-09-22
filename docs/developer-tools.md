@@ -96,7 +96,7 @@ className="video_container">
 
 Install jq from the [jq page](https://stedolan.github.io/jq/).
 
-#### **Follow this video if you are using Windows OS**
+### **Follow this video if you are using Windows OS**
 
 <figure
 className="video_container">
@@ -114,7 +114,7 @@ className="video_container">
 
 React is an open-source JavaScript library for building user interfaces. It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications.
 
-#### **PropTypes**
+### **PropTypes**
 
 JavaScript is not a strongly typed language, this might create some problems for the developers. PropTypes is a library that helps when you need to resolve a problem related with this. Checking the types of the passed props object against a specification set beforehand. [PropTypes Documentation](https://reactjs.org/docs/typechecking-with-proptypes.html)
 
