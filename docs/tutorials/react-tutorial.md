@@ -6,6 +6,8 @@ description: How to use React JS to build a web application
 keywords: [React JS, How to use React JS, How to build a web application, How to use React JS to build a web application, React JS tutorial, What is React, Learn React, First Steps with React]
 ---
 
+# React JS Tutorial
+
 React is a JavaScript library that will be used to build web interfaces and mobile applications with an extension called [React Native](https://reactnative.dev/). React works with units of code that work independently. React also uses a tool called JSX that allows a very simple interaction with JavaScript, that is, it can also be used with HTML in a simple way.
 
 >For more information, visit [ReactJs](https://reactjs.org)  

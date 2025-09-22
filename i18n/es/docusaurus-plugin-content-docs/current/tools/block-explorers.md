@@ -8,6 +8,8 @@ keywords: [explorador de bloques, explorador, Bloks.io, EOSX, EOSQ, EOS Flare, E
 
 Un explorador de bloques es un programa o sitio web accesible a través de un navegador que permite a un usuario buscar y navegar por los bloques de una cadena de bloques, sus contenidos y sus detalles relevantes.
 
+# Exploradores de Bloques
+
 ## Bloks.io
 
 https://bloks.io/

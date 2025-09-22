@@ -6,6 +6,8 @@ description: Webapp Boilerplate for software developers EOS Costa Rica
 keywords: [ Webapp Boilerplate, Components, Material to develop, Web boilerplate]
 ---
 
+# Web App Boilerplate
+
 ## React Webapp Boilerplate
 
 A bare-bones react web app featuring UAL for EOSIO authenticators (wallets)

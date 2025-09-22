@@ -8,7 +8,9 @@ keywords: [ Docker, Learn Docker, What is Docker, How Docker Works, How to use D
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-Docker is a tool that allows you to quickly create, test, and deploy applications. The idea behind Docker is to create “containers” that are lightweight and portable so that applications can run on any machine with Docker installed, regardless of the operating system.
+# Docker
+
+Docker is a tool that allows you to quickly create, test, and deploy applications. The idea behind Docker is to create "containers" that are lightweight and portable so that applications can run on any machine with Docker installed, regardless of the operating system.
 
 For example, each node of the blockchain network or service / application developed will be compiled into a docker image that contains all of its dependencies and is deployed to one of several infrastructure providers with docker available.
 

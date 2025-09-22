@@ -8,6 +8,8 @@ keywords: [Contract, Smart Contracts, Create Contract, How Create a Smart Contra
 
 We explain by example how to create an account and a `Hello World` contract to upload to a EOS.IO based blockchain. For this example, we based on the resources published by [Block.one to share with the community](https://developers.eos.io/).
 
+# Hello World Contract
+
 ## Get your Private Keys
 
 More information [about private keys](https://docs.edenia.com/docs/blockchain-web3/eos-learn/private-keys).

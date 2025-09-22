@@ -11,7 +11,9 @@ Its simplicity, resilience, and resistance to censorship make it an emerging sta
 
 🔗 [Nostr](https://nostr.com/)
 
-### Key Features of Nostr
+# Nostr
+
+## Key Features of Nostr
 * **Decentralization**: No central server — anyone can run a relay or a client.
 * **Censorship Resistance**: Messages are signed with cryptographic keys and cannot be altered by relays.
 * **Interoperability**: Works with multiple apps and clients that implement the protocol.

@@ -14,7 +14,7 @@ La IA es uno de los campos más transformadores de nuestro tiempo, moldeando ind
 
 ---
 
-# Contexto y Evolución
+## Contexto y Evolución
 
 La Inteligencia Artificial tiene sus raíces en la década de 1950, cuando pioneros como **Alan Turing**, **John McCarthy** y **Marvin Minsky** comenzaron a explorar si las máquinas podían simular aspectos de la inteligencia humana. Las primeras investigaciones se enfocaron en la **lógica simbólica y los sistemas expertos**.  
 
@@ -24,9 +24,9 @@ Desde 2020, la aparición de los **modelos fundacionales** (como GPT, Claude, Ge
 
 ---
 
-# Arquitectura y Características Técnicas
+## Arquitectura y Características Técnicas
 
-## Paradigmas Centrales de la IA
+### Paradigmas Centrales de la IA
 
 - **Aprendizaje Automático (ML)**: Algoritmos que aprenden patrones a partir de datos (ej. regresión, árboles de decisión, clustering).  
 - **Aprendizaje Profundo (DL)**: Redes neuronales con múltiples capas que permiten avances en visión, voz y lenguaje.  
@@ -34,14 +34,14 @@ Desde 2020, la aparición de los **modelos fundacionales** (como GPT, Claude, Ge
 - **IA Generativa (GenAI)**: Modelos capaces de producir nuevo contenido—texto, imágenes, audio o código.  
 - **IA Simbólica**: Sistemas basados en reglas, útiles para razonamiento lógico y toma de decisiones estructurada.  
 
-## Herramientas y Frameworks
+### Herramientas y Frameworks
 
 - **Frameworks**: TensorFlow, PyTorch, JAX, Scikit-learn.  
 - **Librerías**: Hugging Face Transformers, LangChain, Haystack, OpenVINO.  
 - **Plataformas**: AWS Bedrock, GCP Vertex AI, Azure OpenAI, Anthropic Console, Vercel v0.  
 - **Despliegue**: Docker, Kubernetes, ONNX, APIs sin servidor.  
 
-## Integración con Web3
+### Integración con Web3
 
 - Contratos inteligentes que usan oráculos de IA para decisiones basadas en datos.  
 - Computación descentralizada para entrenar modelos en redes blockchain.  
@@ -49,7 +49,7 @@ Desde 2020, la aparición de los **modelos fundacionales** (como GPT, Claude, Ge
 
 ---
 
-# Casos de Uso
+## Casos de Uso
 
 ### Salud
 
@@ -103,7 +103,7 @@ Explora los modelos más avanzados y sus capacidades:
 
 ---
 
-# Ventajas Clave
+## Ventajas Clave
 
 | Ventaja | Por qué importa |
 |---------|-----------------|
@@ -115,7 +115,7 @@ Explora los modelos más avanzados y sus capacidades:
 
 ---
 
-# Limitaciones y Riesgos
+## Limitaciones y Riesgos
 
 - **Sesgos y equidad**: la IA refleja los sesgos presentes en sus datos de entrenamiento.  
 - **Explicabilidad**: muchos modelos son “cajas negras” de difícil interpretación.  
@@ -126,7 +126,7 @@ Explora los modelos más avanzados y sus capacidades:
 
 ---
 
-# Implicaciones Éticas y Laborales
+## Implicaciones Éticas y Laborales
 
 - **Empleo y automatización**: la IA desplaza tareas repetitivas hacia funciones de supervisión y toma de decisiones.  
 - **IA Responsable**: requiere equidad, transparencia, rendición de cuentas y supervisión humana.  
@@ -136,28 +136,28 @@ Explora los modelos más avanzados y sus capacidades:
 
 ---
 
-# Recomendaciones Prácticas de Adopción
+## Recomendaciones Prácticas de Adopción
 
-## Guía Técnica
+### Guía Técnica
 
 - Empieza con proyectos piloto de bajo riesgo como prueba de concepto.  
 - Elige modelos adecuados según precisión, costo e interpretabilidad.  
 - Implementa monitoreo para medir deriva, sesgo y rendimiento en sistemas productivos.  
 
-## Seguridad, Privacidad y Cumplimiento
+### Seguridad, Privacidad y Cumplimiento
 
 - Aplica políticas de **Zero Data Retention** cuando sea posible.  
 - Cifra datos en tránsito y en reposo.  
 - Define políticas claras de retención y anonimización.  
 - Implementa **RBAC** (control de acceso basado en roles) y **SSO** (inicio de sesión único).  
 
-## Gestión del Cambio
+### Gestión del Cambio
 
 - Capacita a equipos en **prompt engineering** y uso responsable de IA.  
 - Realiza pilotos con KPIs claros (eficiencia, reducción de defectos, ahorro).  
 - Escala gradualmente tras validar el ROI.  
 
-## Buenas Prácticas de Prompts
+### Buenas Prácticas de Prompts
 
 - Usa prompts estructurados con ejemplos.  
 - Proporciona contexto (ej. documentación, datos específicos de dominio).  
@@ -166,7 +166,7 @@ Explora los modelos más avanzados y sus capacidades:
 
 ---
 
-# Conclusión
+## Conclusión
 
 La Inteligencia Artificial es una **tecnología de propósito general** con un impacto transformador. Es especialmente útil cuando:  
 

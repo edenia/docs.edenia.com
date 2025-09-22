@@ -7,6 +7,8 @@ keywords: [Metodologías, Ágiles, Scrum, Kanban, XP, Lean, Agile, EOS, EOS Cost
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
+# Metodologías Ágiles
+
 ## ¿Qué son las Metodologías Ágiles?
 
 Estas son metodologías de trabajo que permiten la adaptación a las circunstancias de los proyectos y reducen los procesos de documentación. Generalmente se usan en proyectos que no tienen un alcance definido con certeza, lo que los hace muy propensos al cambio. En estas metodologías, las entregas de productos funcionales en un tiempo corto (2 a 4 semanas) permiten que el proceso de cambios y corrección de errores sea rápido y no tenga un costo muy alto para el proyecto en general.

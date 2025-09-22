@@ -7,6 +7,8 @@ keywords: [ What are Agile Methodologies, Scrum, Canvan, Daily Stand up]
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
+# Agile Methodologies
+
 ## What are Agile Methodologies ?
 
 These are work methodologies that allow adaptation to the circumstances of the projects and reduce the documentation processes, they are generally used in projects that do not have a defined scope with certainty, which causes them to be very prone to change, because in these methodologies deliveries of functional products in a short time (2 to 4 weeks) allow the process of changes and correction of errors to be fast and not have a very high cost for the project in general.

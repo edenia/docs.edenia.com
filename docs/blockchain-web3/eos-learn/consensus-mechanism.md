@@ -8,6 +8,8 @@ keywords: [Consensus Mechanism, Consensus Algorithms, Consensus, What is a conse
 
 A consensus mechanism ensures that each new block that is added to the blockchain is accepted as the only version of the truth by all nodes on the network. In essence, a consensus algorithm aims to find a common agreement that is accepted for the whole network.
 
+# Consensus Mechanism
+
 ## Delegated Proof of Stake (DPoS)
 
 <figure className="video_container">

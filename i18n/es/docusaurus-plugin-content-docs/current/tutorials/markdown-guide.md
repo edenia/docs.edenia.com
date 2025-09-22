@@ -7,6 +7,8 @@ keywords: [markdown, guía, Qué es Markdown, Cómo se usa Markdown, markdown Gu
 Cómo escribir en formato Markdown, Qué se puede hacer con Markdown, Qué es Markdown y para qué sirve]
 ---
 
+# Guía de Markdown
+
 ## ¿Qué es Markdown y para qué sirve?
 
 Markdown es un lenguaje de marcado ligero que se puede usar para agregar elementos de formato a documentos de texto sin formato.
@@ -51,9 +53,7 @@ Estas aplicaciones de Markdown utilizan un procesador Markdown también conocido
 
 Acontinuación observaremos ejemplos de sintaxis básica y estructural, para profundizar así en este lenguaje de marcado.
 
-
-
-## Básica
+### Básica
 
 
 | Componente | Sintaxis|
@@ -76,9 +76,9 @@ Acontinuación observaremos ejemplos de sintaxis básica y estructural, para pro
 
 * * *
 
-## Estructural
+### Estructural
 
-### **Lista no Ordenada**  
+#### **Lista no Ordenada**  
 
 ``` markdown title="Sintaxis"
     - Primer Item
@@ -94,7 +94,7 @@ Acontinuación observaremos ejemplos de sintaxis básica y estructural, para pro
 
 Para más información visite [Markdown Lista Desordenada](https://www.markdownguide.org/basic-syntax/#unordered-lists).
 
-### **Lista Ordenada**
+#### **Lista Ordenada**
 
 ``` markdown title="Sintaxis"
     1. Primer Item
@@ -111,7 +111,7 @@ Para más información visite [Markdown Lista Desordenada](https://www.markdowng
 
 Para más información visite [Markdown Lista Ordenada](https://www.markdownguide.org/basic-syntax/#ordered-lists).
 
-### **Tabla**
+#### **Tabla**
 
 ``` markdown title="Sintaxis"
 |Título Izquierda  | Título centro | Título Derecha |  
@@ -129,7 +129,7 @@ Para más información visite [Markdown Lista Ordenada](https://www.markdownguid
 
 Para más información visite [Markdown Tablas](https://www.markdownguide.org/extended-syntax/#tables).
 
-### **Check List** 
+#### **Check List** 
 
 ``` markdown title="Sintaxis"
 - [x] Primer opción
@@ -145,7 +145,7 @@ Para más información visite [Markdown Tablas](https://www.markdownguide.org/ex
 Para más información visite [Markdown Lista de Tareas](https://www.markdownguide.org/extended-syntax/#task-lists).
 
 
-### **Salto de Línea**
+#### **Salto de Línea**
 
 ```markdown title="Sintaxis"
 Texto  <!---Espacio Espacio--->
@@ -157,7 +157,7 @@ Otro texto
 Texto  
 Otro texto
 
-### **Comentarios**
+#### **Comentarios**
 
 ``` markdown title="Sintaxis"
 [comentario]: <> (Este es un comentario, no se incluirá)
@@ -169,9 +169,9 @@ Otro texto
 
 * * *
 
-## Otras Sintaxis 
+### Otras Sintaxis 
 
-### **Enlaces**
+#### **Enlaces**
 
 ``` markdown title="Sintaxis"
 [Edenia](https://edenia.com/es)
@@ -181,7 +181,7 @@ Otro texto
 
 * * * 
 
-### **Imágenes**
+#### **Imágenes**
 
 ``` markdown title="Sintaxis"
 ![](https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/fullColor-horizontal-transparent-white.png)
@@ -192,7 +192,7 @@ Otro texto
 
 * * * 
 
-### **Videos**
+#### **Videos**
 
 ``` markdown title="Sintaxis"
 <iframe 
@@ -215,7 +215,7 @@ Otro texto
 
 * * *
 
-### **Citas en Bloque**
+#### **Citas en Bloque**
 
 ``` markdown title="Sintaxis"
 > Texto principal
@@ -255,7 +255,7 @@ Otro texto
 
 * * * 
 
-### **Código**
+#### **Código**
 
 #### *Markdown*
 

@@ -10,14 +10,16 @@ BSC (Binance Smart Chain) is a high-performance, EVM-compatible blockchain devel
 
 🔗 [BSC](https://www.bnbchain.org)
 
-### Key Features of BSC
+# Binance Smart Chain (BSC)
+
+## Key Features of BSC
 
 - **High Throughput:** BSC supports fast block times (around 3 seconds) and high transaction capacity.
 - **EVM Compatibility:** Full support for Ethereum tools, smart contracts, and development frameworks.
 - **Low Fees:** Significantly lower transaction costs compared to Ethereum, making it ideal for DeFi and NFT projects.
 - **Wide Adoption:** Home to a vibrant ecosystem of DApps, wallets, and liquidity protocols.
 
-### BSC's Role in Enhancing Ethereum
+## BSC's Role in Enhancing Ethereum
 
 BSC complements Ethereum by offering an alternative platform for high-frequency, low-cost transactions. Its EVM compatibility allows developers to deploy the same smart contracts on BSC without changes, reducing congestion and providing users with more affordable access to decentralized services. BSC helps scale the Ethereum development experience to broader audiences and regions.
 

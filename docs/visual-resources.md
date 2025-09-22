@@ -6,6 +6,8 @@ description: Visual Materials for software developers EOS Costa Rica
 keywords: [ Visual Resources, Components, Material to develop] 
 ---
 
+# Visual Resources
+
 ## EOS Costa Rica
 
 ### Horizontal

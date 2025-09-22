@@ -10,14 +10,16 @@ Ethereum is an open-source, blockchain-based platform known for its smart contra
 
 🔗 [Ethereum](https://ethereum.org)
 
-### Key Features of Ethereum
+# Ethereum
+
+## Key Features of Ethereum
 
 - **Smart Contracts:** Self-executing contracts with the terms written into code, automating agreements.
 - **Ethereum Virtual Machine (EVM):** A powerful, sandboxed environment within each Ethereum node, executing contract bytecode.
 - **Decentralized Applications (DApps):** Autonomous applications operating on the Ethereum blockchain.
 - **Ether (ETH):** Ethereum's native cryptocurrency, used for transactions and compensating nodes for computations.
 
-### Ethereum and Decentralization
+## Ethereum and Decentralization
 
 Ethereum is pivotal in decentralizing the internet, contributing to the Web 3.0 concept. It allows user interactions in the digital realm without reliance on centralized entities, paving the way for a more open, accessible internet.
 

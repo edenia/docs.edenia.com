@@ -10,6 +10,8 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 The development of new software is not a simple process, depending on the size of the program, a large number of possible junctures, functions and problematic issues must be taken into account.
 Hence, in recent years other more modern working methods have been developed that allow more efficient programming and generate error-free code.
 
+# Pair & Mob Programming
+
 ## Pair Programming
 
 ### What is Pair Programming?

@@ -6,6 +6,8 @@ description: Material UI Theme para el manejo de estilos en proyectos
 keywords: [material-ui, theme, styles, css, paleta de colores, EOS, EOS Costa Rica]
 ---
 
+# Material UI y Tema
+
 ## Logo y Activos Visuales
 
 En este [Repositorio de Recursos Gráficos](https://github.com/eoscostarica/design-assets) tiene acceso a Logos y activos visuales

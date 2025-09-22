@@ -6,6 +6,8 @@ description: Definition and explanation of Ricardian Contracts.
 keywords: [ Ricardian Contracts, React Component for Ricardian Contract, EOSIO Ricardian Contract, Ricardian Contract as HTML, Blockchain, EOSIO, EOS Costa Rica]
 ---
 
+# Ricardian Contracts
+
 ## What are Ricardian Contracts?
 They are digital documents that define the terms and conditions among those involved in the contract, these are signed and verified cryptographically and are readable by both humans and computer systems.
 

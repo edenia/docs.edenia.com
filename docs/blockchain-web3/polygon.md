@@ -10,14 +10,16 @@ Polygon, formerly known as Matic Network, is a protocol and a framework for buil
 
 🔗 [Polygon](https://polygon.technology)
 
-### Key Features of Polygon
+# Polygon
+
+## Key Features of Polygon
 
 - **Scalability:** High throughput and scalable solutions thanks to Layer 2 sidechains.
 - **Ethereum Compatibility:** Seamless integration with Ethereum's existing tools, DApps, and infrastructure.
 - **Modularity:** A modular framework that allows developers to create sovereign blockchains with customizable functionality.
 - **Interoperability:** Polygon chains can interoperate and exchange value and information with Ethereum and other Polygon chains.
 
-### Polygon's Role in Enhancing Ethereum
+## Polygon's Role in Enhancing Ethereum
 
 Polygon enhances Ethereum by addressing its major limitations - high fees, poor user experience due to delayed transactions, and low throughput. By providing Layer 2 solutions, Polygon ensures that transactions are faster and cheaper, while still leveraging the robustness and security of the Ethereum blockchain.
 

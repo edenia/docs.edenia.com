@@ -8,18 +8,20 @@ keywords: [lightning network, bitcoin layer 2, payment channels, instant payment
 
 
 
-Lightning Network is a second-layer payment protocol built on top of the Bitcoin blockchain. It is designed to enable fast, low-cost transactions by creating off-chain payment channels between users. These channels allow for instant and scalable transfers without congesting the main Bitcoin network. Lightning aims to solve Bitcoin’s scalability issues while maintaining the security and decentralization of the base layer.
+# Lightning Network
+
+Lightning Network is a second-layer payment protocol built on top of the Bitcoin blockchain. It is designed to enable fast, low-cost transactions by creating off-chain payment channels between users. These channels allow for instant and scalable transfers without congesting the main Bitcoin network. Lightning aims to solve Bitcoin's scalability issues while maintaining the security and decentralization of the base layer.
 
 🔗 [Lightning Network](https://lightning.network/)
 
-### Key Features of Lightning Network
+## Key Features of Lightning Network
 * **Instant Payments**: Transactions are completed in milliseconds, without waiting for confirmations on the main chain.
 * **Low Fees**: By operating off-chain, fees are much lower than traditional Bitcoin transactions.
 * **Scalability**: Can handle millions of transactions per second through interconnected payment channels.
 * **Interoperability**: Compatible with the Bitcoin network and other second-layer solutions using similar principles.
 * **Bitcoin-Based Security**: While transactions occur off-chain, they are backed by the security of the Bitcoin blockchain.
 
-### Lightning Network’s Role in the Bitcoin Ecosystem
+## Lightning Network's Role in the Bitcoin Ecosystem
 Lightning Network addresses one of Bitcoin’s main limitations: its ability to process only a limited number of transactions per second. By moving small and frequent transactions off the main chain, Lightning improves the user experience and enables global micropayments while preserving decentralization and the security of the base protocol.
 
 ## Lightning Wallets

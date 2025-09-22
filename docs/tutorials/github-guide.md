@@ -13,6 +13,8 @@ For Sistemas Edenia, it is of utmost importance that our collaborators familiari
 
 * * *
 
+# GitHub Guide
+
 ## **Tools**
 ### [GitHub CLI](https://docs.github.com/es/free-pro-team@latest/github/getting-started-with-github/github-cli)
 

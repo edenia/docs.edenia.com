@@ -11,18 +11,20 @@ While initially designed as a digital alternative to cash, Bitcoin has evolved i
 
 🔗 [Bitcoin](https://bitcoin.org/en/)
 
-### Key Features of Bitcoin
+# Bitcoin
+
+## Key Features of Bitcoin
 * **Decentralization**: No central authority controls Bitcoin; the network is maintained by thousands of nodes worldwide.
 * **Proof of Work Security**: Transactions are validated through mining, requiring computational effort and energy consumption.
 * **Limited Supply**: Capped at 21 million coins, ensuring scarcity and deflationary characteristics.
 * **Global Accessibility**: Anyone with an internet connection can send or receive Bitcoin, regardless of location.
 * **Immutability**: Once confirmed, transactions cannot be altered or reversed.
 
-### Bitcoin's Role in the Global Financial System
+## Bitcoin's Role in the Global Financial System
 Bitcoin introduced the concept of trustless, borderless money, reducing dependence on centralized financial systems. It serves as both a medium of exchange and a store of value, providing a hedge against inflation and currency devaluation in some economies.
 Its adoption by individuals, companies, and even some governments highlights its growing relevance in global finance.
 
-### Bitcoin Wallets
+## Bitcoin Wallets
 Bitcoin wallets are essential for storing, sending, and receiving BTC. They manage private keys, enabling users to control their funds without relying on intermediaries.
 
 ## Types of Bitcoin Wallets

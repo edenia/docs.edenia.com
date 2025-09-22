@@ -7,6 +7,8 @@ keywords: [EOSIO, Private Network, Installation, EOSIO Networks, What is EOSIO, 
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
+# EOSIO Private Network Installation
+
 ## Private Network Installation Tutorial
 Several topologies can be designed in the sense of quantity of nodes or redundancy of the data, nevertheless, for the practicity of this tutorial, the following topology is used as a main reference:
 <p style={{ align: "center" }}>

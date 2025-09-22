@@ -6,7 +6,9 @@ description: Instalación de Nodos para EOSIO
 keywords: [Instalación de Nodos, EOSIO, Cómo se crea un nodo, Cómo se instala un nodo, Instalar nodos]
 ---
 
-# Configuración de un Nodo Productor
+# Instalación de Nodos EOSIO
+
+## Configuración de un Nodo Productor
 En EOSIO, un nodo productor y otros tipos de nodos se definen y diferencian habilitando los [Plugins de Nodeos](https://developers.eos.io/manuals/eos/latest/nodeos/plugins/index) específicos. Por ejemplo, para definir un nodo no productor, es necesario exceptuar `producer_plugin`. Esta posibilidad de personalización permite exponer uno o varios servicios de forma pública o privada habilitando uno o varios de esos plugins.
 
 Si estas tratando de configurar un "Full Node", puede que te resulte útil la guía [Configuración de un Nodo EOS Completo](https://eoscommunity.org/t/where-is-the-best-guide-on-setting-up-a-full-eos-node/621).
@@ -227,7 +229,7 @@ Si quieres configurar un nodo en Jungle Testnet, puedes ir a [EOS Jungle Testnet
 ### Configurar un Nodo en Kylin Testnet
 Para configurar un nodo en el Kylin Testnet, por favor ve al repositorio [CryptoKylin-Testnet](https://github.com/cryptokylin/CryptoKylin-Testnet) y sigue las instrucciones allí.
 
-# Referencias
+## Referencias
 - [Información sobre Snapshots](https://developers.eos.io/search?query=snapshot).
 - [Cryptolions Testnet Auto-Installer script](http://monitor.jungletestnet.io/#register).
 - [CryptoKylin-Testnet Github repo](https://github.com/cryptokylin/CryptoKylin-Testnet)
