@@ -30,9 +30,5 @@
   "sidebar.docs.category.Artificial Intelligence": {
     "message": "Inteligencia Artificial",
     "description": "The label for category Artificial Intelligence in sidebar docs"
-  },
-  "sidebar.docs.link.artificial-intelligence/devin": {
-    "message": "Devin.ai",
-    "description": "The label for link artificial-intelligence/devin in sidebar docs"
   }
 }
