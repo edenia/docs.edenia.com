@@ -138,7 +138,7 @@ Explore the most advanced AI models and their capabilities:
 
 ## Practical Adoption Recommendations
 
-## Technical Playbook
+### Technical Playbook
 
 - Start small: Proof of concept projects in low-risk areas.  
 - Choose the right models: balance between accuracy, cost, and interpretability.  
