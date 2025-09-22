@@ -12,7 +12,9 @@ Su simplicidad, resiliencia y resistencia a la censura lo convierten en un está
 🔗 [Nostr](https://nostr.com/)
 
 
-### Características Clave de Nostr
+# Nostr
+
+## Características Clave de Nostr
 * **Descentralización**: No existe un servidor central; cualquiera puede ejecutar un relay o un cliente.
 * **Resistencia a la Censura**: Los mensajes se firman con claves criptográficas y no pueden ser modificados por los relays.
 * **Interoperabilidad**: Funciona con múltiples aplicaciones y clientes que implementan el protocolo.

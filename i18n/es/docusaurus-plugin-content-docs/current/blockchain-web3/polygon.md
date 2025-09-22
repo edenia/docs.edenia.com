@@ -13,7 +13,9 @@ Polygon, anteriormente conocido como Matic Network, es un protocolo y un marco p
 
 ---
 
-### Características Clave de Polygon
+# Polygon
+
+## Características Clave de Polygon
 
 * **Escalabilidad:** Alto rendimiento y soluciones escalables gracias a cadenas laterales de Capa 2 (*Layer 2*).
 * **Compatibilidad con Ethereum:** Integración fluida con herramientas, DApps e infraestructura existentes en Ethereum.
@@ -22,7 +24,7 @@ Polygon, anteriormente conocido como Matic Network, es un protocolo y un marco p
 
 ---
 
-### El Papel de Polygon en la Mejora de Ethereum
+## El Papel de Polygon en la Mejora de Ethereum
 
 Polygon mejora Ethereum al abordar sus principales limitaciones: altas tarifas, mala experiencia de usuario debido a transacciones lentas y bajo rendimiento. Al ofrecer soluciones de Capa 2, Polygon garantiza transacciones más rápidas y económicas, aprovechando al mismo tiempo la solidez y seguridad de la blockchain de Ethereum.
 

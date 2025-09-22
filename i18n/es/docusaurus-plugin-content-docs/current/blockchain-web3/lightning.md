@@ -11,7 +11,9 @@ Lightning Network es un protocolo de pagos de segunda capa construido sobre la b
 
 🔗 [Lightning Network](https://lightning.network/)
 
-### Características Clave de Lightning Network
+# Lightning Network
+
+## Características Clave de Lightning Network
 * **Pagos Instantáneos**: Las transacciones se realizan en milisegundos, sin esperar confirmaciones en la cadena principal.
 * **Bajas Tarifas**: Al operar fuera de la cadena, las comisiones son mucho más bajas que las transacciones tradicionales de Bitcoin.
 * **Escalabilidad**: Permite manejar millones de transacciones por segundo a través de canales de pago interconectados.

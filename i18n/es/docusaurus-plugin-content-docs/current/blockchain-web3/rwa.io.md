@@ -12,14 +12,16 @@ RWA.IO es una blockchain compatible con Ethereum enfocada en la tokenización y 
 
 🔗 [RWA.IO](https://www.rwa.io)
 
-### Características Clave de RWA.IO
+# RWA.IO
+
+## Características Clave de RWA.IO
 
 * **Compatibilidad con EVM:** Construida sobre herramientas estándar de Ethereum, permite la implementación fluida de contratos inteligentes en Solidity.
 * **Tokenización de Activos:** Habilita la emisión y gestión del ciclo de vida de activos tokenizados con capas integradas de cumplimiento normativo.
 * **Alineación Regulatoria:** Diseñada con un enfoque en KYC/AML, gobernanza y auditoría, orientada al uso institucional.
 * **Interoperabilidad:** Se conecta con herramientas y protocolos nativos de Ethereum mediante puentes y APIs estándar.
 
-### El Papel de RWA.IO en la Mejora de Ethereum
+## El Papel de RWA.IO en la Mejora de Ethereum
 
 RWA.IO complementa a Ethereum al traer instrumentos financieros del mundo real a la cadena de forma segura y regulada. Permite la tokenización de activos fuera de la cadena manteniendo la programabilidad de contratos inteligentes y la transparencia de blockchain. Al trasladar casos de uso regulados específicos hacia una red dedicada, RWA.IO contribuye a la adopción generalizada de Web3 y su integración con el mundo real.
 

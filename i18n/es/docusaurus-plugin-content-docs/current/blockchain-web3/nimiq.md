@@ -10,7 +10,9 @@ Nimiq es un protocolo blockchain diseñado para la simplicidad, accesibilidad y 
 
 🔗 [Nimiq](https://www.nimiq.com/)
 
-### Características Clave de Nimiq
+# Nimiq
+
+## Características Clave de Nimiq
 * **Nativo en el Navegador**: Funciona directamente en navegadores modernos sin instalaciones adicionales.
 * **Amigable para el Usuario**: Creación de carteras y envío de transacciones simplificados para una adopción masiva.
 * **Transacciones Rápidas**: Diseñado para liquidación rápida y baja latencia.
