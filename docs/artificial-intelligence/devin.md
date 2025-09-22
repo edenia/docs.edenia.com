@@ -1,14 +1,14 @@
 ---
 id: devin
 title: Devin.ai
-sidebar_position: 6
+sidebar_position: 4
 description: Comprehensive guide to Devin.ai, the autonomous AI software engineer that manages complex coding tasks, large-scale refactoring, and end-to-end development workflows
 keywords: [Devin.ai, autonomous software engineer, AI coding, automated development, code migration, refactoring, Cognition Labs, AI engineer, automated programming, software development AI]
 ---
 
 # Devin.ai
 
-<img src="/img/artificial-intelligence/devin.svg" alt="Devin.ai autonomous AI software engineer logo" class="ai-logo logo-devin" />
+<img src="/img/artificial-intelligence/tools/devin.svg" alt="Devin.ai autonomous AI software engineer logo" class="ai-logo logo-devin" />
 
 **Devin.ai** is the world's first **autonomous AI software engineer** developed by **Cognition Labs**. Unlike traditional AI coding assistants, Devin operates independently to manage complex coding tasks from planning to deployment, functioning as a complete software engineering teammate rather than just a code completion tool.
 
