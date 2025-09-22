@@ -74,7 +74,7 @@ Then we will look at examples of basic and structural syntax, to delve into this
 
 ### Structural
 
-#### **Unordered List**  
+### **Unordered List**  
 
 ```markdown title="Syntax"
     - First Item
@@ -90,7 +90,7 @@ Then we will look at examples of basic and structural syntax, to delve into this
 
 For more information, visit [Markdown Unordered List](https://www.markdownguide.org/basic-syntax/#unordered-lists).
 
-#### **Ordered List**
+### **Ordered List**
 
 ```markdown title="Syntax"
     1. First Item
@@ -109,7 +109,7 @@ For more information, visit [Markdown Ordered List](https://www.markdownguide.or
 
 
 
-#### **Table**
+### **Table**
 
 ```markdown title="Syntax"
 |Left title  | Title center | Right title |  

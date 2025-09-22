@@ -5,13 +5,13 @@ sidebar_position: 9
 description: Aprende sobre Lightning Network - la solución de escalabilidad capa 2 de Bitcoin que permite transacciones instantáneas y de bajo costo mediante canales de pago.
 keywords: [lightning network, bitcoin capa 2, canales de pago, pagos instantáneos, escalabilidad bitcoin, transacciones fuera de cadena, micropagos, nodos lightning]
 ---
-
+# Lightning Network
 
 Lightning Network es un protocolo de pagos de segunda capa construido sobre la blockchain de Bitcoin. Está diseñado para permitir transacciones rápidas y de bajo costo mediante la creación de canales de pago fuera de la cadena entre usuarios. Estos canales permiten transferencias instantáneas y escalables sin congestionar la red principal de Bitcoin. Lightning busca resolver los problemas de escalabilidad de Bitcoin manteniendo la seguridad y la descentralización de la capa base.
 
 🔗 [Lightning Network](https://lightning.network/)
 
-# Lightning Network
+
 
 ## Características Clave de Lightning Network
 * **Pagos Instantáneos**: Las transacciones se realizan en milisegundos, sin esperar confirmaciones en la cadena principal.
