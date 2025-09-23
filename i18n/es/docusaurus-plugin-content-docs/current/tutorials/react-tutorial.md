@@ -103,7 +103,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={logo} className="App-logo" alt="Logo de React con animación de rotación" />
         <p>
           Editar <code>src/App.js</code> and save to reload.
         </p>

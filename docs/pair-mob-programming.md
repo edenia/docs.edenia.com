@@ -19,7 +19,7 @@ Hence, in recent years other more modern working methods have been developed tha
 Pair programming specifies that there are always two people working on the code at the same time and  as far as possible, they sit together. One is in charge of writing the code and the other of supervising it in real time. At the same time, they are constantly exchanging impressions: they discuss problems, find solutions and develop creative ideas.
 
 <div style={{  textAlign: "center" }}>
-<img alt="Image Pair Programing"  src={ useBaseUrl( 'img/PairMobProgramming/PairProgramming.webp' )} /> </div>
+<img alt="Two developers working together on pair programming"  src={ useBaseUrl( 'img/PairMobProgramming/PairProgramming.webp' )} /> </div>
 
 ### How is it done?
 
@@ -57,7 +57,7 @@ One of the rules of pair programming establishes that these two roles are exchan
 A group of highly intelligent people with great challenges working as a team to solve challenges creatively, with operational excellence and working focused on delivering constant value.
 
 <div style={{  textAlign: "center" }}>
-<img alt="Image Mob Programing" width="70%" src={ useBaseUrl( 'img/PairMobProgramming/MobProgramming.webp' )} /> 
+<img alt="Multiple developers collaborating in mob programming session" width="70%" src={ useBaseUrl( 'img/PairMobProgramming/MobProgramming.webp' )} /> 
 </div>
 
 ### How is it done?

@@ -67,7 +67,7 @@ const CustomStepper = ({ Content }) => {
               {Content[activeStep].instruction}
             </Typography>
             <Box sx={{ margin: '1% 5% 1%' }}>
-              <img src={useBaseUrl(Content[activeStep].imageSrc)} loading="lazy"/>
+              <img src={useBaseUrl(Content[activeStep].imageSrc)} loading="lazy" alt={Content[activeStep].title || `Step ${activeStep + 1} illustration`}/>
             </Box>
             <Box sx={{ direction: 'rtl', margin: '0% 4%' }}>
               <Button

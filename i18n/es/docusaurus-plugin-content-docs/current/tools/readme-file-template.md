@@ -157,7 +157,7 @@ Si encuentra un error, informe los errores grandes y pequeños **abriendo un iss
 ## Sobre EOS Costa Rica
 
 <div style={{ display: "block", textAlign: "center" }}>
-    <img style={{ width: "40%" }} src="https://raw.githubusercontent.com/eoscostarica/.github/master/.github/workflows/images/eos-costa-rica-logo.png" />
+    <img style={{ width: "40%" }} src="https://raw.githubusercontent.com/eoscostarica/.github/master/.github/workflows/images/eos-costa-rica-logo.png" alt="Logo de EOS Costa Rica" />
 </div>
 
 EOS Costa Rica es un productor independiente, autofinanciado y de bare-metal de Genesis que proporciona una infraestructura estable y segura para las cadenas de bloques EOSIO. Apoyamos el software de código abierto para nuestra comunidad al mismo tiempo que ofrecemos desarrollo de blockchain empresarial y desarrollo de contratos inteligentes personalizados para nuestros clientes.

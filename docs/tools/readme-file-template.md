@@ -156,7 +156,7 @@ If you find a bug, please report big and small bugs by **opening an issue** `<li
 ## About EOS Costa Rica
 
 <div style={{ display: "block", textAlign: "center" }}>
-    <img style={{ width: "40%" }} src="https://raw.githubusercontent.com/eoscostarica/.github/master/.github/workflows/images/eos-costa-rica-logo.png" />
+    <img style={{ width: "40%" }} src="https://raw.githubusercontent.com/eoscostarica/.github/master/.github/workflows/images/eos-costa-rica-logo.png" alt="EOS Costa Rica logo" />
 </div>
 
 EOS Costa Rica is an independently-owned, self-funded, bare-metal Genesis block producer that provides stable and secure infrastructure for EOSIO blockchains. We support open source software for our community while offering enterprise blockchain development and custom smart contract development for our clients.
