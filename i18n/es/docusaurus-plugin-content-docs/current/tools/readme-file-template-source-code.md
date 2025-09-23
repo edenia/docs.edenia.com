@@ -70,13 +70,13 @@ Especifique dónde se desarrolló el proyecto, en caso de que alguien más quier
 ### Empezando
 Dé las instrucciones necesarias para ejecutar el proyecto localmente, por ejemplo:
 
-#### **Pre-Requisitos**
+### **Pre-Requisitos**
 
 `
 yarn
 `
 
-#### **Instalación**
+### **Instalación**
 
 1. Clonar el repositorio
 

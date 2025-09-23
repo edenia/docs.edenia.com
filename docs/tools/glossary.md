@@ -8,6 +8,8 @@ keywords: [ Glossary, Relevant Terms, EOS, EOS Costa Rica]
 
 List of terms necessary to understand the contents of this guide.
 
+# Glossary
+
 ## **A**
 
 

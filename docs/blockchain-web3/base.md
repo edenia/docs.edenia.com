@@ -10,14 +10,16 @@ Base is an Ethereum Layer 2 network built by Coinbase using the Optimism OP Stac
 
 🔗 [Base](https://base.org)
 
-### Key Features of Base
+# Base
+
+## Key Features of Base
 
 - **Scalability:** Base significantly reduces transaction costs and increases throughput by leveraging optimistic rollup technology.
 - **Ethereum Compatibility:** Full EVM compatibility allows seamless integration with Ethereum tools, smart contracts, and DApps.
 - **Developer Support:** Built and maintained by Coinbase, with robust tooling and infrastructure to support developers.
 - **Security:** Inherits Ethereum’s security guarantees through rollup design and decentralized validation.
 
-### Base's Role in Enhancing Ethereum
+## Base's Role in Enhancing Ethereum
 
 Base supports Ethereum’s vision by addressing core limitations such as high gas fees and limited transaction capacity. By operating as a Layer 2 rollup, it ensures that users and developers benefit from fast finality and low-cost interactions, without compromising on decentralization or security. Base plays an essential role in onboarding the next billion users to Ethereum through Coinbase’s ecosystem.
 

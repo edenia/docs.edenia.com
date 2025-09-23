@@ -6,7 +6,9 @@ description: Lista de comando para el uso de Cleos
 keywords: [Comandos Cleos, cleos, comandos, EOS, Costa Rica, Qué es cleos]
 ---
 
-### Comando Cleos 
+# Interfaz de Línea de Comandos
+
+## Comando Cleos 
 
 Ver referencia completa de comandos en el siguiente enlace a [Documentación Cleos](https://developers.eos.io/manuals/eos/latest/cleos/index)
 
@@ -49,7 +51,7 @@ Subcommands:
   system                      Send eosio.system contract action to the blockchain.
 ```
 
-### Sub-comandos de Cleos
+## Sub-comandos de Cleos
 
 Para obtener ayuda con cualquier sub-comando en particular, ejecute `cleos SUBCOMMAND --help`. Por ejemplo:
 

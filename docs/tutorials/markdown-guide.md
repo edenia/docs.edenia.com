@@ -6,6 +6,8 @@ description: Definition and usage of Markdown
 keywords: [ Markdown, How to use Markdown, What is Markdown, What is Markdown for, How to write markdown, Markdown Guide, Markdown Commands ]
 ---
 
+# Markdown Guide
+
 ## What is Markdown and What is it Used For ?
 
 Markdown is a lightweight markup language that you can use to add formatting elements to plaintext text documents.
@@ -49,7 +51,7 @@ These Markdown applications use a Markdown processor also known as *parser* or *
 
 Then we will look at examples of basic and structural syntax, to delve into this markup language.
 
-## Basic
+### Basic
 
 | Component | Syntax |
 | ----------- | ----------- |
@@ -70,7 +72,7 @@ Then we will look at examples of basic and structural syntax, to delve into this
 
 ***
 
-## Structural
+### Structural
 
 ### **Unordered List**  
 
@@ -125,7 +127,7 @@ For more information, visit [Markdown Ordered List](https://www.markdownguide.or
 
 For more information, visit [Markdown Tables](https://www.markdownguide.org/extended-syntax/#tables).
 
-### **Check List** 
+#### **Check List** 
 
 
 ```markdown title="Syntax"
@@ -144,7 +146,7 @@ For more information, visit [Markdown Task List](https://www.markdownguide.org/e
 
 
 
-### **Line Break**
+#### **Line Break**
 
 ```markdown title="Syntax"
 Text  <!---Space Space--->
@@ -156,7 +158,7 @@ another Text
 Text  
 Another Text
 
-### **Comments**
+#### **Comments**
 
 ```markdown title="Syntax"
 [comment]: <> (This is a comment, it will not be included)
@@ -168,9 +170,9 @@ Another Text
 
 ***
 
-## Another Syntaxes
+### Another Syntaxes
 
-### **Links**
+#### **Links**
 
 ```markdown title="Syntax"
 [Edenia](https://edenia.com/)
@@ -179,7 +181,7 @@ Another Text
 **Example:**  
 [Edenia](https://edenia.com/)
 
-### **Images**
+#### **Images**
 
 
 ```markdown title="Syntax" 
@@ -189,7 +191,7 @@ Another Text
 ![How markdown displays the example image](https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/fullColor-horizontal-transparent-white.png)
 
 * * *
-### **Videos**
+#### **Videos**
 
 ``` markdown title="Syntax"
 <iframe width="100%" height="350" src="https://www.youtube.com/embed/tss1d0sow0o" frameBorder="0" allowFullScreen loading="lazy"></iframe> 
@@ -200,7 +202,7 @@ Another Text
 
 * * *
 
-### **Block Citation**
+#### **Block Citation**
 
 ```markdown title="Syntax"
 > Main Text
@@ -221,7 +223,7 @@ Another Text
 > Text 
 > Final Text
 
-### **Horizontal Rule**
+#### **Horizontal Rule**
 
 ```markdown title="Syntax"
 ---
@@ -234,7 +236,7 @@ Another Text
 ***
 - - - -
 
-### **Code**
+#### **Code**
 
 #### *Javascript*
 

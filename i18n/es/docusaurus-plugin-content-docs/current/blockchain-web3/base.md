@@ -11,14 +11,16 @@ Base es una red de Capa 2 de Ethereum construida por Coinbase utilizando el Opti
 
 🔗 [Base](https://base.org)
 
-### Características Clave de Base
+# Base
+
+## Características Clave de Base
 
 * **Escalabilidad:** Base reduce significativamente los costos de transacción e incrementa el rendimiento utilizando tecnología de *optimistic rollup*.
 * **Compatibilidad con Ethereum:** Total compatibilidad con EVM que permite una integración fluida con herramientas de Ethereum, contratos inteligentes y DApps.
 * **Soporte para Desarrolladores:** Construido y mantenido por Coinbase, con herramientas e infraestructura robustas para apoyar a los desarrolladores.
 * **Seguridad:** Hereda las garantías de seguridad de Ethereum gracias a su diseño basado en rollups y validación descentralizada.
 
-### El Papel de Base en la Mejora de Ethereum
+## El Papel de Base en la Mejora de Ethereum
 
 Base respalda la visión de Ethereum al abordar limitaciones fundamentales como las altas tarifas de gas y la capacidad limitada de transacciones. Al operar como un *rollup* de Capa 2, garantiza que usuarios y desarrolladores se beneficien de una finalización rápida y de interacciones de bajo costo, sin comprometer la descentralización ni la seguridad. Base desempeña un papel esencial en la incorporación de los próximos mil millones de usuarios a Ethereum mediante el ecosistema de Coinbase.
 

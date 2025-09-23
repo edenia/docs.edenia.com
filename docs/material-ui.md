@@ -8,6 +8,8 @@ keywords: [Material UI, Theme, Material UI Theme, styles, css, color palette, EO
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
+# Material UI & Theme
+
 ## Logo and Visual Assets
 
 In this [Repository of Graphic Design Assets](https://github.com/eoscostarica/design-assets) you have access to Logos and visual assets

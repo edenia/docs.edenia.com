@@ -11,14 +11,16 @@ Ethereum es una plataforma de código abierto basada en blockchain, conocida por
 
 🔗 [Ethereum](https://ethereum.org)
 
-### Características Clave de Ethereum
+# Ethereum
+
+## Características Clave de Ethereum
 
 * **Contratos Inteligentes:** Contratos autoejecutables con los términos escritos en código, que automatizan acuerdos.
 * **Ethereum Virtual Machine (EVM):** Un entorno potente y aislado dentro de cada nodo de Ethereum, que ejecuta el bytecode de los contratos.
 * **Aplicaciones Descentralizadas (DApps):** Aplicaciones autónomas que operan sobre la blockchain de Ethereum.
 * **Ether (ETH):** La criptomoneda nativa de Ethereum, utilizada para transacciones y para compensar a los nodos por cálculos computacionales.
 
-### Ethereum y la Descentralización
+## Ethereum y la Descentralización
 
 Ethereum es fundamental en la descentralización de internet, contribuyendo al concepto de Web 3.0. Permite la interacción de los usuarios en el ámbito digital sin depender de entidades centralizadas, allanando el camino hacia una internet más abierta y accesible.
 

@@ -10,7 +10,9 @@ Nimiq is a blockchain protocol designed for simplicity, accessibility, and ease 
 
 🔗 [Nimiq](https://www.nimiq.com/)
 
-### Key Features of Nimiq
+# Nimiq
+
+## Key Features of Nimiq
 * **Browser-Native**: Runs directly in modern web browsers without extra installations.
 * **User-Friendly**: Simplified wallet creation and transaction process for mainstream adoption.
 * **Fast Transactions**: Designed for quick settlement and low latency.

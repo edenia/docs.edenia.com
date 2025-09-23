@@ -14,6 +14,8 @@ Web3 represents the next evolution of the World Wide Web, offering a decentraliz
 
 ---
 
+# Web3 & Blockchain
+
 ## Key Features of Web3
 
 - **Decentralization:** Eliminating central points of control or failure, enhancing security and resistance to censorship.

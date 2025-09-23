@@ -7,6 +7,8 @@ keywords: [ What are Agile Methodologies, Scrum, Canvan, Daily Stand up]
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
+# Agile Methodologies
+
 ## What are Agile Methodologies ?
 
 These are work methodologies that allow adaptation to the circumstances of the projects and reduce the documentation processes, they are generally used in projects that do not have a defined scope with certainty, which causes them to be very prone to change, because in these methodologies deliveries of functional products in a short time (2 to 4 weeks) allow the process of changes and correction of errors to be fast and not have a very high cost for the project in general.
@@ -59,7 +61,7 @@ The purpose of a user story is to articulate how a piece of work will deliver a 
 
 <iframe width="100%" height="350" src="https://www.youtube.com/embed/apOvF9NVguA" frameBorder="0" allow="true" allowFullScreen loading="lazy"></iframe>
 
-#### How to Write User Stories?
+### How to Write User Stories?
 
 - **Definition of Done:** The story is generally “done” when the user can complete the outlined task.
 - **Outline subtasks or tasks:** Decide which specific steps need to be completed and who is responsible for each of them.
@@ -68,7 +70,7 @@ The purpose of a user story is to articulate how a piece of work will deliver a 
 - **Listen to feedback:** Talk to your users and capture the problem or need in their words.
 - **Time:**  Since stories should be completable in one sprint, stories that might take weeks or months to complete should be broken up into smaller stories or should be considered their own epic.
 
-#### Examples:
+### Examples:
 
 >- As  **manager**, I want to **be able to understand my colleagues progress**, so I **can better report our success and failures**. 
 >- As  **customer** , I want **shopping cart feature** so that **I can easily purchase items online**.
@@ -85,7 +87,7 @@ This agreement defines the sprint backlog and is based on the team’s velocity 
 
 <iframe width="100%" height="350" src="https://www.youtube.com/embed/2A9rkiIcnVI" frameBorder="0" allow="true" allowFullScreen loading="lazy"></iframe>
 
-#### Who is Involved?
+### Who is Involved?
 
 - **Product Owner:** Identifies the candidate product backlog items and their relative priorities, as well as proposes a sprint goal.
 
@@ -93,7 +95,7 @@ This agreement defines the sprint backlog and is based on the team’s velocity 
 
 - **Scrum Master:** Typically facilitates sprint planning in order to ensure that the discussion is effective and that there is agreement to the sprint goal and that the appropriate product backlog items are included in the sprint backlog.
 
-#### Planning Steps
+### Planning Steps
 
 1. Discuss any new information that may impact the plan.
 2. Confirm any currently known issues and concerns and record as appropriate.
@@ -113,7 +115,7 @@ Backlog grooming, also referred to as backlog refinement or story time, is a rec
 
 <iframe width="100%" height="350" src="https://www.youtube.com/embed/UpEBfS9SZGM" frameBorder="0" allow="true" allowFullScreen loading="lazy"></iframe>
 
-#### Who is involved?
+### Who is involved?
 
 - **Product Owner:** Is tasked with facilitating backlog refinement sessions. However, that doesn’t mean they are solely responsible for holding backlog grooming sessions.
 - **Team Members:** These events are meant to be collaborative. That means the entire cross-functional team should be represented at refinement sessions.

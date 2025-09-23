@@ -8,7 +8,9 @@ Su arquitectura admite interoperabilidad con Ethereum y otras redes EVM, lo que 
 
 🔗 [Libre](https://www.libre.org/)
 
-### Características Clave de Libre
+# Libre
+
+## Características Clave de Libre
 Compatibilidad con EVM: Soporte completo para herramientas, contratos inteligentes y marcos de desarrollo de Ethereum.
 
 * **Alto Rendimiento**: Optimizada para tiempos de bloque rápidos y alto rendimiento de transacciones.

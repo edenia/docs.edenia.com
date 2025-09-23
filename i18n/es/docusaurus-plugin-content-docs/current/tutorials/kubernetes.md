@@ -8,6 +8,8 @@ keywords: [ Qué es kubernetes, Cómo funciona Kubernetes, Ventajas de Kubernete
 
 Kubernetes es una plataforma de código abierto, que fue creada por Google, utilizada para la gestión, el despliegue, la escalabilidad y el monitoreo de contenedores Docker. 
 
+# Kubernetes
+
 ## Características de Kubernetes:
 
 - Distribución inteligente de contenedores.

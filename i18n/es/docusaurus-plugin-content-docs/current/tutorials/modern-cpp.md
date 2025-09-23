@@ -7,6 +7,8 @@ keywords: [C++, C++ Moderno, C++, Aprender C++, Qué es C++, Cómo aprender C++,
 ---
 
 
+# C++ Moderno
+
 ## Bienvenido a C++
 
 <figure className="video_container">

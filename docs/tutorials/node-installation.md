@@ -6,12 +6,15 @@ description: EOSIO Node Installation
 keywords: [ Node Installation, EOSIO Nodes, How to create a node, How to Install a Node, Install Nodes]
 ---
 
+# EOSIO Node Installation
+
 ## A Producer Node Setup
 On EOSIO, a producing node and other types of nodes are defined and differentiated by enabling specific [Nodeos Plugins](https://developers.eos.io/manuals/eos/latest/nodeos/plugins/index). For example, to define a non-producing node, you need to except `producer_plugin`. This posibility of customization allows to expose one or more services publicly or privately by enabling one or more of those plugins.
 
 If you are trying to set up a "Full Node", you may find [Setting Up a Full EOS Node](https://eoscommunity.org/t/where-is-the-best-guide-on-setting-up-a-full-eos-node/621) helpful.
 
 Let's proceed to setup a Producing Node using EOSIO Technology. You can also find more useful information about this topic in [Producing Node Setup](https://developers.eos.io/manuals/eos/v2.0/nodeos/usage/node-setups/producing-node).
+
 ## Install EOSIO from Precompiled Binaries
 Download the latest version of EOSIO for your OS from: [Github](https://github.com/EOSIO/eos/releases/tag/v2.0.6).
 
@@ -225,7 +228,7 @@ If you are seeking to setup a node on Jungle Testnet, you can go to [EOS Jungle 
 ### Configure Kylin Testnet Node
 To configure a node in the Kylin Testnet, please go to [CryptoKylin-Testnet](https://github.com/cryptokylin/CryptoKylin-Testnet) repo and follow instructions there.
 
-# References
+## References
 - [Snapshot Related Info](https://developers.eos.io/search?query=snapshot).
 - [Cryptolions Testnet Auto-Installer script](http://monitor.jungletestnet.io/#register).
 - [CryptoKylin-Testnet Github repo](https://github.com/cryptokylin/CryptoKylin-Testnet)

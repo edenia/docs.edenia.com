@@ -8,6 +8,8 @@ keywords: [Blue Papers EOS, ENF Research, blue-papers-eos, eos-network-foundatio
 
 The EOS Network Foundation, also known as ENF (EOS Network Foundation) is a non-profit foundation, has created a series of "Blue Papers" on the main issues or doubts of the community and the respective actions to be taken in such situations. In this section we will see in a quick and concise way some of them:
 
+# EOS Network Foundation
+
 ## API+
 
 Being a blockchain that is required to be read and written by several users at the same time, a lot is expected from the APIs by the developers, due to this and added to the fact that depending on its functionality it can directly affect in an economic way to the users, they become a crucial section for the operation/growth of the network.

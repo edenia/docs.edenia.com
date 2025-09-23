@@ -8,6 +8,8 @@ keywords: [Algoritmo de Consenso, Mecanismos de Consenso, DPoS, POS, POW, Proof 
 
 Es importante tener conocimiento sobre cuales han sido los mecanismos de consenso utilizados por las distintas redes blockchain para mantener la seguridad e integridad dentro de la red, asi como los beneficios y las redes que aun la conforman.
 
+# Mecanismos de Consenso Blockchain
+
 ## Proof of Work (PoW)
 
 <figure className="video_container">
