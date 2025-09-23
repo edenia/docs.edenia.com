@@ -22,5 +22,13 @@
   "sidebar.docs.category.Community Resources": {
     "message": "Community Resources",
     "description": "The label for category Community Resources in sidebar docs"
+  },
+  "sidebar.docs.category.Artificial Intelligence": {
+    "message": "Artificial Intelligence",
+    "description": "The label for category Artificial Intelligence in sidebar docs"
+  },
+  "sidebar.docs.link.artificial-intelligence/devin": {
+    "message": "Devin.ai",
+    "description": "The label for link artificial-intelligence/devin in sidebar docs"
   }
 }

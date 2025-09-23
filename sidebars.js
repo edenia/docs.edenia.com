@@ -78,6 +78,7 @@ module.exports = {
         "artificial-intelligence/ai-tool-comparison",
         "artificial-intelligence/cursor",
         "artificial-intelligence/claude-code",
+        "artificial-intelligence/devin",
         "artificial-intelligence/warp",
         "artificial-intelligence/windsurf",
         "artificial-intelligence/v0-app",
