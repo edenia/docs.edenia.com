@@ -13,6 +13,8 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 Estas son metodologías de trabajo que permiten la adaptación a las circunstancias de los proyectos y reducen los procesos de documentación. Generalmente se usan en proyectos que no tienen un alcance definido con certeza, lo que los hace muy propensos al cambio. En estas metodologías, las entregas de productos funcionales en un tiempo corto (2 a 4 semanas) permiten que el proceso de cambios y corrección de errores sea rápido y no tenga un costo muy alto para el proyecto en general.
 
+> **Temas Relacionados**: Aprende sobre nuestra [Metodología Flight](/docs/flight-methodology) para un enfoque moderno de agilidad, explora técnicas de [programación en pares](/docs/pair-mob-programming), o entiende nuestra [cultura de ingeniería](/docs/engineering-culture) que apoya las prácticas ágiles.
+
 ### Agilidad Moderna
 
 Agilidad Moderna es mucho más amplia que el Manifiesto Ágil para el Desarrollo de Software. Agilidad Moderna es un concepto que considera muchas áreas diferentes, no solo el desarrollo de software. Incluso se puede aplicar en organizaciones que no se dedican al software.
@@ -24,7 +26,7 @@ Para aclarar cómo surgió Agilidad Moderna, aquí hay un fragmento del sitio we
 Los métodos de Agilidad Moderna se definen mediante cuatro principios rectores:
 
 <div style={{  textAlign: "center" }}>
-<img alt="Modern Agile Image" src={useBaseUrl('img/ModernAgile.webp')} loading="lazy"/>
+<img alt="Diagrama del marco de metodología Modern Agile mostrando valores y principios" src={useBaseUrl('img/ModernAgile.webp')} loading="lazy"/>
 </div>
 
 ## ¿Tipos de Metodologías Ágiles?

@@ -185,7 +185,7 @@ Another Text
 
 
 ```markdown title="Syntax" 
-![](https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/fullColor-horizontal-transparent-white.png)
+![EOS Costa Rica logo example](https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/fullColor-horizontal-transparent-white.png)
 ```
 **Example:**  
 ![How markdown displays the example image](https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/fullColor-horizontal-transparent-white.png)

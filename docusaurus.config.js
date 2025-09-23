@@ -25,10 +25,16 @@ const siteConfig = {
       en: {
         label: "English",
         htmlLang: "en",
+        direction: "ltr",
+        calendar: "gregory",
+        path: "en",
       },
       es: {
         label: "Español",
         htmlLang: "es-CR",
+        direction: "ltr",
+        calendar: "gregory",
+        path: "es",
       },
     },
   },
@@ -106,9 +112,9 @@ const siteConfig = {
       site: "@EdeniaWeb3",
       creator: "@EdeniaWeb3",
       title: "Sistemas Edenia Developer Hub | Web3 & AI Docs",
-      description: "Build cutting-edge Web3 and AI applications with @EdeniaWeb3. Access expert guides, code examples, and join our developer community 🚀",
+      description: "Build cutting-edge Web3 and AI applications with @EdeniaWeb3. Access expert guides, code examples, and join our developer community",
       image: "https://docs.edenia.com/img/developer_guides_preview_image.png",
-      imageAlt: "Edenia Web3 Development Documentation"
+      imageAlt: "Sistemas Edenia Web3 Development Documentation"
     },
     
     // Global image for SEO
@@ -299,14 +305,20 @@ const siteConfig = {
       },
     ],
   ],
-    plugins: [
-      [
-        "@docusaurus/plugin-google-gtag",
-        {
-          trackingID: "G-LQ520C8K0N",
-          anonymizeIP: true,
-        }
-      ]
+
+  // Google Analytics GA4 Plugin Configuration - Enhanced
+  plugins: [
+    [
+      "@docusaurus/plugin-google-gtag",
+      {
+        trackingID: "G-LQ520C8K0N", // Edenia GA4 Measurement ID
+        anonymizeIP: true,
+      }
     ],
+    // Plugin personalizado para metadatos i18n
+    require.resolve('./plugins/i18n-metadata')
+  ],
+
+  scripts: [],
 };
 module.exports = siteConfig;

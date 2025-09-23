@@ -39,9 +39,9 @@ class Carousel {
 }
 
 const imagesList = [
-  { background: "/img/cards-icons/Hero-1.webp" },
-  { background: "/img/cards-icons/Hero-2.webp" },
-  { background: "/img/cards-icons/Hero-3.webp" },
+  { background: "/img/cards-icons/Hero-1.webp", alt: "Edenia developers working on blockchain technology" },
+  { background: "/img/cards-icons/Hero-2.webp", alt: "Modern web3 development environment with coding tools" },
+  { background: "/img/cards-icons/Hero-3.webp", alt: "Collaborative team working on open source blockchain projects" },
 ];
 
 const HeroSection = () => {
@@ -68,11 +68,11 @@ const HeroSection = () => {
 
   return (
     <Box className="carouselContainer">
-      {imagesList.map(({ background }, index) => (
+      {imagesList.map(({ background, alt }, index) => (
         <Box key={background} className="mySlides fade">
           <Box className="numberImagetext">{index + 1} / 3</Box>
           <img
-            alt={background}
+            alt={alt}
             src={useBaseUrl(background)}
             width="100%"
             className="imgHero"

@@ -184,7 +184,7 @@ Otro texto
 ### **Imágenes**
 
 ``` markdown title="Sintaxis"
-![](https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/fullColor-horizontal-transparent-white.png)
+![Ejemplo de logo de EOS Costa Rica](https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/fullColor-horizontal-transparent-white.png)
 ```
 **Ejemplo:**  
 

@@ -10,6 +10,8 @@ keywords: [ Visual Resources, Components, Material to develop]
 
 ## EOS Costa Rica
 
+> **Related Topics**: These visual resources support our [open source projects](/docs/open-source-projects) and [community resources](/docs/community-resources/eosio-networks). Learn more about our [engineering culture](/docs/engineering-culture) and [developer tools](/docs/developer-tools-ux-ui) that emphasize design and user experience.
+
 ### Horizontal
 
 <div>

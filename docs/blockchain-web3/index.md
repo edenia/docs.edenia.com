@@ -6,9 +6,11 @@ description: Comprehensive guide to Web3 and blockchain technology - decentraliz
 keywords: [web3, blockchain technology, decentralized applications, DApps, smart contracts, ethereum, decentralized web, cryptocurrency]
 ---
 
-Web3 represents the next evolution of the World Wide Web, offering a decentralized online ecosystem based on blockchain technology. Unlike its predecessors, Web3 emphasizes user privacy, data ownership, and decentralized applications (DApps) that operate on blockchain networks like Ethereum and Polygon. This paradigm shift towards decentralization enables more secure, transparent, and user-centric online experiences.
+Web3 represents the next evolution of the World Wide Web, offering a decentralized online ecosystem based on blockchain technology. Unlike its predecessors, Web3 emphasizes user privacy, data ownership, and decentralized applications (DApps) that operate on blockchain networks like [Ethereum](/docs/blockchain-web3/blockchain-web3-ethereum), [Polygon](/docs/blockchain-web3/blockchain-web3-polygon), and [Bitcoin](/docs/blockchain-web3/blockchain-web3-bitcoin). This paradigm shift towards decentralization enables more secure, transparent, and user-centric online experiences.
 
 🔗 [Web3](https://ethereum.org/en/web3/)
+
+> **Related Topics**: Learn about [consensus mechanisms](/docs/blockchain-consensus-mechanism) that power these networks, explore [EOSIO networks](/docs/community-resources/eosio-networks), or dive into our [blockchain tutorials](/docs/tutorials/hello-world-contract).
 
 ---
 
@@ -17,9 +19,9 @@ Web3 represents the next evolution of the World Wide Web, offering a decentraliz
 ## Key Features of Web3
 
 - **Decentralization:** Eliminating central points of control or failure, enhancing security and resistance to censorship.
-- **Blockchain Technology:** Utilizing blockchain for transparency, security, and immutability of data.
+- **Blockchain Technology:** Utilizing [blockchain technology](/docs/blockchain-consensus-mechanism) for transparency, security, and immutability of data.
 - **Tokenization:** Digital assets and cryptocurrencies represent real-world assets and value.
-- **Smart Contracts:** Automated, self-executing contracts that facilitate, verify, or enforce the negotiation or performance of a contract.
+- **Smart Contracts:** Automated, self-executing contracts that facilitate, verify, or enforce the negotiation or performance of a contract. Learn more in our [EOSIO smart contract tutorials](/docs/tutorials/hello-world-contract).
 
 ---
 

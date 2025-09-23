@@ -43,8 +43,8 @@ Since 2020, the emergence of **foundation models** (like GPT, Claude, Gemini, LL
 
 ### Integration with Web3
 
-- Smart contracts that use AI oracles to make data-driven decisions.  
-- Decentralized compute for training models across blockchain networks.  
+- Smart contracts that use AI oracles to make data-driven decisions. Learn more about [blockchain technology](/docs/blockchain-web3/) and [smart contract development](/docs/tutorials/hello-world-contract).
+- Decentralized compute for training models across [blockchain networks](/docs/community-resources/eosio-networks).  
 - On-chain provenance of AI-generated data (important for auditability).  
 
 ---
@@ -79,8 +79,9 @@ Since 2020, the emergence of **foundation models** (like GPT, Claude, Gemini, LL
 
 - **AI Coding Assistants**: [Cursor IDE](/docs/artificial-intelligence/cursor), [Claude Code](/docs/artificial-intelligence/claude-code), [Windsurf IDE](/docs/artificial-intelligence/windsurf), [Warp Terminal](/docs/artificial-intelligence/warp)
 - **Application Builders**: [v0.app](/docs/artificial-intelligence/v0-app) for rapid prototyping and deployment, [Bolt.new](/docs/artificial-intelligence/bolt-new) for complete agentic development in browser
-- **Automated Testing**: Bug fixing and CI/CD pipeline enhancements
+- **Automated Testing**: Bug fixing and [CI/CD pipeline enhancements](/docs/devops)
 - **Observability**: AI analyzing logs and performance metrics
+- **Development Methodologies**: Enhance your [agile methodologies](/docs/agile-methodologies) and [pair programming](/docs/pair-mob-programming) practices with AI tools
 
 ### Featured Developer Tools
 

@@ -14,6 +14,8 @@ A boilerplate is a framework or template for the development of a project. It is
 
 At EOS Costa Rica we have created three boilerplate repositories: ** Front-End Boilerplate **, ** Back-End Boilerplate ** and ** Full-Stack Boilerplate**.
 
+> **Related Topics**: These boilerplates support our [agile methodologies](/docs/agile-methodologies) and [engineering culture](/docs/engineering-culture). Learn about our [open source projects](/docs/open-source-projects) and [developer tools](/docs/developer-tools) that power these templates.
+
 ## EOS Boilerplates 
 
 - [Full Stack Boilerplate](https://github.com/eoscostarica/full-stack-boilerplate)

@@ -8,9 +8,9 @@ keywords: [EOSIO, EOS, EOS Costa Rica, eosio.io, What is the EOS Costa Rica Engi
 
 # Engineering Culture
 
-We are a fast paced startup with really talented engineers who love open source and agile principles. 
+We are a fast paced startup with really talented engineers who love open source and [agile principles](/docs/agile-methodologies). 
 
-Our values are reflected in the way we build software. 
+Our values are reflected in the way we build software, from our [pair and mob programming](/docs/pair-mob-programming) practices to our [Flight Methodology](/docs/flight-methodology) approach. 
 
 ## At Edenia we Value:
 
@@ -46,7 +46,7 @@ We organize work-aways at the beach periodically with a program called [EOSurf](
 
 ### Automation of Repetitive Tasks
 
-Automation is at the top of our priorities, everything from scaffolding to code optimization, testing, deploy and delivery.
+Automation is at the top of our priorities, everything from scaffolding to code optimization, testing, deploy and delivery. Learn more about our [DevOps practices](/docs/devops) and [Kubernetes deployment](/docs/tutorials/kubernetes) strategies.
 
 ### Open Source Projects
 

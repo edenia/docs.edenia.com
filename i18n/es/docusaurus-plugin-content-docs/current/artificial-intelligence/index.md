@@ -43,8 +43,8 @@ Desde 2020, la aparición de los **modelos fundacionales** (como GPT, Claude, Ge
 
 ### Integración con Web3
 
-- Contratos inteligentes que usan oráculos de IA para decisiones basadas en datos.  
-- Computación descentralizada para entrenar modelos en redes blockchain.  
+- Contratos inteligentes que usan oráculos de IA para decisiones basadas en datos. Aprende más sobre [tecnología blockchain](/docs/blockchain-web3/) y [desarrollo de contratos inteligentes](/docs/tutorials/hello-world-contract).
+- Computación descentralizada para entrenar modelos en [redes blockchain](/docs/community-resources/eosio-networks).  
 - Registro en cadena de datos generados por IA (clave para la trazabilidad y auditoría).  
 
 ---
@@ -79,8 +79,9 @@ Desde 2020, la aparición de los **modelos fundacionales** (como GPT, Claude, Ge
 
 - **Asistentes de Programación con IA**: [Cursor IDE](/docs/artificial-intelligence/cursor), [Claude Code](/docs/artificial-intelligence/claude-code), [Windsurf IDE](/docs/artificial-intelligence/windsurf), [Terminal Warp](/docs/artificial-intelligence/warp)  
 - **Generadores de Aplicaciones**: [v0.app](/docs/artificial-intelligence/v0-app) para prototipado y despliegue rápido, [Bolt.new](/docs/artificial-intelligence/bolt-new) para desarrollo agéntico completo en navegador  
-- **Testing Automatizado**: Corrección de errores y mejoras en CI/CD  
-- **Observabilidad**: Análisis de logs y métricas de rendimiento con IA  
+- **Testing Automatizado**: Corrección de errores y mejoras en [CI/CD](/docs/devops)  
+- **Observabilidad**: Análisis de logs y métricas de rendimiento con IA
+- **Metodologías de Desarrollo**: Mejora tus prácticas de [metodologías ágiles](/docs/agile-methodologies) y [programación en pares](/docs/pair-mob-programming) con herramientas de IA  
 
 #### Herramientas Destacadas para Desarrolladores
 

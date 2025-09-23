@@ -124,6 +124,8 @@ Docker is an open source project that automates the deployment of applications w
 
 [Learn more about Docker](/docs/tutorials/docker)
 
+> **Related Topics**: Explore our [Kubernetes guide](/docs/tutorials/kubernetes) for container orchestration, understand our [engineering culture](/docs/engineering-culture) that emphasizes automation, or learn about [agile methodologies](/docs/agile-methodologies) that support DevOps practices.
+
 <figure 
   className="video_container">
   <iframe
