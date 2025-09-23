@@ -6,7 +6,9 @@ description: Consensus explanation and definition of consensus mechanisms for th
 keywords: [ Consensus Algorithm, Blockchain, POW, POS, dPOS, Consensus Mechanisms, Proof of Work, Proof of Stake, Delegated Proof of Stake ]
 ---
 
-It is important to understand the consensus mechanisms used by the different blockchain networks to maintain security and integrity within the network, as well as the benefits and the networks that still conform it.
+It is important to understand the consensus mechanisms used by the different [blockchain networks](/docs/community-resources/eosio-networks) to maintain security and integrity within the network, as well as the benefits and the networks that still conform it.
+
+> **Related Topics**: Explore our [Web3 and blockchain guide](/docs/blockchain-web3/), learn about [EOSIO networks](/docs/community-resources/eosio-networks), or dive into [blockchain development tutorials](/docs/tutorials/hello-world-contract).
 
 ## Proof of Work (PoW)
 

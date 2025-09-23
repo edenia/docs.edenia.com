@@ -12,6 +12,8 @@ keywords: [UX, UI, Design, Design Tools, Tools, Tools for UX/UI, What is UI, EOS
 
 It is a collaborative interface, cloud-based design and prototyping tool for digital projects.
 
+> **Related Topics**: Learn about our [visual resources](/docs/visual-resources) and [Material UI components](/docs/material-ui), or explore our [engineering culture](/docs/engineering-culture) that emphasizes user-centered design.
+
 ### Why we use Figma?
 
 1. Works for individual projects as well as massive team endeavor.

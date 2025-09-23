@@ -7,18 +7,20 @@ keywords: [web3, tecnología blockchain, aplicaciones descentralizadas, DApps, c
 ---
 
 
-Web3 representa la próxima evolución de la World Wide Web, ofreciendo un ecosistema en línea descentralizado basado en tecnología blockchain. A diferencia de sus predecesores, Web3 enfatiza la privacidad del usuario, la propiedad de los datos y las aplicaciones descentralizadas (DApps) que operan en redes blockchain como Ethereum y Polygon. Este cambio de paradigma hacia la descentralización permite experiencias en línea más seguras, transparentes y centradas en el usuario.
+Web3 representa la próxima evolución de la World Wide Web, ofreciendo un ecosistema en línea descentralizado basado en tecnología blockchain. A diferencia de sus predecesores, Web3 enfatiza la privacidad del usuario, la propiedad de los datos y las aplicaciones descentralizadas (DApps) que operan en redes blockchain como [Ethereum](/docs/blockchain-web3/blockchain-web3-ethereum), [Polygon](/docs/blockchain-web3/blockchain-web3-polygon) y [Bitcoin](/docs/blockchain-web3/blockchain-web3-bitcoin). Este cambio de paradigma hacia la descentralización permite experiencias en línea más seguras, transparentes y centradas en el usuario.
 
 🔗 [Web3](https://ethereum.org/en/web3/)
+
+> **Temas Relacionados**: Aprende sobre los [mecanismos de consenso](/docs/blockchain-consensus-mechanism) que impulsan estas redes, explora las [redes EOSIO](/docs/community-resources/eosio-networks), o sumérgete en nuestros [tutoriales de blockchain](/docs/tutorials/hello-world-contract).
 
 ---
 
 ## Características Clave de Web3
 
 * **Descentralización:** Elimina puntos centrales de control o fallo, mejorando la seguridad y la resistencia a la censura.
-* **Tecnología Blockchain:** Utiliza blockchain para garantizar la transparencia, seguridad e inmutabilidad de los datos.
+* **Tecnología Blockchain:** Utiliza [tecnología blockchain](/docs/blockchain-consensus-mechanism) para garantizar la transparencia, seguridad e inmutabilidad de los datos.
 * **Tokenización:** Los activos digitales y las criptomonedas representan activos y valor del mundo real.
-* **Contratos Inteligentes:** Contratos automatizados y autoejecutables que facilitan, verifican o hacen cumplir acuerdos sin intermediarios.
+* **Contratos Inteligentes:** Contratos automatizados y autoejecutables que facilitan, verifican o hacen cumplir acuerdos sin intermediarios. Aprende más en nuestros [tutoriales de contratos inteligentes EOSIO](/docs/tutorials/hello-world-contract).
 
 ---
 

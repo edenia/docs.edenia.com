@@ -8,6 +8,8 @@ keywords: [Edenia Community Links, Edenia Developer Resources, EOSIO]
 
 Here is a list of helpful links related to the Edenia community.
 
+> **Related Topics**: Explore our [EOSIO networks](/docs/community-resources/eosio-networks), learn about [blockchain development](/docs/tutorials/hello-world-contract), or discover our [open source projects](/docs/open-source-projects) and [engineering culture](/docs/engineering-culture).
+
 * [EOSIO for Developers](https://eos.io/for-developers/)
 * [EOSIO Developer Documentation](https://developers.eos.io/)
 * [Learn how to Develop on EOSIO](https://medium.com/@theblockstalk/learning-eosio-development-telos-eos-and-other-blockchains-94d384a8b09f) 

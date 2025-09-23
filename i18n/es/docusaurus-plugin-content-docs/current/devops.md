@@ -122,6 +122,8 @@ Docker es un proyecto de código abierto que automatiza la implementación de ap
 
 [Más Información sobre Docker](/docs/tutorials/docker)
 
+> **Temas Relacionados**: Explora nuestra [guía de Kubernetes](/docs/tutorials/kubernetes) para orquestación de contenedores, entiende nuestra [cultura de ingeniería](/docs/engineering-culture) que enfatiza la automatización, o aprende sobre [metodologías ágiles](/docs/agile-methodologies) que apoyan las prácticas de DevOps.
+
 <figure 
 className="video_container">
   <iframe 

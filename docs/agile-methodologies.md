@@ -11,6 +11,8 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 These are work methodologies that allow adaptation to the circumstances of the projects and reduce the documentation processes, they are generally used in projects that do not have a defined scope with certainty, which causes them to be very prone to change, because in these methodologies deliveries of functional products in a short time (2 to 4 weeks) allow the process of changes and correction of errors to be fast and not have a very high cost for the project in general.
 
+> **Related Topics**: Learn about our [Flight Methodology](/docs/flight-methodology) for a modern approach to agile, explore [pair and mob programming](/docs/pair-mob-programming) techniques, or understand our [engineering culture](/docs/engineering-culture) that supports agile practices.
+
 ### Modern Agile
 
 Modern Agile is far broader than the Agile Manifesto for Software Development. Modern Agile is a concept that is taking many different areas into account, not just software development. It can even be applied in organizations without software development.  
