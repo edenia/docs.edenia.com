@@ -112,7 +112,7 @@ const siteConfig = {
       site: "@EdeniaWeb3",
       creator: "@EdeniaWeb3",
       title: "Sistemas Edenia Developer Hub | Web3 & AI Docs",
-      description: "Build cutting-edge Web3 and AI applications with @EdeniaWeb3. Access expert guides, code examples, and join our developer community 🚀",
+      description: "Build cutting-edge Web3 and AI applications with @EdeniaWeb3. Access expert guides, code examples, and join our developer community",
       image: "https://docs.edenia.com/img/developer_guides_preview_image.png",
       imageAlt: "Sistemas Edenia Web3 Development Documentation"
     },
