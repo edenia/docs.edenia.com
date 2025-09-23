@@ -1,11 +1,11 @@
 # Sistemas Edenia Developer Guides
-![](https://img.shields.io/github/license/eoscostarica/guias.eoscostarica.io) ![](https://img.shields.io/badge/code%20style-standard-brightgreen.svg) ![](https://img.shields.io/badge/%E2%9C%93-collaborative_etiquette-brightgreen.svg) ![](https://img.shields.io/twitter/follow/eoscostarica.svg?style=social&logo=twitter) ![](https://img.shields.io/github/forks/eoscostarica/guias.eoscostarica.io?style=social)
+![MIT License](https://img.shields.io/github/license/eoscostarica/guias.eoscostarica.io) ![Code Style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg) ![Collaborative Etiquette](https://img.shields.io/badge/%E2%9C%93-collaborative_etiquette-brightgreen.svg) ![Twitter Follow](https://img.shields.io/twitter/follow/eoscostarica.svg?style=social&logo=twitter) ![GitHub Forks](https://img.shields.io/github/forks/eoscostarica/guias.eoscostarica.io?style=social)
 
 
 
 Sistemas Edenia Developers Documentation Site.
 
-![Guide front page](static/img/docs-pageNew.png)
+![Edenia Developer Guides homepage showing documentation sections](static/img/docs-pageNew.png)
 
 ## About the Project
 
