@@ -10,7 +10,9 @@ keywords: [EOS, Flight Methodology, EOS Costa Rica, Grooming, What is Flight Met
 
 At Edenia we strive to be innovative not just with our software solutions but with our processes as well, we are constantly evolving and improving the way our team is organized to better our work environment and optimize how we deliver results
 
-We are a flexible team that applies agile methodologies that should be adapted to each project or customer's preferences. We are familiar with a variety of different agile methodologies and use a hybrid approach that has been customized to our needs.
+We are a flexible team that applies [agile methodologies](/docs/agile-methodologies) that should be adapted to each project or customer's preferences. We are familiar with a variety of different agile methodologies and use a hybrid approach that has been customized to our needs.
+
+> **Related Topics**: Learn about our [pair and mob programming](/docs/pair-mob-programming) practices, understand our [engineering culture](/docs/engineering-culture), or explore [open source guidelines](/docs/open-source-guidelines) that support our development process.
 
 ## Ceremonies
 

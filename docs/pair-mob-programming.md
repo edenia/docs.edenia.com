@@ -10,6 +10,8 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 The development of new software is not a simple process, depending on the size of the program, a large number of possible junctures, functions and problematic issues must be taken into account.
 Hence, in recent years other more modern working methods have been developed that allow more efficient programming and generate error-free code.
 
+> **Related Topics**: These practices are part of our [agile methodologies](/docs/agile-methodologies) and [Flight Methodology](/docs/flight-methodology). Learn more about our [engineering culture](/docs/engineering-culture) and [open source guidelines](/docs/open-source-guidelines) that support collaborative development.
+
 ## Pair Programming
 
 ### What is Pair Programming?
