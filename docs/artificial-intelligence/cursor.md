@@ -60,6 +60,12 @@ Cursor transforms the familiar VS Code experience into an AI-native development 
 - **SOC 2 Certification**: Enterprise-grade security compliance
 - **Encrypted Processing**: Code snippets encrypted during AI inference
 
+### Rules & Context Management
+- **Project Rules**: Define coding standards and project-specific guidelines
+- **Global Rules**: Set universal preferences across all projects
+- **Context Awareness**: AI maintains project context and coding patterns
+- **Memory System**: Persistent knowledge about your codebase and preferences
+
 ---
 
 ## Technical Architecture
@@ -77,6 +83,179 @@ Cursor integrates with external services through MCP servers:
 - **Query Processing**: 1M+ autocomplete requests per second
 - **Response Time**: Near-instant AI suggestions (< 100ms)
 - **Memory Efficiency**: Optimized for large codebases (10K+ files)
+
+---
+
+## Rules System
+
+Cursor's Rules system allows you to customize how the AI behaves and maintains context across your projects. Rules help ensure consistency, enforce coding standards, and provide project-specific guidance to the AI assistant.
+
+### Types of Rules
+
+#### 1. Project Rules (`.cursorrules` file)
+Project-specific rules that apply only to the current workspace:
+
+**Location**: Root of your project directory  
+**File**: `.cursorrules`  
+**Scope**: Current project only
+
+**Example Project Rules:**
+```
+# Project Rules for React TypeScript App
+- Always use TypeScript, never JavaScript
+- Use functional components with hooks
+- Follow the existing component structure in /src/components
+- Use Tailwind CSS for styling
+- Implement proper error boundaries
+- Follow the established API patterns in /src/api
+- Use React Query for data fetching
+- Prefer composition over inheritance
+```
+
+#### 2. Global Rules
+User-wide rules that apply to all projects:
+
+**Location**: Cursor settings  
+**Scope**: All projects  
+**Access**: Settings → Rules
+
+**Example Global Rules:**
+```
+# Global Development Rules
+- Always write clean, readable code
+- Include meaningful comments for complex logic
+- Follow SOLID principles
+- Use meaningful variable and function names
+- Implement proper error handling
+- Write unit tests for new functions
+- Use version control best practices
+```
+
+#### 3. Workspace Rules
+Rules specific to a particular workspace or team:
+
+**Location**: Workspace settings  
+**Scope**: Current workspace  
+**Access**: Workspace settings
+
+### Rule Categories
+
+#### **Code Style Rules**
+- **Formatting**: Indentation, spacing, line length
+- **Naming Conventions**: Variables, functions, classes
+- **File Organization**: Directory structure, imports
+- **Language Preferences**: TypeScript vs JavaScript, Python version
+
+#### **Architecture Rules**
+- **Design Patterns**: MVC, MVVM, Repository pattern
+- **Framework Guidelines**: React patterns, Next.js conventions
+- **Database Rules**: ORM usage, query patterns
+- **API Design**: RESTful conventions, response formats
+
+#### **Quality Rules**
+- **Testing Requirements**: Unit tests, integration tests
+- **Error Handling**: Exception management, logging
+- **Security Guidelines**: Input validation, authentication
+- **Performance**: Optimization patterns, caching strategies
+
+#### **Project-Specific Rules**
+- **Business Logic**: Domain-specific requirements
+- **Integration Patterns**: Third-party service usage
+- **Deployment Rules**: Environment configurations
+- **Documentation Standards**: Code comments, README requirements
+
+### How Rules Work
+
+#### **Rule Processing**
+1. **Priority Order**: Project rules override global rules
+2. **Context Awareness**: Rules are applied based on file type and location
+3. **Dynamic Application**: Rules are considered for every AI interaction
+4. **Consistency Enforcement**: AI suggestions align with established rules
+
+#### **Rule Syntax**
+```
+# Comments start with #
+- Use bullet points for rules
+- Be specific and actionable
+- Include examples when helpful
+- Group related rules together
+
+# Example rule groups:
+## Code Style
+- Use camelCase for variables
+- Use PascalCase for components
+
+## Architecture
+- Follow the established folder structure
+- Use the existing API service layer
+```
+
+### Best Practices for Rules
+
+#### **Writing Effective Rules**
+- **Be Specific**: Instead of "write good code", specify "use meaningful variable names"
+- **Provide Context**: Explain why a rule exists
+- **Include Examples**: Show what good and bad implementations look like
+- **Keep Updated**: Review and update rules as projects evolve
+
+#### **Rule Organization**
+- **Group by Category**: Separate style, architecture, and quality rules
+- **Use Clear Headers**: Make sections easy to navigate
+- **Version Control**: Track rule changes in your repository
+- **Team Review**: Collaborate on rule definitions
+
+### Advanced Rule Features
+
+#### **Conditional Rules**
+```
+# Apply different rules based on file type
+- For TypeScript files: Use strict typing
+- For test files: Use descriptive test names
+- For configuration files: Use YAML format
+```
+
+#### **Context-Aware Rules**
+```
+# Rules that depend on project structure
+- If using React: Use functional components
+- If using Next.js: Follow App Router conventions
+- If using Express: Use middleware pattern
+```
+
+#### **Team Collaboration**
+- **Shared Rules**: Store rules in version control
+- **Rule Reviews**: Regular team discussions about coding standards
+- **Onboarding**: New team members inherit established rules
+- **Evolution**: Rules adapt as team practices mature
+
+### Memory System Integration
+
+Rules work in conjunction with Cursor's Memory system:
+
+- **Persistent Context**: Rules help maintain consistent behavior across sessions
+- **Learning Integration**: AI learns from rule compliance patterns
+- **Adaptive Suggestions**: Suggestions improve based on rule adherence
+- **Project Continuity**: Rules ensure consistent code quality over time
+
+### Getting Started with Rules
+
+#### **Step 1: Create Project Rules**
+1. Create a `.cursorrules` file in your project root
+2. Start with basic coding standards
+3. Add project-specific guidelines
+4. Test with simple AI interactions
+
+#### **Step 2: Configure Global Rules**
+1. Open Cursor settings
+2. Navigate to Rules section
+3. Add universal preferences
+4. Set default behaviors
+
+#### **Step 3: Iterate and Improve**
+1. Monitor AI suggestions for rule compliance
+2. Refine rules based on team feedback
+3. Add new rules as patterns emerge
+4. Remove outdated or conflicting rules
 
 ---
 
