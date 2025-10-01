@@ -44,6 +44,7 @@ module.exports = {
         {
           type: "category",
           label: "Antelope and EOSIO",
+          key: "antelope-eosio-blockchain",
           link: {
             type: "doc",
             id: "blockchain-web3/eos-learn/eosio-protocol",
@@ -118,6 +119,7 @@ module.exports = {
         {
           type: "category",
           label: "Antelope and EOSIO",
+          key: "antelope-eosio-tutorials",
           link: {
             type: "doc",
             id: "tutorials/hello-world-contract",
@@ -141,6 +143,7 @@ module.exports = {
         {
           type: "category",
           label: "Antelope and EOSIO",
+          key: "antelope-eosio-tools",
           link: {
             type: "doc",
             id: "tools/example-eosio-smart-contract",
@@ -164,6 +167,7 @@ module.exports = {
         {
           type: "category",
           label: "Antelope and EOSIO",
+          key: "antelope-eosio-community",
           link: {
             type: "doc",
             id: "community-resources/eosio-networks",
