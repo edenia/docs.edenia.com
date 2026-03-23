@@ -106,6 +106,7 @@ module.exports = {
       type: "category",
       label: "Tutorials",
       items: [
+        "tutorials/ai-agent-configuration",
         "tutorials/markdown-guide",
         "tutorials/git-workflow-tutorial",
         "tutorials/github-guide",

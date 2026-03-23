@@ -34,5 +34,29 @@
   "sidebar.docs.link.artificial-intelligence/devin": {
     "message": "Devin.ai",
     "description": "The label for link artificial-intelligence/devin in sidebar docs"
+  },
+  "sidebar.docs.category.Blockchain and Web3": {
+    "message": "Blockchain and Web3",
+    "description": "The label for category Blockchain and Web3 in sidebar docs"
+  },
+  "sidebar.docs.category.antelope-eosio-blockchain": {
+    "message": "Antelope and EOSIO",
+    "description": "The label for category Antelope and EOSIO in sidebar docs"
+  },
+  "sidebar.docs.category.Models": {
+    "message": "Models",
+    "description": "The label for category Models in sidebar docs"
+  },
+  "sidebar.docs.category.antelope-eosio-tutorials": {
+    "message": "Antelope and EOSIO",
+    "description": "The label for category Antelope and EOSIO in sidebar docs"
+  },
+  "sidebar.docs.category.antelope-eosio-tools": {
+    "message": "Antelope and EOSIO",
+    "description": "The label for category Antelope and EOSIO in sidebar docs"
+  },
+  "sidebar.docs.category.antelope-eosio-community": {
+    "message": "Antelope and EOSIO",
+    "description": "The label for category Antelope and EOSIO in sidebar docs"
   }
 }
