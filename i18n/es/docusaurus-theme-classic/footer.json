@@ -33,11 +33,11 @@
   },
   "link.item.label.GitHub": {
     "message": "GitHub",
-    "description": "The label of footer link with label=GitHub linking to https://github.com/eoscostarica/"
+    "description": "The label of footer link with label=GitHub linking to https://github.com/edenia/"
   },
   "link.item.label.Linkedin": {
     "message": "Linkedin",
-    "description": "The label of footer link with label=Linkedin linking to https://www.linkedin.com/company/eoscostarica/"
+    "description": "The label of footer link with label=Linkedin linking to https://www.linkedin.com/company/edeniaweb3/"
   },
   "link.item.label.Medium": {
     "message": "Medium",
@@ -54,5 +54,9 @@
   "logo.alt": {
     "message": "Sistemas Edenia Logo",
     "description": "The alt text of footer logo"
+  },
+  "link.item.label.X": {
+    "message": "X",
+    "description": "The label of footer link with label=X linking to https://x.com/EdeniaWeb3"
   }
 }
